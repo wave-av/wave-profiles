@@ -1,0 +1,24 @@
+name: comms-node
+description: Production intercom + phone bridge node
+target_hardware:
+  - raspberry-pi-5
+  - raspberry-pi-zero-2w
+modules:
+  - name: wave-comms
+    config:
+      mode: intercom
+      channels: [PL, IFB, COORD]
+  - name: wave-sip-bridge
+    config:
+      sip_server: "sip.wave.online"
+      register: true
+  - name: wave-audio-in
+    config:
+      device: usb-headset
+      sample_rate: 48000
+  - name: wave-audio-out
+    config:
+      device: usb-headset
+  - name: wave-prometheus
+    config:
+      port: 9100

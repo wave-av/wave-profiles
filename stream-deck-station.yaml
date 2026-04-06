@@ -1,0 +1,21 @@
+name: stream-deck-station
+description: Bitfocus Companion node with Stream Deck and voice control
+target_hardware:
+  - raspberry-pi-5
+modules:
+  - name: wave-companion
+    config:
+      companion_host: "127.0.0.1"
+      companion_port: 8000
+  - name: wave-streamdeck
+    config:
+      auto_detect: true
+  - name: wave-mqtt
+    config:
+      broker: "mqtt://homeassistant.local"
+  - name: wave-osc
+    config:
+      listen_port: 8888
+  - name: wave-prometheus
+    config:
+      port: 9100

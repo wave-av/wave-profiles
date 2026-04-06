@@ -1,0 +1,23 @@
+name: srt-gateway
+description: Receive SRT and re-stream to multiple destinations
+target_hardware:
+  - birddog-play
+  - raspberry-pi-5
+modules:
+  - name: wave-srt-in
+    config:
+      port: 9000
+      mode: listener
+      latency: 200
+      output: pipeline
+  - name: wave-srt-out
+    config:
+      destinations:
+        - srt://backup-server:9001
+  - name: wave-rtmp-out
+    config:
+      destinations:
+        - rtmp://live.twitch.tv/app/stream_key
+  - name: wave-prometheus
+    config:
+      port: 9100

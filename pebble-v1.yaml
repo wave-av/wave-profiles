@@ -1,0 +1,45 @@
+name: pebble-v1
+description: WAVE Pebble V1 — Personal voice assistant for live production
+target_hardware:
+  - raspberry-pi-zero-2w
+modules:
+  - name: wave-audio-in
+    config:
+      device: respeaker-2mic
+      sample_rate: 16000
+      channels: 1
+  - name: wave-audio-out
+    config:
+      device: respeaker-speaker
+      volume: 80
+  - name: wave-ai-stt
+    config:
+      backend_url: "http://backend:8000/stt"
+      model: whisper-base
+  - name: wave-ai-tts
+    config:
+      backend_url: "http://backend:8000/tts"
+      voice: en_US-lessac-medium
+  - name: wave-ai-assistant
+    config:
+      backend_url: "http://backend:8000/assistant"
+      model: claude-sonnet-4-6
+      tools:
+        - trigger_companion_button
+        - get_companion_status
+        - switch_ndi_source
+        - get_ndi_sources
+        - fire_rundown_cue
+        - check_stream_health
+        - set_audio_level
+        - get_battery_level
+  - name: wave-companion
+    config:
+      companion_host: "companion.local"
+  - name: wave-neopixel
+    config:
+      gpio_pin: 18
+      num_leds: 12
+  - name: wave-prometheus
+    config:
+      port: 9100

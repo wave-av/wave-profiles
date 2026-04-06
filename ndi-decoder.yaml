@@ -1,0 +1,17 @@
+name: ndi-decoder
+description: Receive NDI stream and display on HDMI
+target_hardware:
+  - birddog-play
+  - raspberry-pi-5
+modules:
+  - name: wave-ndi-in
+    config:
+      auto_discover: true
+      tally_enabled: true
+  - name: wave-hdmi-out
+    config:
+      resolution: auto
+      audio: passthrough
+  - name: wave-prometheus
+    config:
+      port: 9100
