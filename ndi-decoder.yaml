@@ -1,7 +1,7 @@
 name: ndi-decoder
 description: Receive NDI stream and display on HDMI
 target_hardware:
-  - birddog-play
+  - rk3328-sbc
   - raspberry-pi-5
 modules:
   - name: wave-ndi-in

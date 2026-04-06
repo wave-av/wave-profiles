@@ -1,7 +1,7 @@
 name: srt-gateway
 description: Receive SRT and re-stream to multiple destinations
 target_hardware:
-  - birddog-play
+  - rk3328-sbc
   - raspberry-pi-5
 modules:
   - name: wave-srt-in
