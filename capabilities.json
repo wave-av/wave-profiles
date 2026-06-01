@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1",
+  "repo": "wave-av/wave-profiles",
+  "version": "0.3.0",
+  "lifecycle": "beta",
+  "planeLayer": 3,
+  "foundationPin": "v1",
+  "maintainers": [{ "team": "edge" }],
+  "consumes": {
+    "foundationFrameworks": ["frameworks/protocol-plane", "frameworks/platform-registry"]
+  },
+  "tags": ["local", "public", "device-config", "ndi-decoder", "srt-gateway", "pebble", "protocol-plane-layer-3"]
+}
