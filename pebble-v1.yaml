@@ -23,7 +23,7 @@ modules:
   - name: wave-ai-assistant
     config:
       backend_url: "http://backend:8000/assistant"
-      model: claude-sonnet-4-6
+      model: claude-sonnet-5
       tools:
         - trigger_companion_button
         - get_companion_status
