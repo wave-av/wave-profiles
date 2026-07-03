@@ -5,3 +5,6 @@ All notable changes to this project are documented here. The format is based on
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+### Changed
+- `pebble-v1.yaml`: `wave-ai-assistant` model `claude-sonnet-4-6` → `claude-sonnet-5` (current sonnet-tier workhorse per wave-model-governance catalog SSOT, task #118).
