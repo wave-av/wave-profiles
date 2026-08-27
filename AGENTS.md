@@ -16,3 +16,15 @@ See `README.md` for setup. Run the repo's lint / typecheck / test before opening
 ## Security
 
 Report vulnerabilities via the [Security Policy](https://github.com/wave-av/.github/blob/main/SECURITY.md) (security@wave.online) — never in a public issue.
+
+# Platform Context
+
+You are working inside the WAVE platform (wave-av org). Before acting:
+
+1. **The registry is the SSOT.** Query it via `@wave-av/registry-sdk` or the REST API. Tables: models, tools, vendors, products (25+ with data planes), deliverables, tests, prose, usage_logs.
+2. **Five physics laws gate everything** in CI: gauge-invariance (no raw slug), frame-independence (scores inherited), conservation-of-declaration (four renderings), entropy-monotonicity (nothing unregistered), token-budget-conservation.
+3. **The full fleet map** lives at `governance/plans/session-deliverable-registry/PLATFORM-MAP.md` in claude-workstation.
+4. **The 24-axis model taxonomy** lives at `wave-foundation/frameworks/model-routing/champions.json`.
+5. **The inference pool** runs on the internal fleet (tailnet address in Doppler `WAVE_POOL_URL`, $0). Frontier fallback via openrouter/anthropic. The rail field on models tracks internal vs customer.
+6. **The voice laws**: no em-dashes, every word earns its place, short words over long, active voice, receipt over adjective. Enforced by voice-gate.mjs.
+7. **The test-matrix**: every shipped artifact carries unit/integration/smoke/e2e/probe receipts in the tests table. No test, no ship.
