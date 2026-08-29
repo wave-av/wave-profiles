@@ -1,0 +1,149 @@
+name: zoom-room
+description: >-
+  Raspberry Pi 5 Zoom meeting kiosk endpoint — BirdDog X1 USB camera as the
+  people source, Magewell USB Capture HDMI 4K Plus as the wired-content
+  source, joining as a Chromium/Zoom Meeting SDK for Web participant (the Pi
+  cannot run Zoom Rooms — see docs/zoom-room.md).
+target_hardware:
+  - raspberry-pi-5
+
+# Module status, checked against wave-av/wave-modules origin/main on
+# 2026-08-29: MODULE-CATALOG.md lists all four names below, but only
+# wave-companion and wave-prometheus have an implementation directory in the
+# repo. wave-usb-cam-in and wave-hdmi-in are CATALOGUED BUT UNIMPLEMENTED —
+# wave-agent cannot install them yet. The kiosk path does not depend on them:
+# Chromium enumerates both UVC devices directly through getUserMedia, so the
+# meeting still gets camera + content without either module. They are
+# declared here so the profile is complete once the modules land, and so the
+# device names (/dev/wave-cam, /dev/wave-content) are fixed now by udev.
+modules:
+  - name: wave-usb-cam-in
+    status: catalogued-unimplemented # in MODULE-CATALOG.md, no wave-usb-cam-in/ dir in wave-modules
+    required_for_kiosk: false
+    config:
+      device: /dev/wave-cam
+      label_match: BirdDog
+      backend: v4l2
+  - name: wave-hdmi-in
+    status: catalogued-unimplemented # in MODULE-CATALOG.md, no wave-hdmi-in/ dir in wave-modules
+    required_for_kiosk: false
+    config:
+      device: /dev/wave-content
+      label_match: Magewell
+      max_resolution: 2160p30 # Magewell vendor spec: "up to 3840x2160p30 or 1920x1080p90" — not both at once
+  - name: wave-companion
+    status: implemented
+    config:
+      companion_host: "127.0.0.1"
+      companion_port: 8000
+  - name: wave-prometheus
+    status: implemented
+    config:
+      port: 9100
+
+# --- Host-level provisioning ------------------------------------------------
+# zoom-room is the first wave-profiles entry that needs OS-level kiosk
+# provisioning (Chromium under a labwc Wayland session, udev device naming,
+# USB power budget) in addition to the wave-modules declared above — those
+# modules cover the video pipeline, not "what boots the screen." These
+# sections are consumed by this profile's own provisioning steps documented
+# in docs/zoom-room.md, not by wave-agent's module installer. Every fact
+# below is cited in docs/zoom-room.md; anything not verifiable from a
+# Raspberry Pi/vendor source is marked PLACEHOLDER and is UNPROVEN until
+# checked against real device output (the Pi is currently powered off).
+kiosk:
+  compositor: labwc
+  browser: chromium
+  autostart_file: ~/.config/labwc/autostart
+  autostart_source: zoom-room/labwc-autostart
+  kiosk_service: wave-zoom-room-kiosk.service
+  kiosk_service_source: zoom-room/wave-zoom-room-kiosk.service
+  respawn_helper: /usr/bin/lwrespawn
+  # Flags verbatim from the raspberrypi.com kiosk tutorial; ROOM_URL replaces
+  # the tutorial's hardcoded URLs.
+  chromium_flags: --kiosk --noerrdialogs --disable-infobars --no-first-run --enable-features=OverlayScrollbar --start-maximized
+  disable_screen_blanking: true # = no swayidle line in the autostart file (raspi-config do_blanking, bookworm branch)
+  room_url_env_file: /etc/wave/zoom-room.env
+  room_url_env_var: ROOM_URL
+
+power:
+  psu_required: "official Raspberry Pi 27W USB-C PSU (5V/5A)"
+  note: >-
+    usb_max_current_enable=1 raises the Pi 5's downstream USB budget from
+    600 mA to 1.6 A total. Raspberry Pi's documentation grants the 1.6 A only
+    when a 5 A @ +5 V supply is connected — it is ONLY safe with the 27W/5A
+    official PSU. The Magewell draws ~1.4 A of that budget on its own; the
+    BirdDog X1 is externally powered (DC or PoE) and does not draw from the
+    Pi. See docs/zoom-room.md for the budget math and citations.
+  config_txt:
+    usb_max_current_enable: 1
+  usb_topology: >-
+    Plug the BirdDog into one USB 3.0 port and the Magewell into the other.
+    The Pi 5's RP1 has two independent xHCI controllers, one per USB 3.0 PHY,
+    so the two devices never share a SuperSpeed bus (RP1 datasheet ch. 5).
+
+udev:
+  rules_file: /etc/udev/rules.d/99-wave-zoom-room.rules
+  rules_source: zoom-room/99-wave-zoom-room.rules
+  fill_in_step: >-
+    On the device: `lsusb` with each unit connected, then `lsusb -d <vid>:<pid> -v
+    | grep -A2 bInterfaceClass` to confirm the 14 (Video) interface, replace the
+    PLACEHOLDER values in the rules file AND here, then
+    `sudo udevadm control --reload-rules && sudo udevadm trigger`.
+  symlinks:
+    - name: /dev/wave-cam
+      match: BirdDog X1 (USB-C UVC webcam mode)
+      vendor_id: "3605" # BirdDog Technology Ltd — USB-ID database (the-sz.com), single source; confirm with lsusb
+      product_id: PLACEHOLDER_BIRDDOG_PID
+      verified: false
+    - name: /dev/wave-content
+      match: Magewell USB Capture HDMI 4K Plus
+      vendor_id: "2935" # Nanjing Magewell Electronics Co., Ltd — USB-ID database (the-sz.com) + linux-media lsusb reports
+      product_id: PLACEHOLDER_MAGEWELL_PID
+      verified: false
+
+services:
+  - name: wave-zoom-room-kiosk
+    scope: user
+    unit_source: zoom-room/wave-zoom-room-kiosk.service
+    install_path: ~/.config/systemd/user/wave-zoom-room-kiosk.service
+    started_by: ~/.config/labwc/autostart # no [Install] section on purpose — see the unit file
+    env_file: /etc/wave/zoom-room.env
+    env_file_mode: "0600"
+    env_file_example: zoom-room/zoom-room.env.example
+
+health:
+  runner: zoom-room/healthcheck.sh # implements every check below; exit 0 = all pass
+  check_interval_seconds: 30
+  checks:
+    - name: birddog_v4l2_node
+      type: file_exists
+      path: /dev/wave-cam
+      description: BirdDog X1 udev symlink present (camera enumerated)
+    - name: magewell_v4l2_node
+      type: file_exists
+      path: /dev/wave-content
+      description: Magewell udev symlink present (capture card enumerated)
+    - name: env_file_locked_down
+      type: file_mode
+      path: /etc/wave/zoom-room.env
+      expect: "600"
+      description: ROOM_URL env file exists and is not group/world readable
+    - name: kiosk_unit_active
+      type: systemd_user_active
+      unit: wave-zoom-room-kiosk.service
+      description: systemd --user kiosk unit reports active
+    - name: chromium_process
+      type: process_alive
+      match: chromium
+      description: Kiosk browser process is running
+    - name: display_connected
+      type: sysfs_glob_contains
+      path: /sys/class/drm/*/status
+      expect: "connected"
+      description: At least one DRM connector reports a connected display
+    - name: usb_current_limit_high
+      type: command_output
+      command: vcgencmd get_config usb_max_current_enable
+      expect: "usb_max_current_enable=1"
+      description: Firmware confirms the 1.6 A USB budget is active (27W PSU present)

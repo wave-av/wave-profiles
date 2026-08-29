@@ -1,3 +1,10 @@
+# zoom-room profile: never commit a populated env file (real ROOM_URL lives
+# only at /etc/wave/zoom-room.env on-device). zoom-room.env.example is
+# explicitly tracked and exempted.
+zoom-room/zoom-room.env
+zoom-room.env
+!zoom-room/zoom-room.env.example
+
 # >>> wave claude-project-chassis (managed) — do not edit between these markers >>>
 .claude/settings.local.json
 .claude/*.local.json

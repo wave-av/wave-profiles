@@ -1,0 +1,37 @@
+# WAVE zoom-room kiosk — systemd --user unit.
+#
+# Install: mkdir -p ~/.config/systemd/user
+#          cp wave-zoom-room-kiosk.service ~/.config/systemd/user/
+#          systemctl --user daemon-reload
+#
+# Do NOT `systemctl --user enable` this unit and there is no [Install]
+# section on purpose: the only trigger is ~/.config/labwc/autostart (see
+# zoom-room/labwc-autostart), which starts it once the labwc Wayland session
+# is up and WAYLAND_DISPLAY has been imported into the user manager. An
+# enabled unit would start at user-manager login, before the compositor
+# exists, and spin in a restart loop until the autostart import landed.
+# WantedBy=graphical-session.target is not used either: whether Raspberry
+# Pi OS's labwc session emits that target is UNPROVEN on this device.
+#
+# ROOM_URL is read from /etc/wave/zoom-room.env (mode 0600, never committed
+# — see zoom-room.env.example). systemd expands ${ROOM_URL} from
+# EnvironmentFile directly in ExecStart; no shell wrapper is needed, and no
+# shell means the URL is never re-parsed as a command line.
+#
+# Chromium flags are verbatim from the raspberrypi.com kiosk tutorial
+# (https://www.raspberrypi.com/tutorials/how-to-use-a-raspberry-pi-in-kiosk-mode/):
+#   chromium <urls> --kiosk --noerrdialogs --disable-infobars --no-first-run
+#            --enable-features=OverlayScrollbar --start-maximized
+# wrapped in /usr/bin/lwrespawn (the labwc respawn helper used by
+# raspberrypi/rpi-image-gen's kiosk layer). No extra --ozone-platform flag
+# is added: the tutorial's flag set is the proven one on Raspberry Pi OS.
+[Unit]
+Description=WAVE zoom-room Chromium kiosk (Zoom Meeting SDK for Web)
+Documentation=https://github.com/wave-av/wave-profiles/blob/main/docs/zoom-room.md
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/wave/zoom-room.env
+ExecStart=/usr/bin/lwrespawn /usr/bin/chromium ${ROOM_URL} --kiosk --noerrdialogs --disable-infobars --no-first-run --enable-features=OverlayScrollbar --start-maximized
+Restart=on-failure
+RestartSec=5

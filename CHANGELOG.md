@@ -6,6 +6,21 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+### Added
+
+- `zoom-room.yaml`: Raspberry Pi 5 Zoom meeting kiosk profile — BirdDog X1
+  (USB camera) + Magewell USB Capture HDMI 4K Plus (wired-content source),
+  Chromium under a labwc kiosk session joining via the Zoom Meeting SDK for
+  Web (the Pi cannot run Zoom Rooms itself; see `docs/zoom-room.md`). Ships
+  udev device-naming rules, a labwc autostart file, a systemd --user kiosk
+  service, an env-file example, and a health-check runner under
+  `zoom-room/`. `wave-usb-cam-in` and `wave-hdmi-in` are declared as
+  catalogued-but-unimplemented (in `MODULE-CATALOG.md`, no implementation
+  in wave-modules yet); the BirdDog and Magewell USB product IDs are marked
+  placeholders pending `lsusb` on the physical device (currently powered
+  off). Nothing in this profile has run on hardware — see the UNPROVEN
+  list in `docs/zoom-room.md`.
+
 ### Fixed
 
 - `pr-agent` lane: fork-triggered `/` commands are now refused, and the AI

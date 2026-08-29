@@ -1,0 +1,38 @@
+# WAVE zoom-room — stable /dev names for the two USB video sources.
+#
+# Install: sudo cp 99-wave-zoom-room.rules /etc/udev/rules.d/
+#          sudo udevadm control --reload-rules && sudo udevadm trigger
+#
+# Both devices expose more than one /dev/videoN node (a real capture
+# interface plus metadata/still-capture interfaces on many UVC devices).
+# ATTR{index}=="0" targets the first (capture) interface, which is the
+# common convention — confirm with `v4l2-ctl --list-devices` on the real
+# hardware and adjust the index if the Pi enumerates it differently
+# (UNPROVEN — the Pi is currently powered off; see docs/zoom-room.md).
+#
+# Fill-in step for every PLACEHOLDER below (run on the Pi, one device at a
+# time):
+#   lsusb                                   # note the ID vvvv:pppp line
+#   lsusb -d vvvv:pppp -v | grep -A2 bInterfaceClass   # expect "14 Video"
+#   sudo sed -i 's/PLACEHOLDER_..._PID/pppp/' /etc/udev/rules.d/99-wave-zoom-room.rules
+#   sudo udevadm control --reload-rules && sudo udevadm trigger
+#   ls -l /dev/wave-cam /dev/wave-content   # both symlinks must resolve
+#
+# --- BirdDog X1 (people camera) --------------------------------------------
+# Vendor ID 3605 = "BirdDog Technology Ltd" per the USB-ID database at
+# https://the-sz.com/products/usbid/index.php?v=0x3605 (single source; the
+# linux-usb.org usb.ids file has no BirdDog entry as of 2026-08-29). The X1's
+# product ID was NOT found in any public source — replace
+# PLACEHOLDER_BIRDDOG_PID after running `lsusb -d 3605:` on the real hardware,
+# and confirm the vendor ID at the same time.
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="3605", ATTRS{idProduct}=="PLACEHOLDER_BIRDDOG_PID", ATTR{index}=="0", SYMLINK+="wave-cam"
+
+# --- Magewell USB Capture HDMI 4K Plus (wired-content source) --------------
+# Vendor ID 2935 = "Nanjing Magewell Electronics Co., Ltd." per the USB-ID
+# database at https://the-sz.com/products/usbid/index.php?v=0x2935, and
+# corroborated by linux-media@vger.kernel.org / linux-uvc-devel mailing list
+# threads showing other Magewell USB Capture models enumerating as 2935:0001
+# and 2935:0004. The exact product ID for the "HDMI 4K Plus" SKU was NOT
+# found in any public source — replace PLACEHOLDER_MAGEWELL_PID after
+# running `lsusb -d 2935:` on the real hardware. See docs/zoom-room.md.
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="2935", ATTRS{idProduct}=="PLACEHOLDER_MAGEWELL_PID", ATTR{index}=="0", SYMLINK+="wave-content"

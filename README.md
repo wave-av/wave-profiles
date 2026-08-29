@@ -11,6 +11,7 @@
 | [`stream-deck-station.yaml`](stream-deck-station.yaml) | Raspberry Pi 5 | Companion + Stream Deck control surface |
 | [`pebble-v1.yaml`](pebble-v1.yaml) | Pi Zero 2W | Voice assistant for live production |
 | [`comms-node.yaml`](comms-node.yaml) | Pi 5 / Pi Zero 2W | Intercom + SIP bridge |
+| [`zoom-room.yaml`](zoom-room.yaml) | Raspberry Pi 5 | Zoom meeting kiosk (BirdDog X1 camera + Magewell HDMI capture, Chromium/labwc, Zoom Meeting SDK for Web) |
 
 ## Format
 
@@ -32,6 +33,17 @@ modules:
       resolution: auto
       audio: passthrough
 ```
+
+`zoom-room.yaml` additionally declares `kiosk`, `power`, `udev`, `services`,
+and `health` sections — it is the first profile that needs OS-level kiosk
+provisioning (Chromium under a labwc Wayland session, udev device naming,
+USB power budget) on top of the wave-modules it installs. Each module entry
+also carries a `status` (`implemented` or `catalogued-unimplemented`, checked
+against wave-modules). The support files (udev rules, labwc autostart,
+systemd --user unit, env example, health-check script) live under
+[`zoom-room/`](zoom-room/). See [`docs/zoom-room.md`](docs/zoom-room.md) for
+the full writeup, wiring diagram, citations, and an UNPROVEN list of what
+still needs to be checked against the physical device.
 
 ## Usage
 
