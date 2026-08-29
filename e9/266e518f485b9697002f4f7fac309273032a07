@@ -1,0 +1,27 @@
+test/moq-authproxy.spec.ts
+  s_157583aa3b6686::t_9066674d2578ae 13,15-16
+  s_157583aa3b6686::t_095ae7fcc086c4 1-12,14,17-95
+src/forward.ts
+  s_157583aa3b6686::t_ea1fcacb4e88fd 347
+  s_157583aa3b6686::t_01ebbad7c4a7bd 156-160
+src/attribution.ts
+  s_157583aa3b6686::t_635316e2539d28 40-48
+src/env.ts
+  s_157583aa3b6686::t_3d9c9c55f94396 56-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e9266e518f485b9697002f4f7fac309273032a07",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

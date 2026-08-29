@@ -1,0 +1,29 @@
+test/load-shedder.manifest.json
+  s_e38341993d73b9::t_deecb03611ba7f 1-101
+test/smart-error.spec.json
+  s_416539819f2d41::t_48bd82bc2faacd 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "f05fa472218e9f8c9dfd99520d8b2afd2267cb0e",
+  "prompts": {},
+  "sessions": {
+    "s_416539819f2d41": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_002a63978ffeprEKuzzm0Qck65",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_e38341993d73b9": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_002a6487bffeAwLrUN7nhPDVnN",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

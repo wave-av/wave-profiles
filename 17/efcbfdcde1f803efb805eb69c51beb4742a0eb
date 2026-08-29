@@ -1,0 +1,21 @@
+.github/deploy-secrets-allowlist.txt
+  s_6046880c148371::t_ae6afe3a6ef45c 92-98
+.github/workflows/deploy.yml
+  s_6046880c148371::t_b832c63dc929ca 186
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "17efcbfdcde1f803efb805eb69c51beb4742a0eb",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

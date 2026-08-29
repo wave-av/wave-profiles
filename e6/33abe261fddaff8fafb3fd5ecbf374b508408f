@@ -1,0 +1,26 @@
+dante/dep-watchdog.mts
+  s_6e7ad4df769349::t_cd9e9a01fe1e62 112-116
+  s_6e7ad4df769349::t_1f5c830e08250e 128-129,132
+  s_6e7ad4df769349::t_49d13b9fce9890 1-111,117-127,130-131,133-154
+dante/index.mts
+  s_6e7ad4df769349::t_cecccea98ed391 67-78
+dante/dep-watchdog.test.mts
+  s_6e7ad4df769349::t_2b6568dc89a3a9 1-152
+  s_6e7ad4df769349::t_41af6f2d52791d 153-164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e633abe261fddaff8fafb3fd5ecbf374b508408f",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

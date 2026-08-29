@@ -1,0 +1,16 @@
+src/agent-spokes.ts
+  h_af5ac1a9798224 24,302-303,327-340
+test/inference-backends.spec.ts
+  h_af5ac1a9798224 269-317
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "db7a3fc2186f436440cd2ea02ef6b3736f7982a5",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+src/x402-challenge.ts
+  s_124891ed63801b::t_77eee966f89d9d 51-52
+  s_124891ed63801b::t_2289bcc81a5071 73-81,83-84,86
+  s_124891ed63801b::t_b7d2a31f261b21 17,22-23,25
+  s_124891ed63801b::t_951f5af6c215a0 1-16
+src/x402-challenge-price.ts
+  s_124891ed63801b::t_4793604ecc8bb8 1-181
+src/x402-quote-required.ts
+  s_124891ed63801b::t_325c3f80f324dc 1,3-5,7-14,16-24,32-33,36,38,42-44,47-49,57-59,61-62,103-104,110,112,115,123,125
+test/x402-capture-on-serve.spec.ts
+  s_124891ed63801b::t_f2db8ef6646c6f 79-81
+test/x402-capture-quote-binding.spec.ts
+  s_124891ed63801b::t_29313ab161a889 58-60
+test/x402-quoted-price-b1.spec.ts
+  s_124891ed63801b::t_a79cc302db56d1 11-14,72-74,171,181-189
+test/x402-quoted-price-b5.spec.ts
+  s_124891ed63801b::t_f554d6a298a087 75-81
+test/x402-stream-ticks-c4.spec.ts
+  s_124891ed63801b::t_5b738601366f33 128-132,135,139-141,144,150-152,158,160
+test/x402-unpayable-challenge-840.spec.ts
+  s_124891ed63801b::t_01ab76f95fb37b 1,15-25,30,57-58,61-80,139,141-142,150-182,195-200,205,223,225-226,232-233,251-254,256,265-268,270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "8755dfa93e145f86638dd614d36629dd541db185",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

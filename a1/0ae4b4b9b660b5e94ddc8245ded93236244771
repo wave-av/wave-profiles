@@ -1,0 +1,27 @@
+src/margin-cost-plane.ts
+  s_1cea981189627b::t_c075a7b4e7683d 83-86,92-96,98
+src/margin-guard.ts
+  s_1cea981189627b::t_680744b782b873 142-149
+  s_1cea981189627b::t_a6e5228be188b4 110-118,121-124
+  s_1cea981189627b::t_8663c170b17a9b 166,172,188-195,199,211,222
+CHANGELOG.md
+  s_1cea981189627b::t_b5f0f6fc7b2624 37-47
+test/margin-cost-plane.spec.ts
+  s_1cea981189627b::t_ad9eb95b7166d2 67-83,89-92,143-164,211-219
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a10ae4b4b9b660b5e94ddc8245ded93236244771",
+  "prompts": {},
+  "sessions": {
+    "s_1cea981189627b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8abf7d26-41ee-46b2-a9ca-90c06289cd20",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

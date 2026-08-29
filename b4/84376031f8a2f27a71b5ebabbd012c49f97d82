@@ -1,0 +1,38 @@
+moq/listen/listen-source.mjs
+  s_157583aa3b6686::t_623cee41590cff 10-13,18-44
+  s_157583aa3b6686::t_11669499f7a56c 49-53
+  s_157583aa3b6686::t_2ad3f97aef0d80 45
+moq/listen/listen-source.test.mjs
+  s_157583aa3b6686::t_bbab2a87dfdf80 6
+  s_157583aa3b6686::t_85b9565b733691 37-51
+  s_157583aa3b6686::t_0b4c371f3f0e0e 34-36
+moq/listen/fly.chillwave.toml
+  s_157583aa3b6686::t_407f0351b10539 9-13,15,19
+moq/listen/entrypoint.sh
+  s_157583aa3b6686::t_e598b0f987e280 25
+  s_157583aa3b6686::t_1709d73397ca32 2-5,9
+moq/listen/Dockerfile
+  s_157583aa3b6686::t_72a73abae93b00 22-25
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_740cfb9554938f 63,72-74,79-84
+  s_157583aa3b6686::t_7951592567f06e 13,16-17,22-24,32-38,47
+  s_157583aa3b6686::t_05da18dac146b8 68-71,75-78,88-89
+  s_157583aa3b6686::t_07016c2b504efb 12,25-31,39-46
+  s_157583aa3b6686::t_e826e6d45dc20d 48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b484376031f8a2f27a71b5ebabbd012c49f97d82",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

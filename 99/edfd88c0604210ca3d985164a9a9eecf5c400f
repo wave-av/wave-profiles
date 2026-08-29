@@ -1,0 +1,14 @@
+src/product-meters.ts
+  h_af5ac1a9798224 121-122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "99edfd88c0604210ca3d985164a9a9eecf5c400f",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

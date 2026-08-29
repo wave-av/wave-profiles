@@ -1,0 +1,25 @@
+docs/superpowers/plans/2026-07-22-wave-av-mux-demux-p7a-transform.md
+  s_157583aa3b6686::t_8c478effe9e648 1-66
+av/service/av-transform.test.mts
+  s_157583aa3b6686::t_02774dad910955 1-117
+av/service/av-transform.mts
+  s_157583aa3b6686::t_e7169fd2272f6b 1-152
+av/index.mts
+  s_157583aa3b6686::t_3961c7d6a65d64 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "9e18aa0bf8e6c0037739cf92a5d22752cf669534",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

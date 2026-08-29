@@ -1,0 +1,21 @@
+coverage-baseline.json
+  s_6f6453b23e3805::t_82876d9f584b47 853-854
+scripts/mutation-catalogue.json
+  s_6f6453b23e3805::t_7b1cc5a265c89d 2,12-15,25-27,32,36-38,47-49,54,58-60,65,69-71,80-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "2529b00489abc2eb3c8fcb672c07736610da2c02",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

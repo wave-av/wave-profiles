@@ -1,0 +1,22 @@
+scripts/mpp-services.mjs
+  s_e69041ef0ecb61::t_bed8ac5f7c34fa 67
+  s_e69041ef0ecb61::t_7a9eb021816077 29-32
+  s_e69041ef0ecb61::t_d952c8f3dbabf1 150,155,165,167,170,175-177,180-181
+  s_e69041ef0ecb61::t_a97cfa7de51180 106
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "095a80019fc3ceaf6fd9ef26d88e78c574506c3e",
+  "prompts": {},
+  "sessions": {
+    "s_e69041ef0ecb61": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe816d059ffeVeKpBiaCGUPeSp",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+moq/listen/switch-mix-run.mjs
+  s_157583aa3b6686::t_06af55f0264ffc 102-107
+moq/listen/fly.mix2.toml
+  s_157583aa3b6686::t_89ffd48d05363b 24
+moq/listen/wave-listen-publish.mjs
+  s_157583aa3b6686::t_485a8d1d5b7e67 17-24
+  s_157583aa3b6686::t_19f0da29f12eaf 44,49
+  s_157583aa3b6686::t_0dc286dd1c891f 116-120,122-134,136-141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "21008cc061b9e2f2f8a19d306bfe6c1ebb31c527",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

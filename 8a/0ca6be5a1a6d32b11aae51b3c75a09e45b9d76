@@ -1,0 +1,40 @@
+docs/superpowers/specs/2026-07-22-insights-e0.5-intent-enrichment-design.md
+  s_db1b2a792e5f25::t_3ac4fed48d6799 139-140
+  s_db1b2a792e5f25::t_bae6b2445f5ffe 289-300,302-303
+  s_db1b2a792e5f25::t_6c84eff4973b5e 314-316
+  s_db1b2a792e5f25::t_86dfa0abd20fe7 244,246-247,249-250
+  s_db1b2a792e5f25::t_25d5db0ad04fcc 186-190
+  s_db1b2a792e5f25::t_e7f954c70d09f2 152-164
+  s_db1b2a792e5f25::t_a2153a1fcb8722 202,205,210-211,215
+  s_db1b2a792e5f25::t_573bbfe75d066d 119
+  s_db1b2a792e5f25::t_947a6ed207cb0d 46-48
+  s_db1b2a792e5f25::t_c66815a7ec2cb9 173,175
+  s_db1b2a792e5f25::t_de899d949bd9e9 56-59
+  s_db1b2a792e5f25::t_d88030c34d6249 283
+  s_db1b2a792e5f25::t_92ebdd1b4ca72b 151
+  s_db1b2a792e5f25::t_57fbca16b7e2f7 91-93,97
+  s_db1b2a792e5f25::t_bdaa667f40be61 63-79
+  s_db1b2a792e5f25::t_d1b7437477bc9e 141
+  s_db1b2a792e5f25::t_c33818bc10c06d 142-150
+  s_db1b2a792e5f25::t_2d8d4bf2fe027a 227,229,231,238
+  s_db1b2a792e5f25::t_56d70ed14abffd 257-261
+  s_db1b2a792e5f25::t_34a834cb6b1635 130
+  s_db1b2a792e5f25::t_360f860eb902ff 280
+  s_db1b2a792e5f25::t_8e12e31449dda8 98
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8a0ca6be5a1a6d32b11aae51b3c75a09e45b9d76",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

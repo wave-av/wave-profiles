@@ -1,0 +1,33 @@
+av/rtp/rtp-packet.test.mts
+  s_157583aa3b6686::t_983fcbca01dd6d 1-35
+av/rtp/h264-depacketizer.test.mts
+  s_157583aa3b6686::t_fe44fec0298999 1-44
+av/rtp/rtp-h264-source.mts
+  s_157583aa3b6686::t_f71bcf626e0839 1-79
+av/timestamp.mts
+  s_157583aa3b6686::t_850f9153784992 50-65
+av/rtp/roundtrip.test.mts
+  s_157583aa3b6686::t_9d775516285a71 1-48
+av/rtp/h264-depacketizer.mts
+  s_157583aa3b6686::t_500ed019481c30 1-69
+av/rtp/rtp-packet.mts
+  s_157583aa3b6686::t_1576893c0fe180 1-44
+av/rtp/rtp-h264-source.test.mts
+  s_157583aa3b6686::t_06cd9ade59beb0 1-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "9e357e09ee73c7876fa54a3777233dd73d97b30b",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

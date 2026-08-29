@@ -1,0 +1,21 @@
+src/capability-egress.ts
+  s_2606de950a60c6::t_253930eddc9cf4 1-58
+test/capability-egress.spec.ts
+  s_2606de950a60c6::t_96b4d6b92c7c8d 1-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e77772d774d6c0ca91078003bc9531199557297b",
+  "prompts": {},
+  "sessions": {
+    "s_2606de950a60c6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef439bb6ffePesTgCloA0Efke",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

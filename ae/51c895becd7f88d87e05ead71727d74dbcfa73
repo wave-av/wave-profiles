@@ -1,0 +1,21 @@
+moq/listen/moq-source-scheme.mjs
+  s_157583aa3b6686::t_d87cfaf0ba1557 1-145
+moq/listen/moq-source-scheme.test.mjs
+  s_157583aa3b6686::t_2b74f03b2531fd 1-141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ae51c895becd7f88d87e05ead71727d74dbcfa73",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

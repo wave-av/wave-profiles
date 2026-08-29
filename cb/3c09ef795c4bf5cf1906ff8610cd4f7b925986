@@ -1,0 +1,19 @@
+test/tiers.spec.ts
+  s_cae6bae8468b2e::t_1ac96c939c8358 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "cb3c09ef795c4bf5cf1906ff8610cd4f7b925986",
+  "prompts": {},
+  "sessions": {
+    "s_cae6bae8468b2e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff4e05768ffeJwN7dEdvzJ7j5k",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

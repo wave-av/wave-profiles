@@ -1,0 +1,20 @@
+test/model-registry-frame-gate.spec.ts
+  s_a1bd57fd45afa4::t_fbf2d63974a250 5-8,22,32-33
+  s_a1bd57fd45afa4::t_b6ef0786f93c6d 1-4,9-21,23-31,34-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "954c4722e315950ca7c0bc9040972a3f652ee0a1",
+  "prompts": {},
+  "sessions": {
+    "s_a1bd57fd45afa4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd4078c43ffeQRpACyOTCWjLht",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

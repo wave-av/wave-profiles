@@ -1,0 +1,19 @@
+src/product-meters-catalog.ts
+  s_ed54a7a7ec2966::t_ffa331eaba7ae1 155-168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "61f4ebac8d1a2490268298b661e719d08adc1dd3",
+  "prompts": {},
+  "sessions": {
+    "s_ed54a7a7ec2966": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a49d7bb31676cf187",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

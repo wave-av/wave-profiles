@@ -1,0 +1,23 @@
+src/x402-verify.ts
+  s_15127d80763110::t_5f60db56d88e9a 60-61
+  s_15127d80763110::t_6ef94a09c240df 59,63
+  s_15127d80763110::t_9716d0ecd76a08 62
+test/x402-pathusd-decimals-pin.spec.ts
+  s_15127d80763110::t_e35d8e5ee323d1 1-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "ffc803ab871d079b85ef09ee8b1d2086f361bcf0",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

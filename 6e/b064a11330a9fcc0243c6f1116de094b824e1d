@@ -1,0 +1,21 @@
+test/x402-deny-publish-818.spec.ts
+  s_15127d80763110::t_a0fca4576daf02 147-176
+src/x402-envelope.ts
+  s_15127d80763110::t_5148a03571257d 83-103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "6eb064a11330a9fcc0243c6f1116de094b824e1d",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

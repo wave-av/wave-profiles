@@ -1,0 +1,28 @@
+moq/crest/crest-device-proof.mjs
+  s_157583aa3b6686::t_4302ced5d16b1f 61-63
+  s_157583aa3b6686::t_be88f2665537c0 1-60,71,76,78,96-100,104-106,109-122,124-129
+  s_157583aa3b6686::t_535e85efe8386b 65
+  s_157583aa3b6686::t_3917e7d15bbd6c 64
+  s_157583aa3b6686::t_7aecf8bb7c34af 123
+  s_157583aa3b6686::t_63e590239ce68e 66-70,72-74
+  s_157583aa3b6686::t_ec89f5837a4b3f 77,79-95,101-103,107-108
+  s_157583aa3b6686::t_9b68e7b21a1027 75
+moq/crest/receipts/e5.4-device-node.json
+  s_157583aa3b6686::t_01f5f7b48cb978 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5cd8be89c5166f200be446e02312c0278bbab8ca",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+src/meter-sync.ts
+  s_c24357e71ae5bc::t_3ffcb688eac2c2 207-208
+  s_c24357e71ae5bc::t_b45824ae27a53f 248-250
+  s_c24357e71ae5bc::t_9a3eacdb46ab73 355-360
+  s_c24357e71ae5bc::t_ccae35a3db5ebb 61-63
+  s_c24357e71ae5bc::t_2d764cad74e3dd 467-475
+test/unit/usage-ledger-sink.spec.ts
+  s_c24357e71ae5bc::t_9e0b74ae16e5ea 1-263
+test/unit/usage-ledger-meter-sync.spec.ts
+  s_c24357e71ae5bc::t_65e3276bb53a8a 156
+  s_c24357e71ae5bc::t_87166670710b8b 176-178
+  s_c24357e71ae5bc::t_b5e82d2873b61a 1-155,157-175,179-211
+wrangler.toml
+  s_c24357e71ae5bc::t_f6cdf5c6bbb6f4 998-1007
+src/sync-triggers.ts
+  s_c24357e71ae5bc::t_9025fcc7f5c117 225-226
+src/usage-ledger-sink.ts
+  s_c24357e71ae5bc::t_c93aaa95ec359a 1-130,192-260
+  s_c24357e71ae5bc::t_51d97b56f846c7 131-191
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "d533e649b3c31ac957f37206da8a179d4d20933f",
+  "prompts": {},
+  "sessions": {
+    "s_c24357e71ae5bc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b338a4db-931c-4eca-ac60-a4ea52fc3177",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

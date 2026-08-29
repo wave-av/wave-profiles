@@ -1,0 +1,33 @@
+test/fixtures/render-price-vectors.json
+  s_cf363a68d60e93::t_1af2405fb0b676 1-50
+src/x402-core.ts
+  s_cf363a68d60e93::t_2ef75556a26e73 180-202
+test/render-x402-advertise-bind.spec.ts
+  s_cf363a68d60e93::t_fdb491da0e0064 1-54
+test/render-pricing.spec.ts
+  s_cf363a68d60e93::t_a840ea1b0c65bd 1-123
+src/x402.ts
+  s_cf363a68d60e93::t_b08c0eec7729bc 40
+  s_cf363a68d60e93::t_4d376c00c66535 109,123-130
+src/render-pricing.ts
+  s_cf363a68d60e93::t_a785683cbcf144 1-159
+src/worker.ts
+  s_cf363a68d60e93::t_ddf4cd620f4b80 25
+  s_cf363a68d60e93::t_5f75697bc6cc4b 625-641,645,650
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b968850c9dd81305babbf17100e22e1b2e3e8e84",
+  "prompts": {},
+  "sessions": {
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

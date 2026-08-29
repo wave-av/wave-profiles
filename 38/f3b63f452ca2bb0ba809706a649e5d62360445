@@ -1,0 +1,27 @@
+src/telemetry.ts
+  s_eb2f7e65359b4f::t_b06186e888c2d8 1-90
+src/worker.ts
+  s_eb2f7e65359b4f::t_57577018331e05 72-74
+  s_eb2f7e65359b4f::t_cf29413912398e 56-58
+  s_eb2f7e65359b4f::t_50885098c3c063 59-60
+  s_eb2f7e65359b4f::t_7be39bcd73b529 650,664-665,673-674
+  s_eb2f7e65359b4f::t_88af0601a8acdd 641-642
+src/metrics-record.ts
+  s_eb2f7e65359b4f::t_f1bacef0b5656b 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "38f3b63f452ca2bb0ba809706a649e5d62360445",
+  "prompts": {},
+  "sessions": {
+    "s_eb2f7e65359b4f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b3d1e764-db6f-4033-aa5b-ac1ed7a4fb4b",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

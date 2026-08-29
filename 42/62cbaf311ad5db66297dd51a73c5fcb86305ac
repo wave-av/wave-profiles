@@ -1,0 +1,28 @@
+dante-dep-bridge/scripts/arc_subscribe_test.py
+  s_364605915bb7ec::t_79b645d783979b 2,4-11,13-15,19-129,132-151
+dante-dep-bridge/scripts/arc_wire_test.py
+  s_364605915bb7ec::t_e283f59e42a6d2 248-269
+  s_364605915bb7ec::t_05bf7fb47b5648 1-247,270-293
+dante-dep-bridge/scripts/arc_subscribe.py
+  s_364605915bb7ec::t_c1f6f7d5bfa79b 4-7,10,12-15,19-24,28-52,58,75-88,90,107-113,115,131-162,164-175,177-178,182-183,186-187,189-190,194,198,200,210-211,213-215,219-222,228-230
+dante-dep-bridge/scripts/arc_sub.py
+  s_364605915bb7ec::t_c20e0be7a3afc7 2-21
+dante-dep-bridge/scripts/arc_wire.py
+  s_364605915bb7ec::t_7af60638fe9d0e 1-276
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "4262cbaf311ad5db66297dd51a73c5fcb86305ac",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+test/moq-join.spec.ts
+  s_157583aa3b6686::t_0085e082398e5e 12-24
+  s_157583aa3b6686::t_01c8ddbe90d588 1-11,25-114
+src/env.ts
+  s_157583aa3b6686::t_bae49aa9bc8c9e 61-70
+src/moq-join.ts
+  s_157583aa3b6686::t_7c9da40574bfc7 1-128
+src/worker.ts
+  s_157583aa3b6686::t_c1cc4dfbf75762 664-675
+  s_157583aa3b6686::t_c6df3b7d36e0b1 71-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "dcda1d6a85c3cfa70ee12a6bce278547d6d303fc",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

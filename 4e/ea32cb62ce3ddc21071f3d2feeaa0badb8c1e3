@@ -1,0 +1,29 @@
+.github/workflows/av-smoke.yml
+  s_157583aa3b6686::t_ae2bbd317cdce3 31-38
+.github/workflows/governance-enforce.yml
+  s_157583aa3b6686::t_60c77ba431283e 24-28
+.github/workflows/ratchet.yml
+  s_157583aa3b6686::t_17737e4e68f5f8 89
+  s_157583aa3b6686::t_121805a654d4c1 103-104
+  s_157583aa3b6686::t_b2c8f33cecd91e 42
+  s_157583aa3b6686::t_7085d8f9309aba 113
+  s_157583aa3b6686::t_9927813d51942e 56-57
+  s_157583aa3b6686::t_a1879f15f8b835 27-31
+  s_157583aa3b6686::t_e590d48b1083c1 78-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "4eea32cb62ce3ddc21071f3d2feeaa0badb8c1e3",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

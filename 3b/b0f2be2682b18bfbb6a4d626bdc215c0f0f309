@@ -1,0 +1,34 @@
+README.md
+  s_19c8e603d8990b::t_8e8d7120b94c99 49-50
+CHANGELOG.md
+  s_19c8e603d8990b::t_0a53cc7d92c48b 8-14
+src/worker.ts
+  s_19c8e603d8990b::t_f257101cf9f93f 81-86
+  s_19c8e603d8990b::t_77bcff77966cc7 30
+  s_19c8e603d8990b::t_130617eab471a5 49-52
+  s_19c8e603d8990b::t_d36443ba9ec957 12-21
+src/pages.ts
+  s_19c8e603d8990b::t_0e215ab0bb99db 42
+test/invariants.spec.ts
+  s_19c8e603d8990b::t_1e9f11bf7bc4f5 179-219
+src/docs.ts
+  s_19c8e603d8990b::t_51aed3a4269950 1-121
+capabilities.json
+  s_19c8e603d8990b::t_aca01960d95dc0 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.13",
+  "base_commit_sha": "3bb0f2be2682b18bfbb6a4d626bdc215c0f0f309",
+  "prompts": {},
+  "sessions": {
+    "s_19c8e603d8990b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ab7045fc-2546-4259-800b-f8fc2fd6de97",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

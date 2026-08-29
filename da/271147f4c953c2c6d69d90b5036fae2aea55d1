@@ -1,0 +1,21 @@
+moq/listen/fly.lofi.toml
+  s_157583aa3b6686::t_e654abe4206c4c 9-12,14,18
+moq/listen/fly.ambient.toml
+  s_157583aa3b6686::t_04bdcee01dec97 9-12,14,18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "da271147f4c953c2c6d69d90b5036fae2aea55d1",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+docs/superpowers/plans/2026-07-22-wave-av-mux-demux-p4-dante.md
+  s_157583aa3b6686::t_45d4a3451b2d58 1-541
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "f48c8d58f4f5e4af351ab7990f61646ad389d961",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

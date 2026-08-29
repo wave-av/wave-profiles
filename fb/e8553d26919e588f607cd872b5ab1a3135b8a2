@@ -1,0 +1,18 @@
+src/fleet-executor.ts
+  h_af5ac1a9798224 26-27,29-30,34,95-100,115-143,145-146,153-156,164,176,180,209-214,222-224,226,239,246
+src/fleet-provision.ts
+  h_af5ac1a9798224 32-40,84-87,107-120,128,130-131,152-159,262-291,293,313,319-344,353-355,432-433,436-438,448-450
+test/fleet-provision-v2.spec.ts
+  h_af5ac1a9798224 1-149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "fbe8553d26919e588f607cd872b5ab1a3135b8a2",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+src/agent-trust.ts
+  s_db1b2a792e5f25::t_6cfa42c66424ea 1-81
+src/dpop.ts
+  s_db1b2a792e5f25::t_b15eadc98d50d4 54-65,69-70,72,78-79
+  s_db1b2a792e5f25::t_e8388527d1d39f 16-20
+src/agent-auth.ts
+  s_db1b2a792e5f25::t_df1540972108d3 27-29
+  s_db1b2a792e5f25::t_9a92ccd63c8b63 213-220,222-234
+  s_db1b2a792e5f25::t_dd1efc9317946f 35
+test/agent-auth.spec.ts
+  s_db1b2a792e5f25::t_46b7338ac074d3 250,257,267,276,285
+  s_db1b2a792e5f25::t_1825d966f2bb29 154-155
+  s_db1b2a792e5f25::t_3bd417c37e27dc 127-128
+  s_db1b2a792e5f25::t_cdc2bf347c9dbc 321,328,339-340,351-352
+  s_db1b2a792e5f25::t_eb19539b404b78 297,299-300,313,323-327,329-338,341-350,353-375
+  s_db1b2a792e5f25::t_16e3f0014edb72 92-93
+  s_db1b2a792e5f25::t_905e566fc8a31e 91
+  s_db1b2a792e5f25::t_aebbf4ddf4840d 322
+  s_db1b2a792e5f25::t_8ba577270208c4 389
+  s_db1b2a792e5f25::t_5033a4fb8b16ae 376-377
+src/auth.ts
+  s_db1b2a792e5f25::t_ba162dd1da500a 321-324
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "4cf88e202986d8a51dfc91b87ad9745739e30158",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

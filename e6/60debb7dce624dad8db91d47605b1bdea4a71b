@@ -1,0 +1,29 @@
+bridge-wire/smoke-coverage_test.sh
+  s_364605915bb7ec::t_fb2bb7e105fc2b 1-134
+bridge-wire/smoke.sh
+  s_364605915bb7ec::t_10520b516e121c 127
+  s_364605915bb7ec::t_9094577f3525d9 133
+  s_364605915bb7ec::t_50bee4ff09fa2a 16-109
+  s_364605915bb7ec::t_52aa95ffdc96b4 177-178
+  s_364605915bb7ec::t_63ef7b9eff6063 147-153,159,163,167
+  s_364605915bb7ec::t_2fab545e10e1de 196
+  s_364605915bb7ec::t_65ac42836d90d3 118
+  s_364605915bb7ec::t_d2f2991a35ded5 256
+  s_364605915bb7ec::t_fcf70b32916ea0 250
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "e660debb7dce624dad8db91d47605b1bdea4a71b",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

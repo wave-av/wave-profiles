@@ -1,0 +1,20 @@
+package-lock.json
+  h_af5ac1a9798224 11,22-27
+package.json
+  h_af5ac1a9798224 25
+src/container.ts
+  h_af5ac1a9798224 17-18
+src/ingest-worker.ts
+  h_af5ac1a9798224 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "3e1b61dfe438ac15cc1691fc0e1be940e344029f",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

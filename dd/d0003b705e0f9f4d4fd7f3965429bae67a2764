@@ -1,0 +1,21 @@
+src/internal-service-routes.ts
+  s_2ec8746f3238ff::t_dede4ca12a6697 38,66-75
+src/pricing-manifests.ts
+  s_2ec8746f3238ff::t_a6de005ab1a127 190-218
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ddd0003b705e0f9f4d4fd7f3965429bae67a2764",
+  "prompts": {},
+  "sessions": {
+    "s_2ec8746f3238ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe0309832ffee3KOGdEBIlhKOf",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

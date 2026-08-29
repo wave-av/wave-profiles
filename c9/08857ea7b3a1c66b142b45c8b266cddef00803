@@ -1,0 +1,23 @@
+test/tenant-isolation.spec.ts
+  s_d9915bbafa9657::t_e06fd8a2d4325d 71,73-75
+  s_d9915bbafa9657::t_ccd3ed5b9e3201 36-37,40
+  s_d9915bbafa9657::t_8d94481a0722b9 84-95
+  s_d9915bbafa9657::t_f08c026bd3d218 59-64
+  s_d9915bbafa9657::t_0477ddeaa7a6bd 8-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "c908857ea7b3a1c66b142b45c8b266cddef00803",
+  "prompts": {},
+  "sessions": {
+    "s_d9915bbafa9657": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fe57dfa6-a960-4f87-a0d3-16b30ad36ba7",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

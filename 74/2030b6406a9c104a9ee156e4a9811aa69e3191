@@ -1,0 +1,23 @@
+test/fleet-provision-v2.spec.ts
+  s_8af4028370359f::t_1ebc89a1198544 103
+src/fleet-executor.ts
+  s_8af4028370359f::t_ebf4084e9f6f37 225,233-240
+  s_8af4028370359f::t_a47ff4f4661689 120
+  s_8af4028370359f::t_74ba710420e003 146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "742030b6406a9c104a9ee156e4a9811aa69e3191",
+  "prompts": {},
+  "sessions": {
+    "s_8af4028370359f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef8fb36fffeRqnDhDU6nt6cu1",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

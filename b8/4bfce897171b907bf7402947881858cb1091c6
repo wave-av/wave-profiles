@@ -1,0 +1,20 @@
+src/entitlements.ts
+  s_756b33c630d33b::t_31f5bf70b08f7d 276-278,281,284
+  s_756b33c630d33b::t_bc51e35542dd0d 387-392,398
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b84bfce897171b907bf7402947881858cb1091c6",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

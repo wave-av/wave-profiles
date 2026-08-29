@@ -1,0 +1,19 @@
+docs/superpowers/specs/2026-07-22-exactly-once-metering-design.md
+  s_db1b2a792e5f25::t_d84ed73f842bf3 1-224
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "0494b12f160e8c76d8352d85c41dc21679f07692",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

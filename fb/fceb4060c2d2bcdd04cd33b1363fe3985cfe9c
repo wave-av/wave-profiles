@@ -1,0 +1,38 @@
+av/fixtures/README.md
+  s_157583aa3b6686::t_b4c42842e9e038 21-53
+av/ts/st302m.test.mts
+  s_157583aa3b6686::t_dce8e59d389335 30-34
+av/ts/fixtures.test.mts
+  s_157583aa3b6686::t_c6ec9c14c11ea9 28-36
+  s_157583aa3b6686::t_01426fe865084d 25-27
+  s_50c205d473da8b::t_f0b81c83ac5b84 22-24
+av/ts/st302m.mts
+  s_157583aa3b6686::t_ede2e998fa95c9 5-22,29-30,32-33,35,37,39,41,44-46,52,58-62,75-83,86,89-103,108-118,120-123,135-139,145-172,174
+  s_157583aa3b6686::t_f077ce93042b78 64-74,84-85,87-88
+av/fixtures/pcm48k-stereo-24.expected.json
+  s_157583aa3b6686::t_3b513498ad7cdc 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "fbfceb4060c2d2bcdd04cd33b1363fe3985cfe9c",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_50c205d473da8b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a1587bccfbbe98b36",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+av/fmp4/fmp4-demux.test.mts
+  s_157583aa3b6686::t_8b31900ddaddc0 1-29
+av/fmp4/roundtrip.test.mts
+  s_157583aa3b6686::t_b08cebac6a803c 1-15,17,19-21,23-33
+  s_157583aa3b6686::t_a244b95dab0fbd 16,18,22
+av/fmp4/fmp4-demux.mts
+  s_157583aa3b6686::t_c1a30e4e524748 1-75
+av/fmp4/fmp4-mux.test.mts
+  s_157583aa3b6686::t_7681141cb631e1 1-42
+av/fmp4/fmp4-mux.mts
+  s_157583aa3b6686::t_fe54c08f53cd6a 1-81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "3c8283d888aa0fc35aa301910a4136d072d93765",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

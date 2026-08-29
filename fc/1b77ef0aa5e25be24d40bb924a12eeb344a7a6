@@ -1,0 +1,21 @@
+moq/crest/player/audio-scope.js
+  s_3541df1791d708::t_0936fac402b82e 19-20,23,81-84,91
+moq/crest/player/moq-audio-player.js
+  s_3541df1791d708::t_c7a2a7f77528ad 254-256,265-270,347-354
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "fc1b77ef0aa5e25be24d40bb924a12eeb344a7a6",
+  "prompts": {},
+  "sessions": {
+    "s_3541df1791d708": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a3eb941a6d0e95214",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

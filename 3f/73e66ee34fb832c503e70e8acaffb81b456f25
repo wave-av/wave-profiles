@@ -1,0 +1,16 @@
+src/capability-account.ts
+  h_af5ac1a9798224 217
+src/origin-webhook.ts
+  h_af5ac1a9798224 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3f73e66ee34fb832c503e70e8acaffb81b456f25",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

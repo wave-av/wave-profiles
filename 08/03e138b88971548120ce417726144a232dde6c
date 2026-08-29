@@ -1,0 +1,25 @@
+av/fixtures/frag-h264-aac.expected.json
+  s_157583aa3b6686::t_ddea7ec218bf33 1-19
+av/fmp4/index.mts
+  s_157583aa3b6686::t_955fe0ffdfd8f3 1-9
+av/fixtures/author-fmp4.mts
+  s_157583aa3b6686::t_7a526ec1a7b43d 1-31
+av/fmp4/fixtures.test.mts
+  s_157583aa3b6686::t_e24c14f0bfeba5 1-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "0803e138b88971548120ce417726144a232dde6c",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

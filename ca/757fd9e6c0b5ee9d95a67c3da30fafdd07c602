@@ -1,0 +1,32 @@
+src/dispatch-inference.ts
+  s_2bba3e74ebeac0::t_57e45a78a17d1e 32-33
+  s_2bba3e74ebeac0::t_d9f4e5930614e2 185,189-200
+  s_2bba3e74ebeac0::t_bacfcee4c663a3 47-52
+src/dispatch-inference-anthropic.ts
+  s_2bba3e74ebeac0::t_3163c86553a4c8 1-114,116-139
+  s_2bba3e74ebeac0::t_560e08dcacdad9 115
+.github/workflows/deploy.yml
+  s_2bba3e74ebeac0::t_723a420f5cf1c1 186
+src/dispatch-inference-providers.ts
+  s_2bba3e74ebeac0::t_71f6dcfefe5a97 33-52
+  s_2bba3e74ebeac0::t_0e244d26fa93c6 165-276
+  s_2bba3e74ebeac0::t_12b35233bd2415 1,3-6
+.github/deploy-secrets-allowlist.txt
+  s_2bba3e74ebeac0::t_62d06d91011cd9 265-279
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ca757fd9e6c0b5ee9d95a67c3da30fafdd07c602",
+  "prompts": {},
+  "sessions": {
+    "s_2bba3e74ebeac0": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffc86a76affeHNdQ6ocWHDcGj2",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

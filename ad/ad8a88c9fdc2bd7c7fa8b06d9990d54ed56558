@@ -1,0 +1,21 @@
+src/auth-key-store.ts
+  s_db1b2a792e5f25::t_1faeedeaa8daf0 1-133
+src/auth.ts
+  s_db1b2a792e5f25::t_7e96b901609b18 30-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "adad8a88c9fdc2bd7c7fa8b06d9990d54ed56558",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+test/product-ratelimit.spec.ts
+  s_6f6453b23e3805::t_906f7496da78d5 115-140
+  s_6f6453b23e3805::t_7672ce301295a8 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "a3a136aebee79a6a180b545f5d5101c9a2bcd3fc",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

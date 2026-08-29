@@ -1,0 +1,33 @@
+src/auth-key-store.ts
+  s_0213641ac58af6::t_2ae630ef2279f9 73-74,144-145,195-196,228-229
+src/agent-trust.ts
+  s_0213641ac58af6::t_41feba3b63d7ee 54-55
+src/org-credits.ts
+  s_0213641ac58af6::t_faf3576f8c181c 36-38
+src/supabase-jwt.ts
+  s_0213641ac58af6::t_20a475864a01fa 191
+src/allowance.ts
+  s_0213641ac58af6::t_1fafa1cf5ec527 213-215
+src/meter-sync-customers.ts
+  s_0213641ac58af6::t_dee46e75bd101a 17
+src/entitlements.ts
+  s_0213641ac58af6::t_4e34251ceed289 62
+src/connect-payouts.ts
+  s_0213641ac58af6::t_87f7f732e622e1 124-126
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "b85b692c2e798dfaf2286c0de7cf0005329742a1",
+  "prompts": {},
+  "sessions": {
+    "s_0213641ac58af6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fdad44958ffe2zcFEsYI5CNOY1",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

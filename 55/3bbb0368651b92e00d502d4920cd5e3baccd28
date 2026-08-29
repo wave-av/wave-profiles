@@ -1,0 +1,23 @@
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_4a41c6cfbcb86d 215-241
+  s_157583aa3b6686::t_167a107d835734 39
+  s_157583aa3b6686::t_6c704381c843c3 91-97
+moq/crest/player/listen.html
+  s_157583aa3b6686::t_a6df2d4471a504 83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "553bbb0368651b92e00d502d4920cd5e3baccd28",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

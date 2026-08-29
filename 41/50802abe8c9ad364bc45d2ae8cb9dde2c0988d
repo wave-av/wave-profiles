@@ -1,0 +1,55 @@
+.github/workflows/build-check.yml
+  s_e165e7a8132b29::t_787b3be11cf78c 52-56,59-60
+.github/workflows/x402-paid-smoke.yml
+  s_e165e7a8132b29::t_143b6180a8ccfe 157-222
+scripts/x402-paid-smoke.mjs
+  s_e165e7a8132b29::t_d2d7c4a491ff50 28-33,71-114
+src/embeddings-backends.ts
+  s_e165e7a8132b29::t_bc7d23a7427312 1-216
+src/embeddings.ts
+  s_e165e7a8132b29::t_0b669a91f3198b 27-31,33-41,53-55,60-63,159,162-187,202-279,281-292
+src/env.ts
+  s_e165e7a8132b29::t_4f5b835ab3782b 173-180
+src/router-leaderboard-snapshot.json
+  s_e165e7a8132b29::t_9a45105c8d69f4 1-45
+src/stream-session-do.ts
+  s_e165e7a8132b29::t_56c58e992b9ee0 1-237
+src/worker.ts
+  s_e165e7a8132b29::t_572a821ac7f25f 26-27,107,589-597
+src/x402-stream-halt.ts
+  s_e165e7a8132b29::t_a7e25cc90c2a87 1-167
+src/x402-stream-ticks.ts
+  s_e165e7a8132b29::t_4b8bb3cfc58f9f 1-179
+src/x402-stream.ts
+  s_e165e7a8132b29::t_dfcc0be723646a 1-194
+test/embeddings-backends.spec.ts
+  s_e165e7a8132b29::t_7ea2bbd41e1092 1-114
+test/embeddings.spec.ts
+  s_e165e7a8132b29::t_a6e2ef892cd36c 134-197
+test/stream-session-do.spec.ts
+  s_e165e7a8132b29::t_92f7644ee0f937 1-89
+test/x402-stream-c2.spec.ts
+  s_e165e7a8132b29::t_0f7fb1886b80b8 1-195
+test/x402-stream-c3.spec.ts
+  s_e165e7a8132b29::t_09992e01d4f568 1-187
+test/x402-stream-ticks-c4.spec.ts
+  s_e165e7a8132b29::t_9f7c3338e24979 1-125
+wrangler.toml
+  s_e165e7a8132b29::t_d9b64088e6975a 217-228,234-253,255-258,260-262,740-749,761-764
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4150802abe8c9ad364bc45d2ae8cb9dde2c0988d",
+  "prompts": {},
+  "sessions": {
+    "s_e165e7a8132b29": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a06f74b5a582d63d1",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

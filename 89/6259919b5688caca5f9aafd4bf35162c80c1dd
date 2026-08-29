@@ -1,0 +1,14 @@
+.github/workflows/foundation-gate.yml
+  h_af5ac1a9798224 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "896259919b5688caca5f9aafd4bf35162c80c1dd",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

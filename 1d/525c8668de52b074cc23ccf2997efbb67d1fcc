@@ -1,0 +1,23 @@
+dante-dep-bridge/scripts/arc_subscribe.py
+  s_364605915bb7ec::t_2f046a9704fbad 1-349
+dante-dep-bridge/scripts/arc_subscribe_test.py
+  s_364605915bb7ec::t_d9542b7e8bc8c9 166-194
+  s_364605915bb7ec::t_031fa6bb57d346 1-10,12-13,17-165,195-199
+  s_364605915bb7ec::t_d57dce1c809314 11,14-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "1d525c8668de52b074cc23ccf2997efbb67d1fcc",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+src/router-shadow.ts
+  h_af5ac1a9798224 88-128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e134fe90df94363843d59397c9f131199dc75573",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

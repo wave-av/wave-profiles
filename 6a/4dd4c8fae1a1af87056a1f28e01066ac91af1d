@@ -1,0 +1,28 @@
+test/x402-unpayable-challenge-840.spec.ts
+  s_124891ed63801b::t_1e93a4fadc325b 129-140
+  s_124891ed63801b::t_20f9325c3eabf0 26-31
+src/mcp-product-params.ts
+  s_124891ed63801b::t_4aa2ebac88bfa9 26-31,35-45
+src/x402-challenge-price.ts
+  s_124891ed63801b::t_a373a29233cf07 186
+  s_124891ed63801b::t_7f30fc629253d7 110-123
+  s_124891ed63801b::t_2eef73ccc8cb8b 179
+test/x402-unpayable-terminal-semantics-859.spec.ts
+  s_124891ed63801b::t_00bc113eacb4d6 1-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "6a4dd4c8fae1a1af87056a1f28e01066ac91af1d",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

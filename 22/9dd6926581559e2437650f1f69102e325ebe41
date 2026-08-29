@@ -1,0 +1,36 @@
+wrangler.toml
+  s_a7125a51b602e8::t_3f614b42992513 289-329
+src/search.ts
+  s_a7125a51b602e8::t_1c0771abb4378e 1-323,325-560
+  s_a7125a51b602e8::t_be56a521f3d688 324
+src/gateway-native-routes.ts
+  s_a7125a51b602e8::t_bc626a6a2b7353 161-169
+  s_a7125a51b602e8::t_c46d3954888e40 57
+src/search-bm25.ts
+  s_a7125a51b602e8::t_177048a53fb3fb 1-148,150-151,153-256
+  s_a7125a51b602e8::t_7f99e7eb98b945 149,152
+src/env.ts
+  s_a7125a51b602e8::t_668a33af202cb3 30-33
+  s_a7125a51b602e8::t_9a94588fbf9efd 72
+test/search.spec.ts
+  s_a7125a51b602e8::t_5cb444274cf10b 1-25,27-416
+  s_a7125a51b602e8::t_3cb2713e309da2 26
+src/scope-groups.ts
+  s_a7125a51b602e8::t_353ece11191270 100-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "229dd6926581559e2437650f1f69102e325ebe41",
+  "prompts": {},
+  "sessions": {
+    "s_a7125a51b602e8": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff00ec3b3ffe7vObB63I89rDmD",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

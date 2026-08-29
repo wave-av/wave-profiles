@@ -1,0 +1,23 @@
+src/billing-routes.ts
+  s_756b33c630d33b::t_ed5e6e87417727 62
+src/bridge-kyc.ts
+  s_756b33c630d33b::t_ef7f5755f96846 1-136
+src/bridge-rail.ts
+  s_756b33c630d33b::t_2c1e99839c8b30 38,41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "f03a12eae9a5cc464d97038181f97c1298d5d4fc",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+observability/alerts/wave-alerts.json
+  s_6bd73d48dc7ec3::t_944b107aab027e 1-4,7,18,25-39,42-52,55-56,58-59,61-77,79-90,93-103,106-107,109-110,112-128,130-133
+  s_6bd73d48dc7ec3::t_4105553bf76b56 5-6,8-17,19-24,40-41,53-54,57,60,78,91-92,104-105,108,111,129
+observability/README.md
+  s_6bd73d48dc7ec3::t_b05d079c705e11 1-7,36-38,42,48,54-79
+  s_6bd73d48dc7ec3::t_20230f9b809ec2 8-35,39-41,43-47,49-53,80-84
+observability/apply-alerts.sh
+  s_6bd73d48dc7ec3::t_d48f1fdeaeb888 1-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "4800ece8e3bf92fbeca7d77a9390216ac7d46caf",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

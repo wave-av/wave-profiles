@@ -1,0 +1,27 @@
+CHANGELOG.md
+  s_34633d9d8279f2::t_fca1720a2c64b9 47-55
+src/product-meters-known.ts
+  s_34633d9d8279f2::t_8ab0bd781885c1 1-73
+src/usage-guards.ts
+  s_34633d9d8279f2::t_efde303c5d5a75 1-54
+src/usage.ts
+  s_34633d9d8279f2::t_e04e20a80769e3 36-41,695-699,711-715,743-750
+test/dead-meter-loud.spec.ts
+  s_34633d9d8279f2::t_ff0263982075e2 1-174
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "511ad69f4444e96cb1e5d47da0a80c0702ba6995",
+  "prompts": {},
+  "sessions": {
+    "s_34633d9d8279f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab1f41eff255bf706",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

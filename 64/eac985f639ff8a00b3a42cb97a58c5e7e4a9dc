@@ -1,0 +1,26 @@
+src/capability-account.ts
+  s_58efcf124982cb::t_a8470908aa8ff2 1-425
+wrangler.toml
+  s_58efcf124982cb::t_bb664ccbdd6f8e 1416-1419
+  s_58efcf124982cb::t_203fe4a919a6aa 1383-1391
+test/capability-account.spec.ts
+  s_58efcf124982cb::t_3ce155802599f9 1-165
+src/do-exports.ts
+  s_58efcf124982cb::t_a5820f9abc6efa 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "64eac985f639ff8a00b3a42cb97a58c5e7e4a9dc",
+  "prompts": {},
+  "sessions": {
+    "s_58efcf124982cb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fedc021a6ffe3JKJuNKrllGiQ6",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

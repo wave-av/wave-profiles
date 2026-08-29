@@ -1,0 +1,21 @@
+wrangler.toml
+  s_6046880c148371::t_7493e4f8c721e7 270-273
+src/agent-stt-streaming.ts
+  s_6046880c148371::t_a55fd570325a1a 56-59,69,73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "394c4674254906354db78107f7dba76759c2e0f5",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

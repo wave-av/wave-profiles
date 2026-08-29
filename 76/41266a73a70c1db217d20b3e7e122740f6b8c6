@@ -1,0 +1,22 @@
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 128
+package-lock.json
+  h_af5ac1a9798224 16,19,21,333-335,341-343,352-354,362,365,379,388-390,405-407,422-424,439-441,456-458,2049-2051,2055,2997-2999,3004-3006,3010-3012,3068-3070,3368-3370,3374,3378-3380,3426-3428,3443-3444,3641-3643,3654-3658,3894-3896
+package.json
+  h_af5ac1a9798224 35,38,40,44,51
+sdk/package.json
+  h_af5ac1a9798224 10
+src/mux.ts
+  h_af5ac1a9798224 93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7641266a73a70c1db217d20b3e7e122740f6b8c6",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

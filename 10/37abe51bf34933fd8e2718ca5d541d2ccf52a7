@@ -1,0 +1,21 @@
+moq/listen/pcm-mixer.test.mjs
+  s_157583aa3b6686::t_408dba42a43bc0 1-131
+moq/listen/pcm-mixer.mjs
+  s_157583aa3b6686::t_a37218bd3435e7 1-148
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "1037abe51bf34933fd8e2718ca5d541d2ccf52a7",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

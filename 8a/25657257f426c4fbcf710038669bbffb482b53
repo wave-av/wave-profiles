@@ -1,0 +1,19 @@
+docs/superpowers/specs/2026-07-17-wave-listen-av-northstar-fractal.md
+  s_157583aa3b6686::t_2f6baeb7c9d257 1-201
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "8a25657257f426c4fbcf710038669bbffb482b53",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

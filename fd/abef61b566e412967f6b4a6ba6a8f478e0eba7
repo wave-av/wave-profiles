@@ -1,0 +1,80 @@
+.github/workflows/api-spec-drift-watch.yml
+  h_af5ac1a9798224 1-210
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 68-86
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 50-59
+CHANGELOG.md
+  h_af5ac1a9798224 9-19,22-49,62-65,114-136
+package-lock.json
+  h_af5ac1a9798224 24-25,4345-4360
+package.json
+  h_af5ac1a9798224 18-21,37-38
+scripts/api-spec-drift-watch.mjs
+  h_af5ac1a9798224 1-192
+scripts/ci/assert-offline.mjs
+  h_af5ac1a9798224 1-53
+scripts/sync-openapi.mjs
+  h_af5ac1a9798224 1-321
+src/discovery-urls.ts
+  h_af5ac1a9798224 31-49
+src/errors.ts
+  h_af5ac1a9798224 22,24-27,64,66-69,153-154
+src/openapi-spec.generated.ts
+  h_af5ac1a9798224 1-20
+src/openapi.ts
+  h_af5ac1a9798224 1-77
+src/product-meters-known.ts
+  h_af5ac1a9798224 1-73
+src/public-surface.ts
+  h_af5ac1a9798224 27-28,92-106
+src/scope-catalog.ts
+  h_af5ac1a9798224 158-166
+src/skills.ts
+  h_af5ac1a9798224 34-39
+src/usage-guards.ts
+  h_af5ac1a9798224 1-54
+src/usage.ts
+  h_af5ac1a9798224 36-41,695-699,711-715,743-750
+src/x402-capture.ts
+  h_af5ac1a9798224 42-45,440-447
+src/x402-challenge.ts
+  h_af5ac1a9798224 25,198-217,232-239
+src/x402-deny-publish.ts
+  h_af5ac1a9798224 69,98-102
+src/x402-envelope.ts
+  h_af5ac1a9798224 20-23,26,83-103,109-112,118-132,180-184
+src/x402-permit-inline.ts
+  h_af5ac1a9798224 20-22,109-112,227,279-280
+src/x402-permit-serve.ts
+  h_af5ac1a9798224 1-103
+src/x402-permit-spender.ts
+  h_af5ac1a9798224 1-69
+test/dead-meter-loud.spec.ts
+  h_af5ac1a9798224 1-174
+test/openapi-spec.spec.ts
+  h_af5ac1a9798224 1-190
+test/scope-catalog.spec.ts
+  h_af5ac1a9798224 8-9,130-150,161,164-168
+test/x402-deny-publish-818.spec.ts
+  h_af5ac1a9798224 33,138-175
+test/x402-permit-capture-on-serve.spec.ts
+  h_af5ac1a9798224 18-19
+test/x402-permit-spender-advertise.spec.ts
+  h_af5ac1a9798224 1-248
+vendor/api-spec/openapi.yaml
+  h_af5ac1a9798224 1-3589
+vendor/api-spec/pin.json
+  h_af5ac1a9798224 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "fdabef61b566e412967f6b4a6ba6a8f478e0eba7",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

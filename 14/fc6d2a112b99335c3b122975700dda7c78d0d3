@@ -1,0 +1,28 @@
+listen/index.mts
+  s_157583aa3b6686::t_075c81af44b0d9 1-28
+listen/discovery.test.mts
+  s_157583aa3b6686::t_a1969a00af72d2 1-189
+listen/stream.mts
+  s_157583aa3b6686::t_72e838640d0c12 82
+  s_157583aa3b6686::t_6ad506f735a0be 1-81,83-106
+listen/discovery.mts
+  s_157583aa3b6686::t_8192480d1474fe 1-265
+listen/stream.test.mts
+  s_157583aa3b6686::t_ac84754ba6276b 1-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "14fc6d2a112b99335c3b122975700dda7c78d0d3",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

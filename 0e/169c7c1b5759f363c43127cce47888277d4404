@@ -1,0 +1,21 @@
+src/dispatch-inference-edge.ts
+  s_2f1bfe8237f0ee::t_0143c3cbba3785 70-92
+test/dispatch-tools-guard.spec.ts
+  s_2f1bfe8237f0ee::t_d6af2fe34ba053 415-438
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "0e169c7c1b5759f363c43127cce47888277d4404",
+  "prompts": {},
+  "sessions": {
+    "s_2f1bfe8237f0ee": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001f7ff34ffeZL5jDw3m0PPcjp",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

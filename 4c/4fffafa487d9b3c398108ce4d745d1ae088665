@@ -1,0 +1,28 @@
+aes67/wave-aes67-adaptive.h
+  s_157583aa3b6686::t_ae0e35291539ea 2-90
+  s_157583aa3b6686::t_6db151436df774 1
+aes67/wave-aes67-adaptive-test.cpp
+  s_157583aa3b6686::t_f905bbcf1120f9 1-112
+aes67/CMakeLists.txt
+  s_157583aa3b6686::t_3de0d9b6daacf8 68-77
+  s_157583aa3b6686::t_9c5d2d4271c3e5 112
+aes67/wave-aes67-jitter.h
+  s_157583aa3b6686::t_b1b6d2f750ecfe 26-29
+  s_157583aa3b6686::t_141f771a3347be 136-141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "4c4fffafa487d9b3c398108ce4d745d1ae088665",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

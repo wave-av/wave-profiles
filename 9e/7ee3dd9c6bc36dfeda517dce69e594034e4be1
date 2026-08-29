@@ -1,0 +1,21 @@
+.github/deploy-secrets-allowlist.txt
+  s_34fbb1571dbded::t_c5d99e0224058a 323-325
+.github/workflows/deploy.yml
+  s_34fbb1571dbded::t_2fc743e8dc9b65 186
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "9e7ee3dd9c6bc36dfeda517dce69e594034e4be1",
+  "prompts": {},
+  "sessions": {
+    "s_34fbb1571dbded": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fed7fd5d9ffeFgxoNbF94nhUhq",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

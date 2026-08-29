@@ -1,0 +1,14 @@
+src/dispatch-provider-ladder.ts
+  h_af5ac1a9798224 50-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "dbb6ae5d22746b2c58291263d7479e69dbd01414",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

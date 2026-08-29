@@ -1,0 +1,20 @@
+test/inference-openrouter.spec.ts
+  s_ef8289c1103ea0::t_adfa250fec6fd6 125
+  s_ef8289c1103ea0::t_35a4f44803ca80 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "52b150946b7f00ef81c2200c6c3dc618336d0c15",
+  "prompts": {},
+  "sessions": {
+    "s_ef8289c1103ea0": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff8dd8561ffeaLwSomhB9KD8c1",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

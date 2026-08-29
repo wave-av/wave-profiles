@@ -1,0 +1,21 @@
+test/ingress-router.test.ts
+  s_fcbb5c63beb287::t_5a76a8e3974e69 3-4
+src/ingress-router.ts
+  s_fcbb5c63beb287::t_c4bbee8c43c5bd 4-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "4b5cbfc420ec7825f3db86706f49fb9169a144a5",
+  "prompts": {},
+  "sessions": {
+    "s_fcbb5c63beb287": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbb09bc5ffe6iIqycSODupmXz",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

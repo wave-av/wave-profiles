@@ -1,0 +1,20 @@
+.github/workflows/deploy.yml
+  s_124891ed63801b::t_f393527e49ddd6 199-205
+  s_124891ed63801b::t_f15476b9cf1946 195-197
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "a14d7f075c9f19a34bfaad124773bd3ef9fb6065",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

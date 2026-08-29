@@ -1,0 +1,271 @@
+moq/listen/wave-listen-publish.mjs
+  s_157583aa3b6686::t_a8f15994f0654c 47
+  s_157583aa3b6686::t_0955db592fd4f3 107,197,201-209,213-223
+  s_157583aa3b6686::t_f3e47cd6bb88fa 46
+  s_157583aa3b6686::t_6a8a9f2fb7250e 104-106
+  s_157583aa3b6686::t_090091b76e55b5 108-110
+  s_822e08ba1b7dcb::t_7b1e6df3351c9c 33,35-36,49-55,65-97,100-103,111-114,146-155,158,181,231-237
+moq/listen/Dockerfile
+  s_157583aa3b6686::t_25f4de62415547 42-47
+  s_822e08ba1b7dcb::t_21ab490b3b9816 1,6-8,19-22,24,26-29
+.github/workflows/bridge-wire-smoke.yml
+  s_822e08ba1b7dcb::t_8e0021e5221ce4 86-108
+bridge-wire/smoke.sh
+  s_822e08ba1b7dcb::t_0b2d5fe55a7364 42-48,51-59
+dante-dep-bridge/scripts/aes67_sender.py
+  s_822e08ba1b7dcb::t_53db04cd565643 1-296
+dante-dep-bridge/scripts/aes67_sender_test.py
+  s_822e08ba1b7dcb::t_b44b42dc23a865 1-190
+dante-dep-bridge/scripts/arc_setname.py
+  s_822e08ba1b7dcb::t_d66c76c2f81769 1-158
+dante-dep-bridge/scripts/dante-mix-publisher.sh
+  s_822e08ba1b7dcb::t_e33d737aea1ea3 1-50
+dante-dep-bridge/scripts/mix_probe.py
+  s_822e08ba1b7dcb::t_54eed833a45cc5 1-98
+dante-dep-bridge/scripts/tx-tones-down.sh
+  s_822e08ba1b7dcb::t_1ff29c132a2ff7 1-8
+dante-dep-bridge/scripts/tx-tones-up.sh
+  s_822e08ba1b7dcb::t_6cbe59a4e6f44e 1-31
+dante-dep-bridge/scripts/wave-multi-dep.sh
+  s_822e08ba1b7dcb::t_16562400952df3 1-252
+dante-dep-bridge/scripts/wave_pcm_frame.py
+  s_822e08ba1b7dcb::t_222cbd3376cbde 1-46
+dante-dep-bridge/scripts/wave_tone_gen.py
+  s_822e08ba1b7dcb::t_cd22b04ddad896 1-76
+dante-observe/arc-client.mjs
+  s_822e08ba1b7dcb::t_bcf3306767c287 1-196
+dante-observe/arc-client.test.mjs
+  s_822e08ba1b7dcb::t_f097fb35fd3739 1-141
+dante-observe/arc-poller.mts
+  s_822e08ba1b7dcb::t_ce1c33c526c70e 1-165
+dante-observe/arc-poller.test.mts
+  s_822e08ba1b7dcb::t_26dfdb14e63208 1-142
+dante-observe/normalize.mts
+  s_822e08ba1b7dcb::t_ac42a333afa735 1-91
+dante-observe/normalize.test.mts
+  s_822e08ba1b7dcb::t_f8cc07ad08c206 1-99
+docs/superpowers/specs/2026-07-19-braided-audio-api-design.md
+  s_822e08ba1b7dcb::t_16a26dadd997bc 1-155
+docs/superpowers/specs/2026-07-20-braid-fabric-orchestrator-design.md
+  s_822e08ba1b7dcb::t_af200123759221 1-140
+docs/superpowers/specs/2026-07-20-braid-native-receiver-design.md
+  s_822e08ba1b7dcb::t_66f5a59bdea2c1 1-139
+docs/superpowers/specs/2026-07-20-braid-publish-spoke-design.md
+  s_822e08ba1b7dcb::t_bcf218e10f043b 1-360
+docs/superpowers/specs/2026-07-20-braid-v2-multiformat-wire-design.md
+  s_822e08ba1b7dcb::t_eea10a00383c05 1-92
+moq/braid-audio/README.md
+  s_822e08ba1b7dcb::t_60903450f47f9d 1-78
+moq/braid-audio/braid-audio.mjs
+  s_822e08ba1b7dcb::t_ca4c01abcb4a99 1-273
+moq/braid-audio/braid-audio.test.mjs
+  s_822e08ba1b7dcb::t_7c8390039a58ec 1-110
+moq/braid-audio/braid-v2-depth.test.mjs
+  s_822e08ba1b7dcb::t_ec4bf84abc1e81 1-163
+moq/braid-audio/index.mjs
+  s_822e08ba1b7dcb::t_214ba668e9c39a 1-23
+moq/braid-audio/package.json
+  s_822e08ba1b7dcb::t_991ae7bdb6674a 1-20
+moq/braid-fabric/README.md
+  s_822e08ba1b7dcb::t_158ab010617f66 1-72
+moq/braid-fabric/fabric-session.mjs
+  s_822e08ba1b7dcb::t_2e15b0f9432cd6 1-168
+moq/braid-fabric/fabric-session.test.mjs
+  s_822e08ba1b7dcb::t_75d439049636d9 1-179
+moq/braid-fabric/index.mjs
+  s_822e08ba1b7dcb::t_e9274717fc36ff 1-7
+moq/braid-fabric/package.json
+  s_822e08ba1b7dcb::t_600a97f2dfcacb 1-20
+moq/braid-receiver/README.md
+  s_822e08ba1b7dcb::t_b55311f2ba97b3 1-60
+moq/braid-receiver/braid-reassembler.mjs
+  s_822e08ba1b7dcb::t_f6df93680b12d6 1-249
+moq/braid-receiver/braid-reassembler.test.mjs
+  s_822e08ba1b7dcb::t_3170ad01ae6f7c 1-170
+moq/braid-receiver/index.mjs
+  s_822e08ba1b7dcb::t_03dcc37c09ec61 1-6
+moq/braid-receiver/package.json
+  s_822e08ba1b7dcb::t_44dcc6f76fc9da 1-20
+moq/crest/listen-caption-bridge.mjs
+  s_822e08ba1b7dcb::t_5c6264330dc68e 146-148
+moq/crest/listen-caption-bridge.test.mjs
+  s_822e08ba1b7dcb::t_c53061fc6c0f76 172,193-236
+moq/crest/player/audio-sinks.js
+  s_822e08ba1b7dcb::t_51ff14eb34f6e4 1-137
+moq/crest/player/braid-depth-render.test.mjs
+  s_822e08ba1b7dcb::t_4093848d4651e5 1-58
+moq/crest/player/braid-header.js
+  s_822e08ba1b7dcb::t_60bf5b511e3bf5 1-80
+moq/crest/player/braid-player.test.mjs
+  s_822e08ba1b7dcb::t_6d266dbbf785d8 1-66
+moq/crest/player/listen.html
+  s_822e08ba1b7dcb::t_8f81bbea63eb59 61-75,104-105,133-135
+moq/crest/player/mint-url.js
+  s_822e08ba1b7dcb::t_d2122fd6c02e60 11-18,21-22,29-30,34-36
+moq/crest/player/mint-url.test.mjs
+  s_822e08ba1b7dcb::t_2cce00076dd7c4 11,13,17,19-35,52,55-56,75,78
+moq/crest/player/moq-audio-player.js
+  s_822e08ba1b7dcb::t_a0522dbdeb0565 20,26,34,78-79,83,85,88,152,204-213,215-225,241
+moq/crest/player/pcm-audio.js
+  s_822e08ba1b7dcb::t_155e791c929a88 28-145
+moq/crest/player/pcm-audio.test.mjs
+  s_822e08ba1b7dcb::t_d2b344b17fcc5c 6,81-128
+moq/crest/player/stem-braid-channel.js
+  s_822e08ba1b7dcb::t_563779c784ab97 1-96
+moq/crest/player/stem-channel.js
+  s_822e08ba1b7dcb::t_35ea2ef2d6bcaa 1-135
+moq/crest/player/stem-clock.js
+  s_822e08ba1b7dcb::t_f382a914f7b077 1-77
+moq/crest/player/stem-clock.test.mjs
+  s_822e08ba1b7dcb::t_791ad5a296ac4c 1-106
+moq/crest/player/stem-mixer-braid.test.mjs
+  s_822e08ba1b7dcb::t_4d4ae5d2b26277 1-55
+moq/crest/player/stem-mixer.js
+  s_822e08ba1b7dcb::t_25531f30eb9b7e 1-163
+moq/crest/player/stem-mixer.test.mjs
+  s_822e08ba1b7dcb::t_d858b8d8cfc442 1-141
+moq/crest/player/stem-ui.js
+  s_822e08ba1b7dcb::t_a0571bade762f6 1-66
+moq/join-resolve.test.mjs
+  s_822e08ba1b7dcb::t_f9f7f5318c59e6 31-36,125-162
+moq/listen/braid-depth-runtime.test.mjs
+  s_822e08ba1b7dcb::t_9d4dacaae98850 1-65
+moq/listen/braid-frame.mjs
+  s_822e08ba1b7dcb::t_88750ba48e5eec 1-132
+moq/listen/braid-frame.test.mjs
+  s_822e08ba1b7dcb::t_598c56a0a4d5f6 1-57
+moq/listen/braid-group-plan.mjs
+  s_822e08ba1b7dcb::t_52d8ecbdd481f1 1-147
+moq/listen/braid-group-plan.test.mjs
+  s_822e08ba1b7dcb::t_52f166a705b7ff 1-84
+moq/listen/braid-machine-config.mjs
+  s_822e08ba1b7dcb::t_fcbf672df2193f 1-85
+moq/listen/braid-machine-config.test.mjs
+  s_822e08ba1b7dcb::t_629f4a1b2b6cbd 1-65
+moq/listen/braid-manifest.mjs
+  s_822e08ba1b7dcb::t_c1bad7e631128a 1-78
+moq/listen/braid-manifest.test.mjs
+  s_822e08ba1b7dcb::t_df557cf0079c75 1-49
+moq/listen/braid-orchestration.mjs
+  s_822e08ba1b7dcb::t_0a86abbd33392c 1-72
+moq/listen/braid-orchestration.test.mjs
+  s_822e08ba1b7dcb::t_896b0dff80a76d 1-99
+moq/listen/braid-publish-plan.mjs
+  s_822e08ba1b7dcb::t_b363113d0b53db 1-163
+moq/listen/braid-publish-plan.test.mjs
+  s_822e08ba1b7dcb::t_22d841153184fe 1-147
+moq/listen/braid-request.mjs
+  s_822e08ba1b7dcb::t_ddbda4b7ca6474 1-81
+moq/listen/braid-request.test.mjs
+  s_822e08ba1b7dcb::t_d299c1ef7caf98 1-90
+moq/listen/braid-source-fetch.mjs
+  s_822e08ba1b7dcb::t_dee59a83bf260b 1-263
+moq/listen/braid-source-fetch.test.mjs
+  s_822e08ba1b7dcb::t_9e77fa4db5daf0 1-223
+moq/listen/braid-source.mjs
+  s_822e08ba1b7dcb::t_cc1fe249ae6474 1-95
+moq/listen/braid-source.test.mjs
+  s_822e08ba1b7dcb::t_4b19edc25746b1 1-50
+moq/listen/dante-mix-run.mjs
+  s_822e08ba1b7dcb::t_b1e550bffb6bfb 1-153
+moq/listen/dante-mix-source.mjs
+  s_822e08ba1b7dcb::t_c343f545a64ce5 1-128
+moq/listen/dante-mix-source.test.mjs
+  s_822e08ba1b7dcb::t_8f0d1c647ac7bb 1-170
+moq/listen/entrypoint.sh
+  s_822e08ba1b7dcb::t_e800636c621756 1-30
+moq/listen/fly.ambient.toml
+  s_822e08ba1b7dcb::t_7004f5b7339764 1-29
+moq/listen/fly.chillwave-stems.toml
+  s_822e08ba1b7dcb::t_3a94df22e17ed2 1-54
+moq/listen/fly.chillwave.toml
+  s_822e08ba1b7dcb::t_53a830072c3dcf 1-30
+moq/listen/fly.lofi.toml
+  s_822e08ba1b7dcb::t_f81f63d6e4f8a3 1-29
+moq/listen/fly.radio.toml
+  s_822e08ba1b7dcb::t_89510b330dccc1 20-22
+moq/listen/listen-runtime-cap.mjs
+  s_822e08ba1b7dcb::t_c6ae4bbd950e6e 1-27
+moq/listen/listen-runtime-cap.test.mjs
+  s_822e08ba1b7dcb::t_82090521c763e9 1-44
+moq/listen/listen-source.mjs
+  s_822e08ba1b7dcb::t_21b0196648c530 10-13,18-45,49-53
+moq/listen/listen-source.test.mjs
+  s_822e08ba1b7dcb::t_b8295256c76af1 6-9,26-78
+moq/listen/mix-run.mjs
+  s_822e08ba1b7dcb::t_641a1db87f26c5 1-250
+moq/listen/mix-run.test.mjs
+  s_822e08ba1b7dcb::t_8531033cbeb778 1-174
+moq/listen/mix-source.mjs
+  s_822e08ba1b7dcb::t_674b6058b2b0be 1-98
+moq/listen/mix-source.test.mjs
+  s_822e08ba1b7dcb::t_77e7e70102209c 1-137
+moq/listen/pcm-mixer.mjs
+  s_822e08ba1b7dcb::t_317162505a22ee 1-148
+moq/listen/pcm-mixer.test.mjs
+  s_822e08ba1b7dcb::t_797da0b3139ea1 1-131
+moq/listen/stem-anchor.mjs
+  s_822e08ba1b7dcb::t_1a143a9c953226 1-80
+moq/listen/stem-anchor.test.mjs
+  s_822e08ba1b7dcb::t_0d2aecf9dd731c 1-70
+moq/listen/stem-manifest.mjs
+  s_822e08ba1b7dcb::t_366b13fc0af338 1-132
+moq/listen/stem-manifest.test.mjs
+  s_822e08ba1b7dcb::t_15ba59ab548ec9 1-91
+moq/listen/stem-source.mjs
+  s_822e08ba1b7dcb::t_60b937d332329d 1-62
+moq/listen/stem-source.test.mjs
+  s_822e08ba1b7dcb::t_3be86284c8ff40 1-60
+moq/listen/wave-listen-braid-run.mjs
+  s_822e08ba1b7dcb::t_319266a305f875 1-186
+moq/listen/wave-listen-common.mjs
+  s_822e08ba1b7dcb::t_3abd96b0fffa1f 1-99
+moq/listen/wave-listen-run.mjs
+  s_822e08ba1b7dcb::t_31182a464efd16 11-14,16-27,29,31-45,48-84,88-116,118-119,121,123-126,133-141,143-144,146,152,159-189,192-322,325-327
+moq/listen/wave-listen-run.test.mjs
+  s_822e08ba1b7dcb::t_390ab94902333b 1-101
+moq/moq-strand.mjs
+  s_822e08ba1b7dcb::t_1e881e44035c2d 218,251-253,256,314-316,328-338,355,399-413,415-417
+moq/moq-strand.ts
+  s_822e08ba1b7dcb::t_445f46fd375e70 65-69,116-119,122,167-176,187-202,217,248-256
+moq/publisher-selfheal.test.mjs
+  s_822e08ba1b7dcb::t_9163a589f58ff1 1-22
+moq/zoom-rtms/README.md
+  s_822e08ba1b7dcb::t_ec4a4c95889f28 1-52
+moq/zoom-rtms/index.mjs
+  s_822e08ba1b7dcb::t_be8a374a3498f8 1-8
+moq/zoom-rtms/package.json
+  s_822e08ba1b7dcb::t_f866db42005f22 1-21
+moq/zoom-rtms/rtms-auth.mjs
+  s_822e08ba1b7dcb::t_4f9709b6555bdc 1-70
+moq/zoom-rtms/rtms-auth.test.mjs
+  s_822e08ba1b7dcb::t_357230bfd677f7 1-51
+moq/zoom-rtms/rtms-ingest-plan.mjs
+  s_822e08ba1b7dcb::t_3ab569e8613dba 1-102
+moq/zoom-rtms/rtms-ingest-plan.test.mjs
+  s_822e08ba1b7dcb::t_4d8d784d69dec2 1-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "7f7a35eba06433df2e3b96c11fe83c86e6bef348",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_822e08ba1b7dcb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a79be389eb276de4a",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

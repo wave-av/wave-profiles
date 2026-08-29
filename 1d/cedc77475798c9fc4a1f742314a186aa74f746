@@ -1,0 +1,38 @@
+src/dispatch-toolcall-stream.ts
+  s_0938ca0da0b62e::t_7b1871bfbe3102 44,56-103,111-114
+test/search-index.spec.ts
+  s_0938ca0da0b62e::t_e817a2b065d4cd 8
+test/dispatch-toolcall-stream.spec.ts
+  s_0938ca0da0b62e::t_a8052902f13d37 1-6,9-15,17,20-26,28-32,34-69,71-87,89-94,96-114,116-117,120-121,123-126,129-144,147-152,156-157,159-180,183-189,192-220,223-229
+  s_0938ca0da0b62e::t_ae86c1813986f7 88
+  s_35b5c3ca4f2255::t_4b8975ecf708ee 70
+src/search-index.ts
+  s_35b5c3ca4f2255::t_b7aa31899b2bea 113-114
+  s_0938ca0da0b62e::t_55eb21e87cfde8 101
+src/spoke-routing.ts
+  s_35b5c3ca4f2255::t_ba4d01e6b5cc83 200
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1dcedc77475798c9fc4a1f742314a186aa74f746",
+  "prompts": {},
+  "sessions": {
+    "s_0938ca0da0b62e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fee00f555ffeHdKjCrYIgc6lYc",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_35b5c3ca4f2255": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fee00fadbffekEObf0xzsVt0Ky",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

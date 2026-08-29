@@ -1,0 +1,28 @@
+src/dispatch-inference-vercel.ts
+  s_7cbfae57340a73::t_76fd6c151d0c4d 1-98
+.github/workflows/deploy.yml
+  s_7cbfae57340a73::t_958b84fcf8567d 186
+.github/deploy-secrets-allowlist.txt
+  s_7cbfae57340a73::t_9c3595cd713d38 297-303
+src/dispatch-provider-ladder.ts
+  s_7cbfae57340a73::t_7c09eadbadcf47 27
+  s_7cbfae57340a73::t_4f9867187da155 43
+  s_7cbfae57340a73::t_ded1632c7d0c59 112-114
+  s_7cbfae57340a73::t_c715c94cbca439 86-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "f40fb1876ebe474bf29e431f0643c99c4d70715b",
+  "prompts": {},
+  "sessions": {
+    "s_7cbfae57340a73": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff3501f75fferME2eFaWzDAEh7",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.github/deploy-secrets-allowlist.txt
+  s_6b3c1f97d21fbc::t_d0cef0caa28d93 255-264
+src/dispatch-inference-providers.ts
+  s_6b3c1f97d21fbc::t_f759dbc2f1ca6d 1-144
+src/dispatch-inference.ts
+  s_6b3c1f97d21fbc::t_9760e79848e811 42-45
+  s_6b3c1f97d21fbc::t_743efc871c3e9c 160-168
+  s_6b3c1f97d21fbc::t_15843862666ae3 32
+.github/workflows/deploy.yml
+  s_6b3c1f97d21fbc::t_3549c113596c5f 186
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "9696db0d3a6361ffbab63cb3c676cae9c16946e6",
+  "prompts": {},
+  "sessions": {
+    "s_6b3c1f97d21fbc": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffcc8bdb0ffeosvIHpkmXIeJA4",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

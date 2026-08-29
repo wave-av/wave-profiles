@@ -1,0 +1,22 @@
+vitest.config.ts
+  s_6046880c148371::t_6b6590f4de88b4 45-47,51-53,55,59
+  s_6046880c148371::t_7c5db53679c0d4 75-77
+wrangler.toml
+  s_6046880c148371::t_9c0dc06063c1b4 244-248
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ed06c266d312b34b6af30db76e57fea8a44008a2",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

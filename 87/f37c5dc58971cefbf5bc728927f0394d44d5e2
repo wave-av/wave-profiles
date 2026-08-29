@@ -1,0 +1,30 @@
+test/agent-session.test.ts
+  s_2aac9325f16377::t_0eb38faf7a96d3 73
+test/e-agents-fold-receipt.test.ts
+  s_2aac9325f16377::t_e5fe029c5db4a5 66
+  s_2aac9325f16377::t_65ca6e9d204277 1-65,67-123
+src/agent-media-consumer.ts
+  s_2aac9325f16377::t_488f2ea8089743 1-5
+src/agent-session.ts
+  s_2aac9325f16377::t_83f000a0c6a606 192,195-198,200,213-228,234-236
+  s_2aac9325f16377::t_c3e502aaa436d6 11-18
+  s_2aac9325f16377::t_009b96e94f2050 321-324
+  s_2aac9325f16377::t_bdb95e2972fbe9 585-587,589-590,596,606-607
+  s_2aac9325f16377::t_667293cbceefd1 395-396,398-403
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "87f37c5dc58971cefbf5bc728927f0394d44d5e2",
+  "prompts": {},
+  "sessions": {
+    "s_2aac9325f16377": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbc1f7c2ffeq1WGtzAsmg7fyX",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

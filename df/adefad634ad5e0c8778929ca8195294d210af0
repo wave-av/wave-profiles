@@ -1,0 +1,16 @@
+src/openapi.ts
+  h_af5ac1a9798224 76-105
+test/openapi-public-routes.spec.ts
+  h_af5ac1a9798224 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "dfadefad634ad5e0c8778929ca8195294d210af0",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

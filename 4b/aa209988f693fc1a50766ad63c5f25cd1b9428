@@ -1,0 +1,73 @@
+CHANGELOG.md
+  s_33808c00e16d52::t_2be7f820e8d0de 9-13,18-25
+src/billing-routes.ts
+  s_33808c00e16d52::t_d69a090883cf79 65-67,79-80,140,152-154,173,184-188,317-318,379-394
+src/bridge-kyc.ts
+  s_33808c00e16d52::t_f970d848660b63 1-136
+src/bridge-rail.ts
+  s_33808c00e16d52::t_555a857d043cb3 38,41,139,155,197,220,284
+src/env-local/spoke-origins.ts
+  s_33808c00e16d52::t_66df7351287acf 118-127
+src/mcp-native-tools.ts
+  s_33808c00e16d52::t_bf532af23ed6be 26,307
+src/mcp-pricing-tools.ts
+  s_33808c00e16d52::t_7d1552c315d1c6 1-245
+src/mcp-runtime.ts
+  s_33808c00e16d52::t_b202e2ec70f5ca 54-58,62,125,141,168,172,190-199
+src/mcp.ts
+  s_33808c00e16d52::t_c8362a49078d4d 235
+src/pricing-manifests.ts
+  s_33808c00e16d52::t_815323f78b907b 19-24,134,161,182
+src/privy-rail.ts
+  s_33808c00e16d52::t_e5c38c09a6ad46 1-158
+src/router-leaderboard-snapshot.json
+  s_33808c00e16d52::t_044c2d599758ed 22,25,29-32
+src/scope-groups-edge.ts
+  s_33808c00e16d52::t_f145594beb5a73 68-75
+src/spoke-classification.ts
+  s_33808c00e16d52::t_8f51873b536cb6 70
+src/spoke-route-table.ts
+  s_33808c00e16d52::t_340654cd8191b5 1-326
+src/spoke-routing.ts
+  s_33808c00e16d52::t_2f45900890ba14 9,27-28,37,54,62-73
+src/status-incidents.ts
+  s_33808c00e16d52::t_f0ce1d65bdb482 164,174,179-184
+test/billing-routes-scope-gate.spec.ts
+  s_33808c00e16d52::t_60ff2f58c947f2 73-75,125-126
+test/bridge-kyc.spec.ts
+  s_33808c00e16d52::t_8a53ee066e0842 1-167
+test/bridge-rail.spec.ts
+  s_33808c00e16d52::t_d529168e499bbf 72,97,220,404
+test/mcp-pricing-tools.spec.ts
+  s_33808c00e16d52::t_ebce17c893e149 1-113
+test/mcp-runtime-843.spec.ts
+  s_33808c00e16d52::t_6e7657d60289ff 63,83,90,96
+test/privy-rail.spec.ts
+  s_33808c00e16d52::t_ecc6c4560e5a57 1-109
+test/router-leaderboard-public.spec.ts
+  s_33808c00e16d52::t_5071221c881f5f 58-59
+test/spoke-drift.spec.ts
+  s_33808c00e16d52::t_673fe7c0b856f6 27,29,71,138-141
+test/spoke-routing.spec.ts
+  s_33808c00e16d52::t_1a977d6193048c 23,58-60,71,75-76
+test/status-incidents.spec.ts
+  s_33808c00e16d52::t_45e6d6bc3d727c 66,108,134,184
+wrangler.toml
+  s_33808c00e16d52::t_a5cd744e1c4d7c 1021-1030
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "4baa209988f693fc1a50766ad63c5f25cd1b9428",
+  "prompts": {},
+  "sessions": {
+    "s_33808c00e16d52": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe049d22cffe1Ahc2vTU2Tf03d",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

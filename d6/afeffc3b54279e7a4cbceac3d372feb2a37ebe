@@ -1,0 +1,24 @@
+CHANGELOG.md
+  h_af5ac1a9798224 31-49
+src/discovery-urls.ts
+  h_af5ac1a9798224 31-37
+src/errors.ts
+  h_af5ac1a9798224 13,22,24-27,64,66-69,152-156,160-161
+src/scope-catalog.ts
+  h_af5ac1a9798224 158-166
+src/skills.ts
+  h_af5ac1a9798224 18,34-38,172
+test/scope-catalog.spec.ts
+  h_af5ac1a9798224 7,127-130,141,144-146,156-158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "d6afeffc3b54279e7a4cbceac3d372feb2a37ebe",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

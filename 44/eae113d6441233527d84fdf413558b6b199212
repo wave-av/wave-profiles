@@ -1,0 +1,16 @@
+src/idempotency.ts
+  h_af5ac1a9798224 35
+src/slo.ts
+  h_af5ac1a9798224 47-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "44eae113d6441233527d84fdf413558b6b199212",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

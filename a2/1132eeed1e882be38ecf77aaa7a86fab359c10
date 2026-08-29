@@ -1,0 +1,35 @@
+src/dispatch-inference-ssd-stream.ts
+  s_83b73641415a39::t_25a91bd5a48771 11-13
+  s_b29a082250f185::t_bdd6aae1126637 18-118,196-197
+  s_83b73641415a39::t_2033c7e997baef 119-195
+  s_b29a082250f185::t_6326f35845b01c 10
+src/route-ladder.ts
+  s_83b73641415a39::t_6620cf877837b2 27
+  s_b29a082250f185::t_315ec5339a44ec 448-455
+  s_83b73641415a39::t_594c92d99efbff 28-29
+  s_b29a082250f185::t_a33c4cdb923100 26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a21132eeed1e882be38ecf77aaa7a86fab359c10",
+  "prompts": {},
+  "sessions": {
+    "s_83b73641415a39": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffd196880ffeXRUvrkjXudtttM",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_b29a082250f185": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff2433d04ffey82QGrEMMyg06G",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

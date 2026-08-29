@@ -1,0 +1,79 @@
+.github/workflows/build-check.yml
+  s_0938ca0da0b62e::t_41e16995823dce 237,249,257-273,314
+CHANGELOG.md
+  s_0938ca0da0b62e::t_cbfa1be23fc3fe 39-49
+src/dispatch-generation-stamp.ts
+  s_0938ca0da0b62e::t_143fd6d2d5126a 140,175-200
+src/dispatch-inference-openai.ts
+  s_0938ca0da0b62e::t_e094bb50f2c32e 50
+src/env-local/spoke-origins.ts
+  s_0938ca0da0b62e::t_dd36223ab4c05e 134-141
+src/env.ts
+  s_0938ca0da0b62e::t_515329ed4a98f9 30-33,72
+src/fleet-executor.ts
+  s_0938ca0da0b62e::t_3511978e2649dc 28,30-31,35,96-101,116-156,158-159,166-169,177,189,193,222-223,225,233-240,242,255,262
+src/fleet-provision-v2.ts
+  s_0938ca0da0b62e::t_f273baa2dd7240 1-58
+src/fleet-provision.ts
+  s_0938ca0da0b62e::t_aafa7f67e6023c 32-33,77-78,105,127,230-231,236,238-241,262,276,353,357,367
+src/gateway-native-routes.ts
+  s_0938ca0da0b62e::t_f5104805e408e4 57,161-169
+src/inference-backends.ts
+  s_0938ca0da0b62e::t_757e52f4ac41de 162-172,174-184,186-199,201-212,214-228,230-242
+src/products.ts
+  s_0938ca0da0b62e::t_e8d4ee75752db4 16,64,93
+src/scope-groups-edge.ts
+  s_0938ca0da0b62e::t_cb4acff000ff35 1-69
+src/scope-groups.ts
+  s_0938ca0da0b62e::t_87d61f1d62db2f 100-111
+src/search-bm25.ts
+  s_0938ca0da0b62e::t_18fc0c7ef932f3 1-256
+src/search-core.ts
+  s_0938ca0da0b62e::t_0bc00b765b0131 1-240
+src/search-index.ts
+  s_0938ca0da0b62e::t_b3093c0fcddb55 1-115
+src/search.ts
+  s_0938ca0da0b62e::t_4eb6be403b9f8f 1-199
+src/spoke-classification.ts
+  s_0938ca0da0b62e::t_f4789b35bb1cbc 66
+src/spoke-routing.ts
+  s_0938ca0da0b62e::t_78bdcebb8dae9a 190-200
+src/status.ts
+  s_0938ca0da0b62e::t_e6a87fef430994 13,30-31,55,64,68,97
+src/zdr.ts
+  s_0938ca0da0b62e::t_387eae9ae34580 18-20,96-106,116-120,175-179,183
+test/fleet-provision-v2.spec.ts
+  s_0938ca0da0b62e::t_58a759649f3e98 1-140
+test/pipeline-orchestrator-zdr.spec.ts
+  s_0938ca0da0b62e::t_a696827876c9b2 29-30,37,39,48-49
+test/search-index.spec.ts
+  s_0938ca0da0b62e::t_9a95d7d8a73543 1-150
+test/search-mocks.ts
+  s_0938ca0da0b62e::t_81dad0b4e09be2 1-81
+test/search.spec.ts
+  s_0938ca0da0b62e::t_861976b79cceda 1-162
+test/spoke-drift.spec.ts
+  s_0938ca0da0b62e::t_a1f5629d558378 67
+test/zdr.spec.ts
+  s_0938ca0da0b62e::t_adf91280634b17 63-72,76-81,91,94-99,164-167,203-206,209,287-288,292-305
+vitest.config.ts
+  s_0938ca0da0b62e::t_a3616520b6614a 45-47,51-53,55,59,75-77
+wrangler.toml
+  s_0938ca0da0b62e::t_6baa7113ec29e6 244-262,304-344,1072-1082
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a187cfb2d310a835bd8c27b58898092a26a0bf0d",
+  "prompts": {},
+  "sessions": {
+    "s_0938ca0da0b62e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fee00f555ffeHdKjCrYIgc6lYc",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

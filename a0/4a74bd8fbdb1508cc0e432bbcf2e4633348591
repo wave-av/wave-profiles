@@ -1,0 +1,19 @@
+src/prose-compress.ts
+  s_9bfa0b833d032f::t_4010617a39538c 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a04a74bd8fbdb1508cc0e432bbcf2e4633348591",
+  "prompts": {},
+  "sessions": {
+    "s_9bfa0b833d032f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff20764f0ffeSSvFpir02XFiuW",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+dante-dep-bridge/scripts/dep-journal-forensics.sh
+  s_364605915bb7ec::t_9a32bdc257940a 1-90,93-121,133-298
+  s_364605915bb7ec::t_7934d9f6a15076 122-132
+  s_364605915bb7ec::t_cb1e7bf6459ffc 91-92
+dante-dep-bridge/scripts/journald-99-wave-forensics.conf
+  s_364605915bb7ec::t_5b78137e3bf452 1-31
+dante-dep-bridge/scripts/dep-journal-forensics_test.sh
+  s_364605915bb7ec::t_3bf259b58806f1 105
+  s_364605915bb7ec::t_7aa7c9d2e64e9a 1-33,35-104,106-110
+  s_364605915bb7ec::t_60009585aa7b61 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "0a418a629f9fa2acda0c35b1d17fcadea9c04655",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

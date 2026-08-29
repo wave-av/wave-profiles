@@ -1,0 +1,19 @@
+test/e-ingress-ingest-receipt.test.ts
+  s_687f25daf83ced::t_a370771ffa8893 1-272
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "3262ecfd65ddb377b3b62de1ee80c39448f217f9",
+  "prompts": {},
+  "sessions": {
+    "s_687f25daf83ced": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fce570b25ffeKowg0pQjSblVYS",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

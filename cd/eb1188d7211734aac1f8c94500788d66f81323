@@ -1,0 +1,20 @@
+test/dispatch-mct-clamp.spec.ts
+  s_2b4acc7ceba309::t_1b03220cce61b3 1-51
+  s_2b4acc7ceba309::t_6e5b8f9fbe5fff 52-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "cdeb1188d7211734aac1f8c94500788d66f81323",
+  "prompts": {},
+  "sessions": {
+    "s_2b4acc7ceba309": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff3dead9affe2WOERvc2psX5Eq",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

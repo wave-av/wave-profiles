@@ -1,0 +1,25 @@
+bin/wave-meter.mjs
+  s_7ddeb5d251570f::t_3913cbec1ca735 25-27,31-32
+  s_7ddeb5d251570f::t_8b6328d5213461 59
+  s_7ddeb5d251570f::t_6172a2a6ebf503 1-24,28-30,33-58,60-67
+bin/wave-meter.test.mjs
+  s_7ddeb5d251570f::t_2bfd512d66d458 1-28
+bin/wave-meter-mcp.mjs
+  s_7ddeb5d251570f::t_4de2b7fee54ac6 1-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e1fef238208b296ea78977d59ea46ca8914665d8",
+  "prompts": {},
+  "sessions": {
+    "s_7ddeb5d251570f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffd18905effeQT6zud4m713r2F",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

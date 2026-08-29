@@ -1,0 +1,18 @@
+src/pricing-manifests.ts
+  h_af5ac1a9798224 41-42,107-112,131,135-137,146-147,167
+test/pricing-manifests.spec.ts
+  h_af5ac1a9798224 11-13
+wrangler.toml
+  h_af5ac1a9798224 167
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a50e0b2c8307d937d3453cffe98599796c2735ad",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

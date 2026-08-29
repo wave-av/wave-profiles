@@ -1,0 +1,24 @@
+src/ledger-sync.ts
+  s_7b6a6ea32bc3d3::t_8d1db421f4b5bf 1-117
+test/ledger-sync.spec.ts
+  s_7b6a6ea32bc3d3::t_8150a1f5f9dc42 43
+  s_7b6a6ea32bc3d3::t_8d1db421f4b5bf 1,3-15,17-21,23-42,46-56,58-60
+  s_7b6a6ea32bc3d3::t_c9f1c1f6ad53e4 2,16,22,44,57
+  s_7b6a6ea32bc3d3::t_728d5c12412f12 45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "f86adf360e4876df5fe8361da5c3306ccf059550",
+  "prompts": {},
+  "sessions": {
+    "s_7b6a6ea32bc3d3": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcf9aa989ffeG6PtVlmxfIXGXJ",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

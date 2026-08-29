@@ -1,0 +1,38 @@
+src/worker.ts
+  s_6bd73d48dc7ec3::t_63dc095000878b 341-357
+  s_6bd73d48dc7ec3::t_0190b1623e328f 206-219
+  s_6bd73d48dc7ec3::t_e6c8bdc6003f0f 57-58
+  s_6bd73d48dc7ec3::t_ca926678084f9d 106-108
+  s_6bd73d48dc7ec3::t_dd0a3069f01589 74-105
+  s_6bd73d48dc7ec3::t_14ce9b33a3bbf5 32-33
+test/metrics-do.spec.ts
+  s_6bd73d48dc7ec3::t_078ede75f2f48c 2-7,16,19-24,26,35-43,47-49,52-54,77,79-80,83-86
+  s_6bd73d48dc7ec3::t_74a6b3972120ff 27-32
+  s_6bd73d48dc7ec3::t_34459c71069d9b 1,8-15,17-18,25,33-34,44-46,50-51,55-76,78,81-82,87-88
+src/metrics.ts
+  s_6bd73d48dc7ec3::t_ee809ef01ca8b4 1-98
+src/metrics-do.ts
+  s_6bd73d48dc7ec3::t_d119e4bc5ff3e5 1-60
+wrangler.toml
+  s_6bd73d48dc7ec3::t_c38ffd339d4b58 70-78,87-89
+observability/METRICS-PIPELINE.md
+  s_6bd73d48dc7ec3::t_6c2e78e9aa5b0d 1-58
+test/metrics.spec.ts
+  s_6bd73d48dc7ec3::t_25f2b40a2bd63c 1-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "50d332bdd8fdf4904e16973e30c1af38409e114e",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

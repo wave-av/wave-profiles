@@ -1,0 +1,29 @@
+test/bridge-rail.spec.ts
+  s_756b33c630d33b::t_a02f507504c0c5 9
+CHANGELOG.md
+  s_756b33c630d33b::t_82a65d4fe72010 11-18
+src/bridge-rail.ts
+  s_756b33c630d33b::t_48ced42bd6a44b 42-48
+  s_756b33c630d33b::t_4e5c7fc4c966e9 324-402
+src/billing-routes.ts
+  s_756b33c630d33b::t_997467460910f9 154
+  s_756b33c630d33b::t_43f29cc7617580 57
+  s_756b33c630d33b::t_b3ac02d567f8a8 131
+  s_756b33c630d33b::t_fee055b8a90d16 287-288
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "6e1404d8ac9971f75f9faf12b3cb45ff9e6e7465",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

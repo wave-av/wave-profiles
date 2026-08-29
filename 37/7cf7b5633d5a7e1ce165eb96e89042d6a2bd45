@@ -1,0 +1,18 @@
+CHANGELOG.md
+  h_af5ac1a9798224 17-22
+src/product-meters-catalog.ts
+  h_af5ac1a9798224 195-211
+test/product-meters.catalog.spec.ts
+  h_af5ac1a9798224 122-148
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "377cf7b5633d5a7e1ce165eb96e89042d6a2bd45",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

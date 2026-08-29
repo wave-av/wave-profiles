@@ -1,0 +1,26 @@
+src/dispatch-inference-cerebras.ts
+  h_af5ac1a9798224 18
+src/dispatch-inference-edge.ts
+  h_af5ac1a9798224 33
+src/dispatch-inference-gemini.ts
+  h_af5ac1a9798224 14
+src/dispatch-inference-openai.ts
+  h_af5ac1a9798224 15
+src/dispatch-inference-openrouter.ts
+  h_af5ac1a9798224 42,52
+src/dispatch-inference-providers.ts
+  h_af5ac1a9798224 17,31,40,51
+test/dispatch-inference.spec.ts
+  h_af5ac1a9798224 258-260,268,270-273
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "c37d51c6b75eb32cd5608c62b9bd817eefff0aa3",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

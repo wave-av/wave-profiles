@@ -1,0 +1,21 @@
+av/ts/pes.mts
+  s_157583aa3b6686::t_65cf718d040e5d 4
+av/ts/st302m.mts
+  s_157583aa3b6686::t_d1a29adb903b5f 105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "b7479eb8f1c50fed59fa562ef8b792519700646c",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+src/usage-multimeter.ts
+  s_157583aa3b6686::t_a772a576148220 76
+src/usage-meters.ts
+  s_157583aa3b6686::t_207472b7b09e5e 44
+  s_157583aa3b6686::t_6b1d921909fb70 116
+  s_157583aa3b6686::t_3db3797f40569b 87-90
+test/dante-observe-spoke.spec.ts
+  s_157583aa3b6686::t_8f1ae2b4706b64 1-125
+src/env-local/spoke-origins.ts
+  s_157583aa3b6686::t_4ae579a9f5b532 92-100
+src/usage.ts
+  s_157583aa3b6686::t_26abcca56f1ca7 55
+  s_157583aa3b6686::t_3c813225ce2ab5 215-216
+  s_157583aa3b6686::t_81cc149e7fb8c7 246
+  s_157583aa3b6686::t_a54e69f5e8ad84 243
+src/spoke-routing.ts
+  s_157583aa3b6686::t_16f5937c2c8834 136-146
+src/product-meters.ts
+  s_157583aa3b6686::t_6d9c9d62abadf3 271-282
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ab33c5241cb5dc217e849bab01669eb2af91b837",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

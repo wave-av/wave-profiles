@@ -1,0 +1,21 @@
+src/skills.ts
+  s_9e432dc94c73ad::t_a4beb6bfe1ed7f 233-242
+test/skills-wire-truth.spec.ts
+  s_9e432dc94c73ad::t_5110981ca5b363 177-180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "57a19ee5ea56df13fa14751b496f60f1e7a6748e",
+  "prompts": {},
+  "sessions": {
+    "s_9e432dc94c73ad": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe89b54d0ffeJzhiAS9bz5iAjc",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

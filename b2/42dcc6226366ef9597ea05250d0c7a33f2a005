@@ -1,0 +1,16 @@
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 110,113
+src/webhook-routes.ts
+  h_af5ac1a9798224 17-18,157-162
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "b242dcc6226366ef9597ea05250d0c7a33f2a005",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

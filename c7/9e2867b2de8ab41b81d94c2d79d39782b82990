@@ -1,0 +1,37 @@
+src/gateway-native-routes.ts
+  s_2606de950a60c6::t_6e7be10878ede3 214-222
+  s_2606de950a60c6::t_84be04f7474e3c 63
+wrangler.toml
+  s_2606de950a60c6::t_e0feb101b6f0b6 398-404
+  s_2606de950a60c6::t_46480fd6a83f92 1587-1597
+CHANGELOG.md
+  s_2606de950a60c6::t_f905c6d5aa65f6 11-16
+test/capability-custody.spec.ts
+  s_2606de950a60c6::t_c11f107d39b165 1-21,23-28,30-33,37-162,164-168,186-194
+  s_2606de950a60c6::t_a17207f829c54a 22,29,34-36
+  s_2606de950a60c6::t_a0b7219d81c3cc 163,169-185
+src/env.ts
+  s_2606de950a60c6::t_e8c85d3a64a715 78
+  s_2606de950a60c6::t_d63c2f7e1d9ada 80
+src/capability-custody.ts
+  s_2606de950a60c6::t_24ed4bbc0a2285 1-82,84,86-236
+  s_2606de950a60c6::t_4653340bda04ab 83,85
+src/scopes.ts
+  s_2606de950a60c6::t_71567731ab969e 132-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "c79e2867b2de8ab41b81d94c2d79d39782b82990",
+  "prompts": {},
+  "sessions": {
+    "s_2606de950a60c6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef439bb6ffePesTgCloA0Efke",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

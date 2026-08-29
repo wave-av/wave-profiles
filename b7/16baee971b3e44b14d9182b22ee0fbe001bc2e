@@ -1,0 +1,26 @@
+src/meter-ledger.ts
+  s_6046880c148371::t_aa5fcab8111937 55-58
+  s_6046880c148371::t_9144ccce85c1b6 192-195,203-241
+test/meter-ledger.spec.ts
+  s_6046880c148371::t_6d163e57500e04 233
+  s_6046880c148371::t_fd1ca17c18fe6f 56
+  s_6046880c148371::t_0e03863b5bb3ac 143,147,150-168
+src/env.ts
+  s_6046880c148371::t_1e3b813ddea566 74-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b716baee971b3e44b14d9182b22ee0fbe001bc2e",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.github/workflows/build-check.yml
+  s_6e7ad4df769349::t_9921eb8cedd7ae 35-36
+  s_6e7ad4df769349::t_334d6582cd1ce5 63-64,68-69
+.github/workflows/deploy.yml
+  s_6e7ad4df769349::t_cd1ec783c7a66f 47-48
+.npmrc
+  s_6e7ad4df769349::t_be89bbb990960f 1-2
+  s_6e7ad4df769349::t_1d2b4971b4fca4 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b6ca6a8e0111823e44ebd22c0666e926a2ccf8d2",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

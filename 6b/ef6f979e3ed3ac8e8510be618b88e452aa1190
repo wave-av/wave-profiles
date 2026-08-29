@@ -1,0 +1,22 @@
+src/dispatch-inference.ts
+  s_e1a1a20d320e48::t_0efae076227e84 155-158
+  s_e1a1a20d320e48::t_fa4c826bcfe6ea 32
+src/dispatch-inference-openrouter.ts
+  s_e1a1a20d320e48::t_68857bc1446def 1-87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "6bef6f979e3ed3ac8e8510be618b88e452aa1190",
+  "prompts": {},
+  "sessions": {
+    "s_e1a1a20d320e48": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffd3e4235ffeAJSyCjxhgbp76y",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

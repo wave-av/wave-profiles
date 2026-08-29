@@ -1,0 +1,29 @@
+src/internal-service-routes.ts
+  s_979927b3ea6a70::t_516124619acdf4 53,61-65
+test/billing.spec.ts
+  s_979927b3ea6a70::t_fceb1622008695 1-85
+src/scopes.ts
+  s_979927b3ea6a70::t_516124619acdf4 153-155
+src/billing.ts
+  s_979927b3ea6a70::t_07185e1e8cb55a 1-99
+src/billing-routes.ts
+  s_979927b3ea6a70::t_516124619acdf4 27,73,120,162,263-264
+src/billing-webhook.ts
+  s_979927b3ea6a70::t_07185e1e8cb55a 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d6690f639b65a19926f38a23715721795bd91d00",
+  "prompts": {},
+  "sessions": {
+    "s_979927b3ea6a70": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd511e2b7ffeMIBfIOEx5CcvAz",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

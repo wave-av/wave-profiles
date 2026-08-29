@@ -1,0 +1,27 @@
+src/internal-service-routes.ts
+  s_aaa47d21015048::t_b00bc152443bd8 49
+  s_aaa47d21015048::t_f8f6791f572254 127-134
+test/internal-service-routes.spec.ts
+  s_aaa47d21015048::t_f103be3792b17b 29
+  s_aaa47d21015048::t_ed64f868115f9f 57
+test/main-break-health.spec.ts
+  s_aaa47d21015048::t_70cf73a39498dd 1-264
+src/main-break-health.ts
+  s_aaa47d21015048::t_bb94baf7855fdc 1-260
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "9467304eb56336593dd1021d8aab1b31fa0dfde4",
+  "prompts": {},
+  "sessions": {
+    "s_aaa47d21015048": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe8d6f3fbffesX8uNOuYmH7376",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

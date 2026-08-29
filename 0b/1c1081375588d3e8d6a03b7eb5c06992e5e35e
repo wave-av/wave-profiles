@@ -1,0 +1,26 @@
+package.json
+  s_6e7ad4df769349::t_e2797265a5b812 14-15
+src/landing.ts
+  s_6e7ad4df769349::t_3bcb9a6bed1baf 1-58
+src/route-dispatch.ts
+  s_6e7ad4df769349::t_fb585e32c9d856 46-49
+  s_6e7ad4df769349::t_3154302cf24d32 103-112
+src/tokens.css.ts
+  s_6e7ad4df769349::t_6053a7228ab160 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "0b1c1081375588d3e8d6a03b7eb5c06992e5e35e",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

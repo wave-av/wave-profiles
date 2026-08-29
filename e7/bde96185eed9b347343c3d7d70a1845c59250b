@@ -1,0 +1,25 @@
+src/x402-core.ts
+  s_cf363a68d60e93::t_dae1a403de1132 41-46
+test/facilitator-mainnet-gate.spec.ts
+  s_cf363a68d60e93::t_a55f39b51efc3c 45-47
+  s_cf363a68d60e93::t_7f95e0597883ef 1-44,48-55
+src/facilitator.ts
+  s_cf363a68d60e93::t_700f3189793409 230-234
+  s_cf363a68d60e93::t_8327ccb59b6bea 43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e7bde96185eed9b347343c3d7d70a1845c59250b",
+  "prompts": {},
+  "sessions": {
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

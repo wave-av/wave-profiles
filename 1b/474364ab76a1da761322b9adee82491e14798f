@@ -1,0 +1,32 @@
+.claude/skills/gateway-rules/SKILL.md
+  h_af5ac1a9798224 18
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 279-281
+AGENTS.md
+  h_af5ac1a9798224 25
+CHANGELOG.internal.md
+  h_af5ac1a9798224 14-49
+CHANGELOG.md
+  h_af5ac1a9798224 14-45,53-66,71-104,107-117,121-128
+scripts/check-changelog.mjs
+  h_af5ac1a9798224 13-16,35-37,50-56,62-70,72-73,79-80,93-95,98-99,101,105-107
+src/margin-cost-plane.ts
+  h_af5ac1a9798224 1-128
+src/margin-guard.ts
+  h_af5ac1a9798224 15-25,85-98,109-118,130-134,143-147,150-151,153-164,169-174,180,192,198-199,205
+src/region-router.ts
+  h_af5ac1a9798224 78-85
+test/margin-cost-plane.spec.ts
+  h_af5ac1a9798224 1-286
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1b474364ab76a1da761322b9adee82491e14798f",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

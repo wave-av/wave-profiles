@@ -1,0 +1,23 @@
+dante-observe/otlp-exporter.test.mts
+  s_157583aa3b6686::t_e5033fd97a4490 76,80
+  s_157583aa3b6686::t_703cd2b9ecda55 50
+  s_157583aa3b6686::t_abcf271a82d906 90
+  s_157583aa3b6686::t_acd32c92687e5f 57,62,67
+  s_157583aa3b6686::t_b4c693cd1d0ffa 9-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "b061c6826d62d0c5e2d4f4182dbe6439b9681cc7",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

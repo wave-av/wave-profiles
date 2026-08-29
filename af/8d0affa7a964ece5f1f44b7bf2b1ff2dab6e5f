@@ -1,0 +1,33 @@
+docs/REALTIME.md
+  s_5f27fa5b8237cd::t_bac1bb8415eebb 17
+README.md
+  s_5f27fa5b8237cd::t_ea4faf696a3db5 35
+  s_5f27fa5b8237cd::t_d4af7454b6c0e2 26
+docs/api/openapi.yaml
+  s_5f27fa5b8237cd::t_abb898e82d045e 19
+threat-model.md
+  s_5f27fa5b8237cd::t_20526593337dc5 5
+  s_5f27fa5b8237cd::t_d638adc4afce32 54
+  s_5f27fa5b8237cd::t_1a512d1b974498 18
+  s_5f27fa5b8237cd::t_492e5cdaab7f83 38
+.coderabbit.yaml
+  s_5f27fa5b8237cd::t_8cfc5cd134c286 2
+test/worker.contract.test.ts
+  s_5f27fa5b8237cd::t_c70ebe2d46d274 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "af8d0affa7a964ece5f1f44b7bf2b1ff2dab6e5f",
+  "prompts": {},
+  "sessions": {
+    "s_5f27fa5b8237cd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "15ec0bf8-6164-4260-bae1-00c610d449bb",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

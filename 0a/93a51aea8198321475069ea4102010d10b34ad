@@ -1,0 +1,22 @@
+src/forward.ts
+  s_a4bf449cf66fcd::t_bca06bf0bee83e 38-41
+  s_a4bf449cf66fcd::t_6e1224e26253f2 7
+src/rate-limit-enforce.ts
+  s_a4bf449cf66fcd::t_3f38c180c5b95e 1-115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "0a93a51aea8198321475069ea4102010d10b34ad",
+  "prompts": {},
+  "sessions": {
+    "s_a4bf449cf66fcd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbe8519effeLiCWT22OLP2AYd",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

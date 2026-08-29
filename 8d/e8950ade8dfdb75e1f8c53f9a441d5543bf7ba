@@ -1,0 +1,29 @@
+av/rtmp/flv-mux.mts
+  s_157583aa3b6686::t_2ef33f5ad454ad 1-167
+av/rtmp/rtmp-sink.mts
+  s_157583aa3b6686::t_04bce5e14ef45e 1-16,18-80
+  s_157583aa3b6686::t_3b088b4defc410 17
+av/rtmp/rtmp-source.mts
+  s_157583aa3b6686::t_de18bb42892edb 1-52
+av/rtmp/rtmp-roundtrip.test.mts
+  s_157583aa3b6686::t_48f889dbf88c37 108-109,111
+  s_157583aa3b6686::t_488e2d3f351ba5 1-107,110,112-165
+av/rtmp/flv-demux.mts
+  s_157583aa3b6686::t_8ee909d8f38073 1-195
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8de8950ade8dfdb75e1f8c53f9a441d5543bf7ba",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+moq/crest/crest-roundtrip-test.mjs
+  s_157583aa3b6686::t_963ba6c45b3e33 1-118
+moq/crest/crest-publish.mjs
+  s_157583aa3b6686::t_fe139514bd2109 1-223
+moq/crest/receipts/e5.4-h264-moq-roundtrip.json
+  s_157583aa3b6686::t_3fc47787653a94 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ecf5d534ae6e101047b79cadbca521347ad107f0",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

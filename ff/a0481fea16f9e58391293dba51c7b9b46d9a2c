@@ -1,0 +1,40 @@
+src/usage-counter.ts
+  s_10e53e3a039bfa::t_b2f6ddb8c52383 37-55
+src/usage-meters.ts
+  s_10e53e3a039bfa::t_0380b1a8db1f03 18-19
+  s_10e53e3a039bfa::t_0f7add4879c96c 53
+src/usage-read.ts
+  s_10e53e3a039bfa::t_36ab83cab85fed 106-109
+  s_10e53e3a039bfa::t_7a48ee7e10b024 23
+src/usage.ts
+  s_10e53e3a039bfa::t_3e1722b54a0f62 557
+  s_10e53e3a039bfa::t_edb2cc0b458f5b 333-348
+  s_10e53e3a039bfa::t_fa9af8f2b3f5d3 748
+test/seconds-meter-scale.spec.ts
+  s_10e53e3a039bfa::t_d4b8c22e219ed4 150-165
+src/usage-multimeter.ts
+  s_10e53e3a039bfa::t_5ac855ae8960fc 19
+  s_10e53e3a039bfa::t_0ed041aadfcdf4 90
+src/meter-reconciliation.ts
+  s_10e53e3a039bfa::t_00e43a3fc0afc5 30-34
+wrangler.toml
+  s_10e53e3a039bfa::t_bb6b9b0751bcae 778-787
+CHANGELOG.md
+  s_10e53e3a039bfa::t_e02ed34c562173 44-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "ffa0481fea16f9e58391293dba51c7b9b46d9a2c",
+  "prompts": {},
+  "sessions": {
+    "s_10e53e3a039bfa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d6c2cfc-2b0d-42fa-9e8e-0888ca9d739b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+moq/listen/av-live-spawn.test.mts
+  s_6e7ad4df769349::t_c37ca14d3f2cc1 81-102
+moq/listen/fly.av.toml
+  s_6e7ad4df769349::t_33337e2879cf39 10-13,20,25-35
+dante/aes67-backend.test.mts
+  s_6e7ad4df769349::t_48c5a3e294877a 8
+  s_6e7ad4df769349::t_f5f24b115ccab9 153-172
+dante/dep-backend.mts
+  s_6e7ad4df769349::t_34fc8a2d5cb593 100-102
+  s_6e7ad4df769349::t_244dc70be1d678 188,195-198
+  s_6e7ad4df769349::t_240357e37185a2 168-173
+moq/listen/av-ondemand-publish.mts
+  s_6e7ad4df769349::t_39e746ad4fdc55 353-356
+dante/aes67-backend.mts
+  s_6e7ad4df769349::t_6152e46965c877 79-82,86
+  s_6e7ad4df769349::t_4ff665a8c08686 332,339-342
+  s_6e7ad4df769349::t_1f6be582139d56 308-313
+  s_6e7ad4df769349::t_96d11e5f176513 212-214
+dante/dep-backend.test.mts
+  s_6e7ad4df769349::t_be4983cca0db90 8
+  s_6e7ad4df769349::t_ae54661e3680f1 143-160
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "56c840b8a561f3d71aef6d81b22467ab6fad45fe",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

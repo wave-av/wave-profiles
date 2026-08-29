@@ -1,0 +1,25 @@
+av/ts/fixtures.test.mts
+  s_157583aa3b6686::t_72d33802c56664 1-39
+av/fixtures/README.md
+  s_157583aa3b6686::t_1fa1d93268478b 1-29
+av/fixtures/author-golden.mts
+  s_157583aa3b6686::t_54dfc46ce36b63 1-16
+av/fixtures/pcm48k-stereo.expected.json
+  s_157583aa3b6686::t_0ad9c532b686f0 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "787cafbefb12c5baf2fc0e0352d58bfb98e56449",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

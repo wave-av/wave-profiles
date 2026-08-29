@@ -1,0 +1,20 @@
+test/units-as-types.manifest.json
+  s_28647e2699f77b::t_e8db32567cc3bb 1-63,68-70
+  s_28647e2699f77b::t_6aa76236adca53 64-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "8ab38cf01b4143d67dc482e67046f01e4b0f893a",
+  "prompts": {},
+  "sessions": {
+    "s_28647e2699f77b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_002ab9614ffe3YZCFAoqxPVDbh",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

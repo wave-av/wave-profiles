@@ -1,0 +1,25 @@
+src/usage-router-dim.ts
+  s_9772bbce669068::t_d8f6b735218845 1-35,37-38
+  s_9772bbce669068::t_87bf9ac98daee4 36
+src/usage.ts
+  s_9772bbce669068::t_d33df63e0c6637 38
+  s_9772bbce669068::t_234988b657b05c 229
+  s_9772bbce669068::t_87fcd915614ba8 225-227
+  s_9772bbce669068::t_0e721351415c39 239
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "d8a3f7562172c791f0fa41697e0b33e7b46dfd92",
+  "prompts": {},
+  "sessions": {
+    "s_9772bbce669068": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffdc5f1d2ffePafkDHJ5DnSrhI",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

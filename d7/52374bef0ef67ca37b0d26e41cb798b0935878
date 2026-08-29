@@ -1,0 +1,34 @@
+moq/reconnect.test.mjs
+  s_db94f917bdf4ff::t_f77f4a0a69ae3c 1-73
+moq/moq-strand.ts
+  s_db94f917bdf4ff::t_f4f84e73d05dd8 200
+  s_db94f917bdf4ff::t_14f89d57a9667f 177-193,195,197-199,202-204,206-208,214-215,217-274,276,280
+  s_db94f917bdf4ff::t_d06f752b47a885 284-309,317-319,321,323-324,326-328,350-351,354
+  s_db94f917bdf4ff::t_d978da5b5bd070 310-316,320,322,325,329-349,352
+moq/moq-strand.mjs
+  s_ab070365587a37::t_f5d5805b8db5f7 317-324,327-328,330,333-335,345-400,402,405-406,409-410,412-444,447-450,452-487,489,508-510
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "d752374bef0ef67ca37b0d26e41cb798b0935878",
+  "prompts": {},
+  "sessions": {
+    "s_ab070365587a37": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a7fda96a3627edec2",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_db94f917bdf4ff": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "79dc6e12-ee6f-4616-bc24-bbd40d39f3a8",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

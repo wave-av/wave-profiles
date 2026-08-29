@@ -1,0 +1,32 @@
+src/spoke-routing.ts
+  s_e077f59d8037ec::t_24cddee6c9bd33 11-18,25
+  s_e077f59d8037ec::t_c6c16198a33dd7 10
+src/zdr.ts
+  s_e077f59d8037ec::t_9c1a39a8b09962 92-148
+  s_e077f59d8037ec::t_f692515016d0fc 194-195
+  s_e077f59d8037ec::t_720d662ed1340a 20-24,31-36
+  s_e077f59d8037ec::t_dfb0e91176dd7f 179-180
+  s_e077f59d8037ec::t_974d68aaa3132a 37
+test/zdr.spec.ts
+  s_e077f59d8037ec::t_94f0e0f3ee9eff 9
+  s_e077f59d8037ec::t_23fefa645dc41a 124,127-134
+  s_e077f59d8037ec::t_a5b62be619d06e 52-86
+  s_e077f59d8037ec::t_856f4c802b6f89 135,250-279
+  s_e077f59d8037ec::t_82a5f5aba409b5 163-173
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "f4e2a490d246a79b3dd75eaf175e1a7ab205d1e0",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

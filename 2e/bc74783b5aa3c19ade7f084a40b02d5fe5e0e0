@@ -1,0 +1,35 @@
+moq/crest/player/audio-sinks.js
+  s_157583aa3b6686::t_0b227e6b763452 69-94
+moq/crest/player/stem-clock.js
+  s_157583aa3b6686::t_8fd9ea0bd01b2e 1-59
+moq/crest/player/stem-mixer.test.mjs
+  s_157583aa3b6686::t_e23a948f7c10fc 106-141
+  s_157583aa3b6686::t_ecc77aba22a3f9 14
+moq/crest/player/stem-mixer.js
+  s_157583aa3b6686::t_5b922e173a317a 66-106
+moq/crest/player/stem-channel.js
+  s_157583aa3b6686::t_412817f06896fe 1-50,56-117
+  s_157583aa3b6686::t_1bda8edb72d91e 51-55
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_c03b09f601cfba 34
+  s_157583aa3b6686::t_d300a49afb6287 26
+  s_157583aa3b6686::t_8e589c182e6bd6 204-213,215-224,240
+moq/crest/player/stem-clock.test.mjs
+  s_157583aa3b6686::t_2ded39b20e7daa 1-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2ebc74783b5aa3c19ade7f084a40b02d5fe5e0e0",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

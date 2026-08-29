@@ -1,0 +1,25 @@
+src/web_monitor/auth.py
+  s_bc3f7bf17e3c05::t_42c365aec94e47 88,91
+  s_bc3f7bf17e3c05::t_7927c52eaf7177 342
+  s_bc3f7bf17e3c05::t_1531bea1d0cd43 204,208-211
+  s_bc3f7bf17e3c05::t_11ca9f481c25cf 7
+  s_bc3f7bf17e3c05::t_8d68ea5b4d82c9 49-85
+  s_bc3f7bf17e3c05::t_728846ee9d2ae5 312
+  s_bc3f7bf17e3c05::t_b8b2fb3b47871f 212
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "50472b8d390df8b25fa36afc2d486948a2b696c7",
+  "prompts": {},
+  "sessions": {
+    "s_bc3f7bf17e3c05": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff28aa310ffeCBDxVJWkhKGiuv",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+test/dispatch-inference-funnel.spec.ts
+  h_af5ac1a9798224 29-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "c234a1948526d9385d2c9f43c53926706c199fd1",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

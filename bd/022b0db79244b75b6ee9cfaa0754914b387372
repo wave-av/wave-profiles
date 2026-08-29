@@ -1,0 +1,34 @@
+moq/listen/noaa-source.test.mjs
+  s_157583aa3b6686::t_493e53ac705561 1-124
+moq/listen/entrypoint.sh
+  s_157583aa3b6686::t_bfd79658e755a5 2-8,12,28
+moq/listen/listen-source.mjs
+  s_157583aa3b6686::t_5e65ec0b2854d1 14-15
+  s_157583aa3b6686::t_423200a05283f4 95-114
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_b77ff17e7f13bd 21
+  s_157583aa3b6686::t_ac9325fdc53947 344-347
+  s_157583aa3b6686::t_430c75918e0b68 248-249,281-297,303
+moq/listen/fly.noaa.toml
+  s_157583aa3b6686::t_69b6bf7822762f 1-44
+moq/listen/noaa-source.mjs
+  s_157583aa3b6686::t_2f2c0683593057 1-131
+moq/listen/README.md
+  s_157583aa3b6686::t_4c7d2084b420b0 9-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "bd022b0db79244b75b6ee9cfaa0754914b387372",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

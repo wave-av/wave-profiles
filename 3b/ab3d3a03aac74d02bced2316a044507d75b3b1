@@ -1,0 +1,32 @@
+CHANGELOG.md
+  s_3876cd303403e5::t_619cbb2d21b109 11-19
+test/meter-rollup.spec.ts
+  s_3876cd303403e5::t_0831575c4068d3 1-252
+src/meter-ledger.ts
+  s_3876cd303403e5::t_b3c17e6da56e84 258-262,264-270,301-340
+  s_3876cd303403e5::t_c101f05b91da04 149-161
+  s_3876cd303403e5::t_3f3927b1975f30 69
+src/meter-rollup.ts
+  s_3876cd303403e5::t_68c69c1e7f31bb 1-156
+src/scopes.ts
+  s_3876cd303403e5::t_62070e9863af38 117-124
+src/gateway-native-routes.ts
+  s_3876cd303403e5::t_aca22eacf3c696 114-123
+  s_3876cd303403e5::t_8300ac4167b772 50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3bab3d3a03aac74d02bced2316a044507d75b3b1",
+  "prompts": {},
+  "sessions": {
+    "s_3876cd303403e5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe51b455dffepK7Y5M0S2uPYdL",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

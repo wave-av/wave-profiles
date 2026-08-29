@@ -1,0 +1,21 @@
+dante/dante-sink.mts
+  s_6e7ad4df769349::t_64790ce08cca65 25-27
+dante/dante-sink.test.mts
+  s_6e7ad4df769349::t_4158627d790b52 42-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "7a8ed0f2dabca2e1ffd017eeb7c3d95367eebc65",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+src/abuse-controls.ts
+  h_af5ac1a9798224 626-627
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e68ce801683ed8cf5ecdbf7f84594f70a94e5480",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

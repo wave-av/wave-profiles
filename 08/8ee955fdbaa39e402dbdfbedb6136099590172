@@ -1,0 +1,43 @@
+moq/listen/listen-stall-watchdog.mjs
+  s_157583aa3b6686::t_6e856047a8521f 1-78
+moq/listen/fly.chillwave.toml
+  s_157583aa3b6686::t_dfe60ff88b1ff3 23-26
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_d74980112b64b2 27
+  s_157583aa3b6686::t_3b0041ce9da487 157,171-179,202,206
+  s_157583aa3b6686::t_7e6874863e4771 240,253-264
+  s_157583aa3b6686::t_7576829096f16f 265
+moq/listen/listen-stall-watchdog.test.mjs
+  s_157583aa3b6686::t_7a9a4c80f76c5e 1-115
+moq/listen/wave-listen-braid-run.mjs
+  s_157583aa3b6686::t_c44d819058587c 232,235
+  s_157583aa3b6686::t_515d089ef168e2 24
+  s_157583aa3b6686::t_414bda72d94e2e 180,194-201
+  s_157583aa3b6686::t_330b7cc0473324 202
+moq/listen/fly.radio.toml
+  s_157583aa3b6686::t_39c88e7994eda1 23-26
+moq/listen/fly.noaa.toml
+  s_157583aa3b6686::t_a3592dbaa05395 32-35
+moq/listen/fly.ambient.toml
+  s_157583aa3b6686::t_6ccf5d163ed53b 22-25
+moq/listen/fly.lofi.toml
+  s_157583aa3b6686::t_6b56ea6d8c584a 22-25
+moq/listen/fly.chillwave-stems.toml
+  s_157583aa3b6686::t_906dd51bbd6d85 45-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "088ee955fdbaa39e402dbdfbedb6136099590172",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

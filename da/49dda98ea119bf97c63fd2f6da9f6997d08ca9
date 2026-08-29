@@ -1,0 +1,70 @@
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 92-98
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 51
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+CHANGELOG.md
+  h_af5ac1a9798224 18-27
+src/attribution.ts
+  h_af5ac1a9798224 73-83
+src/auth-key-store.ts
+  h_af5ac1a9798224 197,206-223,226
+src/auth-supabase-jwt.ts
+  h_af5ac1a9798224 45-59,65
+src/env-local/spoke-origins.ts
+  h_af5ac1a9798224 73-78
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 50,114-123
+src/meter-ledger.ts
+  h_af5ac1a9798224 69,149-161,258-262,264-270,301-340
+src/meter-rollup.ts
+  h_af5ac1a9798224 1-156
+src/openapi-spec.generated.ts
+  h_af5ac1a9798224 4,6,13,15,17,20
+src/product-meters.ts
+  h_af5ac1a9798224 65-71
+src/public-surface.ts
+  h_af5ac1a9798224 33-35,199-217
+src/realtime.ts
+  h_af5ac1a9798224 160-183,194-195,218
+src/scope-groups-edge.ts
+  h_af5ac1a9798224 69
+src/scopes.ts
+  h_af5ac1a9798224 117-124
+src/spoke-classification.ts
+  h_af5ac1a9798224 68-69
+src/spoke-routing.ts
+  h_af5ac1a9798224 83-90
+test/jwt-org-fallback.spec.ts
+  h_af5ac1a9798224 1-7,150,157,162,165,170-174,187,192-196
+test/meter-rollup.spec.ts
+  h_af5ac1a9798224 1-252
+test/moq-authproxy.spec.ts
+  h_af5ac1a9798224 102-119,140,145
+test/openapi-spec.spec.ts
+  h_af5ac1a9798224 15,66-68,72-81
+test/router-leaderboard-public.spec.ts
+  h_af5ac1a9798224 1-58
+test/spoke-drift.spec.ts
+  h_af5ac1a9798224 69-70
+test/whip-dual-auth.spec.ts
+  h_af5ac1a9798224 106,110-113
+vendor/api-spec/openapi.yaml
+  h_af5ac1a9798224 105-109,1756-1810,3688-3807
+vendor/api-spec/pin.json
+  h_af5ac1a9798224 5-7
+wrangler.toml
+  h_af5ac1a9798224 1043-1044
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "da49dda98ea119bf97c63fd2f6da9f6997d08ca9",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

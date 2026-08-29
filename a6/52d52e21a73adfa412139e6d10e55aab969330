@@ -1,0 +1,28 @@
+src/mcp.ts
+  s_b7cf3e720ce406::t_b5caaa20cb82e2 235
+src/mcp-pricing-tools.ts
+  s_b7cf3e720ce406::t_05083507a15f6a 1-244
+src/mcp-runtime.ts
+  s_b7cf3e720ce406::t_153f3af1bb1acf 141
+  s_b7cf3e720ce406::t_49b040a77b97ff 125
+  s_b7cf3e720ce406::t_5b1325a392a4b2 168,172
+  s_b7cf3e720ce406::t_e92c00d1458d6c 54-58,62
+  s_b7cf3e720ce406::t_6d05ee9e86f6d5 191-199
+  s_b7cf3e720ce406::t_f8e291676c1057 190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a652d52e21a73adfa412139e6d10e55aab969330",
+  "prompts": {},
+  "sessions": {
+    "s_b7cf3e720ce406": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fde398409ffeFOQrW5PpLEHwW5",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

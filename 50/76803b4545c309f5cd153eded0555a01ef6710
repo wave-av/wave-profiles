@@ -1,0 +1,33 @@
+av/demux-proof.test.mts
+  s_157583aa3b6686::t_2eeb0052bd4bb4 1-140,150,152-190
+  s_157583aa3b6686::t_ae1d7113569791 143-144,147
+  s_157583aa3b6686::t_5a44a41461212c 141-142,145-146,148-149,151
+av/ts/roundtrip.test.mts
+  s_157583aa3b6686::t_5573a2858fbf6e 13-16,18
+av/ts/ts-mux.test.mts
+  s_157583aa3b6686::t_f46fe0b4c9724b 5,9
+  s_157583aa3b6686::t_51769bea453254 55-87
+av/ts/ts-mux.mts
+  s_157583aa3b6686::t_e9ad3f05cf9bfe 17-36
+  s_157583aa3b6686::t_2af9f4e0ed526b 11,42-43
+  s_157583aa3b6686::t_300663ec80d3a5 64-65
+  s_157583aa3b6686::t_7ebba6d1931e7f 90-102
+av/ts/ts-demux.test.mts
+  s_157583aa3b6686::t_875e538d068231 8-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "5076803b4545c309f5cd153eded0555a01ef6710",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

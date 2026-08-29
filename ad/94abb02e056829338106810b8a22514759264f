@@ -1,0 +1,19 @@
+test/x402-permit-spender-advertise.spec.ts
+  s_9be7b15b7265c5::t_77ea0e7e90cd5c 96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "ad94abb02e056829338106810b8a22514759264f",
+  "prompts": {},
+  "sessions": {
+    "s_9be7b15b7265c5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcf9d0f5fffeTd5Os30AjC2Hz7",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

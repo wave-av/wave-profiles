@@ -1,0 +1,27 @@
+dante-dep-bridge/scripts/dante-mix-publisher.sh
+  s_6e7ad4df769349::t_23fa88d2dd201a 30-33
+moq/moq-strand.ts
+  s_6e7ad4df769349::t_4778cdc4b2291c 61-65
+  s_6e7ad4df769349::t_efc223a7d84053 118-122
+moq/join-resolve.test.mjs
+  s_6e7ad4df769349::t_598671a621a47f 31-36
+  s_6e7ad4df769349::t_260cdeb763a082 125-162
+moq/moq-strand.mjs
+  s_6e7ad4df769349::t_e946c11fcbf4a9 214,253-256,415-417
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "566504510eba42e5dca7dec518bf6397f2b457bd",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

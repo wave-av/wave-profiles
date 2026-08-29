@@ -1,0 +1,21 @@
+.github/workflows/auto-approve.yml
+  s_60a20469ef4369::t_9a79b91f3de4c7 34-39,43-46
+.github/workflows/auto-merge.yml
+  s_60a20469ef4369::t_0b6121e1df0a2e 51-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "5bd78df61060d4e6a0965601ebb8f4aeb9cd49b3",
+  "prompts": {},
+  "sessions": {
+    "s_60a20469ef4369": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "53ce1bac-4299-4468-858c-89697860fcf1",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

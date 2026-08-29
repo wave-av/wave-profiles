@@ -1,0 +1,25 @@
+moq/listen/mono-source-run.test.mjs
+  s_157583aa3b6686::t_b5d9f65c3e7c2c 1-187
+moq/listen/mono-source-run.mjs
+  s_157583aa3b6686::t_2b4d2f51f110ce 1-209
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_b05206dbd2360a 13-16
+  s_157583aa3b6686::t_8d592e25759191 28
+  s_157583aa3b6686::t_645cbb89b1b6e3 252,255-263
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "4677226d04fe7e85a32097027ca622613af03111",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+test/gateway-llm-contract.test.ts
+  s_15127d80763110::t_b7ece8c38962db 6
+  s_15127d80763110::t_5769b12dc9da33 3
+src/gateway-llm-envelope.ts
+  s_15127d80763110::t_38056555cf663e 32
+  s_15127d80763110::t_8df2da024e142f 49
+  s_15127d80763110::t_51c71f5f974adb 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "a53b49bda0ab8c15c51233f1a674420033598557",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

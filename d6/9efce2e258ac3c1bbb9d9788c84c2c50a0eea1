@@ -1,0 +1,21 @@
+src/x402.ts
+  s_cf363a68d60e93::t_6310bbcc129997 176-181
+test/x402-perbrief-vs-quoted-both-rails.spec.ts
+  s_cf363a68d60e93::t_7244bc84497aa8 1-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d69efce2e258ac3c1bbb9d9788c84c2c50a0eea1",
+  "prompts": {},
+  "sessions": {
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+governance/bin/floating-world.mjs
+  h_af5ac1a9798224 8-9,11,149-165
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "300c30530660f4f0612c26569c8c290928d3f986",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

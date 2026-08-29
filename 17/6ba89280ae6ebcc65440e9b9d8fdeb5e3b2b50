@@ -1,0 +1,21 @@
+package.json
+  s_15127d80763110::t_af949d700d6d6e 16
+package-lock.json
+  s_15127d80763110::t_303ff4cc2aa970 12,130-132
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "176ba89280ae6ebcc65440e9b9d8fdeb5e3b2b50",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

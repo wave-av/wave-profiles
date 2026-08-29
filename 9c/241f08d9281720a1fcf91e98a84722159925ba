@@ -1,0 +1,33 @@
+av/index.mts
+  s_157583aa3b6686::t_c341e1ac3c886b 8
+av/demux.mts
+  s_157583aa3b6686::t_ee9549a7c176aa 90
+  s_157583aa3b6686::t_1febe9ed70dbaa 19-22
+  s_157583aa3b6686::t_91b8a6652fa78b 73
+av/service/live-pipeline.mts
+  s_157583aa3b6686::t_18c505c521df42 1-49
+av/service/live-pipeline.test.mts
+  s_157583aa3b6686::t_1161685fa3fe17 1-76
+av/mux.mts
+  s_157583aa3b6686::t_4a6e40b8bb4fff 103
+  s_157583aa3b6686::t_fc4f00d15ed50a 23-26
+  s_157583aa3b6686::t_8dac0647fa1970 77
+docs/superpowers/plans/2026-07-22-wave-av-mux-demux-p7b-livecore.md
+  s_157583aa3b6686::t_9c0e97e3fdeb2a 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "9c241f08d9281720a1fcf91e98a84722159925ba",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

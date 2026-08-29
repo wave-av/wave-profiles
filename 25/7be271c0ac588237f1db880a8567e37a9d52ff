@@ -1,0 +1,19 @@
+test/oauth-token-rate-limit.spec.ts
+  s_e1b383248d553d::t_bf16eeca308775 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "257be271c0ac588237f1db880a8567e37a9d52ff",
+  "prompts": {},
+  "sessions": {
+    "s_e1b383248d553d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d2b4a23d-6444-4720-ad99-f7ffd71527c4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

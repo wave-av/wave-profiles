@@ -1,0 +1,21 @@
+src/billing-provider.ts
+  s_ae57f6e8d1ee19::t_f45f6ee8a68a6d 2-6,8-11,16-20
+  s_ae57f6e8d1ee19::t_28890eb7074a2a 51-53
+  s_ae57f6e8d1ee19::t_13cdeff88eac1c 31-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "79a4f3daa20a7b1cd49728449496f94b09219d96",
+  "prompts": {},
+  "sessions": {
+    "s_ae57f6e8d1ee19": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "48c70c59-62a1-4b54-b782-303e5787322d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+src/scopes.ts
+  s_6046880c148371::t_01440a5731f0a1 111-114,116
+src/meter-ledger.ts
+  s_6046880c148371::t_9e1449bafa14fb 236-241,245-247,251-252,255-256,263-264,267-268,271,276-277
+  s_6046880c148371::t_562c5e7680b480 87,95,99
+  s_6046880c148371::t_bb18076909be15 46
+  s_6046880c148371::t_22f125c7f67126 150-152,154,156-160,162-165
+  s_6046880c148371::t_b2b528ca374224 186-192,196,200-204
+test/meter-ledger.spec.ts
+  s_6046880c148371::t_30832fe0274f5c 50-51,56
+  s_6046880c148371::t_c6da269c01e129 142,146-150,153-154,156-157
+  s_6046880c148371::t_86df54b67c744f 220,222,230
+  s_6046880c148371::t_1fa8797aec1057 242-252
+  s_6046880c148371::t_e0c3eeb9f22532 193-200
+  s_6046880c148371::t_0a31e5ca35e1a8 85,87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "fc172ca126e375732a88a749fa60bf73f259fb43",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

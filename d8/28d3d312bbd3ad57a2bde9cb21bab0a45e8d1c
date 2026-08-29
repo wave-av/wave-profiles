@@ -1,0 +1,21 @@
+moq/listen/fly.radio.toml
+  s_157583aa3b6686::t_b1f17636152da8 9-11,19
+moq/listen/Dockerfile
+  s_157583aa3b6686::t_195dfe2a89f921 19-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "d828d3d312bbd3ad57a2bde9cb21bab0a45e8d1c",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

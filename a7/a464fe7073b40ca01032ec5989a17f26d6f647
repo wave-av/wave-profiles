@@ -1,0 +1,51 @@
+moq/listen/wave-listen-braid-run.mjs
+  s_157583aa3b6686::t_038df6d0a83757 117
+  s_157583aa3b6686::t_cf1e15e6f430a9 148
+  s_157583aa3b6686::t_52dd318e3e42f1 159-160
+  s_157583aa3b6686::t_7585b933e95f21 91-92,95-98
+  s_157583aa3b6686::t_e2870a1d70a6d0 22
+  s_157583aa3b6686::t_29d3717aace3fd 72,80
+  s_157583aa3b6686::t_4a7b10898af737 30-40
+moq/crest/player/braid-depth-render.test.mjs
+  s_157583aa3b6686::t_a000a9bdd14033 1-58
+moq/listen/braid-depth-runtime.test.mjs
+  s_157583aa3b6686::t_f9234e5a1c5d09 1-65
+moq/crest/player/stem-braid-channel.js
+  s_157583aa3b6686::t_778724e84474b2 78-80
+  s_157583aa3b6686::t_c1683d5c7ce8f8 14
+moq/listen/wave-listen-publish.mjs
+  s_157583aa3b6686::t_8f478382a07183 28
+  s_157583aa3b6686::t_9d66336a93122a 100-104
+  s_157583aa3b6686::t_86763da1a79d3b 38-39,42
+  s_157583aa3b6686::t_8332a2cdb7513c 72
+  s_157583aa3b6686::t_0cc518591bf3c0 91-99,105
+  s_157583aa3b6686::t_ded77bdfe03280 73-82
+  s_157583aa3b6686::t_4c8ce15c554b27 210-216
+  s_157583aa3b6686::t_663ba1c8c01175 184
+  s_157583aa3b6686::t_0556eec1dca9cd 41
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_883aa411758b78 101
+moq/listen/braid-source.mjs
+  s_157583aa3b6686::t_fc9646190a0c0b 62-65
+  s_157583aa3b6686::t_92016fed371a52 41
+  s_157583aa3b6686::t_fc46e1e03e3dc5 93
+  s_157583aa3b6686::t_3e3644911b3978 23-27
+moq/crest/player/pcm-audio.js
+  s_157583aa3b6686::t_528b75955eea2d 29-78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "a7a464fe7073b40ca01032ec5989a17f26d6f647",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

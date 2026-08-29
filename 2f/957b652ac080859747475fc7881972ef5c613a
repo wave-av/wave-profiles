@@ -1,0 +1,21 @@
+test/dispatch-inference.spec.ts
+  s_a6f0261619cca8::t_73ddec57a130c1 258-261,269,272
+src/dispatch-model-prices.ts
+  s_a6f0261619cca8::t_89d4939880709e 57-58,62-63,66-68,84-85,89-90,93-94,98-99,102-103,107-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2f957b652ac080859747475fc7881972ef5c613a",
+  "prompts": {},
+  "sessions": {
+    "s_a6f0261619cca8": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff9236ebbffe6rPjjXyTeE7s8S",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.github/workflows/claude.yml
+  s_d9915bbafa9657::t_bd50a95e27064c 48,50,52
+  s_d9915bbafa9657::t_1d69b7a42afa99 74-82
+  s_d9915bbafa9657::t_f04ac887596bc6 49,51,53-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "a554a70d942d008f9ac73bfd2acfce77cc4aa9e5",
+  "prompts": {},
+  "sessions": {
+    "s_d9915bbafa9657": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fe57dfa6-a960-4f87-a0d3-16b30ad36ba7",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

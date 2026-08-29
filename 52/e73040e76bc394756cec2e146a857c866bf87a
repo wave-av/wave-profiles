@@ -1,0 +1,35 @@
+moq/moq-strand.ts
+  s_6e7ad4df769349::t_5af5c59a40a754 116-119,122
+  s_6e7ad4df769349::t_c9892f52b4b732 65-69
+moq/join-resolve.test.mjs
+  s_6e7ad4df769349::t_32e5613c3874b0 125-162
+  s_6e7ad4df769349::t_37f62650334313 31-36
+dante-dep-bridge/scripts/dante-mix-publisher.sh
+  s_6e7ad4df769349::t_83394d6bd40707 30-34
+moq/moq-strand.mjs
+  s_482469a283f51b::t_9895b063128a7e 218,251-253,256,415-417
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "52e73040e76bc394756cec2e146a857c866bf87a",
+  "prompts": {},
+  "sessions": {
+    "s_482469a283f51b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a039b185c8ec6f108",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

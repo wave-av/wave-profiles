@@ -1,0 +1,14 @@
+scripts/x402-paid-smoke.mjs
+  h_af5ac1a9798224 103,140
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "314edb3515df5bc670e84f6340c23345fd24ce46",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

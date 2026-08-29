@@ -1,0 +1,23 @@
+src/dispatch-generation-stamp.ts
+  s_0950db28a6ae27::t_f647a599585998 134-135,137-139,142-143,148-149,159-161
+  s_0950db28a6ae27::t_fcc6b8417d8ec8 92-93
+  s_0950db28a6ae27::t_2149c66be0a3bd 41-66
+test/dispatch-generation-stamp.spec.ts
+  s_0950db28a6ae27::t_3598424a70c383 158,165-200,203,205,207-213
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "df5c90fa57d89e6f8acd647bb06e89803cada2fa",
+  "prompts": {},
+  "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

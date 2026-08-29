@@ -1,0 +1,24 @@
+moq/listen/braid-source-fetch.mjs
+  s_157583aa3b6686::t_a54f3d7ceb28c0 257-259
+  s_157583aa3b6686::t_59706744267427 1-220,222-223,225-256,260-263
+  s_157583aa3b6686::t_5e8f27415eaf03 221,224
+moq/listen/braid-source-fetch.test.mjs
+  s_157583aa3b6686::t_b72bd208cfd71a 124,127
+  s_157583aa3b6686::t_aa6620f97c69f3 1-123,125-126,128-223
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ba32bed39bcdba45e51cc1d1d191b341732c11f8",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

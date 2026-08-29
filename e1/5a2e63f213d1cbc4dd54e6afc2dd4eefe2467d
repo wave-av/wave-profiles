@@ -1,0 +1,45 @@
+test/mcp-vocabulary-e5p3.spec.ts
+  s_e077f59d8037ec::t_264fea3e1c78ed 1-164
+CHANGELOG.md
+  s_e077f59d8037ec::t_7f35008c4f7d2c 18-31
+src/mcp.ts
+  s_e077f59d8037ec::t_623e2a9fcac195 47-59
+  s_e077f59d8037ec::t_cf4cd00218113b 68-70
+  s_e077f59d8037ec::t_39baef6d14393e 46
+src/mcp-vocabulary.ts
+  s_e077f59d8037ec::t_0460871cdd45b9 32
+  s_e077f59d8037ec::t_c2830aa149e9dd 61-63
+  s_e077f59d8037ec::t_596651c5c722ce 29-31
+  s_e077f59d8037ec::t_b7b0e9ada33062 33-35,58-60
+  s_e077f59d8037ec::t_f13984ca4c52db 64-66
+  s_e077f59d8037ec::t_0eda4438e0b4ab 1-28,36-57,67-152
+src/public-surface.ts
+  s_e077f59d8037ec::t_04ed867b576036 147-155
+  s_e077f59d8037ec::t_3c690416035d0c 22-24
+src/mcp-vocabulary-snapshot.ts
+  s_1f47a1ff9c83d4::t_99e90f626f8f18 1-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "e15a2e63f213d1cbc4dd54e6afc2dd4eefe2467d",
+  "prompts": {},
+  "sessions": {
+    "s_1f47a1ff9c83d4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-aeae18b7a9ca4132f",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+av/index.mts
+  s_157583aa3b6686::t_d4e3f77f3df363 6
+docs/superpowers/plans/2026-07-22-wave-av-mux-demux-p6-demuxleg.md
+  s_157583aa3b6686::t_a65004002e039b 1-66
+av/demux.test.mts
+  s_157583aa3b6686::t_eefd66073cdf77 1-161
+av/demux.mts
+  s_157583aa3b6686::t_d8928e25648839 1-8,10-100
+  s_157583aa3b6686::t_5e0bb2335d0601 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "b0baf1b5df3047ff7e94a1780f3771504956e3d6",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+src/pricing-manifests.ts
+  s_68a1dc0626acc6::t_07187eec32ff32 1-180
+test/pricing-manifests.spec.ts
+  s_68a1dc0626acc6::t_d8d4d1db3b4740 1-97
+src/env.ts
+  s_68a1dc0626acc6::t_960ef4af6fd39d 78,81
+src/gateway-native-routes.ts
+  s_68a1dc0626acc6::t_0fd0b09447d34a 52,138-149
+src/scopes.ts
+  s_68a1dc0626acc6::t_ed9088968f8432 125-129
+wrangler.toml
+  s_756b33c630d33b::t_d9b5e6d3ee7ada 164-168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "52f5b430fa732473833007eef6de7c90923dde0f",
+  "prompts": {},
+  "sessions": {
+    "s_68a1dc0626acc6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff4e4ebb2ffeIk1zeBG7l5n6Tm",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

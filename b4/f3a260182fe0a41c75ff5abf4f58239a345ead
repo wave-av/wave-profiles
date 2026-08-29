@@ -1,0 +1,24 @@
+src/spoke-routing.ts
+  s_157583aa3b6686::t_f08561c942e045 46-55
+src/scope-groups.ts
+  s_157583aa3b6686::t_e9a8247dba7ab5 29
+  s_157583aa3b6686::t_b87d3b8493cebe 152
+src/env-local/spoke-origins.ts
+  s_157583aa3b6686::t_fd7e6987364021 69-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "b4f3a260182fe0a41c75ff5abf4f58239a345ead",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

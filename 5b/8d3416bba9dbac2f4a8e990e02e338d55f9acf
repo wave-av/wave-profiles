@@ -1,0 +1,27 @@
+dante/sap-socket.mts
+  s_6e7ad4df769349::t_303f5ab3bfbf48 1-140
+dante/sap-socket.test.mts
+  s_6e7ad4df769349::t_d0868acd71f9fa 94,96-100
+  s_6e7ad4df769349::t_6e59d8fad8813d 1-93,95,101-102
+dante/index.mts
+  s_6e7ad4df769349::t_9bc93fbbb35931 39-40,44,48-55
+  s_6e7ad4df769349::t_5f9361cec16c65 56
+.github/workflows/dante-listen-tests.yml
+  s_6e7ad4df769349::t_f4dec0f251ba87 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "5b8d3416bba9dbac2f4a8e990e02e338d55f9acf",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

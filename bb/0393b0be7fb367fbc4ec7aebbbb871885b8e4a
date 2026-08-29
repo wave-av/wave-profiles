@@ -1,0 +1,14 @@
+config/slos/transcribe-slos.yaml
+  h_af5ac1a9798224 1-155
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "bb0393b0be7fb367fbc4ec7aebbbb871885b8e4a",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

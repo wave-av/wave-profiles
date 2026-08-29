@@ -1,0 +1,22 @@
+src/model-rerank.ts
+  s_2007d4b027e9be::t_28bfcc886fa3ea 1-137
+src/origin.ts
+  s_2007d4b027e9be::t_4ece6b5f01ca87 166-167
+  s_2007d4b027e9be::t_88deeb673ebf7f 165
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "4826af2a159e0742f429d316014aac3247619bd7",
+  "prompts": {},
+  "sessions": {
+    "s_2007d4b027e9be": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fca222ef0ffehgk4Am6d7Ae7qm",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

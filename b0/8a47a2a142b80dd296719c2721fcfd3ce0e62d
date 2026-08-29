@@ -1,0 +1,23 @@
+src/auth-key-store.ts
+  s_6046880c148371::t_8ab263644ca8fb 195-196,199
+  s_6046880c148371::t_918a5f1a59d952 188-194,197-198,200-224
+src/auth-supabase-jwt.ts
+  s_6046880c148371::t_ed6287390872ea 18
+  s_6046880c148371::t_bef90282f64348 53-57,63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b08a47a2a142b80dd296719c2721fcfd3ce0e62d",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

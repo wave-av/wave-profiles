@@ -1,0 +1,20 @@
+config/slos/transcribe-slos.yaml
+  s_11f01c22e59a16::t_d6483522d5bb94 148
+  s_11f01c22e59a16::t_b5c8711f9702d2 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "374f523aa70d6c1e93de755d3cc71b0f4a2e154e",
+  "prompts": {},
+  "sessions": {
+    "s_11f01c22e59a16": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_010f611f8ffeu0PBw8nXYqfkaV",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

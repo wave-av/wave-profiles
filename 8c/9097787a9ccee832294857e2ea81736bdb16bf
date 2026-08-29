@@ -1,0 +1,40 @@
+src/env.ts
+  s_db1b2a792e5f25::t_83489c8e32c064 55-58,60
+src/authorized-forward.ts
+  s_db1b2a792e5f25::t_77d0584331d5b2 34-36
+  s_db1b2a792e5f25::t_590b60c39c1e98 199-205
+src/worker-runtime.ts
+  s_db1b2a792e5f25::t_40366439558b79 28,35-37
+  s_db1b2a792e5f25::t_1c28d4e73a5741 13-15
+wrangler.toml
+  s_db1b2a792e5f25::t_18971eb9fd1bfb 1192-1238
+  s_db1b2a792e5f25::t_3a96ea1a926106 339-344
+src/insights.ts
+  s_db1b2a792e5f25::t_e25a5b96045a0c 147-160
+  s_db1b2a792e5f25::t_291ce3401aaf55 314-316,318-323
+  s_db1b2a792e5f25::t_db97d95854b8a3 350-364
+  s_db1b2a792e5f25::t_fdcf9deb8ecc73 195
+  s_db1b2a792e5f25::t_2e622edb0d12e1 1-146,161-194,196-313,317,324-349,365-391
+scripts/insights-synth.ts
+  s_db1b2a792e5f25::t_f5257ecf4c1c45 1-128
+test/unit/insights.spec.ts
+  s_db1b2a792e5f25::t_28a9fefdc0c13b 1-184
+src/insights-drain.ts
+  s_db1b2a792e5f25::t_131d0625805a6f 1-119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8c9097787a9ccee832294857e2ea81736bdb16bf",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

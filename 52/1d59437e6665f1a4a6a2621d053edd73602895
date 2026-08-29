@@ -1,0 +1,22 @@
+docs/superpowers/specs/2026-07-21-dante-observe-product-first-increment.md
+  s_157583aa3b6686::t_79780090a44363 150
+  s_157583aa3b6686::t_6632d32ed541d6 154
+  s_157583aa3b6686::t_f71da8ba8e0958 1-149,151,153,155-169
+  s_157583aa3b6686::t_f4cd48141b1db7 152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "521d59437e6665f1a4a6a2621d053edd73602895",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

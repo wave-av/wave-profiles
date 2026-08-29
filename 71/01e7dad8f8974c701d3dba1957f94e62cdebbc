@@ -1,0 +1,31 @@
+test/metrics.spec.ts
+  s_6bd73d48dc7ec3::t_fb58bbe25f1be3 1-139
+observability/METRICS-PIPELINE.md
+  s_6bd73d48dc7ec3::t_fb58bbe25f1be3 1-58
+src/metrics.ts
+  s_6bd73d48dc7ec3::t_fb58bbe25f1be3 1-126
+src/metrics-do.ts
+  s_6bd73d48dc7ec3::t_fb58bbe25f1be3 1-60
+wrangler.toml
+  s_6bd73d48dc7ec3::t_fb58bbe25f1be3 95-103,125-127
+src/worker.ts
+  s_6bd73d48dc7ec3::t_41510d04246abc 59-60,94-95,149-184,442-455,622-654
+test/metrics-do.spec.ts
+  s_6bd73d48dc7ec3::t_fb58bbe25f1be3 1-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "7101e7dad8f8974c701d3dba1957f94e62cdebbc",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

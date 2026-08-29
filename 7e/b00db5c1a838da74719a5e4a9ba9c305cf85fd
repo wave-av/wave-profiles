@@ -1,0 +1,31 @@
+package.json
+  s_d9915bbafa9657::t_0e633d9f8bead8 43-45
+CHANGELOG.md
+  s_d9915bbafa9657::t_dbe320a4c743bd 381-394
+package-lock.json
+  s_124891ed63801b::t_49ca7c268418f1 3367-3369
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "7eb00db5c1a838da74719a5e4a9ba9c305cf85fd",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_d9915bbafa9657": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fe57dfa6-a960-4f87-a0d3-16b30ad36ba7",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

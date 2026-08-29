@@ -1,0 +1,31 @@
+src/mcp-product-paywall.ts
+  s_e077f59d8037ec::t_30a92a4ccd656d 117-161
+  s_e077f59d8037ec::t_907e40bbe01a23 58-61
+  s_e077f59d8037ec::t_f3676318f85bc9 1-57,62-68,70-86,88-116
+  s_e077f59d8037ec::t_b8cb6681043dde 69
+  s_e077f59d8037ec::t_3ab9e8c5e1fe11 87
+test/mcp-paywall-before-arguments-853.spec.ts
+  s_e077f59d8037ec::t_29cc0f45e57a49 1-187
+src/mcp-tool-result.ts
+  s_e077f59d8037ec::t_00e3a20363b43d 1-97
+src/mcp-product-exec.ts
+  s_e077f59d8037ec::t_769bb9cf628f96 27-43
+  s_e077f59d8037ec::t_21772261de23b5 180-187
+  s_e077f59d8037ec::t_aed27e8115690a 207
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "c141c0822913f148a4421090dcb0dd99465064cc",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

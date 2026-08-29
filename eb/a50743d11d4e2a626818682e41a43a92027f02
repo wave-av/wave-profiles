@@ -1,0 +1,29 @@
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_5fd82ce7012794 86-88
+bridge-wire/smoke.sh
+  s_157583aa3b6686::t_9cc5a76a33437a 42-48,51-59
+moq/listen/listen-runtime-cap.mjs
+  s_157583aa3b6686::t_e952c0fcc7fcc6 1-27
+moq/listen/listen-runtime-cap.test.mjs
+  s_157583aa3b6686::t_88a4567c924be9 1-44
+moq/listen/listen-source.test.mjs
+  s_157583aa3b6686::t_5d284734075578 6-8,26-44,65-78
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_702da2c5ac3e6f 18,135-140
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "eba50743d11d4e2a626818682e41a43a92027f02",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

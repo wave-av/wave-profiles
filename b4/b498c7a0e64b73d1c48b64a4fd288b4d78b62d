@@ -1,0 +1,19 @@
+wrangler.toml
+  s_8152bca18f72ee::t_29501c23aec61a 194,197-202
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b4b498c7a0e64b73d1c48b64a4fd288b4d78b62d",
+  "prompts": {},
+  "sessions": {
+    "s_8152bca18f72ee": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe2ea6ec1ffeBdQY2Z91w17mBF",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

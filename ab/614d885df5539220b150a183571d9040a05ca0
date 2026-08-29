@@ -1,0 +1,14 @@
+src/routes/v1/network/surface.ts
+  h_af5ac1a9798224 24,48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "ab614d885df5539220b150a183571d9040a05ca0",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

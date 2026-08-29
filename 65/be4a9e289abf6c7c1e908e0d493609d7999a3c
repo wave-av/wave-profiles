@@ -1,0 +1,20 @@
+test/betterstack-webhook.spec.ts
+  s_b6f4ff150ec0bf::t_bb803040a8ddab 69-76
+  s_b6f4ff150ec0bf::t_4b09e4b2d98acc 84,91,98,105,112,119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "65be4a9e289abf6c7c1e908e0d493609d7999a3c",
+  "prompts": {},
+  "sessions": {
+    "s_b6f4ff150ec0bf": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe049f739ffezCIOr9IYnKihal",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

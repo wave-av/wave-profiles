@@ -1,0 +1,25 @@
+listen/sap-sdp.mts
+  s_157583aa3b6686::t_da72effb9b4281 1-251
+listen/aes67-discovery.mts
+  s_157583aa3b6686::t_d7d443598b2c1f 1-133
+listen/aes67-discovery.test.mts
+  s_157583aa3b6686::t_b1cd1ad273bf52 1-123
+listen/sap-sdp.test.mts
+  s_157583aa3b6686::t_1530af829653d1 1-252
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f82b9fb245847ecd488f5a20a840e8093a7fc690",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

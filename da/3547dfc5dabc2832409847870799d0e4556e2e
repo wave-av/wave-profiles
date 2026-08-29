@@ -1,0 +1,23 @@
+wrangler.toml
+  s_e077f59d8037ec::t_8581739813dfa4 234-235
+  s_e077f59d8037ec::t_bc49e4c17edf39 240-251,254,257-277
+scripts/provision-vectorize.sh
+  s_e077f59d8037ec::t_3935fc2f835977 49-51
+  s_e077f59d8037ec::t_66f7a35d1dc907 16-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "da3547dfc5dabc2832409847870799d0e4556e2e",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

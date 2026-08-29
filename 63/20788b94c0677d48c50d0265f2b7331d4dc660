@@ -1,0 +1,20 @@
+test/main-break-health.spec.ts
+  s_7ebbd5386d6c53::t_d5ba00b5ad9597 44
+  s_7ebbd5386d6c53::t_0137b36aa24040 77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "6320788b94c0677d48c50d0265f2b7331d4dc660",
+  "prompts": {},
+  "sessions": {
+    "s_7ebbd5386d6c53": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe829bc00ffe92XQ8Bz1A25Xl2",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

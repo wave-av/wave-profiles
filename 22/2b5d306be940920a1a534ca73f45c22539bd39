@@ -1,0 +1,14 @@
+test/comms-tenants.spec.ts
+  h_af5ac1a9798224 52,58,61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "222b5d306be940920a1a534ca73f45c22539bd39",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

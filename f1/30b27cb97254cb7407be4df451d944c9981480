@@ -1,0 +1,28 @@
+dante-dep-bridge/scripts/aes67_reader_test.py
+  s_6e7ad4df769349::t_38126714a85ed2 148-189
+  s_6e7ad4df769349::t_f0a72df6896fad 87,89,97-98,100,102,113
+  s_6e7ad4df769349::t_16c0bd5370106e 241-242,246
+dante-dep-bridge/scripts/aes67_reader.py
+  s_6e7ad4df769349::t_b4e92e85e53f37 25-29
+  s_6e7ad4df769349::t_9f08a84bd59127 130-140,148,161-169,172
+  s_6e7ad4df769349::t_8725d56d4594e6 58-61
+  s_6e7ad4df769349::t_73cf206c909cda 181-182,185-186
+  s_6e7ad4df769349::t_ac4a900d397978 349-357,359
+  s_6e7ad4df769349::t_a7c6e1bc24eb0b 324
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "f130b27cb97254cb7407be4df451d944c9981480",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

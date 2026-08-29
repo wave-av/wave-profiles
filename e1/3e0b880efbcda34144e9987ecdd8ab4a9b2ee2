@@ -1,0 +1,62 @@
+.coderabbit.yaml
+  h_af5ac1a9798224 33-40,87-92,108-111
+CHANGELOG.md
+  h_af5ac1a9798224 9-17,20
+README.md
+  h_af5ac1a9798224 13-15,26,34,36-49,66,75,82-92,99-103,110-113,119-123
+capabilities.json
+  h_af5ac1a9798224 11-14
+containers/stream-bridge/Dockerfile
+  h_af5ac1a9798224 12-86,89-93,96-101
+containers/stream-bridge/README.md
+  h_af5ac1a9798224 78-80
+docs/REALTIME.md
+  h_af5ac1a9798224 5-8,40-59,74-85,129,133,141,145,148-150,156-159
+docs/api/openapi.yaml
+  h_af5ac1a9798224 9-16,44-47,52-61,92-301,306-309,311,332-334,343-382,387-391,393,395-403,424-426,430-437,442-790,796-797,800,805-806,809,847,854
+harness/README.md
+  h_af5ac1a9798224 14
+harness/leg3.mjs
+  h_af5ac1a9798224 14-15,29-40,53
+harness/leg4-bargein.mjs
+  h_af5ac1a9798224 21,33-46,59
+src/agent-turn-meter.ts
+  h_af5ac1a9798224 1-185
+src/agent-turn-sink.ts
+  h_af5ac1a9798224 138-144
+src/agent-turn-speech.ts
+  h_af5ac1a9798224 1-269
+src/agent-turn.ts
+  h_af5ac1a9798224 43-48,219-224,238-239,247-248,294,322,334-338,347-353,360-406,424,426-427,429-430,454-462,503-505,507-514,517,523-524,526-553
+src/sentence-chunker.ts
+  h_af5ac1a9798224 1-151
+src/voice-cogs-ledger.ts
+  h_af5ac1a9798224 1-115
+src/voice-cogs.ts
+  h_af5ac1a9798224 1-239
+src/voice-meter.ts
+  h_af5ac1a9798224 16-25,98-99,116-150,152,159-208
+test/agent-turn-d1-sentence-streaming.test.ts
+  h_af5ac1a9798224 1-437
+test/agent-turn-e1-latency.test.ts
+  h_af5ac1a9798224 242-293
+test/voice-cogs-ledger.test.ts
+  h_af5ac1a9798224 1-256
+test/voice-cogs.test.ts
+  h_af5ac1a9798224 1-203
+test/voice-meter-recorded-zero.test.ts
+  h_af5ac1a9798224 1-162
+wrangler.toml
+  h_af5ac1a9798224 113-119,561-589,593-598,606-614,616-617,620-630,646-681
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e13e0b880efbcda34144e9987ecdd8ab4a9b2ee2",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

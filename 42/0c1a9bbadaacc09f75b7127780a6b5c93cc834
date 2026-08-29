@@ -1,0 +1,16 @@
+src/inference-backends.ts
+  h_af5ac1a9798224 132
+test/inference-openrouter.spec.ts
+  h_af5ac1a9798224 125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "420c1a9bbadaacc09f75b7127780a6b5c93cc834",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

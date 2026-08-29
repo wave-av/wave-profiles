@@ -1,0 +1,27 @@
+test/sandbox-abuse.spec.ts
+  s_cf363a68d60e93::t_0619e72d1ab009 243-246,249-252
+  s_cf363a68d60e93::t_457e433d386a72 236-242,247-248,253-290
+  s_cf363a68d60e93::t_88a18cd987a1ef 23
+src/abuse-controls.ts
+  s_cf363a68d60e93::t_e46af2b1681f3d 553-558,561-562,565
+  s_cf363a68d60e93::t_86be7a2c910658 499-516
+  s_cf363a68d60e93::t_40e2ae9a945423 498
+src/worker.ts
+  s_cf363a68d60e93::t_ba263d1e8ca4ab 693-696
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f7adcaaa5874be846d2e31c913f1d435d4e6f685",
+  "prompts": {},
+  "sessions": {
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

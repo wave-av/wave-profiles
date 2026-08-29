@@ -1,0 +1,20 @@
+CHANGELOG.md
+  s_124891ed63801b::t_48c72152625e48 11-35,37-42
+  s_124891ed63801b::t_991b5f3bb1cae7 43-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "2940ab3fc386e0863df3675d0f6931ce74ab571c",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+src/agent-spokes.ts
+  s_0213641ac58af6::t_6bab1d4f3910e8 166-181
+  s_0213641ac58af6::t_6351353d2a4072 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "551608d2f63b93c379319f8fd93a62099bb8b24f",
+  "prompts": {},
+  "sessions": {
+    "s_0213641ac58af6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fdad44958ffe2zcFEsYI5CNOY1",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

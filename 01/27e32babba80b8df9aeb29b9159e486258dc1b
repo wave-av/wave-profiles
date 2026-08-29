@@ -1,0 +1,23 @@
+src/spend-cap.ts
+  s_db1b2a792e5f25::t_677e4d82d5dde0 340-374,391-395,400
+  s_db1b2a792e5f25::t_2ab18ed0be7f52 411
+  s_db1b2a792e5f25::t_b6bf0b69469902 47-54
+test/spend-cap.spec.ts
+  s_db1b2a792e5f25::t_79cac0a065bb7a 456-550
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "0127e32babba80b8df9aeb29b9159e486258dc1b",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

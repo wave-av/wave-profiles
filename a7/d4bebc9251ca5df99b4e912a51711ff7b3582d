@@ -1,0 +1,16 @@
+.github/workflows/x402-paid-smoke.yml
+  h_af5ac1a9798224 73-77,83,86-100
+scripts/x402-paid-smoke.mjs
+  h_af5ac1a9798224 50-52,74,141-152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "a7d4bebc9251ca5df99b4e912a51711ff7b3582d",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

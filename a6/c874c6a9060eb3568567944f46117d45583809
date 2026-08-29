@@ -1,0 +1,14 @@
+.github/.token-budget-baseline
+  h_af5ac1a9798224 121-125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "a6c874c6a9060eb3568567944f46117d45583809",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

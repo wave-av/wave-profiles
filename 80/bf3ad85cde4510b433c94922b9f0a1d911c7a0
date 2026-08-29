@@ -1,0 +1,37 @@
+src/rtms-bridge-core.ts
+  s_db94f917bdf4ff::t_7cc48f3aaa21f0 111-120,123-129,135-136,139-142,146-149,152-158,160-165
+src/encoders/moq-forward-target.ts
+  s_db94f917bdf4ff::t_2d684be19d07fe 1-185
+test/zoom-rtms-bridge-do.test.ts
+  s_db94f917bdf4ff::t_239ab5bc75fd78 238-276,279,281-306
+  s_db94f917bdf4ff::t_8f53f899c83a75 45,49
+  s_db94f917bdf4ff::t_fba8a410a5c9aa 21-23,29
+  s_db94f917bdf4ff::t_d8817e79fa903f 277-278,280
+test/rtms-bridge-core.test.ts
+  s_db94f917bdf4ff::t_86effb26f3830f 369-421
+  s_db94f917bdf4ff::t_1d96fa28654400 11,16
+test/moq-forward-target.test.ts
+  s_db94f917bdf4ff::t_55d91de6a2fc72 82-85
+  s_db94f917bdf4ff::t_1420ec26610892 1-81,86-172
+src/zoom-rtms-bridge-do.ts
+  s_db94f917bdf4ff::t_71de95d9540ae3 49
+  s_db94f917bdf4ff::t_71e2828d500745 331-356
+  s_db94f917bdf4ff::t_714c5105bff8d3 29,34,45
+  s_db94f917bdf4ff::t_e7c85fcb42c8d5 120-123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "80bf3ad85cde4510b433c94922b9f0a1d911c7a0",
+  "prompts": {},
+  "sessions": {
+    "s_db94f917bdf4ff": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "79dc6e12-ee6f-4616-bc24-bbd40d39f3a8",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

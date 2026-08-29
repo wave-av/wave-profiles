@@ -1,0 +1,43 @@
+wrangler.toml
+  s_ccbb3091d0f293::t_189de27eae8cfa 293-297
+  s_ccbb3091d0f293::t_62b884121f3d8a 226-231
+src/errors.ts
+  s_ccbb3091d0f293::t_1e64d5cbbe022e 158-172
+src/worker.ts
+  s_ccbb3091d0f293::t_de3177f3821a1f 33-34
+  s_ccbb3091d0f293::t_3d2d2e1a99a28e 17
+  s_eb2f7e65359b4f::t_57577018331e05 81
+  s_ccbb3091d0f293::t_9d471691258c1e 342-344
+  s_ccbb3091d0f293::t_472f2722d98892 29-32
+test/realtime.spec.ts
+  s_eb2f7e65359b4f::t_a051163224931b 1-118
+src/scopes.ts
+  s_ccbb3091d0f293::t_f6f1a51905b91f 122
+  s_ccbb3091d0f293::t_b3aca803ab5e87 196-197
+  s_ccbb3091d0f293::t_a4482047e73c67 95-102
+src/forward.ts
+  s_ccbb3091d0f293::t_df6a5831651a72 57-58
+  s_ccbb3091d0f293::t_f7277418d946b6 1-9,11-56,59-132
+  s_ccbb3091d0f293::t_f49f1195e480a7 10
+src/realtime.ts
+  s_ccbb3091d0f293::t_ed4ee2189b61e5 28-31,35-37
+  s_ccbb3091d0f293::t_2d9aa161762238 1-27,32-34,38-47,52,55-74
+  s_ccbb3091d0f293::t_452f23cf9e1182 48-51
+  s_ccbb3091d0f293::t_069d3abcdc326e 53-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "3a47e7b3e64a9a9bf94214d2be4aabcc2466f995",
+  "prompts": {},
+  "sessions": {
+    "s_eb2f7e65359b4f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b3d1e764-db6f-4033-aa5b-ac1ed7a4fb4b",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

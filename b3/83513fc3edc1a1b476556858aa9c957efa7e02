@@ -1,0 +1,35 @@
+CHANGELOG.md
+  s_2007d4b027e9be::t_40e3edb91a1f4f 10-15
+src/origin.ts
+  s_2007d4b027e9be::t_a54245fbd0c69d 188
+  s_2007d4b027e9be::t_87e8ec1a825ffa 164-167,173-187,189-287
+  s_2007d4b027e9be::t_21a06d5679532b 168-172
+  s_2007d4b027e9be::t_f684f280c9ee55 22
+  s_2007d4b027e9be::t_9276dddf56d14e 444
+  s_2007d4b027e9be::t_bc59b31680a207 447
+  s_2007d4b027e9be::t_cd4afb27a0a892 291,294-310
+test/origin.spec.ts
+  s_2007d4b027e9be::t_6b633fc724cd10 160,163-169
+  s_2007d4b027e9be::t_5356c4cd855cfd 1-9
+  s_2007d4b027e9be::t_01aac4129b0dca 181,184-186
+  s_2007d4b027e9be::t_6ea360401f79c6 182-183,188-189
+  s_2007d4b027e9be::t_17577213a11bf1 85-159,161-162,170-180,187,190-303
+src/origin-landing.ts
+  s_2007d4b027e9be::t_fcc41762ba831e 1-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "b383513fc3edc1a1b476556858aa9c957efa7e02",
+  "prompts": {},
+  "sessions": {
+    "s_2007d4b027e9be": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fca222ef0ffehgk4Am6d7Ae7qm",
+        "model": "mimo-v2.5"
+      },
+      "human_author": null
+    }
+  }
+}

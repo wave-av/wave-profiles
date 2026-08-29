@@ -1,0 +1,40 @@
+src/agent-turn-speech.ts
+  s_1cea981189627b::t_d4f4ce791b4393 59-79
+  s_1cea981189627b::t_9b189bed1f1dbd 108-110,112,115,134
+src/voice-cogs-ledger.ts
+  s_1cea981189627b::t_784c856e5870e1 1-88
+src/agent-turn.ts
+  s_1cea981189627b::t_019b9c140a66ac 501,511-513
+  s_1cea981189627b::t_7e7023266db1d1 221-222
+  s_1cea981189627b::t_1d12f607a712cd 507-509
+  s_1cea981189627b::t_08849182bda6db 223-224
+  s_1cea981189627b::t_1bbd8957d40bdd 46-48,238-239,247-248,294,398,423
+src/agent-turn-meter.ts
+  s_1cea981189627b::t_0031aff0df6802 11
+  s_1cea981189627b::t_8d4f976dc75133 33-36
+  s_1cea981189627b::t_77d25f51a41a18 60-69
+  s_1cea981189627b::t_85efcead71d6ee 10
+  s_1cea981189627b::t_a0483672c44b5d 88-140
+test/voice-cogs.test.ts
+  s_1cea981189627b::t_5c53812c2fbd8c 1-202
+test/voice-cogs-ledger.test.ts
+  s_1cea981189627b::t_60ec59e6ad20e8 1-183
+src/voice-cogs.ts
+  s_1cea981189627b::t_4aea915751f3f2 1-226
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "08d302f3118c835152d18a66111a0cc70d41d2c8",
+  "prompts": {},
+  "sessions": {
+    "s_1cea981189627b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8abf7d26-41ee-46b2-a9ca-90c06289cd20",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

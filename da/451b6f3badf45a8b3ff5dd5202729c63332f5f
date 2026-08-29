@@ -1,0 +1,46 @@
+src/insights-read.ts
+  s_db1b2a792e5f25::t_9e6bfebc061715 78-84
+  s_db1b2a792e5f25::t_06d66dc53b5351 137
+  s_db1b2a792e5f25::t_375053edb12ef0 1-77,85-136,138-139
+test/insights-read.spec.ts
+  s_db1b2a792e5f25::t_269ded85812956 11,47,54,57-58,64,71-72,85-86,108-109,130,136,142,144,146,150-168
+  s_db1b2a792e5f25::t_02b6b0563ff8fc 145,147
+  s_db1b2a792e5f25::t_66542e76245e1b 13-19
+  s_db1b2a792e5f25::t_ae2c8946539963 8-10
+  s_db1b2a792e5f25::t_3eb74ac2d98fd3 12
+  s_db1b2a792e5f25::t_b0e9d86ca66283 20-22,44-46
+  s_db1b2a792e5f25::t_4e9267298b3f61 48-53
+  s_db1b2a792e5f25::t_3fb1210c1a6cae 55-56
+  s_db1b2a792e5f25::t_e355251e8c032b 59-63
+  s_db1b2a792e5f25::t_8762f8c824f13f 65-70
+  s_db1b2a792e5f25::t_514e770ec0fba2 73-75,82-84
+  s_db1b2a792e5f25::t_5af3e3ceccf392 87-89,105-107
+  s_db1b2a792e5f25::t_f3d43029d3b9c5 110-112,127-129
+  s_db1b2a792e5f25::t_14e40955770295 131-135
+  s_db1b2a792e5f25::t_450b25df56cc72 137-141
+  s_db1b2a792e5f25::t_53f888d6b22036 143
+  s_db1b2a792e5f25::t_1c135c261a2508 148-149
+  s_db1b2a792e5f25::t_6266703e2391fa 1-7,23-43,76-81,90-104,113-126
+src/gateway-native-routes.ts
+  s_db1b2a792e5f25::t_2e98e13e8dc525 80-85
+  s_db1b2a792e5f25::t_35b0a7b8dd874d 86-87
+  s_db1b2a792e5f25::t_9e37467d40c9d5 48
+src/scopes.ts
+  s_db1b2a792e5f25::t_653799ae4f92b5 96-100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "da451b6f3badf45a8b3ff5dd5202729c63332f5f",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

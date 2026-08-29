@@ -1,0 +1,24 @@
+test/entitlement-denial-66.spec.ts
+  s_157583aa3b6686::t_93eef0e5a00691 11-12
+src/limits.ts
+  s_157583aa3b6686::t_8759863a118812 6
+src/worker-helpers.ts
+  s_157583aa3b6686::t_918d3c60643601 74-98
+  s_157583aa3b6686::t_deb0b9e860b380 10-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "dd144f4460c25374877934acc300c5b9d61cd0dd",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+test/moq-join.spec.ts
+  s_157583aa3b6686::t_3237ecfdec7a3a 8
+src/moq-join-token.ts
+  s_157583aa3b6686::t_74d40fdb0d2169 27
+  s_157583aa3b6686::t_7f3394a8efd6d1 1
+  s_157583aa3b6686::t_f055bf8abc7aef 16
+src/worker.ts
+  s_157583aa3b6686::t_c86bd3656cd082 664-667
+test/moq-join-token.spec.ts
+  s_157583aa3b6686::t_980456ef707f78 1
+  s_157583aa3b6686::t_0b277ec84f629d 16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "afc729440370ba67cc08e4fcad1e1af69db82026",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

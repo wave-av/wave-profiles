@@ -1,0 +1,27 @@
+dante-dep-bridge/scripts/arc_rx_probe.py
+  s_364605915bb7ec::t_4b649ce41942be 1-146
+dante-observe/arc-client.test.mjs
+  s_364605915bb7ec::t_3426d0930e9d7f 3,65-73,77-88,161-276
+  s_364605915bb7ec::t_d337da9815099e 277
+.github/workflows/dante-listen-tests.yml
+  s_364605915bb7ec::t_4f627a11798d6f 55-62
+  s_364605915bb7ec::t_9703141fc3cd71 18,24
+dante-observe/arc-client.mjs
+  s_364605915bb7ec::t_e9045c4bb19907 20-51,124-148,177-178,185-189,200
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "1dd40be4891f13bbd415f2dd4b1ffb66a803bd56",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

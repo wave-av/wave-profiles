@@ -1,0 +1,61 @@
+src/dispatch-router.ts
+  s_e077f59d8037ec::t_f4f2eef4011d9f 60-64
+  s_e077f59d8037ec::t_8d9a4068a86c7e 45
+  s_e077f59d8037ec::t_8803366e883248 119
+test/mcp-product-tools-planted-821.spec.ts
+  s_e077f59d8037ec::t_a0d75a5cebc6ac 1-67
+src/facilitator-routes.ts
+  s_e077f59d8037ec::t_788f5afcb7273f 21-28
+  s_e077f59d8037ec::t_2bd78cc66454c9 66
+  s_e077f59d8037ec::t_cc6a36946f3899 15
+src/worker.ts
+  s_e077f59d8037ec::t_81541ec0442362 96-112
+test/dispatch-router.spec.ts
+  s_e077f59d8037ec::t_fb8212b5e5d036 116-126,130
+test/mcp-product-tools-821.spec.ts
+  s_e077f59d8037ec::t_aa4915c90f8225 1-225
+src/mcp.ts
+  s_e077f59d8037ec::t_3822b7f5d4e2dd 24-26,28
+  s_e077f59d8037ec::t_03f0ef9674fa65 92-96,98-115,119-122,124
+  s_e077f59d8037ec::t_3b2c832bffc9a1 7-12,17,23,27
+src/mcp-native-tools.ts
+  s_0ac35b92f8aa04::t_f078b9e8db69ff 1-208
+src/mcp-product-exec.ts
+  s_34633d9d8279f2::t_018ce015dbc34a 1-196
+src/mcp-product-tools.ts
+  s_0ac35b92f8aa04::t_4f9474196a9dac 1-400
+src/mcp-runtime.ts
+  s_0ac35b92f8aa04::t_63744272669b95 1-170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "ffb99b8286aabf61b97a2bcb1eb346d9a6028ac3",
+  "prompts": {},
+  "sessions": {
+    "s_0ac35b92f8aa04": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a01da5bc815e6319c",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_34633d9d8279f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab1f41eff255bf706",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+moq/listen/fly.av.toml
+  s_6e7ad4df769349::t_841b5d4b7013aa 1-42
+moq/listen/av-ondemand-publish.mts
+  s_6e7ad4df769349::t_f9386dbce21d69 328-331
+  s_6e7ad4df769349::t_cff3ea62c499ef 364
+  s_6e7ad4df769349::t_0a9496c65ea46a 370
+  s_6e7ad4df769349::t_5063690edd25c6 279-283,285,294-297
+  s_6e7ad4df769349::t_f63e34619e4311 353
+  s_6e7ad4df769349::t_82ea4d5c919dff 144-147
+  s_6e7ad4df769349::t_095bfd7a3c6d99 160-182,298
+  s_6e7ad4df769349::t_920074a2ddaa7d 159
+  s_6e7ad4df769349::t_9a97f2cc87b716 299
+moq/listen/av-live-spawn.test.mts
+  s_6e7ad4df769349::t_bc7ca6738575a7 71,75-79
+  s_6e7ad4df769349::t_9d59b3aacba56d 1-70,72-74,80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "201fc921dc3c2f0327cb6b4089702af901c2fe8f",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

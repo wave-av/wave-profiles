@@ -1,0 +1,39 @@
+.github/workflows/coverage-gap-weekly.yml
+  s_fc60c5df1e57d6::t_7015eeaf2c3f36 103
+.github/workflows/flake-detector.yml
+  s_fc60c5df1e57d6::t_0b0c7d5f1cfe11 152-154,156,158
+  s_fc60c5df1e57d6::t_160eb7fa5b40d6 189
+  s_fc60c5df1e57d6::t_ea987ca02ae257 115-118,127,133-142
+  s_fc60c5df1e57d6::t_481f0a3c00f3b9 177-182
+  s_dedb333dd5195e::t_132bd561c91f42 143-144
+scripts/mutation-catalogue.json
+  s_fc60c5df1e57d6::t_97bd504421d3d0 88-89
+  s_fc60c5df1e57d6::t_2934a36a2bf04d 10,19,23-24
+  s_fc60c5df1e57d6::t_18b8b09f2052eb 42
+scripts/coverage-ratchet.mjs
+  s_fc60c5df1e57d6::t_3bb327a3a3255b 42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "b07ae53c342c3fa198904b2e7bdf44352c0b87bd",
+  "prompts": {},
+  "sessions": {
+    "s_dedb333dd5195e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74c7ad25-d88e-4e23-bf60-5c98e9d130b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_fc60c5df1e57d6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd46fcd7effexuMau0pW8RXW0b",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

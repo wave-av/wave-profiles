@@ -1,0 +1,26 @@
+src/scope-groups.ts
+  s_756b33c630d33b::t_017e941e0716d1 44
+src/tempo-rail.ts
+  s_756b33c630d33b::t_9d172ee3373842 1-86
+src/billing-routes.ts
+  s_756b33c630d33b::t_c4b52f62255d4e 317-329
+  s_756b33c630d33b::t_e0a3f18d7737d9 63,72,136,158-159
+test/tempo-rail.spec.ts
+  s_756b33c630d33b::t_f7718e33760160 1-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1ed35f9390a0448ecc828244ffaa04b45ca2749f",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

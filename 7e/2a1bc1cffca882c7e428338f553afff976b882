@@ -1,0 +1,20 @@
+test/listen-route.spec.ts
+  s_157583aa3b6686::t_d253790fe42bb9 12
+  s_157583aa3b6686::t_9b0692a53f3153 45-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "7e2a1bc1cffca882c7e428338f553afff976b882",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

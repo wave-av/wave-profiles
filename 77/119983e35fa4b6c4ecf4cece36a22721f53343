@@ -1,0 +1,41 @@
+.github/deploy-secrets-allowlist.txt
+  s_e077f59d8037ec::t_8ffbfc83875f8f 134-141
+.github/workflows/deploy.yml
+  s_e077f59d8037ec::t_65b61b374fb47b 157
+.github/workflows/x402-paid-smoke.yml
+  s_e077f59d8037ec::t_381e57e651ab56 139,151-194,199-200,202-208,211
+scripts/x402-paid-smoke.mjs
+  s_e077f59d8037ec::t_c794edad3e1193 28-42,138-143,158,160-161,163-185
+src/x402-capture.ts
+  s_e077f59d8037ec::t_812e8494aed217 20,33-34,174-193
+src/x402-deny-publish.ts
+  s_e077f59d8037ec::t_a213ae017c4a3d 81-87,105-107
+src/x402-envelope.ts
+  s_e077f59d8037ec::t_c383e6e7b0f7e2 69-80,95
+src/x402-quote-fallback.ts
+  s_e077f59d8037ec::t_158d89a193d35c 1-179
+src/x402.ts
+  s_e077f59d8037ec::t_85c9d05eeb71a8 56,97-98,520-543
+test/x402-deny-publish-818.spec.ts
+  s_e077f59d8037ec::t_f63f0bb9bdbabd 35,68-70,76,239-240
+test/x402-quote-fallback-settle.spec.ts
+  s_e077f59d8037ec::t_94295ae27f7135 1-143
+test/x402-quote-fallback.spec.ts
+  s_e077f59d8037ec::t_1c00668c8490cf 1-204
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "77119983e35fa4b6c4ecf4cece36a22721f53343",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

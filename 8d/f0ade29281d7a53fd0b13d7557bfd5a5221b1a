@@ -1,0 +1,21 @@
+test/unit/render-meter-reconciliation.spec.ts
+  s_cf363a68d60e93::t_b4993ace0d6539 1-107
+src/meter-reconciliation.ts
+  s_cf363a68d60e93::t_6b20f6396e4a31 1-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8df0ade29281d7a53fd0b13d7557bfd5a5221b1a",
+  "prompts": {},
+  "sessions": {
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

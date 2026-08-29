@@ -1,0 +1,21 @@
+.github/workflows/tests.yml
+  s_124891ed63801b::t_68b6c1fc3907ba 36
+.github/workflows/srt_bonding_tests.yml
+  s_124891ed63801b::t_87fe9de1961039 35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "d6639dfe5a2c08caec4f9e6a0604a3dd4051ee5d",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+test/tempo-funding.spec.ts
+  s_756b33c630d33b::t_613c9a8b3fdb56 1-58
+src/tempo-funding.ts
+  s_756b33c630d33b::t_22e7417a832c0c 1-134
+src/billing-routes.ts
+  s_756b33c630d33b::t_bd4ee46457dd03 336-341
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "75452d0b064deef756853af4012e01960b8836d6",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

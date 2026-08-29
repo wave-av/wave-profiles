@@ -1,0 +1,23 @@
+src/origin-webhook.ts
+  s_048ad7f61626d4::t_339197e82239d8 51-55,58-60
+test/webhook-signal.spec.ts
+  s_048ad7f61626d4::t_4604a3e31a60fa 1-54
+src/webhook-signal.ts
+  s_048ad7f61626d4::t_aa2d58ab86f253 2-5,8-10,18-30,35,38-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "49ce454e3ffa7821156cb47b8f30ada06c6618f6",
+  "prompts": {},
+  "sessions": {
+    "s_048ad7f61626d4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_feee8970affenVKsU9Nt681bXx",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

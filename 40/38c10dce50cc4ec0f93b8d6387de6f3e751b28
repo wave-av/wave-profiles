@@ -1,0 +1,22 @@
+src/worker.ts
+  s_cf363a68d60e93::t_20f3797af0d2d7 57-59
+  s_cf363a68d60e93::t_895ae6529fe057 699-702
+src/abuse-controls.ts
+  s_cf363a68d60e93::t_3ec7a847aef562 493-545
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4038c10dce50cc4ec0f93b8d6387de6f3e751b28",
+  "prompts": {},
+  "sessions": {
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

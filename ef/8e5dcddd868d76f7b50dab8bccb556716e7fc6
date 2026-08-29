@@ -1,0 +1,28 @@
+test/dispatch-cache.spec.ts
+  s_e27815580d8de0::t_87c7917803f98b 1-227
+src/dispatch-cache.ts
+  s_e27815580d8de0::t_ed88981a0ea877 1-142
+src/dispatch-inference.ts
+  s_e27815580d8de0::t_4f00f1f786770e 47-50
+  s_e27815580d8de0::t_1d0ca8897b7547 30
+  s_e27815580d8de0::t_28f88e291da3de 161-201
+  s_e27815580d8de0::t_d5cf4ce923c676 27-29,31-34
+wrangler.toml
+  s_e27815580d8de0::t_8ecd12e629fea6 183-190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ef8e5dcddd868d76f7b50dab8bccb556716e7fc6",
+  "prompts": {},
+  "sessions": {
+    "s_e27815580d8de0": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef5d6bc6ffek4AXUY7uegfVsb",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

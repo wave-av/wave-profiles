@@ -1,0 +1,32 @@
+moq/crest/player/audio-sinks.js
+  s_157583aa3b6686::t_caa6fd387784d4 117-118
+  s_16668cd9a499f2::t_2b042ff083ca6d 51-92,122-125,127
+moq/crest/player/stem-clock.js
+  s_16668cd9a499f2::t_b25505a00ab3fc 31,34-43,45,48,54-55,58,60-62,64-69,71-74
+moq/crest/player/stem-clock.test.mjs
+  s_16668cd9a499f2::t_6d94418a448260 1,8,19,26,28-29,32,36,38-45,49,51-71,74,77,79-82,84,87,89-92,95,97-101,104-105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "83e2516ea780cf96f89459dd343616d46ec4d518",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_16668cd9a499f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a29f9e46b2be57b6f",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

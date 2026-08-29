@@ -1,0 +1,30 @@
+moq/crest/player/stem-channel.js
+  s_157583aa3b6686::t_9c3715faf1a233 19,26
+  s_157583aa3b6686::t_12a29f9266ef6d 100
+moq/crest/player/stem-ui.js
+  s_157583aa3b6686::t_0fbc2d50917f9c 1-37,39-66
+  s_157583aa3b6686::t_45ce85133a9dad 38
+moq/crest/player/listen.html
+  s_157583aa3b6686::t_4d840e29bcb88e 133-135
+  s_157583aa3b6686::t_a812384c3d9d1e 104-105
+  s_157583aa3b6686::t_f551628cd88f54 61-73
+  s_157583aa3b6686::t_aa6130dc3dcf18 74-75
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_1311dc2557af58 222
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "1f81d685d3819adefa6d004501649ad1d87648e4",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+test/webhook-subscriptions.spec.ts
+  s_9e432dc94c73ad::t_d59a4bdef749cb 137-148
+src/webhook-subscriptions.ts
+  s_9e432dc94c73ad::t_512138db067872 60-62
+  s_9e432dc94c73ad::t_d926e9370cb02d 51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "565112a13d0ccffe82d90edb4d43525249700f4b",
+  "prompts": {},
+  "sessions": {
+    "s_9e432dc94c73ad": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe89b54d0ffeJzhiAS9bz5iAjc",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

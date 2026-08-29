@@ -1,0 +1,26 @@
+src/ingest-worker.ts
+  s_dc0ca4822cd2b1::t_e79fb9d76e765d 1-66
+wrangler.ingest.toml
+  s_dc0ca4822cd2b1::t_78e6cabe23cd31 1-43
+src/container.ts
+  s_dc0ca4822cd2b1::t_1627236bf31170 1-2,4-9
+  s_dc0ca4822cd2b1::t_3c5c6d42012640 3
+ingest/Dockerfile
+  s_dc0ca4822cd2b1::t_0811d5e2901513 1-5,9,11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "90a172c72f54d92be816eafffb246bdb44dc71c0",
+  "prompts": {},
+  "sessions": {
+    "s_dc0ca4822cd2b1": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcb50abb7ffe3FTzpcZv3hgX57",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

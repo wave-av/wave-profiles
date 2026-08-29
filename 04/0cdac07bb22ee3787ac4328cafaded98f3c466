@@ -1,0 +1,42 @@
+src/spoke-routing.ts
+  s_e077f59d8037ec::t_22526aa6a18420 85-86
+src/env-local/spoke-origins.ts
+  s_e077f59d8037ec::t_4d0087b25c5ee2 97-98
+  s_e077f59d8037ec::t_74cb632b8091ad 71-72
+  s_e077f59d8037ec::t_33e8657790438a 40
+wrangler.toml
+  s_e077f59d8037ec::t_3b8b3f98c9d25a 794
+  s_e077f59d8037ec::t_584a581b91cf2d 839
+  s_e077f59d8037ec::t_66cf8aa5fb57ff 851
+src/product-meters.ts
+  s_e077f59d8037ec::t_92133424717d83 76
+  s_e077f59d8037ec::t_502e796d2d6a61 71
+src/scope-groups.ts
+  s_e077f59d8037ec::t_96d8bbf6435607 152
+  s_e077f59d8037ec::t_5aeb6b1c5abce3 115
+test/braid-route.spec.ts
+  s_e077f59d8037ec::t_0610c85e6b03e6 3
+src/spoke-classification.ts
+  s_e077f59d8037ec::t_6ee6784a827c47 23-24
+  s_e077f59d8037ec::t_1d01516a795f88 26-76,83-87,97-98
+  s_e077f59d8037ec::t_14e9ed20a93e8c 25
+test/spoke-drift.spec.ts
+  s_e077f59d8037ec::t_0d2d37f40bd90f 12-17
+  s_e077f59d8037ec::t_a301edd8027480 170-212
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "040cdac07bb22ee3787ac4328cafaded98f3c466",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

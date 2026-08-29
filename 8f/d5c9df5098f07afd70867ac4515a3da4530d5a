@@ -1,0 +1,29 @@
+src/usage-meters.ts
+  s_10e53e3a039bfa::t_faa2a4d1780238 173-188
+  s_10e53e3a039bfa::t_3d0bcb92d7d0c3 172
+src/usage.ts
+  s_10e53e3a039bfa::t_25a7a4cbb68d66 53
+  s_10e53e3a039bfa::t_f0a61523296560 532-534
+src/usage-read.ts
+  s_10e53e3a039bfa::t_515eebd27e3fe4 91-98,102-103,105
+  s_10e53e3a039bfa::t_4f1b53848afee4 25
+test/seconds-meter-scale.spec.ts
+  s_10e53e3a039bfa::t_af3f0bee52add2 119-139
+  s_10e53e3a039bfa::t_ce509a347a2b50 19,27-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "8fd5c9df5098f07afd70867ac4515a3da4530d5a",
+  "prompts": {},
+  "sessions": {
+    "s_10e53e3a039bfa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d6c2cfc-2b0d-42fa-9e8e-0888ca9d739b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

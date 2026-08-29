@@ -1,0 +1,33 @@
+ingest/package.json
+  s_2bc4e608dfefc7::t_b78e39145f025b 1-10
+ingest/README.md
+  s_2bc4e608dfefc7::t_a96aa9935dde97 1-106
+ingest/chunk.mjs
+  s_2bc4e608dfefc7::t_9a5b8d1066d45e 156-158
+  s_2bc4e608dfefc7::t_e7e5a7d3fbc076 1-7,16-66,68-70,72,74-77,80-85,87-98,101-117,119,121-138,140-155,159-162
+  s_2bc4e608dfefc7::t_0def5ea6102c06 67,71,73,78-79
+  s_2bc4e608dfefc7::t_0213e27d47fe9b 86,99-100
+  s_2bc4e608dfefc7::t_e619042045e24a 8-15
+  s_2bc4e608dfefc7::t_6a31155b285577 118,120,139
+ingest/Dockerfile
+  s_2bc4e608dfefc7::t_49355c78a65ba0 1-8
+ingest/chunk.test.mjs
+  s_2bc4e608dfefc7::t_2aacf1b231e1cc 328
+  s_2bc4e608dfefc7::t_e33972608ba0e9 1-327,329-338
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "936b1893fd553a93cb4d457d22a134d4ce18f5f1",
+  "prompts": {},
+  "sessions": {
+    "s_2bc4e608dfefc7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbb01f3bffe8h2tyKrnm3j4TG",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

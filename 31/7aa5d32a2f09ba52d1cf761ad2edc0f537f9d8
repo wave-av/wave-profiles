@@ -1,0 +1,25 @@
+av/hls/hls-sink.mts
+  s_157583aa3b6686::t_7416a9d070f886 1-134
+av/hls/m3u8.mts
+  s_157583aa3b6686::t_acd12924f9990a 1-106
+av/hls/hls-source.mts
+  s_157583aa3b6686::t_b0e4abac4e4b6e 1-96
+av/hls/hls-roundtrip.test.mts
+  s_157583aa3b6686::t_caac6a0966d60b 1-127
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "317aa5d32a2f09ba52d1cf761ad2edc0f537f9d8",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

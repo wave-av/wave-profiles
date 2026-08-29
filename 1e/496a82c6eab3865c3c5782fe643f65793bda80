@@ -1,0 +1,14 @@
+test/billing.spec.ts
+  h_af5ac1a9798224 32,40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "1e496a82c6eab3865c3c5782fe643f65793bda80",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

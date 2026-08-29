@@ -1,0 +1,21 @@
+src/spoke-classification.ts
+  s_db1b2a792e5f25::t_fbaed095545482 1-75
+test/spoke-drift.spec.ts
+  s_db1b2a792e5f25::t_fd39195ee996d5 1-114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "e0382c8f64f32695a3e5b1b09b2def653023136a",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

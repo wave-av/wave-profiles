@@ -1,0 +1,21 @@
+dash_stream_source_segments.py
+  s_124891ed63801b::t_375b99fd972d45 345
+src/core/input/blackmagic.py
+  s_124891ed63801b::t_f7e287db2cf71e 412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "95ed7331fbf945c72920ae073c4f3d7f7a60bace",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

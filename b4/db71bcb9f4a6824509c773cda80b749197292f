@@ -1,0 +1,32 @@
+moq/publisher-selfheal.test.mjs
+  s_157583aa3b6686::t_de210c862eff76 1-22
+moq/moq-strand.mjs
+  s_157583aa3b6686::t_6f26afaf3bdbd5 398-415
+  s_157583aa3b6686::t_0a7c97af5182ae 417
+  s_157583aa3b6686::t_89e793c93b71f3 313-315,327-337,354
+moq/moq-strand.ts
+  s_157583aa3b6686::t_830f6dfb94e772 242-250
+  s_157583aa3b6686::t_f891c4f88cc826 161-170,181-196,211
+moq/listen/fly.radio.toml
+  s_157583aa3b6686::t_a3cc47d8cc1d0e 20-22
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_247a169373391d 83-93
+moq/listen/fly.lofi.toml
+  s_157583aa3b6686::t_bd105786dd946d 22-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b4db71bcb9f4a6824509c773cda80b749197292f",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

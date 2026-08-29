@@ -1,0 +1,14 @@
+src/router-leaderboard-snapshot.json
+  h_af5ac1a9798224 22,25,29-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "5d31d9281b92f55315c35f6b7bb203dbe5a2085c",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

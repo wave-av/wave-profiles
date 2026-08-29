@@ -1,0 +1,14 @@
+test/e-rooms-two-party-receipt.test.ts
+  h_af5ac1a9798224 70-72,109-111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "3188300bfcadfca4d4baf46fea57591cff6e784e",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

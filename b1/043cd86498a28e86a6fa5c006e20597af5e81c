@@ -1,0 +1,35 @@
+moq/crest/crest-multiview.mjs
+  s_157583aa3b6686::t_59a3de399962f6 1-152
+moq/crest/player/multiview.html
+  s_157583aa3b6686::t_919019386855c5 1-43
+moq/crest/player/multiview.js
+  s_157583aa3b6686::t_bc9f23e2912619 1-248
+moq/crest/crest-multiview-test.mjs
+  s_157583aa3b6686::t_f357048e35ab42 1-198
+moq/crest/receipts/e35-multiview.json
+  s_309a4916081a9a::t_9b667b158d90ab 1-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b1043cd86498a28e86a6fa5c006e20597af5e81c",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_309a4916081a9a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a5f1c05d803c2a004",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

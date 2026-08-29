@@ -1,0 +1,48 @@
+src/dispatch-inference-edge.ts
+  s_0848eb4ca461d7::t_c2f073dc7fab05 59-61
+src/errors.ts
+  s_0848eb4ca461d7::t_d4d7db159b1781 83-86,88-89
+  s_0848eb4ca461d7::t_36163832a210af 90-123
+src/dispatch-inference.ts
+  s_0848eb4ca461d7::t_6b992e7afba2a5 111-120,127-167
+  s_0848eb4ca461d7::t_076b32708eb1c5 123
+  s_0848eb4ca461d7::t_2c6a164d92b493 168
+src/dispatch-inference-gemini.ts
+  s_0848eb4ca461d7::t_add8e8acdc9fe2 49-50
+src/dispatch-inference-cerebras.ts
+  s_0848eb4ca461d7::t_aa570666fc3cbb 56-57
+src/dispatch-inference-openai.ts
+  s_0848eb4ca461d7::t_e7ec2f80486b9e 51-52
+src/dispatch-inference-openrouter.ts
+  s_0848eb4ca461d7::t_c091e786f6b225 94-95
+test/dispatch-tools-guard.spec.ts
+  s_0848eb4ca461d7::t_2d2800fc4dedc0 7,9-11
+  s_0848eb4ca461d7::t_4c0bcc10e41c75 34,36,70,240,242,260-351,353-361,363
+  s_0848eb4ca461d7::t_74baf7bb7f3008 1,3-5,25-27,30-33,35,40-41,43,54,57-65,72,88,104-105,108-112,115-117,120,123-143,149,151,155,162-163,169,175,178,180-224,226-234,239,241,244-253,259,352,362
+  s_0848eb4ca461d7::t_4198add98690c7 37-39,42,66-69
+  s_0848eb4ca461d7::t_8c4672abe133b4 165,225,243
+  s_0848eb4ca461d7::t_7509653057be5f 71
+src/dispatch-inference-providers.ts
+  s_0848eb4ca461d7::t_2bcc116447e456 143-144
+  s_0848eb4ca461d7::t_392885ca3018e3 202-203
+  s_0848eb4ca461d7::t_a53fb544eba1c1 261-262
+  s_0848eb4ca461d7::t_fb6cf71c2139a2 85-86
+src/dispatch-inference-anthropic.ts
+  s_0848eb4ca461d7::t_3a16e0fa2316a8 114-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a6d30de2be6ae3a6eedab7ce36e801f416005c22",
+  "prompts": {},
+  "sessions": {
+    "s_0848eb4ca461d7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff26e51bfffeKYdW8JpCmUyG1A",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

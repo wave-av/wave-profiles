@@ -1,0 +1,35 @@
+moq/moq-strand.ts
+  s_157583aa3b6686::t_6bf596e9b84bc9 162-164
+  s_157583aa3b6686::t_8995c94cc23b64 98-132
+  s_157583aa3b6686::t_02b485a05754d8 56-64
+  s_157583aa3b6686::t_32cd119b6ccae8 189-191
+moq/moq-strand.mjs
+  s_157583aa3b6686::t_49940b9f2a0d24 314-316
+  s_157583aa3b6686::t_153258b39279b6 213-217
+  s_157583aa3b6686::t_19d0aa8dfbab50 343-345
+  s_157583aa3b6686::t_7a8777de243945 262,264
+  s_157583aa3b6686::t_033bc8541d3d64 244-261,263,265-271
+moq/join-resolve.test.mjs
+  s_157583aa3b6686::t_5536c4ae9e92b8 113,115
+  s_157583aa3b6686::t_bdcd5573373917 53-54,57
+  s_157583aa3b6686::t_f9055b3674e34f 9
+  s_157583aa3b6686::t_cc2013515d39ea 1-8,10-52,55-56,58-112,114,116-119
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_f1d502aa886943 77-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "5a0048b90986b0d668dd7ea5b51ea81d0718c115",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

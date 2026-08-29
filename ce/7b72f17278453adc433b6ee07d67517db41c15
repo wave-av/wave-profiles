@@ -1,0 +1,24 @@
+src/usage.ts
+  s_e077f59d8037ec::t_3bb8225cddec91 432,434,436,440,443-451
+  s_e077f59d8037ec::t_0af39758d1e95c 467
+  s_e077f59d8037ec::t_bcaa80c46f91a1 483,485-486
+  s_e077f59d8037ec::t_b6c1727d0f19f6 424-431
+test/usage-dimensions.spec.ts
+  s_e077f59d8037ec::t_ceeed62afb2745 249-287
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "ce7b72f17278453adc433b6ee07d67517db41c15",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+test/e-media-tap-receipt.test.ts
+  s_9269c9a70bcce6::t_28f0cb06b834fb 109-114
+  s_9269c9a70bcce6::t_88faa6fb69ee95 210-213
+  s_9269c9a70bcce6::t_aa8d8ff9f65631 106-108
+  s_9269c9a70bcce6::t_1f87727b2bdd9e 115-117,207-209
+  s_9269c9a70bcce6::t_c8eca7eba00617 214-216
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "c1f295888f6c6ee5a1fade5011adfc2d34fb798b",
+  "prompts": {},
+  "sessions": {
+    "s_9269c9a70bcce6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fce1f5a98ffeYi83yy46IK6kaT",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

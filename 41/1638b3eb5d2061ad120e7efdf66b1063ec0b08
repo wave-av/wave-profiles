@@ -1,0 +1,22 @@
+moq/listen/Dockerfile
+  s_157583aa3b6686::t_ecc01b005dbbc1 23-26,32,34-36
+moq/listen/switch-mix-run.mjs
+  s_157583aa3b6686::t_301a2be891daac 101-112,118-120,129,139,142
+  s_157583aa3b6686::t_fbae614d4058bb 24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "411638b3eb5d2061ad120e7efdf66b1063ec0b08",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

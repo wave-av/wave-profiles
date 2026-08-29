@@ -1,0 +1,25 @@
+dante-dep-bridge/scripts/dep-hoststate_test.sh
+  s_364605915bb7ec::t_8741c80f810504 1-108,127-163,188-205
+  s_364605915bb7ec::t_df9c3ba71c7f79 109-126
+  s_364605915bb7ec::t_5383c5a03ec4d3 164-187
+dante-dep-bridge/scripts/dep-hoststate.sh
+  s_364605915bb7ec::t_653a2100019e51 1-133,154-272,276-313
+  s_364605915bb7ec::t_9744ad6789e995 134-153
+  s_364605915bb7ec::t_0c25101c2bbb1b 273-275
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "8ec583202d16363147127939667b4df86d63dc13",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

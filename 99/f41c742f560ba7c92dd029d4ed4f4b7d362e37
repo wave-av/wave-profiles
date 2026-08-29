@@ -1,0 +1,36 @@
+.github/workflows/pr-agent.yml
+  h_af5ac1a9798224 44
+src/dispatch-inference-anthropic.ts
+  h_af5ac1a9798224 19
+src/dispatch-inference-cerebras.ts
+  h_af5ac1a9798224 23-24
+src/dispatch-inference-openai.ts
+  h_af5ac1a9798224 17
+src/dispatch-inference-openrouter.ts
+  h_af5ac1a9798224 27,29-31,39,41-42,44-46
+src/dispatch-inference-providers.ts
+  h_af5ac1a9798224 19,42,53
+src/dispatch-model-prices.ts
+  h_af5ac1a9798224 35-38,40,48,62-85,114-115,119-120,123-133,137-138,149-175
+src/inference-backends.ts
+  h_af5ac1a9798224 111-117
+src/product-meters-tokens.ts
+  h_af5ac1a9798224 39-52
+test/dispatch-inference.spec.ts
+  h_af5ac1a9798224 108
+test/inference-openrouter.spec.ts
+  h_af5ac1a9798224 28,125
+wrangler.toml
+  h_af5ac1a9798224 720-723,726-737
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "99f41c742f560ba7c92dd029d4ed4f4b7d362e37",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

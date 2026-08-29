@@ -1,0 +1,20 @@
+moq/listen/entrypoint.sh
+  s_157583aa3b6686::t_624bb189721f80 2,4-6,11
+  s_157583aa3b6686::t_1cec491e8aa62b 27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "7b37d15fdfc01f6c30dd921f920c294f7b627a16",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

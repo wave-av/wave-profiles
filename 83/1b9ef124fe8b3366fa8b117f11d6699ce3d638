@@ -1,0 +1,20 @@
+src/dispatch-inference-edge.ts
+  s_53fc5fe2196586::t_73648c49a64633 35-36
+  s_53fc5fe2196586::t_bdf9b42706da55 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "831b9ef124fe8b3366fa8b117f11d6699ce3d638",
+  "prompts": {},
+  "sessions": {
+    "s_53fc5fe2196586": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff844c2cfffegyuwrNAXmg0AT2",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

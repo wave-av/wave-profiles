@@ -1,0 +1,24 @@
+moq/crest/crest-captions-wordtiming-test.mjs
+  s_157583aa3b6686::t_a3d73914e06643 1-166
+moq/crest/crest-captions.mjs
+  s_157583aa3b6686::t_28912540074bf6 30-46
+  s_157583aa3b6686::t_92a5121ff7f43c 51-54,62,64
+moq/crest/receipts/e37-caption-wordtiming.json
+  s_157583aa3b6686::t_61f8f57512358b 1-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9b0d5ed868eb78e800818e1a4e691896f67a5b38",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+src/spoke-routing.ts
+  s_52884d8135c435::t_1927cf74d3d65d 190-200
+src/spoke-classification.ts
+  s_52884d8135c435::t_964fd56b4d56a1 66
+wrangler.toml
+  s_52884d8135c435::t_27409d756fc80d 1016-1026
+src/env-local/spoke-origins.ts
+  s_52884d8135c435::t_0aea9dfa642073 134-141
+test/spoke-drift.spec.ts
+  s_52884d8135c435::t_e2214740bced52 67
+CHANGELOG.md
+  s_52884d8135c435::t_e672b732df10b7 39-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1fc894792c75f864b371423c21fc7fbfab68b00e",
+  "prompts": {},
+  "sessions": {
+    "s_52884d8135c435": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fefa17a99ffejvfVg9mfx8Aw7L",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

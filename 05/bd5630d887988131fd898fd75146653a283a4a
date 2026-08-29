@@ -1,0 +1,26 @@
+src/agent-stt-streaming.ts
+  s_ee52d68f2cb092::t_8ad20277e7f6fb 1-18,34-68,73-96,98-141
+  s_ee52d68f2cb092::t_0a6e9f2c9b43fa 19-33,69-72,97
+src/agent-turn.ts
+  s_ee52d68f2cb092::t_b3d0472461665a 736-742
+  s_ee52d68f2cb092::t_32d1dd02f7d936 75
+  s_ee52d68f2cb092::t_13113f84870383 685-691
+test/agent-stt-streaming.test.ts
+  s_ee52d68f2cb092::t_73d1bfa6a85b79 1-178
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "05bd5630d887988131fd898fd75146653a283a4a",
+  "prompts": {},
+  "sessions": {
+    "s_ee52d68f2cb092": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe82921beffePPPdhgU4qNfGd9",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

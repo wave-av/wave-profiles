@@ -1,0 +1,35 @@
+src/agent-turn-speech.ts
+  s_6046880c148371::t_42b32d16d75520 178-182
+  s_6046880c148371::t_0c57d2876f2211 44-45
+src/agent-session.ts
+  s_6046880c148371::t_906814a84be7e7 299-300
+  s_6046880c148371::t_2fa9df7bd0b981 655
+src/flow-tap.ts
+  s_6046880c148371::t_8a192758eb7ab8 1-30
+src/agent-turn-providers.ts
+  s_6046880c148371::t_2d760f50ddeade 21
+  s_6046880c148371::t_dcf38e91dace14 111,118-121
+  s_6046880c148371::t_3c68d717636c95 218
+src/agent-turn.ts
+  s_6046880c148371::t_8d632f20bbad71 249-250,256
+  s_6046880c148371::t_158f95df623719 222-223
+  s_6046880c148371::t_20be5239a828df 544
+  s_6046880c148371::t_2d5f7af3df6299 76
+  s_6046880c148371::t_8fa6307c35fa75 783-788
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "4c38b8df6cbf399288419b00ec3a53dc27619b8e",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+src/usage.ts
+  s_10e53e3a039bfa::t_8e276b7d2c793d 49-52
+  s_10e53e3a039bfa::t_84ee17ad4b7c4c 216-219
+  s_10e53e3a039bfa::t_7c982e0673639b 35
+  s_10e53e3a039bfa::t_dac8fc76e14693 246,249
+  s_10e53e3a039bfa::t_ebc49f93e3c3b3 61-65,74,85,371-372,414-415,417-418,420-421,429-430,438-444,452,454-456
+src/usage-meters.ts
+  s_10e53e3a039bfa::t_6603907ef51809 137-171
+src/spoke-classification.ts
+  s_10e53e3a039bfa::t_375d762cc376fa 65
+  s_10e53e3a039bfa::t_b6d064a9787632 62-64
+  s_10e53e3a039bfa::t_d397e4a298a2ac 66-68
+  s_10e53e3a039bfa::t_5262a0f2b07294 23-61,69-77,84-88,98-99
+CHANGELOG.md
+  s_10e53e3a039bfa::t_45796d92dd30e0 9-20,184-215,367-390
+scripts/provision-vectorize.sh
+  s_10e53e3a039bfa::t_13af964c85ab16 16-27,51-53
+src/agent-spokes.ts
+  s_10e53e3a039bfa::t_0a3959fb423b0e 24-26,492-493,497-499,505,507-511
+src/env-local/spoke-origins.ts
+  s_10e53e3a039bfa::t_5a0801cf2c0cec 15,17,36,40,71-72,97-98
+src/errors-next-action.ts
+  s_10e53e3a039bfa::t_139b1000122002 92-98
+src/errors.ts
+  s_10e53e3a039bfa::t_a89590eea22f88 129-139
+src/facilitator-ratelimit.ts
+  s_10e53e3a039bfa::t_38d8d68f764281 8-9,13-28,36-44,83-88,99-129,134-135,146,148,151-154,167,194-226
+src/facilitator-routes.ts
+  s_10e53e3a039bfa::t_7098a75b5d7ea5 7-13,70-84
+src/gpu-dispatch-failure.ts
+  s_10e53e3a039bfa::t_6b9825b74fe592 1-76
+src/mcp-product-exec.ts
+  s_10e53e3a039bfa::t_93a0587766d5a7 27-41,43,45-47,55-65,104-114,117-129,158-173,204,230-237,257
+src/mcp-product-paywall.ts
+  s_10e53e3a039bfa::t_899b2fe44da73f 1-227
+src/mcp-runtime.ts
+  s_10e53e3a039bfa::t_a4df5dae07f600 63-99,119-121
+src/mcp-tool-result.ts
+  s_10e53e3a039bfa::t_5411f2b89f8904 1-97
+src/product-meters.ts
+  s_10e53e3a039bfa::t_546ad92a414cb2 71,76
+src/scope-groups.ts
+  s_10e53e3a039bfa::t_a0d967db13c770 115,152
+src/spoke-routing.ts
+  s_10e53e3a039bfa::t_1ddef11f491fc7 94-95
+src/usage-counter.ts
+  s_10e53e3a039bfa::t_ad771483212f4b 6-8,10-11,66-67
+src/usage-dedupe.ts
+  s_10e53e3a039bfa::t_42802f592b6e36 1-81
+test/braid-route.spec.ts
+  s_10e53e3a039bfa::t_6ec25d3c95ebd2 3
+test/fleet-provision-runpod-api.spec.ts
+  s_10e53e3a039bfa::t_fe4d14089b3a4e 1-160
+test/gpu-dispatch-failure.spec.ts
+  s_10e53e3a039bfa::t_8d93dec5211198 1-126
+test/mcp-paywall-before-arguments-853.spec.ts
+  s_10e53e3a039bfa::t_e95c4d357bef7c 1-289
+test/mcp-product-exec-821.spec.ts
+  s_10e53e3a039bfa::t_e4b2d914560924 54-122
+test/ratelimit-failclosed-850.spec.ts
+  s_10e53e3a039bfa::t_21f6ba96406aed 1-183
+test/spoke-drift.spec.ts
+  s_10e53e3a039bfa::t_042af4f72ebca4 12-17,172-218
+test/unit/facilitator-ratelimit.unit.spec.ts
+  s_10e53e3a039bfa::t_8afdf6563b2178 16-17,63-118,195-214
+test/usage-seen-marker.spec.ts
+  s_10e53e3a039bfa::t_3c6542c7491fbb 1-58
+wrangler.toml
+  s_10e53e3a039bfa::t_8605f72f24fc8e 234-235,240-251,254,257-283,828,873,885
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "11f54b789dd31686a0c2118935ccee533aebc229",
+  "prompts": {},
+  "sessions": {
+    "s_10e53e3a039bfa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d6c2cfc-2b0d-42fa-9e8e-0888ca9d739b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

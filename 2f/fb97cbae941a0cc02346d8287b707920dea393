@@ -1,0 +1,36 @@
+vitest.config.ts
+  s_cf3356a24071e8::t_41f5574cfb459c 44-48,50-52,54,58,63,76
+  s_cf3356a24071e8::t_2701dfb6099505 7-27,31-43,49,53,55-57,59-62,64-75,77,82-83,85
+wrangler.toml
+  s_cf3356a24071e8::t_54e0dab2e1decd 257-263
+  s_cf3356a24071e8::t_419713e13ddeb7 230-234
+.github/actionlint.yaml
+  s_cf3356a24071e8::t_dc929446f0945b 1-12
+.github/workflows/build-check.yml
+  s_cf3356a24071e8::t_0bd9723d3ac38c 43-48
+  s_cf3356a24071e8::t_cec037b7c68d1e 13-23
+  s_cf3356a24071e8::t_e1eddd7ea540a3 105-107
+  s_cf3356a24071e8::t_693bd65453edbd 69-73
+.gitignore
+  s_cf3356a24071e8::t_e837f5b1850cc0 10-14
+package-lock.json
+  s_cf3356a24071e8::t_cb99854eba0415 20,1636-1645,2654-2660
+package.json
+  s_cf3356a24071e8::t_4401603d00f238 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "2ffb97cbae941a0cc02346d8287b707920dea393",
+  "prompts": {},
+  "sessions": {
+    "s_cf3356a24071e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d18e62fe-2536-40f1-8a11-d0e663091179",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

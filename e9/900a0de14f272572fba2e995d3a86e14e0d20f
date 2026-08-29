@@ -1,0 +1,33 @@
+.github/workflows/contract-tests.yml
+  s_02abc74f4971c7::t_588d3cce278f7d 47-84
+vitest.config.ts
+  s_02abc74f4971c7::t_026d75a5186fec 17-29
+test/room.fetch.test.ts
+  s_02abc74f4971c7::t_582a287b566782 7
+  s_02abc74f4971c7::t_7d3c33f7d5f9f6 92-99,111-112,118
+package.json
+  s_02abc74f4971c7::t_376ac680af14c9 23
+  s_02abc74f4971c7::t_143702e7152dde 11
+codecov.yml
+  s_02abc74f4971c7::t_79bf6e736fb8bb 1-55
+.gitignore
+  s_02abc74f4971c7::t_d394d4dbfb03d3 6-7
+package-lock.json
+  s_02abc74f4971c7::t_b8e7f1e4bc80f6 16,22-81,1598-1628,1783-1805,1966-2041,2323-2350
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "e9900a0de14f272572fba2e995d3a86e14e0d20f",
+  "prompts": {},
+  "sessions": {
+    "s_02abc74f4971c7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6cdd4954-767c-4394-b73f-50b53ed40361",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

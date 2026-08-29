@@ -1,0 +1,21 @@
+test/spoke-drift.spec.ts
+  s_a4bf449cf66fcd::t_7296f0e7998b1f 30
+  s_a4bf449cf66fcd::t_9ab3e88cae7e6b 145
+  s_a4bf449cf66fcd::t_a6c420ee612c5e 59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "64a1f3e8ae2a4925ddd94dc142edb31171e28849",
+  "prompts": {},
+  "sessions": {
+    "s_a4bf449cf66fcd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbe8519effeLiCWT22OLP2AYd",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

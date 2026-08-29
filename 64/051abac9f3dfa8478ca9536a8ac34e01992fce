@@ -1,0 +1,31 @@
+src/dispatch-inference-ollama.ts
+  s_37d3f61160b2dd::t_78859c81c5b6ac 26,32-41,47-50,55,67
+src/inference-backends.ts
+  s_37d3f61160b2dd::t_3de906b88360dd 164
+test/inference-backends.spec.ts
+  s_700cd0ad928eea::t_44a0db52090297 71-77,115-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "64051abac9f3dfa8478ca9536a8ac34e01992fce",
+  "prompts": {},
+  "sessions": {
+    "s_37d3f61160b2dd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0bc1ffdc-a72b-4965-9de8-3c391c235616",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_700cd0ad928eea": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f039e026-e3e5-49b1-b92f-19044c57b603",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

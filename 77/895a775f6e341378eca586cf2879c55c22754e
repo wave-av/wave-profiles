@@ -1,0 +1,23 @@
+test/x402-capture-budget-order.spec.ts
+  s_6f6453b23e3805::t_1543b78100e123 85-88,92-93,96-100
+  s_6f6453b23e3805::t_cc26c04e868be6 1-84,89-91,94-95,101-102
+src/x402-capture.ts
+  s_6f6453b23e3805::t_a6945830f4156a 322-324
+  s_6f6453b23e3805::t_b61ebf5a8fa958 330
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "77895a775f6e341378eca586cf2879c55c22754e",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

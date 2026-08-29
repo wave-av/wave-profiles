@@ -1,0 +1,23 @@
+.github/workflows/coverage-gap-weekly.yml
+  s_6f6453b23e3805::t_4b05f4581110ad 50-54
+.github/workflows/flake-detector.yml
+  s_6f6453b23e3805::t_046f8f21fafa99 58-62
+.github/workflows/mutation-nightly.yml
+  s_6f6453b23e3805::t_244705952f0982 41-43,57-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "015c28c68481dbe9525f87a2f76d730042fadaa6",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.gitar/rules/README.md
+  s_0fd7cef9833c73::t_55f3056a7ff6b2 1-22
+.gitar/rules/ci-eval.md
+  s_0fd7cef9833c73::t_282ff241fd7cda 1-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "64ff45b3a5b4711ee96a3077be40b48e9431febb",
+  "prompts": {},
+  "sessions": {
+    "s_0fd7cef9833c73": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff79ff743ffetR62NEVglo2qYD",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+moq/listen/mix-run.mjs
+  s_157583aa3b6686::t_ae6e9251ad0e61 1-224
+moq/listen/fly.mix4.toml
+  s_157583aa3b6686::t_e4ce7bd34bbc40 1-26
+moq/listen/fly.mix8.toml
+  s_157583aa3b6686::t_3af7f68c65f60f 1-26
+moq/listen/Dockerfile
+  s_157583aa3b6686::t_55df9ca5975ca9 20
+  s_157583aa3b6686::t_e26c4e80b256d9 33-36
+  s_157583aa3b6686::t_ce54c388646956 1,6-8
+moq/listen/mix-run.test.mjs
+  s_157583aa3b6686::t_e4d23a60990380 1-142
+moq/listen/entrypoint.sh
+  s_157583aa3b6686::t_0d71201ff78c9b 1-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "307d92a55dad83d35486845d47a61b8a0760b593",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

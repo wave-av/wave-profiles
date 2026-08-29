@@ -1,0 +1,23 @@
+src/product-meters-catalog.ts
+  s_8a4196ff41d6a6::t_5fb034e7ef04ff 195-211
+CHANGELOG.md
+  s_8a4196ff41d6a6::t_afb44469a8885c 11-17
+test/product-meters.catalog.spec.ts
+  s_8a4196ff41d6a6::t_0ba309c56308ba 122-148
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "41022744ef998e81d1cee13809e186845f7c47d3",
+  "prompts": {},
+  "sessions": {
+    "s_8a4196ff41d6a6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe51f2f31ffeyQCjIsiyMruncT",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

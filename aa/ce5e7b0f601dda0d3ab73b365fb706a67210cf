@@ -1,0 +1,21 @@
+src/tempo-rail.ts
+  s_9e432dc94c73ad::t_1754991d872389 42-46,55,61-63,67-68
+test/tempo-funding.spec.ts
+  s_9e432dc94c73ad::t_b3e186b5aaf4a0 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "aace5e7b0f601dda0d3ab73b365fb706a67210cf",
+  "prompts": {},
+  "sessions": {
+    "s_9e432dc94c73ad": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe89b54d0ffeJzhiAS9bz5iAjc",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

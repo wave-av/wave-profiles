@@ -1,0 +1,21 @@
+dante-dep-bridge/scripts/test_shm_reader_follow.py
+  s_6e7ad4df769349::t_d2ceef93aa5312 1-160
+dante-dep-bridge/scripts/shm_reader_follow.py
+  s_6e7ad4df769349::t_c34660ac979042 8-10,12-28,30,36-86,88-94,97-103,105-109,114,117-118,121,123,134-169,171-201
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "a2d21d828e107ef0a783c66f31c82422e858b702",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

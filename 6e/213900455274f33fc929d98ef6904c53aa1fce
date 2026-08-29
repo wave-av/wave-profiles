@@ -1,0 +1,29 @@
+infra/waf/apply-ruleset.mjs
+  s_19c8e603d8990b::t_1a5bb8e7f2fea4 88-90,93,99-110
+  s_19c8e603d8990b::t_62046bdf767b93 111-112,147-165
+  s_19c8e603d8990b::t_79bf791d067c8e 21,24
+infra/waf/README.md
+  s_19c8e603d8990b::t_8c599bbfab804c 11-12
+  s_19c8e603d8990b::t_3e8b96e2061a83 52
+  s_19c8e603d8990b::t_ba28bf355af1a6 17
+  s_19c8e603d8990b::t_ceba13d8442a04 30-48
+infra/waf/wave-online-firewall-ruleset.json
+  s_19c8e603d8990b::t_7a66d5de356daf 11,14
+  s_19c8e603d8990b::t_31e3be359df11b 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6e213900455274f33fc929d98ef6904c53aa1fce",
+  "prompts": {},
+  "sessions": {
+    "s_19c8e603d8990b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ab7045fc-2546-4259-800b-f8fc2fd6de97",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+av/fmp4/init-segment.mts
+  s_157583aa3b6686::t_092390acf67098 128-133
+av/fmp4/fixtures.test.mts
+  s_157583aa3b6686::t_3d8e937dfdf098 36-46
+av/fixtures/frag-h264-aac.expected.json
+  s_157583aa3b6686::t_4bf138a22aff97 3,8-10,19-21
+av/fmp4/fmp4-demux.test.mts
+  s_157583aa3b6686::t_90a0345a5e5faa 32-36,52-75,77-81,83
+av/interop/interop-proof.mts
+  s_157583aa3b6686::t_35ebcd412f0345 370-371,374
+  s_157583aa3b6686::t_39dff36a994831 440-441,444-493
+  s_157583aa3b6686::t_9529d1758d01f8 66-76,79-87
+  s_157583aa3b6686::t_0398ab9e75f0b3 77-78
+  s_157583aa3b6686::t_39887ad2ce24bc 49-60,64-65
+  s_157583aa3b6686::t_967acc6e09669a 61-63
+  s_157583aa3b6686::t_462c77652fd938 380-386
+av/fmp4/fmp4-demux.mts
+  s_157583aa3b6686::t_4ddd79b7c88282 9-11,14-33,38,54,59,61-68,71-78,90-92,96-117,121-129,135
+  s_157583aa3b6686::t_1cfdca8fe76f2c 70
+  s_157583aa3b6686::t_fd8792ae6fa0cc 8
+av/fmp4/sample-table.test.mts
+  s_157583aa3b6686::t_292c2a6010a373 1-270
+av/fmp4/sample-table.mts
+  s_157583aa3b6686::t_61d75529ca9d53 1-213
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "343e9ceb02d221c73e48bd36dca9e4427540837b",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

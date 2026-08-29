@@ -1,0 +1,36 @@
+test/live-route.spec.ts
+  s_19c8e603d8990b::t_7b1a587278140d 1-27
+src/usage.ts
+  s_19c8e603d8990b::t_c889efa64e4872 297-302,304
+src/forward.ts
+  s_19c8e603d8990b::t_bb6c7a6681b5a3 48
+  s_19c8e603d8990b::t_61d70b8b7b50d9 137-140
+wrangler.toml
+  s_19c8e603d8990b::t_716eafec9c3374 390-394
+test/forward.spec.ts
+  s_19c8e603d8990b::t_c36989089238cf 220-239
+test/product-ratelimit.spec.ts
+  s_19c8e603d8990b::t_a9383029fd3f12 27-28
+src/scopes.ts
+  s_19c8e603d8990b::t_ba8fba04748e23 54-55
+  s_19c8e603d8990b::t_25d269b9812977 312
+  s_19c8e603d8990b::t_42308f8bbf7cf6 162
+test/usage-dimensions.spec.ts
+  s_19c8e603d8990b::t_3fa68cddd00652 190-203
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4b976d69979ad39d15cfe259e68bce39af842176",
+  "prompts": {},
+  "sessions": {
+    "s_19c8e603d8990b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ab7045fc-2546-4259-800b-f8fc2fd6de97",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

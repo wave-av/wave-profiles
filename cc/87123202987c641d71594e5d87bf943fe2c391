@@ -1,0 +1,27 @@
+test/origin-actions.spec.ts
+  s_048ad7f61626d4::t_68dda1d26c0836 1-43
+src/origin-webhook.ts
+  s_048ad7f61626d4::t_5fdcd346005ec6 86-95
+  s_048ad7f61626d4::t_b96f5c4f3cea9c 12
+  s_048ad7f61626d4::t_29f8dfa71dd493 33-34
+wrangler.toml
+  s_048ad7f61626d4::t_dcb2bea5e18340 1424-1430
+src/origin-actions.ts
+  s_048ad7f61626d4::t_32c879c3356f4f 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "cc87123202987c641d71594e5d87bf943fe2c391",
+  "prompts": {},
+  "sessions": {
+    "s_048ad7f61626d4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_feee8970affenVKsU9Nt681bXx",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

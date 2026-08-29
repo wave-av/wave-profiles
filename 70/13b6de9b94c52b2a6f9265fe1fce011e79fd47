@@ -1,0 +1,19 @@
+.github/workflows/coverage-ratchet.yml
+  s_91f9e53687e8c1::t_1900ac61959727 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "7013b6de9b94c52b2a6f9265fe1fce011e79fd47",
+  "prompts": {},
+  "sessions": {
+    "s_91f9e53687e8c1": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcf9d2753ffe44cm3ZVl2exVN6",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

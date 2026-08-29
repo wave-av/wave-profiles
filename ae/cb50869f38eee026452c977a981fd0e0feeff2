@@ -1,0 +1,28 @@
+src/usage.ts
+  s_f9ff6dc10be18e::t_6c0c03a45d10e4 201-204
+  s_f9ff6dc10be18e::t_c0af433017516d 171
+  s_f9ff6dc10be18e::t_eb881566d19057 237-238
+  s_f9ff6dc10be18e::t_e983bb1c45ab55 265
+  s_f9ff6dc10be18e::t_61962701bbfc75 691
+  s_f9ff6dc10be18e::t_33cbb97f651b95 268
+test/sandbox-vcpu-meter.spec.ts
+  s_f9ff6dc10be18e::t_41860879bc5fc2 1-49
+src/product-meters.ts
+  s_f9ff6dc10be18e::t_34fedb1d158768 329-340
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "aecb50869f38eee026452c977a981fd0e0feeff2",
+  "prompts": {},
+  "sessions": {
+    "s_f9ff6dc10be18e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aa20d111-123e-4fad-b86d-3c93f1965088",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

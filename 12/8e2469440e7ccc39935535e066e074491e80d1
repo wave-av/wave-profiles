@@ -1,0 +1,26 @@
+av-bridge/wave-av-sync-test.cpp
+  s_157583aa3b6686::t_8f4dfe4fd494f8 1-119
+av-bridge/CMakeLists.txt
+  s_157583aa3b6686::t_bde76110f41fbb 1-31
+av-bridge/wave-av-sync.h
+  s_157583aa3b6686::t_b826c7091db803 1-58
+CMakeLists.txt
+  s_157583aa3b6686::t_cfea5a651961e7 97-104
+  s_157583aa3b6686::t_4717ba1fcd86e2 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "128e2469440e7ccc39935535e066e074491e80d1",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

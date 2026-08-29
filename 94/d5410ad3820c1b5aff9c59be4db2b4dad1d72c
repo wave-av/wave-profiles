@@ -1,0 +1,14 @@
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "94d5410ad3820c1b5aff9c59be4db2b4dad1d72c",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

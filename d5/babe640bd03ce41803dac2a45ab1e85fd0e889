@@ -1,0 +1,29 @@
+src/forward.ts
+  s_cfd273c4003cc9::t_f6a7d3cc378d14 206-213,215
+  s_cfd273c4003cc9::t_912da6e73874c6 169-172
+  s_cfd273c4003cc9::t_a93f3c6fb381b5 66-67,69,71-74
+  s_cfd273c4003cc9::t_1295b3e1ebefdc 90-92
+  s_cfd273c4003cc9::t_8371153c5a899e 4,6-10
+test/forward.spec.ts
+  s_cfd273c4003cc9::t_af46e828e8e68c 134,141-142
+  s_cfd273c4003cc9::t_9dabd1142173bf 111,115-117
+src/worker.ts
+  s_cfd273c4003cc9::t_4fb80a1a9e1b21 41
+  s_cfd273c4003cc9::t_97cec1939beaf9 6-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d5babe640bd03ce41803dac2a45ab1e85fd0e889",
+  "prompts": {},
+  "sessions": {
+    "s_cfd273c4003cc9": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc89f32ddffeE5f0TZ7lxf5JO9",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

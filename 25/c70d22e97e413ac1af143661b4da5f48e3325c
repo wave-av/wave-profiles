@@ -1,0 +1,25 @@
+observability/scrape/README.md
+  s_6bd73d48dc7ec3::t_24c91898301f2d 1-48
+observability/METRICS-PIPELINE.md
+  s_6bd73d48dc7ec3::t_0050bebd9fa6cb 55-59
+  s_6bd73d48dc7ec3::t_951faf14e15dd9 19-26,28-34
+observability/scrape/wave-gateway.alloy
+  s_6bd73d48dc7ec3::t_afad0cc6e3f51a 1-42,49-51
+  s_6bd73d48dc7ec3::t_b72e4b913f8680 43-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "25c70d22e97e413ac1af143661b4da5f48e3325c",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

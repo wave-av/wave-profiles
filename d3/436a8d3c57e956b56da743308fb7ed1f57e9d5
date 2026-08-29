@@ -1,0 +1,32 @@
+src/agent-tools-exec.ts
+  s_f6adba47e84bbf::t_5cefe3b524df2e 67-71
+  s_f6adba47e84bbf::t_e75fdcd7b1226c 127
+src/meter-ledger.ts
+  s_f6adba47e84bbf::t_2a5f62c4fe9e55 61-65
+  s_f6adba47e84bbf::t_acb11911ae4f20 228
+src/router.ts
+  s_f6adba47e84bbf::t_da8642127627e1 174,176-184
+  s_f6adba47e84bbf::t_fd56ebd9b38e4a 33-36
+src/lib/analytics-engine.ts
+  s_f6adba47e84bbf::t_2dd274e438c53c 55
+  s_f6adba47e84bbf::t_6c925a6ab140ec 33-36
+src/gateway-native-routes.ts
+  s_f6adba47e84bbf::t_1ff6ca0b1dd1ae 246-247
+  s_f6adba47e84bbf::t_48bd9380a33244 248
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d3436a8d3c57e956b56da743308fb7ed1f57e9d5",
+  "prompts": {},
+  "sessions": {
+    "s_f6adba47e84bbf": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbb2e5adffeFmtqp1NR5F67SA",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

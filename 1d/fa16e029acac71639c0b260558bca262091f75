@@ -1,0 +1,21 @@
+moq/listen/fly.chillwave-stems.toml
+  s_157583aa3b6686::t_22ed14e8a21270 35-40
+  s_157583aa3b6686::t_31e19c15eeac15 16-17
+  s_157583aa3b6686::t_a7edf8b4cd35b7 14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "1dfa16e029acac71639c0b260558bca262091f75",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

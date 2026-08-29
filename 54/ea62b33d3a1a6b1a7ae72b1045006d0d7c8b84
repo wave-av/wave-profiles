@@ -1,0 +1,104 @@
+test/bridge-kyc.spec.ts
+  s_756b33c630d33b::t_84d0b019665b63 1-110
+  s_c464a82f334d29::t_86fcb90447928e 111-167
+.worktrees/atomic-reserve-1173
+  s_0e71cde91d2174::t_0f6b86e8c57d62 1
+.worktrees/search-e1-exa
+  s_9f1a326dc4e68f::t_53301dab9e5855 1
+.claude/worktrees/agent-a0add0d40585372b8
+  s_848f20df535216::t_42eb0105aa6aa5 1
+.claude/worktrees/agent-aa1b0078dc515b266
+  s_ffc5895fb91751::t_aea1beea08f0e4 1
+.claude/worktrees/agent-aa92dc65d96d7ddfb
+  s_e075aa26626cdf::t_aa57abc795d1a4 1
+.claude/worktrees/agent-ab03c8c303b499e6a
+  s_aaf34bfe0ad7c9::t_717e4f1105f3bc 1
+.claude/worktrees/agent-ac2667641b156152c
+  s_e075aa26626cdf::t_262b99a3fbc2ca 1
+.claude/worktrees/agent-aed139aa4ff3eb654
+  s_e0ffda3bab9f45::t_5700fb1278f591 1
+.claude/worktrees/agent-afbaa73197a964e53
+  s_848f20df535216::t_a599bdceba476f 1
+test/bridge-rail.spec.ts
+  s_756b33c630d33b::t_f03e0c862f1067 72,97,220,404
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "54ea62b33d3a1a6b1a7ae72b1045006d0d7c8b84",
+  "prompts": {},
+  "sessions": {
+    "s_0e71cde91d2174": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe5d96c78ffe4nPWaNEqYF3z42",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_848f20df535216": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-afbaa73197a964e53",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_9f1a326dc4e68f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fee9ff6f3ffevCtjj4BaE8DMXP",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_aaf34bfe0ad7c9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab03c8c303b499e6a",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_c464a82f334d29": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe0605de9ffeHpfJ6z0rNvDUJa",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_e075aa26626cdf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ac2667641b156152c",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_e0ffda3bab9f45": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-aa92dc65d96d7ddfb",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_ffc5895fb91751": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-aa1b0078dc515b266",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

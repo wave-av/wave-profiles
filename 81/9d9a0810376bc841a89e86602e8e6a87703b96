@@ -1,0 +1,19 @@
+src/viewport-id.ts
+  s_24cb8728a8d69a::t_4337124d122937 35-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "819d9a0810376bc841a89e86602e8e6a87703b96",
+  "prompts": {},
+  "sessions": {
+    "s_24cb8728a8d69a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff750fa60ffeDBrBGbx4RQyXw3",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

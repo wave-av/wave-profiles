@@ -1,0 +1,21 @@
+src/spoke-route-table.ts
+  s_a4bf449cf66fcd::t_20df5583ae6537 150-158
+src/env-local/spoke-origins.ts
+  s_a4bf449cf66fcd::t_13101e9809304c 73-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "ead5bbe3cd95a68fd9c0b8f582fdbed12e097050",
+  "prompts": {},
+  "sessions": {
+    "s_a4bf449cf66fcd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbe8519effeLiCWT22OLP2AYd",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

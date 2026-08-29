@@ -1,0 +1,204 @@
+.github/.token-budget-baseline
+  h_af5ac1a9798224 93-99
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 1-212
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 212-249
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 27-33,128-131,143-161,165-169,171-178,180
+.github/workflows/x402-paid-smoke.yml
+  h_af5ac1a9798224 139,151-194,199-200,202-208,211
+CHANGELOG.md
+  h_af5ac1a9798224 11-140,172-612,647-674
+README.md
+  h_af5ac1a9798224 106,110
+package-lock.json
+  h_af5ac1a9798224 3367-3369
+package.json
+  h_af5ac1a9798224 43-45
+scripts/x402-paid-smoke.mjs
+  h_af5ac1a9798224 28-42,138-143,158,160-161,163-185
+src/agent-self-pay.ts
+  h_af5ac1a9798224 23-25,149,199
+src/anti-smuggle-headers.ts
+  h_af5ac1a9798224 48-66
+src/auth-deny.ts
+  h_af5ac1a9798224 1-201
+src/auth-supabase-jwt.ts
+  h_af5ac1a9798224 1-81
+src/auth.ts
+  h_af5ac1a9798224 25-26,146-152
+src/authorized-forward.ts
+  h_af5ac1a9798224 16-17,115-118
+src/billing-routes.ts
+  h_af5ac1a9798224 9-11,188
+src/bounded-body.ts
+  h_af5ac1a9798224 1-56
+src/customer-inline-routes.ts
+  h_af5ac1a9798224 28-29,46
+src/dispatch-router.ts
+  h_af5ac1a9798224 45,60-64,119
+src/errors-next-action.ts
+  h_af5ac1a9798224 46-66
+src/estimate.ts
+  h_af5ac1a9798224 21-22,256
+src/facilitator-routes.ts
+  h_af5ac1a9798224 15,21-28,66
+src/mcp-native-tools.ts
+  h_af5ac1a9798224 1-307
+src/mcp-payment.ts
+  h_af5ac1a9798224 1-98
+src/mcp-product-eligibility.ts
+  h_af5ac1a9798224 1-141
+src/mcp-product-exec.ts
+  h_af5ac1a9798224 1-348
+src/mcp-product-params.ts
+  h_af5ac1a9798224 1-127
+src/mcp-product-spec.ts
+  h_af5ac1a9798224 1-134
+src/mcp-product-tools.ts
+  h_af5ac1a9798224 1-290
+src/mcp-runtime.ts
+  h_af5ac1a9798224 1-218
+src/mcp-vocabulary-snapshot.ts
+  h_af5ac1a9798224 1-94
+src/mcp-vocabulary.ts
+  h_af5ac1a9798224 1-163
+src/mcp-x402-challenge.ts
+  h_af5ac1a9798224 1-177
+src/mcp.ts
+  h_af5ac1a9798224 7-12,17-20,23-31,33,35,38-51,53-63,65-68,70-82,84-95,98-114,116-139,141-144,151-152,154-159,163-165,167-170,174-177,179-190,193-290
+src/mesh-gpu.ts
+  h_af5ac1a9798224 20-21,447
+src/pipeline-orchestrator-do.ts
+  h_af5ac1a9798224 17,122-128,136,138-147
+src/public-surface.ts
+  h_af5ac1a9798224 22-24,147-155
+src/receipts.ts
+  h_af5ac1a9798224 24-25,401
+src/scopes.ts
+  h_af5ac1a9798224 263-270
+src/session-budget-autorecharge.ts
+  h_af5ac1a9798224 105-113,117-118,130-137,146,154,197-203,207,212-215,217-219
+src/spoke-routing.ts
+  h_af5ac1a9798224 10-18,25
+src/stream-session-do.ts
+  h_af5ac1a9798224 29-35,171-194,215,235-241
+src/supabase-jwt.ts
+  h_af5ac1a9798224 249-269
+src/token-exchange.ts
+  h_af5ac1a9798224 5-8,33-36
+src/usage-counter.ts
+  h_af5ac1a9798224 177-197
+src/usage.ts
+  h_af5ac1a9798224 97,615-622,625
+src/worker.ts
+  h_af5ac1a9798224 96-123
+src/x402-capture.ts
+  h_af5ac1a9798224 20,33-34,174-193
+src/x402-challenge-price.ts
+  h_af5ac1a9798224 1-245
+src/x402-challenge.ts
+  h_af5ac1a9798224 1-19,22-23,25,47-52,56-100,121-122
+src/x402-core.ts
+  h_af5ac1a9798224 310-314
+src/x402-deny-publish.ts
+  h_af5ac1a9798224 13-19,81-87,105-107
+src/x402-envelope.ts
+  h_af5ac1a9798224 69-80,95
+src/x402-pay-lane.ts
+  h_af5ac1a9798224 27-29,41-47,55,64-101,108-115,118,161-163,165-171
+src/x402-quote-fallback.ts
+  h_af5ac1a9798224 1-179
+src/x402-quote-meter.ts
+  h_af5ac1a9798224 1-68
+src/x402-quote-required.ts
+  h_af5ac1a9798224 1-127
+src/x402-rail.ts
+  h_af5ac1a9798224 1-76
+src/x402-stream-ticks.ts
+  h_af5ac1a9798224 42,44,192-224
+src/x402-stream.ts
+  h_af5ac1a9798224 62,125-139
+src/x402.ts
+  h_af5ac1a9798224 56,97-98,520-543
+src/zdr.ts
+  h_af5ac1a9798224 17-19,22-26,33-39,86-98,101-163,195-197,199,201-203,212-217,219-220
+test/auth-deny-guest-only-825.spec.ts
+  h_af5ac1a9798224 1-161
+test/auth-jwks-iss-sniff-825.spec.ts
+  h_af5ac1a9798224 1-58
+test/dispatch-router.spec.ts
+  h_af5ac1a9798224 116-126,130
+test/mcp-native-tools-843.spec.ts
+  h_af5ac1a9798224 1-162
+test/mcp-product-eligibility-821.spec.ts
+  h_af5ac1a9798224 1-95
+test/mcp-product-exec-821.spec.ts
+  h_af5ac1a9798224 1-300
+test/mcp-product-spec-821.spec.ts
+  h_af5ac1a9798224 1-52
+test/mcp-product-tools-821.spec.ts
+  h_af5ac1a9798224 1-315
+test/mcp-product-tools-planted-821.spec.ts
+  h_af5ac1a9798224 1-279
+test/mcp-repair-short-circuit-843.spec.ts
+  h_af5ac1a9798224 1-116
+test/mcp-runtime-843.spec.ts
+  h_af5ac1a9798224 1-116
+test/mcp-vocabulary-e5p3.spec.ts
+  h_af5ac1a9798224 1-164
+test/mcp-x402-payto-822.spec.ts
+  h_af5ac1a9798224 1-323
+test/mcp-x402-pricing.spec.ts
+  h_af5ac1a9798224 26,49-62,64-65,67,70-71,83,88,100,108,125,132,137-151
+test/pipeline-orchestrator-zdr.spec.ts
+  h_af5ac1a9798224 1-78
+test/session-budget-autorecharge-ledger.spec.ts
+  h_af5ac1a9798224 46,56,60-72
+test/session-budget-autorecharge.spec.ts
+  h_af5ac1a9798224 13-15,170-175,178-198,207-209
+test/stream-session-do.spec.ts
+  h_af5ac1a9798224 74-95
+test/usage-dedupe-quota.spec.ts
+  h_af5ac1a9798224 1-53
+test/x402-auth-before-paywall.spec.ts
+  h_af5ac1a9798224 1-304
+test/x402-capture-on-serve.spec.ts
+  h_af5ac1a9798224 78-91
+test/x402-capture-quote-binding.spec.ts
+  h_af5ac1a9798224 14,54-72
+test/x402-deny-publish-818.spec.ts
+  h_af5ac1a9798224 35,68-70,76,239-240
+test/x402-pay-lane.spec.ts
+  h_af5ac1a9798224 21-22,46-47,60-61,101-112
+test/x402-quote-fallback-settle.spec.ts
+  h_af5ac1a9798224 1-143
+test/x402-quote-fallback.spec.ts
+  h_af5ac1a9798224 1-204
+test/x402-quoted-price-b1.spec.ts
+  h_af5ac1a9798224 11-14,20,45-48,69-84,171-185,187-193
+test/x402-quoted-price-b5.spec.ts
+  h_af5ac1a9798224 21-22,70-91
+test/x402-stream-ticks-c4.spec.ts
+  h_af5ac1a9798224 15,112-237
+test/x402-unpayable-challenge-840.spec.ts
+  h_af5ac1a9798224 1-275
+test/x402-unpayable-terminal-semantics-859.spec.ts
+  h_af5ac1a9798224 1-190
+test/zdr.spec.ts
+  h_af5ac1a9798224 9,52-109,147,150-158,186-196,273-302
+wrangler.toml
+  h_af5ac1a9798224 935-966
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "74d158169ff7a5f32f6aeccc68624c6ea85dc755",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

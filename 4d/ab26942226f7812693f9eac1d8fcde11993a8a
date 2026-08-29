@@ -1,0 +1,26 @@
+src/gpu-dispatch-failure.ts
+  s_e077f59d8037ec::t_ab0f70440fc936 1-70
+src/agent-spokes.ts
+  s_e077f59d8037ec::t_f0a007f5b209cd 24-26
+  s_e077f59d8037ec::t_390c5df65cd861 504
+  s_e077f59d8037ec::t_1e32945a946326 492-493
+  s_e077f59d8037ec::t_88656e8db6f471 505-508
+test/gpu-dispatch-failure.spec.ts
+  s_e077f59d8037ec::t_d43fe032fa1c65 1-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "4dab26942226f7812693f9eac1d8fcde11993a8a",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

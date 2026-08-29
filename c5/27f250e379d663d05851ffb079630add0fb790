@@ -1,0 +1,31 @@
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_7a175814ae0917 223-227,307-309
+  s_157583aa3b6686::t_9ccaa181c000d6 304-306
+  s_157583aa3b6686::t_f1fb7fe3717c4f 22
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_830b7f14f46b86 86-88
+bridge-wire/smoke.sh
+  s_157583aa3b6686::t_a0f71f8e84367c 42-48,51-59
+moq/listen/listen-runtime-cap.mjs
+  s_157583aa3b6686::t_5dd26a7bc3c75f 1-27
+moq/listen/listen-runtime-cap.test.mjs
+  s_157583aa3b6686::t_9dc3ec80498ee1 1-44
+moq/listen/listen-source.test.mjs
+  s_157583aa3b6686::t_2e9395e79f3153 6-8,26-44,65-78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "c527f250e379d663d05851ffb079630add0fb790",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

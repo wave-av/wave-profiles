@@ -1,0 +1,25 @@
+moq/listen/av-ondemand-publish.mts
+  s_6e7ad4df769349::t_8b53961379d38f 28-31
+  s_6e7ad4df769349::t_102a8242ab9ed0 58
+  s_6e7ad4df769349::t_ee394688943dce 191-203
+  s_6e7ad4df769349::t_836b1219ac471c 130-132,134-137,140-154
+moq/listen/av-ondemand-publish.test.mts
+  s_6e7ad4df769349::t_808e44b4b8bf90 18
+  s_6e7ad4df769349::t_ef5be0e1f5621f 236-332
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "63ebc400c6d06e0ab9d013793d92939da65d3de9",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

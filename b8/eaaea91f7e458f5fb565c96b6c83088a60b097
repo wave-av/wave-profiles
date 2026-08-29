@@ -1,0 +1,44 @@
+src/usage.ts
+  s_db1b2a792e5f25::t_d4cbbecf3c5987 671
+  s_db1b2a792e5f25::t_78a470716d5a35 70
+  s_db1b2a792e5f25::t_69d9321bb261d7 662-670
+  s_db1b2a792e5f25::t_4543e9558d7840 696
+  s_db1b2a792e5f25::t_e68961f97e3efe 123-124
+  s_db1b2a792e5f25::t_f75541a88c32a8 125-126
+  s_db1b2a792e5f25::t_90c17028257479 739
+src/do-exports.ts
+  s_db1b2a792e5f25::t_cb342f545524be 18
+wrangler.toml
+  s_db1b2a792e5f25::t_7320bb341b3452 299-304
+  s_db1b2a792e5f25::t_a982f0e71a68cc 1088-1098
+  s_db1b2a792e5f25::t_fec046eec0523a 1119-1122
+test/exactly-once-meter.spec.ts
+  s_db1b2a792e5f25::t_3d9ed4a3900cb7 106-107
+  s_db1b2a792e5f25::t_d64145637032b9 1-105,108-189
+src/exactly-once-meter-do.ts
+  s_6a9fd9e13344fb::t_7b290e6e5459e6 1-289
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "b8eaaea91f7e458f5fb565c96b6c83088a60b097",
+  "prompts": {},
+  "sessions": {
+    "s_6a9fd9e13344fb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-afb9acac7e491d1aa",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+CHANGELOG.md
+  h_af5ac1a9798224 25-35
+src/agent-spokes.ts
+  h_af5ac1a9798224 29-33,201-204,368-372,498-500
+src/model-normalization.ts
+  h_af5ac1a9798224 1-36
+src/upstream-error.ts
+  h_af5ac1a9798224 1-111
+test/upstream-error.spec.ts
+  h_af5ac1a9798224 1-178
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "a6b7cd9a30d3711591bab765527b1464c3f959f0",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

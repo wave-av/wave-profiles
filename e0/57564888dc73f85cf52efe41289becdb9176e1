@@ -1,0 +1,54 @@
+test/x402-pay-lane.spec.ts
+  s_15127d80763110::t_8ef898e1185f59 25-27
+.github/.token-budget-baseline
+  s_15127d80763110::t_2e99b029a4a08b 86
+  s_15127d80763110::t_ac3519773b55b3 66-75,77
+src/x402-capture-serve.ts
+  s_15127d80763110::t_c53ed246f25d0e 18-26
+  s_15127d80763110::t_25ff1121ea2c4f 15-17
+  s_15127d80763110::t_f61768a6baa32d 27-29
+  s_a7500a7050c713::t_e0cfd3bdbeb1bf 1-14,30-249
+src/x402-capture.ts
+  s_15127d80763110::t_e1b429c2c04911 39,42-44
+  s_15127d80763110::t_299395c53ec5da 12-17
+src/x402-pay-lane.ts
+  s_15127d80763110::t_d39567e07f3f4b 15
+test/x402-capture-on-serve.spec.ts
+  s_dc38c64a03b22c::t_6f43f103e45f37 20-21
+test/x402-capture-orchestrator.spec.ts
+  s_dc38c64a03b22c::t_6b8f9d76767d7a 16
+test/x402-permit-capture-on-serve.spec.ts
+  s_dc38c64a03b22c::t_63b1740e3c901b 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "e057564888dc73f85cf52efe41289becdb9176e1",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_a7500a7050c713": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a675f16958c10a846",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_dc38c64a03b22c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a8920481777a310dc",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

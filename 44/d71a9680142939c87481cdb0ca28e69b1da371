@@ -1,0 +1,50 @@
+scripts/check-container-oom-policy_test.sh
+  s_364605915bb7ec::t_94445a26f3ce9a 37-39,41,43
+  s_364605915bb7ec::t_61b177065fdb7c 76
+  s_364605915bb7ec::t_e9606a053cdbfc 192-194
+  s_364605915bb7ec::t_c6105c2f042eda 1-36,40,42,44-75,77-122,125,127-183,187-191,202,204,208,210,213,215,218,220,222,226,228,230-322
+  s_364605915bb7ec::t_807e2ba26e170b 123-124,126
+  s_364605915bb7ec::t_5bfd5cd1e99920 184-186
+  s_364605915bb7ec::t_37dfb17cd055e1 195-197,199-201
+  s_364605915bb7ec::t_decc2af7764810 203
+  s_364605915bb7ec::t_ecf84513bf7c4d 205-207
+  s_364605915bb7ec::t_297f0905d99865 209
+  s_364605915bb7ec::t_a90640e6debffe 211-212
+  s_364605915bb7ec::t_d9c65ae6e9a761 214
+  s_364605915bb7ec::t_f087cf0c401970 216-217
+  s_364605915bb7ec::t_fa7eb77062a91f 219
+  s_364605915bb7ec::t_b4afe6cdf6405e 221
+  s_364605915bb7ec::t_322548c88cd24f 223-225
+  s_364605915bb7ec::t_42aaf3936e5d86 227
+  s_364605915bb7ec::t_2fb6b36e8a78fc 229
+  s_364605915bb7ec::t_f595474ff0f3e2 323-325
+  s_364605915bb7ec::t_8a1bc6ef8d9883 198,326-337
+docs/receipts/container-oom-policy-2026-07-28.txt
+  s_364605915bb7ec::t_09a3740ed8e5d0 1-101
+scripts/check-container-oom-policy.sh
+  s_364605915bb7ec::t_4958bb03dde097 1-121,136-137,143-210,212-216,221-237,257-259,261,263-270,272-291
+  s_364605915bb7ec::t_e2a335d76ade00 122-135,138-142
+  s_364605915bb7ec::t_242103cb8523aa 260,262,271
+  s_364605915bb7ec::t_471345ef76c07d 239-256
+  s_364605915bb7ec::t_e1d97c7c13379e 211
+  s_364605915bb7ec::t_1fbbb6a318c14e 217-220
+  s_364605915bb7ec::t_8d53cf098f89af 238
+  s_364605915bb7ec::t_c68aedc564afd0 292-294
+  s_364605915bb7ec::t_b94b7782be4828 295-299
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "44d71a9680142939c87481cdb0ca28e69b1da371",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

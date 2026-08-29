@@ -1,0 +1,21 @@
+src/capability-exercise.ts
+  s_2606de950a60c6::t_8d53817702b13a 1-94
+test/capability-exercise.spec.ts
+  s_2606de950a60c6::t_23fa82255fe19a 1-100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1834d99ed1df3834982ecc2a48d3fb7ece3d7ba9",
+  "prompts": {},
+  "sessions": {
+    "s_2606de950a60c6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef439bb6ffePesTgCloA0Efke",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

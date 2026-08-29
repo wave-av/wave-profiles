@@ -1,0 +1,34 @@
+src/agent-turn-speech.ts
+  s_1cea981189627b::t_1d6886d36f48b6 69-89,102
+  s_1cea981189627b::t_d4b404a65e6f40 99-101
+  s_1cea981189627b::t_f036320792cf9c 103
+  s_1cea981189627b::t_141f1778d69622 63,96-98,139,142,161,180
+src/agent-turn-meter.ts
+  s_1cea981189627b::t_32bbbd81d185d1 101,137
+src/agent-turn.ts
+  s_1cea981189627b::t_b9a1e56b5e4ed0 398,423,512
+src/voice-cogs-ledger.ts
+  s_1cea981189627b::t_537aada8a327da 21,71,73
+src/voice-cogs.ts
+  s_1cea981189627b::t_95f0453235a919 46-48,51-56,109-113,115-116,142,156,173
+test/voice-cogs-ledger.test.ts
+  s_1cea981189627b::t_599a95967c90d1 71,74-87,89-91,93-96,120,130,138-139,148,158,168,170,177,187
+test/voice-cogs.test.ts
+  s_1cea981189627b::t_affe2c2b74b4cf 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1cbdf4df2c0dadd4d19fd2af234a2c37126847ac",
+  "prompts": {},
+  "sessions": {
+    "s_1cea981189627b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8abf7d26-41ee-46b2-a9ca-90c06289cd20",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

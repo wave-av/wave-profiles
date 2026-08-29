@@ -1,0 +1,19 @@
+test/margin-cost-plane.spec.ts
+  s_70c7ac7de143f9::t_653cfe0a3e395b 67-70,76-77,85-86,88-92
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "63c570cecce29eef397a535c3708ba5752dba68f",
+  "prompts": {},
+  "sessions": {
+    "s_70c7ac7de143f9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "83997bdf-781e-45a8-9495-2c4d94c522e3",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+src/worker.ts
+  s_157583aa3b6686::t_37d06abdff898a 21
+  s_157583aa3b6686::t_a3be3abd71a72d 616
+  s_157583aa3b6686::t_dace979f657b06 618-623,625-626
+  s_157583aa3b6686::t_243123223e26fc 607-615
+  s_157583aa3b6686::t_8a85543a34fecb 22
+src/limits.ts
+  s_157583aa3b6686::t_e24be3dfbb37e7 6
+  s_157583aa3b6686::t_cc666cfdb385c8 565-591
+test/entitlement-denial-66.spec.ts
+  s_157583aa3b6686::t_74cd065b0392c7 1-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f40700957944db061c091708d38af3488b18c554",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

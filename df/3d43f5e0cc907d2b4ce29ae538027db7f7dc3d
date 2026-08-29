@@ -1,0 +1,34 @@
+CHANGELOG.md
+  s_a4cb3ea8251905::t_1afab5b2664b81 11-36
+src/billing-routes.ts
+  s_a4cb3ea8251905::t_af4c41081ce052 21
+  s_a4cb3ea8251905::t_ab774701c54031 169-177
+src/console-studio-cors.ts
+  s_a4cb3ea8251905::t_f90cc30c75e9f4 62
+docs/api/next-action.md
+  s_a4cb3ea8251905::t_15afbea5c624da 18
+src/billing-plans.ts
+  s_a4cb3ea8251905::t_379262e0ac0fd0 55-71,83,125,131,135-142
+  s_a4cb3ea8251905::t_feebddc11e8d47 72-80
+  s_a4cb3ea8251905::t_f89abd55d0d339 20-23
+docs/superpowers/specs/2026-07-05-dual-audience-error-envelope-design.md
+  s_a4cb3ea8251905::t_a30e19ee788530 68
+test/billing-plans.spec.ts
+  s_a4cb3ea8251905::t_c994128f11e93d 51,54,56-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "df3d43f5e0cc907d2b4ce29ae538027db7f7dc3d",
+  "prompts": {},
+  "sessions": {
+    "s_a4cb3ea8251905": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd46fffa2ffePXGM68LxQ9gmu0",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

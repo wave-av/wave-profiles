@@ -1,0 +1,22 @@
+src/connect-payouts-settlement.ts
+  h_af5ac1a9798224 1-129
+src/connect-payouts.ts
+  h_af5ac1a9798224 34-39
+test/connect-payouts-hardening.spec.ts
+  h_af5ac1a9798224 1-137
+test/connect-payouts-helpers.ts
+  h_af5ac1a9798224 1-69
+test/connect-payouts.spec.ts
+  h_af5ac1a9798224 11-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "3ecefc986a2d7615a09097f50d179375dc42a75d",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

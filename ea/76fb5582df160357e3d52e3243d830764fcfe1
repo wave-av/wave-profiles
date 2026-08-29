@@ -1,0 +1,40 @@
+src/openapi-route-table.ts
+  s_e077f59d8037ec::t_f6d79a0bd0d064 1-86
+src/x402-pay-lane.ts
+  s_e077f59d8037ec::t_7683d8ba21dc2d 44-64
+  s_e077f59d8037ec::t_32f98c5a37e176 84-87
+src/skills.ts
+  s_e077f59d8037ec::t_0d9b3a3ac98e99 16-29
+  s_e077f59d8037ec::t_88cbe2f2e59c5d 93-96
+  s_e077f59d8037ec::t_9f086814057feb 52-61,66
+  s_e077f59d8037ec::t_f14dfe7e9784df 158,162
+  s_e077f59d8037ec::t_269762cbd8e938 132-147
+  s_e077f59d8037ec::t_00e1071de537be 166-185,187-193
+  s_e077f59d8037ec::t_aa3622a1733038 217
+  s_e077f59d8037ec::t_d7ddf77091b7eb 79-85,91-92
+test/skills-wire-truth.spec.ts
+  s_e077f59d8037ec::t_99d13ce71b22d2 151-196
+  s_e077f59d8037ec::t_94738515197856 17-20
+  s_e077f59d8037ec::t_9f7d17158dd478 1-16,21-150,197-208
+test/skills.spec.ts
+  s_e077f59d8037ec::t_580f609f5e928c 61
+  s_e077f59d8037ec::t_1e2bd7a2cba0a0 89
+  s_e077f59d8037ec::t_f9365cd7bee1aa 70-78
+  s_e077f59d8037ec::t_cac9b208407e54 37-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "ea76fb5582df160357e3d52e3243d830764fcfe1",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+src/identity-resolve.ts
+  s_1fdca12355f003::t_7d598d15aeea8e 1-101
+src/scopes.ts
+  s_1fdca12355f003::t_e37fd1cb1d2869 117-126
+test/identity-resolve.spec.ts
+  s_1fdca12355f003::t_512977ee317093 1-148
+src/gateway-native-routes.ts
+  s_1fdca12355f003::t_8bb01c19856303 50
+  s_1fdca12355f003::t_8e82c36fa5f40e 113-122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "dcf14e6335fa4ad09313baee41d895cc1e839f6b",
+  "prompts": {},
+  "sessions": {
+    "s_1fdca12355f003": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe82b603cffeCGtlTCg4m3BPii",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+test/x402-unpayable-challenge-840.spec.ts
+  s_0fad940a86fc78::t_112c99d43c5a06 21,24,150,166,262-275
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "fa0d74da3094a035512561ec87d33a05b19acb48",
+  "prompts": {},
+  "sessions": {
+    "s_0fad940a86fc78": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a44e5f35fc14d094a",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

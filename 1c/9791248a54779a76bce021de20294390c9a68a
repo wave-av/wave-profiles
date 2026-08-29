@@ -1,0 +1,39 @@
+test/thumbnail-route.spec.ts
+  s_10e53e3a039bfa::t_946bf6984cdf89 102-113
+  s_10e53e3a039bfa::t_22b6efce6097ae 18
+src/usage.ts
+  s_10e53e3a039bfa::t_fe4a23b49fa0af 31-35
+  s_10e53e3a039bfa::t_f4ee245043e518 238-243
+  s_10e53e3a039bfa::t_15e32b95a4f2f6 212-219,221
+  s_10e53e3a039bfa::t_c8d981413996e8 53
+test/sandbox-vcpu-meter.spec.ts
+  s_10e53e3a039bfa::t_9b1caef3aa60cf 1-9
+  s_10e53e3a039bfa::t_6664c0e864dddc 21-23,28-36,39,41
+test/inference-39.spec.ts
+  s_10e53e3a039bfa::t_7cfe7a5452548b 41-43
+  s_10e53e3a039bfa::t_f88edb2817fa93 14
+CHANGELOG.md
+  s_10e53e3a039bfa::t_341a8f2397983b 11-35
+test/seconds-meter-scale.spec.ts
+  s_10e53e3a039bfa::t_ee895fbdc68871 1-122
+src/usage-meters.ts
+  s_10e53e3a039bfa::t_1bcf462381adbb 120-124
+  s_10e53e3a039bfa::t_f4394c7b08e699 142,148,152,160-168,170
+  s_10e53e3a039bfa::t_0b989f4921f4dd 143-147,149-151,153-159
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "1c9791248a54779a76bce021de20294390c9a68a",
+  "prompts": {},
+  "sessions": {
+    "s_10e53e3a039bfa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d6c2cfc-2b0d-42fa-9e8e-0888ca9d739b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

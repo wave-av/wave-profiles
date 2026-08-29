@@ -1,0 +1,19 @@
+src/dispatch-inference-openai.ts
+  s_5e6ab13afb0c41::t_c6a99aabbb8cb9 50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "764ad5a4867e3f0e4615c930128d1b432f41cfb8",
+  "prompts": {},
+  "sessions": {
+    "s_5e6ab13afb0c41": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff2ba0757ffeQEeT7wUIcHjBF7",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

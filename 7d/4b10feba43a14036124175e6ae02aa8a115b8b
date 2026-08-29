@@ -1,0 +1,38 @@
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_853043803835e5 34
+  s_157583aa3b6686::t_5a7fbddc285ed2 54
+  s_157583aa3b6686::t_239aa6a7fcec70 87-91
+  s_157583aa3b6686::t_f1c46867ccbbe6 77
+  s_157583aa3b6686::t_7c6128c841b9aa 20
+  s_157583aa3b6686::t_d897f9dc6ac5dc 169,172,174
+  s_157583aa3b6686::t_698110a910d595 254-268
+  s_157583aa3b6686::t_33498eda1c5795 39
+  s_157583aa3b6686::t_a43900b55dc653 192-238,241-253,270
+  s_157583aa3b6686::t_5bf0c4ec217f2d 152,154-158
+moq/crest/player/listen.html
+  s_157583aa3b6686::t_2ab2b069ccf590 8-14,16-28,31-32,36-39,41-42,44-50,54-56,58-59,61,66,72-73,75,82,101-102
+  s_157583aa3b6686::t_abe2758b9754da 29-30,34-35,40,43,51-53,57,68,71,76-81,83-100
+moq/crest/player/audio-scope.js
+  s_157583aa3b6686::t_5093ed7185db34 1-18,20-21,23-25,29-32,35-40,42-46,49-51,54,59-78,80-84,106-132
+  s_157583aa3b6686::t_e810f96a9d5a2e 41,47-48,52-53,55-58
+  s_157583aa3b6686::t_83d80f7f832130 19,22,26-28
+  s_157583aa3b6686::t_85e003d205b58b 79,85-100,102-104
+  s_157583aa3b6686::t_d1dd343de56c02 33-34
+  s_157583aa3b6686::t_85346a67f12dfd 101,105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "7d4b10feba43a14036124175e6ae02aa8a115b8b",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

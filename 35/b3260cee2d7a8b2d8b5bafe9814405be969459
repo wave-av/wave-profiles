@@ -1,0 +1,35 @@
+src/agent-turn-providers.ts
+  s_15127d80763110::t_f86591ad3ed7e6 13-17,21,25-35
+src/agent-turn-sink.ts
+  s_15127d80763110::t_3cbcce2bec7b77 127
+src/agent-session.ts
+  s_15127d80763110::t_92595e7e081796 451
+test/gateway-llm-contract.test.ts
+  s_15127d80763110::t_16433e562e985d 1-196
+src/gateway-llm-envelope.ts
+  s_15127d80763110::t_79d9bc4ce502e8 1-263
+test/agent-turn-deps.test.ts
+  s_15127d80763110::t_f4b3c9e40bd197 289
+  s_15127d80763110::t_8ad5a8da265b51 125
+  s_15127d80763110::t_760296ced44c1d 116-117
+  s_15127d80763110::t_43be7334c52059 342
+src/agent-turn.ts
+  s_15127d80763110::t_4440b707f8ffe9 676
+  s_15127d80763110::t_7626c1863eaabc 655
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "35b3260cee2d7a8b2d8b5bafe9814405be969459",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

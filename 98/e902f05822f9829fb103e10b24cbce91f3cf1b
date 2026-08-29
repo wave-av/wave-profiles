@@ -1,0 +1,29 @@
+src/gateway-native-routes.ts
+  s_bee3ffa3ef9676::t_a4d0bce5797cb0 102-111
+  s_bee3ffa3ef9676::t_aaf237f62df36d 49
+test/meter-ledger.spec.ts
+  s_bee3ffa3ef9676::t_9c5d8b1570828a 1-279
+src/env.ts
+  s_bee3ffa3ef9676::t_14768c28f8b755 71-74
+  s_bee3ffa3ef9676::t_6dffbefbe6ab6d 76
+src/meter-ledger.ts
+  s_bee3ffa3ef9676::t_9f28d69ca06106 1-295
+src/scopes.ts
+  s_bee3ffa3ef9676::t_8723e5bf139bb9 108-114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "98e902f05822f9829fb103e10b24cbce91f3cf1b",
+  "prompts": {},
+  "sessions": {
+    "s_bee3ffa3ef9676": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fedec3016ffexMOahvLfXdZJqs",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

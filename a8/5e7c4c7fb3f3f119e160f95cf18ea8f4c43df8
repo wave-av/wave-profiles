@@ -1,0 +1,16 @@
+src/auth-supabase-jwt.ts
+  h_af5ac1a9798224 50-52
+test/whip-dual-auth.spec.ts
+  h_af5ac1a9798224 106,110-113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a85e7c4c7fb3f3f119e160f95cf18ea8f4c43df8",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

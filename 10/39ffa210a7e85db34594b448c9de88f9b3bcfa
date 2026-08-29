@@ -1,0 +1,35 @@
+receipts/e33-durable.json
+  s_157583aa3b6686::t_1682dba5729f73 1-33
+moq/crest/durable/durable-dry-run-test.mjs
+  s_157583aa3b6686::t_c61f87afa888c7 1-227,255-276
+  s_157583aa3b6686::t_9b1622b165f5d7 228-254
+moq/crest/durable/supervision/verify-nicmode-deadman.sh
+  s_157583aa3b6686::t_7a3e3ec0c24ec0 1-49
+moq/crest/durable/wave-crest-otlp-shipper.service
+  s_157583aa3b6686::t_4e5e00ba9c737f 1-47
+moq/crest/durable/otlp-log-shipper.mjs
+  s_157583aa3b6686::t_faae4580021a2c 1-417
+moq/crest/durable/supervision/birddog-runner.service
+  s_157583aa3b6686::t_ac793868b3378a 1-29
+moq/crest/durable/supervision/wave-crest-capture.service
+  s_157583aa3b6686::t_7994759695edb8 1-26
+moq/crest/durable/install-shipper.sh
+  s_157583aa3b6686::t_c6cf0c2666c5c2 1-11,13-88
+  s_157583aa3b6686::t_c41273d5d3bf3b 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1039ffa210a7e85db34594b448c9de88f9b3bcfa",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

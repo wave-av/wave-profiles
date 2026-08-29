@@ -1,0 +1,24 @@
+test/voice-agent-dead-meter-e0.spec.ts
+  s_1cea981189627b::t_ee6f3b796e5ade 225-234,241-259
+src/usage-guards.ts
+  s_1cea981189627b::t_203002e834308e 38-75
+  s_1cea981189627b::t_0f8c5ef4086930 172-173
+  s_1cea981189627b::t_a7eb41659040c6 28-31
+  s_1cea981189627b::t_db4a7f1d05d6cc 112,123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "92cd7fc80225f5720298a5bec80690f3d39222fb",
+  "prompts": {},
+  "sessions": {
+    "s_1cea981189627b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8abf7d26-41ee-46b2-a9ca-90c06289cd20",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

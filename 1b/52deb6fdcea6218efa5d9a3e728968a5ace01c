@@ -1,0 +1,35 @@
+dante-dep-bridge/scripts/dep-hostops-drift.sh
+  s_364605915bb7ec::t_60f32ffaef2aac 1-94
+dante-dep-bridge/scripts/arc_channels.py
+  s_364605915bb7ec::t_682690e7ee33ff 1-69
+dante-dep-bridge/scripts/dep-hostns.sh
+  s_364605915bb7ec::t_fc27fa32027abc 1-66
+dante-dep-bridge/scripts/dep-netns-up.sh
+  s_364605915bb7ec::t_02f3b217a2e2f9 1-36
+dante-dep-bridge/scripts/dep-phys.sh
+  s_364605915bb7ec::t_54988f445072a4 1-102
+dante-dep-bridge/scripts/dep-up-a.sh
+  s_364605915bb7ec::t_53c003b89d2ac5 1-32
+dante-dep-bridge/scripts/dep-up.sh
+  s_364605915bb7ec::t_bf65d27c93c7e1 1-92
+dante-dep-bridge/scripts/shm_layout.py
+  s_364605915bb7ec::t_574219c5f71c79 1-19
+dante-dep-bridge/scripts/shm_reader_contig.py
+  s_364605915bb7ec::t_d17e44d18fb741 1-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "1b52deb6fdcea6218efa5d9a3e728968a5ace01c",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

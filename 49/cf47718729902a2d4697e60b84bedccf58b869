@@ -1,0 +1,21 @@
+dash_stream_source_segments.py
+  s_124891ed63801b::t_d115cc8c96690b 345
+src/core/input/blackmagic.py
+  s_124891ed63801b::t_d500ab7e770904 412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "49cf47718729902a2d4697e60b84bedccf58b869",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

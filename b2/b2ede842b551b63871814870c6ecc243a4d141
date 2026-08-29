@@ -1,0 +1,29 @@
+src/dispatch-provider-ladder.ts
+  s_dd051702c5f2bb::t_75cac7dddaa3f8 33
+  s_dd051702c5f2bb::t_daeff589832917 96,99,102,105,108,111,114
+  s_dd051702c5f2bb::t_72d22cd77f2ce7 4
+  s_dd051702c5f2bb::t_028fa0db6bf933 21
+  s_dd051702c5f2bb::t_2db355d26d3653 90-93
+src/dispatch-inference-cerebras.ts
+  s_dd051702c5f2bb::t_f0835cecccbcfe 1-82
+.github/deploy-secrets-allowlist.txt
+  s_dd051702c5f2bb::t_8902e2a9e8bc53 260-264
+.github/workflows/deploy.yml
+  s_dd051702c5f2bb::t_1bfdd887a4512f 186
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b2b2ede842b551b63871814870c6ecc243a4d141",
+  "prompts": {},
+  "sessions": {
+    "s_dd051702c5f2bb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffa37d499ffen59rd4pkfX3IXQ",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

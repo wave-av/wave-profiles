@@ -1,0 +1,18 @@
+src/zdr.ts
+  h_af5ac1a9798224 70-79,104,115-119
+test/pipeline-orchestrator-zdr.spec.ts
+  h_af5ac1a9798224 37,39
+test/zdr.spec.ts
+  h_af5ac1a9798224 47,63-66,91,118-119,161,200,288,292-293,295-296
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "4027a1f3afe0102f58a0d41daec2605e6f5d6633",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

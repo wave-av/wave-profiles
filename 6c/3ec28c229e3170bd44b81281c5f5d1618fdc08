@@ -1,0 +1,28 @@
+moq/crest/player/index.html
+  s_157583aa3b6686::t_89fe2d147c60ba 1-29
+moq/crest/player/moq-wire-browser.js
+  s_157583aa3b6686::t_a68b395a732f33 1-101
+moq/crest/player/moq-player.js
+  s_157583aa3b6686::t_69687e43f73af7 1-9,11-181
+  s_157583aa3b6686::t_6f7467c1337d29 10
+moq/crest/player/serve.mjs
+  s_157583aa3b6686::t_935464abcbaaf7 1-26
+moq/crest/receipts/e5.5-browser-moq-player.json
+  s_157583aa3b6686::t_aef47ab6caf050 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6c3ec28c229e3170bd44b81281c5f5d1618fdc08",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

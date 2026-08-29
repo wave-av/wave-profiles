@@ -1,0 +1,23 @@
+test/capability-crypto.spec.ts
+  s_2606de950a60c6::t_3e0075cd2239c7 1-46
+src/capability-crypto.ts
+  s_2606de950a60c6::t_2398045210a68e 1-28,30-36,38-77
+  s_2606de950a60c6::t_57c0228789c7dc 29
+  s_2606de950a60c6::t_610348df449bdb 37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "05774359b03a57205e588f576fdd3cddcb42d193",
+  "prompts": {},
+  "sessions": {
+    "s_2606de950a60c6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef439bb6ffePesTgCloA0Efke",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

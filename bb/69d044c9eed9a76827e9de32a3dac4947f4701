@@ -1,0 +1,29 @@
+src/status-checks.ts
+  s_6bd73d48dc7ec3::t_e36fb4178448f1 1-62
+src/worker.ts
+  s_6bd73d48dc7ec3::t_8821dfa929a689 72-84
+  s_6bd73d48dc7ec3::t_5979649fc75631 26-27
+  s_6bd73d48dc7ec3::t_a58d4a5afc5789 133-140
+src/status.ts
+  s_6bd73d48dc7ec3::t_1cf91d45c26fa6 1-98
+test/status.spec.ts
+  s_6bd73d48dc7ec3::t_ebb441606f6583 1-111
+observability/STATUS-PAGE.md
+  s_6bd73d48dc7ec3::t_5a33921a20ac6e 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "bb69d044c9eed9a76827e9de32a3dac4947f4701",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

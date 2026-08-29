@@ -1,0 +1,21 @@
+test/session-budget-autorecharge.fixtures.ts
+  s_6f6453b23e3805::t_38b8aebe704905 17-22,32,42,48
+test/session-budget-autorecharge.spec.ts
+  s_6f6453b23e3805::t_69c40a74d6e500 258-260,262,268
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "46ba9e92187e25420fd903439eed1dec1139e998",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

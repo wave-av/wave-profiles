@@ -1,0 +1,18 @@
+src/leaderboard-page.ts
+  h_af5ac1a9798224 13-238,305,307-311,314-362,364-395,398-406,408-409
+test/leaderboard-live-usage.spec.ts
+  h_af5ac1a9798224 15,17-18,20,34,36-37
+test/render_lb.spec.ts
+  h_af5ac1a9798224 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "db3ffb767807c6d37ae84e99d77a742bf11091a0",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

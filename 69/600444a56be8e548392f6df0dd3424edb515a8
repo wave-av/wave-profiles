@@ -1,0 +1,25 @@
+dante-observe/arc-client.test.mjs
+  s_157583aa3b6686::t_fa7d4d0f7e1e68 12-13
+  s_157583aa3b6686::t_87a515fe6bf5a9 120-121
+  s_157583aa3b6686::t_cc577d1e4f921c 146-212
+dante-observe/arc-client.mjs
+  s_157583aa3b6686::t_375b2ab4a3eb27 25-41
+  s_157583aa3b6686::t_5e1445b3d0f8b8 216
+  s_157583aa3b6686::t_c49a47bae210f2 144-180,183-184
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "69600444a56be8e548392f6df0dd3424edb515a8",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+bridge-wire/smoke.sh
+  s_364605915bb7ec::t_ef5baa5c4029f1 14-27,30-48,53-54,59,61-62,74,77-80,88-89,91-97,103,107,111-115,136,143-158,198,203
+  s_364605915bb7ec::t_ecd80c51d66b68 204-205
+scripts/test/smoke-leg-ledger-test.sh
+  s_364605915bb7ec::t_0bc48c20286a9b 1-129
+scripts/smoke-leg-ledger.sh
+  s_364605915bb7ec::t_1a3166288faef2 1-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "a38e455da4aa9128fa37cd7391aba8e7e7210a1f",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

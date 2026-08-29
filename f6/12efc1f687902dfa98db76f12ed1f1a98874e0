@@ -1,0 +1,31 @@
+moq/crest/crest-inference.mjs
+  s_157583aa3b6686::t_59c0ba439c0597 1-265
+moq/crest/crest-inference-test.mjs
+  s_157583aa3b6686::t_4a37ac1c1ab0db 1-209
+moq/crest/receipts/e29-inference.json
+  s_ad003e2f6e019a::t_16a73ada79ba82 1-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f612efc1f687902dfa98db76f12ed1f1a98874e0",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_ad003e2f6e019a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a6b9539940f930b65",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

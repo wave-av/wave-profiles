@@ -1,0 +1,27 @@
+src/gateway-native-routes.ts
+  s_a1fe1d4e2a54fe::t_e373ec0df0e755 69,88-89
+src/agent-self-pay.ts
+  s_a1fe1d4e2a54fe::t_e373ec0df0e755 29,182-183,192
+src/billing-checkout.ts
+  s_a1fe1d4e2a54fe::t_e373ec0df0e755 37
+src/idempotency.ts
+  s_a1fe1d4e2a54fe::t_e373ec0df0e755 1-57
+test/idempotency.spec.ts
+  s_a1fe1d4e2a54fe::t_c6d24c62771a15 1-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "cc4420e8125c12a47cc977e349bb8b00bf6cc5fa",
+  "prompts": {},
+  "sessions": {
+    "s_a1fe1d4e2a54fe": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc9f1f9a5ffeCkDtXPiQkjzqo2",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

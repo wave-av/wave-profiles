@@ -1,0 +1,21 @@
+av/ts/crc32.test.mts
+  s_157583aa3b6686::t_3f758da9280321 1-18
+av/ts/crc32.mts
+  s_157583aa3b6686::t_ef4c8870653d71 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "d71d9a30aecf3e07e0b60bc7118919273840f4ed",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

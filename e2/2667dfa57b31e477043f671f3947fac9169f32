@@ -1,0 +1,20 @@
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 326-329
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+src/origin-webhook.ts
+  h_af5ac1a9798224 39
+wrangler.toml
+  h_af5ac1a9798224 393-400
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e22667dfa57b31e477043f671f3947fac9169f32",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

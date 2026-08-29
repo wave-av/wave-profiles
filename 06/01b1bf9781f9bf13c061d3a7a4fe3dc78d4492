@@ -1,0 +1,41 @@
+CHANGELOG.md
+  s_2e30bff6169f7a::t_3358d373570cd0 17-65
+src/agent-tools-exec.ts
+  s_63c6ee080d73c3::t_d2298e7f2185d1 1-284
+src/agent-tools-registry.ts
+  s_63c6ee080d73c3::t_8f6d3be161da02 1-88
+src/dispatch-router.ts
+  s_63c6ee080d73c3::t_e89d700623609a 18,99-104
+src/internal-service-routes.ts
+  s_63c6ee080d73c3::t_dedcbc76f41706 16
+test/agent-tools-exec-harness.ts
+  s_63c6ee080d73c3::t_578d1efe8f47dd 1-61
+test/agent-tools-exec-isolation.spec.ts
+  s_63c6ee080d73c3::t_9db78ebfdf4dd8 1-254
+test/agent-tools-exec.spec.ts
+  s_63c6ee080d73c3::t_0150052a7eecc2 1-260
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "0601b1bf9781f9bf13c061d3a7a4fe3dc78d4492",
+  "prompts": {},
+  "sessions": {
+    "s_2e30bff6169f7a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f1898398-4d25-4d52-8e81-7ebf3227e822",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_63c6ee080d73c3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28a4927c-1b01-4d33-904e-e27db5f3d5dc",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

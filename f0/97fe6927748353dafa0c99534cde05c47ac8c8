@@ -1,0 +1,22 @@
+listen/stream.mts
+  s_157583aa3b6686::t_827372d41210a6 11-14
+  s_157583aa3b6686::t_193d3ed22c1c41 88-107
+listen/stream.test.mts
+  s_157583aa3b6686::t_4c5c8dde36f3fb 42-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f097fe6927748353dafa0c99534cde05c47ac8c8",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

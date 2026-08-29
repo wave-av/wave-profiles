@@ -1,0 +1,28 @@
+src/scopes.ts
+  s_7ca59f966f2637::t_ad2fe974efdfe5 161-163,165
+src/public-surface.ts
+  s_7ca59f966f2637::t_ba055ae9a592fb 39-42
+  s_7ca59f966f2637::t_852075eee6f5bd 156-168
+test/network-surface.spec.ts
+  s_7ca59f966f2637::t_88b845b8c00b25 1-118
+src/routes/v1/network/surface.ts
+  s_7ca59f966f2637::t_b431923b51adc3 1-85
+CHANGELOG.md
+  s_7ca59f966f2637::t_0bf3bdfff2b5a2 9-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d77732ec808a427ad7f38b78950bc6abec23e959",
+  "prompts": {},
+  "sessions": {
+    "s_7ca59f966f2637": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fdadfc5abffe77OZsbAXE8Fa5B",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}
