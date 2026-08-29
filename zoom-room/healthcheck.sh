@@ -13,7 +13,8 @@
 # docs/zoom-room.md.
 set -uo pipefail
 
-ENV_FILE="${WAVE_ZOOM_ROOM_ENV:-/etc/wave/zoom-room.env}"
+# Same path the --user unit reads (EnvironmentFile=%h/.config/wave/zoom-room.env).
+ENV_FILE="${WAVE_ZOOM_ROOM_ENV:-${HOME}/.config/wave/zoom-room.env}"
 UNIT="wave-zoom-room-kiosk.service"
 fail=0
 
@@ -37,16 +38,23 @@ for pair in "birddog_v4l2_node:/dev/wave-cam" "magewell_v4l2_node:/dev/wave-cont
   fi
 done
 
-# file_mode — the env file must exist and be exactly 0600
+# file_mode — the env file must exist, be exactly 0600, AND be owned by the
+# kiosk user running this script: the --user unit reads it as that user, so
+# a root-owned copy (the old /etc/wave layout) is unreadable and fails the
+# check even at mode 600.
 if [[ -f "$ENV_FILE" ]]; then
   mode="$(stat -c '%a' "$ENV_FILE" 2>/dev/null || stat -f '%Lp' "$ENV_FILE" 2>/dev/null || echo '?')"
-  if [[ "$mode" == "600" ]]; then
-    report env_file_locked_down ok "$ENV_FILE mode $mode"
+  owner="$(stat -c '%U' "$ENV_FILE" 2>/dev/null || stat -f '%Su' "$ENV_FILE" 2>/dev/null || echo '?')"
+  me="$(id -un)"
+  if [[ "$mode" == "600" && "$owner" == "$me" ]]; then
+    report env_file_locked_down ok "$ENV_FILE mode $mode owner $owner"
+  elif [[ "$mode" != "600" ]]; then
+    report env_file_locked_down FAIL "$ENV_FILE mode $mode (expected 600: chmod 600 $ENV_FILE)"
   else
-    report env_file_locked_down FAIL "$ENV_FILE mode $mode (expected 600: sudo chmod 600 $ENV_FILE)"
+    report env_file_locked_down FAIL "$ENV_FILE owned by $owner, expected $me (the --user unit cannot read it: chown $me $ENV_FILE)"
   fi
 else
-  report env_file_locked_down FAIL "$ENV_FILE missing (install from zoom-room.env.example)"
+  report env_file_locked_down FAIL "$ENV_FILE missing (install from zoom-room.env.example as $(id -un), not root)"
 fi
 
 # systemd_user_active

@@ -13,10 +13,15 @@
 # WantedBy=graphical-session.target is not used either: whether Raspberry
 # Pi OS's labwc session emits that target is UNPROVEN on this device.
 #
-# ROOM_URL is read from /etc/wave/zoom-room.env (mode 0600, never committed
-# — see zoom-room.env.example). systemd expands ${ROOM_URL} from
-# EnvironmentFile directly in ExecStart; no shell wrapper is needed, and no
-# shell means the URL is never re-parsed as a command line.
+# ROOM_URL is read from %h/.config/wave/zoom-room.env — the kiosk user's own
+# XDG config dir, owned by that user, mode 0600, never committed (see
+# zoom-room.env.example). It is deliberately NOT under /etc/wave: this is a
+# --user unit, so the file is read by the kiosk user's own systemd manager,
+# and a root-owned 0600 file under /etc would be unreadable to it (EACCES at
+# start, no ROOM_URL, permanent restart loop). %h expands to the unit owner's
+# home directory (systemd.unit(5) "Specifiers"). systemd expands ${ROOM_URL}
+# from EnvironmentFile directly in ExecStart; no shell wrapper is needed, and
+# no shell means the URL is never re-parsed as a command line.
 #
 # Chromium flags are verbatim from the raspberrypi.com kiosk tutorial
 # (https://www.raspberrypi.com/tutorials/how-to-use-a-raspberry-pi-in-kiosk-mode/):
@@ -31,7 +36,7 @@ Documentation=https://github.com/wave-av/wave-profiles/blob/main/docs/zoom-room.
 
 [Service]
 Type=simple
-EnvironmentFile=/etc/wave/zoom-room.env
+EnvironmentFile=%h/.config/wave/zoom-room.env
 ExecStart=/usr/bin/lwrespawn /usr/bin/chromium ${ROOM_URL} --kiosk --noerrdialogs --disable-infobars --no-first-run --enable-features=OverlayScrollbar --start-maximized
 Restart=on-failure
 RestartSec=5

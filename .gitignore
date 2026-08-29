@@ -1,6 +1,6 @@
 # zoom-room profile: never commit a populated env file (real ROOM_URL lives
-# only at /etc/wave/zoom-room.env on-device). zoom-room.env.example is
-# explicitly tracked and exempted.
+# only at ~/.config/wave/zoom-room.env on the kiosk user, on-device).
+# zoom-room.env.example is explicitly tracked and exempted.
 zoom-room/zoom-room.env
 zoom-room.env
 !zoom-room/zoom-room.env.example

@@ -8,8 +8,9 @@
 # chromium directly from here; this profile launches it via the systemd
 # --user unit wave-zoom-room-kiosk.service instead, so the kiosk gets
 # Restart=on-failure supervision, `journalctl --user -u wave-zoom-room-kiosk`
-# logging, and ROOM_URL from the mode-0600 /etc/wave/zoom-room.env instead
-# of a URL hardcoded in this world-readable file. That unit still wraps
+# logging, and ROOM_URL from the kiosk user's mode-0600
+# ~/.config/wave/zoom-room.env instead of a URL hardcoded in this
+# world-readable file. That unit still wraps
 # chromium in /usr/bin/lwrespawn — the labwc respawn helper Raspberry Pi's
 # own rpi-image-gen kiosk layer uses in exactly this autostart position
 # (contrib/src/cm5-programming-jig/layer/cm5-jig-desktop.yaml, master) — so

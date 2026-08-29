@@ -63,7 +63,7 @@ so the meeting gets camera and content without either module.
                       │    ← ~/.config/labwc/autostart       │
                       │  Zoom Meeting SDK for Web, Component │
                       │  View, page at $ROOM_URL             │
-                      │  (/etc/wave/zoom-room.env, 0600)     │
+                      │  (~/.config/wave/zoom-room.env 0600) │
                       │        │                             │
                       │  HDMI out ───────────────────────────┼──► Room display
                       │                                      │
@@ -127,11 +127,18 @@ All install steps are also in the header comment of each file under
    fill in the PLACEHOLDER product IDs (see
    [USB device identification](#usb-device-identification)), then
    `sudo udevadm control --reload-rules && sudo udevadm trigger`.
-3. env file: `sudo install -d -m 0755 /etc/wave && sudo install -m 0600
-   zoom-room/zoom-room.env.example /etc/wave/zoom-room.env`, then edit
-   `ROOM_URL`. The populated file is gitignored (`.gitignore`:
-   `zoom-room/zoom-room.env`, `zoom-room.env`, `!zoom-room/zoom-room.env.example`)
-   and lives only on the device.
+3. env file, **as the kiosk user, no `sudo`**: `install -d -m 0700
+   ~/.config/wave && install -m 0600 zoom-room/zoom-room.env.example
+   ~/.config/wave/zoom-room.env`, then edit `ROOM_URL`. The unit in step 4
+   is a systemd **--user** unit, so its `EnvironmentFile` is opened by the
+   kiosk user's own manager: the file must be owned by that user. It is
+   deliberately not under `/etc/wave` — a root-owned mode-0600 file there
+   is unreadable to a user manager, so the kiosk would start with no
+   `ROOM_URL` and loop. The unit references it as
+   `%h/.config/wave/zoom-room.env` (`%h` = the unit owner's home,
+   systemd.unit(5) "Specifiers"). The populated file is gitignored
+   (`.gitignore`: `zoom-room/zoom-room.env`, `zoom-room.env`,
+   `!zoom-room/zoom-room.env.example`) and lives only on the device.
 4. systemd --user unit: `mkdir -p ~/.config/systemd/user && cp
    zoom-room/wave-zoom-room-kiosk.service ~/.config/systemd/user/ &&
    systemctl --user daemon-reload`. Do **not** `enable` it; it has no
@@ -168,7 +175,8 @@ All install steps are also in the header comment of each file under
    which is the disabled state; `sudo raspi-config nonint do_blanking 1`
    is the equivalent command.
 8. Health: `bash zoom-room/healthcheck.sh` runs every entry in
-   `health.checks` (udev symlinks, env-file mode 600, unit active, chromium
+   `health.checks` (udev symlinks, env-file mode 600 + owned by the
+   running user, unit active, chromium
    process, DRM connector `connected`, `vcgencmd get_config
    usb_max_current_enable`). Exit 0 only when all pass.
 
@@ -200,10 +208,14 @@ this file, flip `verified: true`, and open a PR.
 
 ## Security notes
 
-- `ROOM_URL` is the only secret-adjacent value. It is read by systemd from
-  `EnvironmentFile=/etc/wave/zoom-room.env` (mode 0600) and expanded as a
-  single argv element; there is no shell in the launch path, so the URL is
-  never re-parsed as a command line.
+- `ROOM_URL` is the only secret-adjacent value. It is read by the kiosk
+  user's systemd --user manager from
+  `EnvironmentFile=%h/.config/wave/zoom-room.env` (owned by the kiosk user,
+  mode 0600, directory mode 0700) and expanded as a single argv element;
+  there is no shell in the launch path, so the URL is never re-parsed as a
+  command line. The kiosk user is the trust boundary: anything running as
+  that user (including the kiosk Chromium itself) can read the file, which
+  is the same boundary the unit already runs inside.
 - The example file contains `ROOM_URL=https://example.invalid/zoom-room/CHANGEME`
   only. The `.example` suffix and `CHANGEME` token are both on the repo's
   `.gitleaks.toml` allowlist, and `content-policy.sh` ignores
@@ -246,6 +258,11 @@ has not been run or observed live:
 8. **`zoom-room/healthcheck.sh` on hardware** — `bash -n` and `shellcheck`
    clean on the Mac; never executed against real `/dev/wave-*`,
    `systemctl --user`, `/sys/class/drm/*/status`, or `vcgencmd` output.
+10. **`%h` expansion in `EnvironmentFile=` on the target image** —
+   systemd.unit(5) documents `%h` for user units, and Raspberry Pi OS
+   Bookworm ships systemd 252, but `systemctl --user show
+   wave-zoom-room-kiosk -p EnvironmentFiles` has not been run on the Pi to
+   confirm the resolved path.
 9. **Chromium under labwc with the tutorial's flag set only** — the tutorial
    proves those flags on Raspberry Pi OS; whether `getUserMedia` picks the
    BirdDog and Magewell by label inside the Zoom SDK page, and whether

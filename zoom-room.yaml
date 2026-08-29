@@ -63,7 +63,10 @@ kiosk:
   # the tutorial's hardcoded URLs.
   chromium_flags: --kiosk --noerrdialogs --disable-infobars --no-first-run --enable-features=OverlayScrollbar --start-maximized
   disable_screen_blanking: true # = no swayidle line in the autostart file (raspi-config do_blanking, bookworm branch)
-  room_url_env_file: /etc/wave/zoom-room.env
+  # On the kiosk user, not /etc: the unit is systemd --user, so its
+  # EnvironmentFile must be readable by that user's own manager
+  # (EnvironmentFile=%h/.config/wave/zoom-room.env in the unit).
+  room_url_env_file: ~/.config/wave/zoom-room.env
   room_url_env_var: ROOM_URL
 
 power:
@@ -108,8 +111,9 @@ services:
     unit_source: zoom-room/wave-zoom-room-kiosk.service
     install_path: ~/.config/systemd/user/wave-zoom-room-kiosk.service
     started_by: ~/.config/labwc/autostart # no [Install] section on purpose — see the unit file
-    env_file: /etc/wave/zoom-room.env
+    env_file: ~/.config/wave/zoom-room.env # %h/.config/wave/zoom-room.env in the unit; owned by the kiosk user
     env_file_mode: "0600"
+    env_file_owner: kiosk user (the account whose systemd --user manager runs the unit; never root)
     env_file_example: zoom-room/zoom-room.env.example
 
 health:
@@ -126,9 +130,10 @@ health:
       description: Magewell udev symlink present (capture card enumerated)
     - name: env_file_locked_down
       type: file_mode
-      path: /etc/wave/zoom-room.env
+      path: ~/.config/wave/zoom-room.env
       expect: "600"
-      description: ROOM_URL env file exists and is not group/world readable
+      owner: current user
+      description: ROOM_URL env file exists, is owned by the kiosk user, and is not group/world readable
     - name: kiosk_unit_active
       type: systemd_user_active
       unit: wave-zoom-room-kiosk.service
