@@ -37,6 +37,6 @@ Documentation=https://github.com/wave-av/wave-profiles/blob/main/docs/zoom-room.
 [Service]
 Type=simple
 EnvironmentFile=%h/.config/wave/zoom-room.env
-ExecStart=/usr/bin/lwrespawn /usr/bin/chromium ${ROOM_URL} --kiosk --noerrdialogs --disable-infobars --no-first-run --enable-features=OverlayScrollbar --start-maximized
+ExecStart=/usr/bin/lwrespawn /usr/bin/chromium ${ROOM_URL} --ozone-platform=wayland --password-store=basic --kiosk --noerrdialogs --disable-infobars --no-first-run --enable-features=OverlayScrollbar --start-maximized
 Restart=on-failure
 RestartSec=5

@@ -61,7 +61,7 @@ kiosk:
   respawn_helper: /usr/bin/lwrespawn
   # Flags verbatim from the raspberrypi.com kiosk tutorial; ROOM_URL replaces
   # the tutorial's hardcoded URLs.
-  chromium_flags: --kiosk --noerrdialogs --disable-infobars --no-first-run --enable-features=OverlayScrollbar --start-maximized
+  chromium_flags: --ozone-platform=wayland --password-store=basic --kiosk --noerrdialogs --disable-infobars --no-first-run --enable-features=OverlayScrollbar --start-maximized
   disable_screen_blanking: true # = no swayidle line in the autostart file (raspi-config do_blanking, bookworm branch)
   # On the kiosk user, not /etc: the unit is systemd --user, so its
   # EnvironmentFile must be readable by that user's own manager

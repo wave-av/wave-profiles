@@ -154,6 +154,8 @@ All install steps are also in the header comment of each file under
    --enable-features=OverlayScrollbar --start-maximized`; the unit uses the
    same flags verbatim with `${ROOM_URL}` in place of the two URLs, and
    adds nothing else.
+> **Measured 2026-08-29 on a Raspberry Pi 5 (Raspberry Pi OS Trixie, Chromium 147, labwc):** without `--password-store=basic` the first launch is blocked by a GNOME Keyring "Choose password for new keyring" dialog and the kiosk never shows the page; with it, the embed loads, the SDK bundle executes and the join fails only at `signature fetch failed (401)` when no token is supplied — the expected result. `--ozone-platform=wayland` selects the labwc session explicitly. Headless Chromium (`--headless=new`, `--dump-dom`) does NOT work on this build (even example.com times out) — use the real session + `grim` for screenshots.
+
 6. Respawn: the unit's `ExecStart` wraps chromium in `/usr/bin/lwrespawn`.
    `lwrespawn` is not on the tutorial page; it is the labwc autostart
    respawn helper shipped with Raspberry Pi OS's desktop, and the official
