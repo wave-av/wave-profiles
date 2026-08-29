@@ -1,0 +1,23 @@
+docs/zoom-room.md
+  s_763704559b8a10::t_e28779872933e5 157-158
+zoom-room.yaml
+  s_763704559b8a10::t_842ba4dcf9b66d 64
+zoom-room/wave-zoom-room-kiosk.service
+  s_763704559b8a10::t_34f4d76a9d86d7 40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "86f139524273910ee0c09f81883f27466486c2f5",
+  "prompts": {},
+  "sessions": {
+    "s_763704559b8a10": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e77ba90b-211c-4f34-9fdd-ec883ec30c42",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}
