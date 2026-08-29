@@ -155,6 +155,7 @@ All install steps are also in the header comment of each file under
    same flags verbatim with `${ROOM_URL}` in place of the two URLs, and
    adds nothing else.
 > **Measured 2026-08-29 on a Raspberry Pi 5 (Raspberry Pi OS Trixie, Chromium 147, labwc):** without `--password-store=basic` the first launch is blocked by a GNOME Keyring "Choose password for new keyring" dialog and the kiosk never shows the page; with it, the embed loads, the SDK bundle executes and the join fails only at `signature fetch failed (401)` when no token is supplied — the expected result. `--ozone-platform=wayland` selects the labwc session explicitly. Headless Chromium (`--headless=new`, `--dump-dom`) does NOT work on this build (even example.com times out) — use the real session + `grim` for screenshots.
+ **Live join measured 2026-08-29 22:35Z:** the Pi joined a Zoom meeting and decoded the remote camera (load ≈0.3 on 4 cores, 48 °C, no throttling). Even with `--use-fake-ui-for-media-stream`, Pi OS raises a system xdg-desktop-portal "Allow app to Use the Camera?" dialog via the PipeWire camera path — `--disable-features=WebRtcPipeWireCamera` makes Chromium use V4L2 directly so the kiosk never blocks on it.
 
 6. Respawn: the unit's `ExecStart` wraps chromium in `/usr/bin/lwrespawn`.
    `lwrespawn` is not on the tutorial page; it is the labwc autostart
