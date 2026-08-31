@@ -56,4 +56,6 @@ budget_lines: 200
 index:
   - family: permissions-contract
     path: PERMISSIONS.md
+  - family: context-contract
+    path: CONTEXT.md
 ```
