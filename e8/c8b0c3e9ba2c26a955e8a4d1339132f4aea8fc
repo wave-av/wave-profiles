@@ -1,0 +1,14 @@
+src/origin.ts
+  h_af5ac1a9798224 34,113-142,266-272,372-373
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "e8c8b0c3e9ba2c26a955e8a4d1339132f4aea8fc",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

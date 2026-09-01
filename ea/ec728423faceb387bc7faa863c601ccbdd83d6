@@ -1,0 +1,23 @@
+src/route-ladder-normalize.ts
+  s_e82f9756323f88::t_d32ed045c307ed 1-108
+src/route-ladder.ts
+  s_e82f9756323f88::t_fcfdedd04ebe5e 95,110-118
+  s_e82f9756323f88::t_d3f7aca41335b8 104,106-109
+  s_e82f9756323f88::t_64553a8c931e1c 105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "eaec728423faceb387bc7faa863c601ccbdd83d6",
+  "prompts": {},
+  "sessions": {
+    "s_e82f9756323f88": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe956bbccffeRcvbsI61oE7SVn",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

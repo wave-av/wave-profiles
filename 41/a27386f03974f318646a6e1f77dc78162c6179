@@ -1,0 +1,18 @@
+src/dispatch-model-prices.ts
+  h_af5ac1a9798224 226-245
+test/dispatch-inference.spec.ts
+  h_af5ac1a9798224 109
+test/model-registry-gate.spec.ts
+  h_af5ac1a9798224 54-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "41a27386f03974f318646a6e1f77dc78162c6179",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

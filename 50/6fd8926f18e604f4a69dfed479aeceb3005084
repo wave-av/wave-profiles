@@ -1,0 +1,154 @@
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 323-329
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 31-32
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+.github/workflows/tailnet-watch.yml
+  h_af5ac1a9798224 1-89
+CHANGELOG.md
+  h_af5ac1a9798224 11-15,24-31
+scripts/mpp-services.mjs
+  h_af5ac1a9798224 1-193
+scripts/search-eval.mjs
+  h_af5ac1a9798224 1-71
+src/agent-budget.ts
+  h_af5ac1a9798224 179-185,196
+src/agent-spokes.ts
+  h_af5ac1a9798224 28,675-678
+src/anti-smuggle-headers.ts
+  h_af5ac1a9798224 67-75
+src/capability-account.ts
+  h_af5ac1a9798224 1-423
+src/capability-crypto.ts
+  h_af5ac1a9798224 1-77
+src/capability-egress.ts
+  h_af5ac1a9798224 1-58
+src/capability-exercise.ts
+  h_af5ac1a9798224 1-94
+src/dispatch-inference-anthropic.ts
+  h_af5ac1a9798224 114-116
+src/dispatch-inference-cerebras.ts
+  h_af5ac1a9798224 56-57
+src/dispatch-inference-edge.ts
+  h_af5ac1a9798224 58-60,69-91
+src/dispatch-inference-gemini.ts
+  h_af5ac1a9798224 49-50
+src/dispatch-inference-openai.ts
+  h_af5ac1a9798224 50-51
+src/dispatch-inference-openrouter.ts
+  h_af5ac1a9798224 94-95
+src/dispatch-inference-providers.ts
+  h_af5ac1a9798224 85-86,143-144,202-203,261-262
+src/dispatch-inference.ts
+  h_af5ac1a9798224 111-120,123,127-179
+src/dispatch-provider-ladder.ts
+  h_af5ac1a9798224 146-156
+src/dispatch-toolcall-stream.ts
+  h_af5ac1a9798224 29,32-37,44-53,59-73
+src/do-exports.ts
+  h_af5ac1a9798224 19
+src/env.ts
+  h_af5ac1a9798224 48-49,73-77,79
+src/errors.ts
+  h_af5ac1a9798224 83-86,88-123
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 49,102-111
+src/github-webhook.ts
+  h_af5ac1a9798224 1-118
+src/internal-service-routes.ts
+  h_af5ac1a9798224 49,127-134
+src/main-break-health.ts
+  h_af5ac1a9798224 1-260
+src/meter-ledger.ts
+  h_af5ac1a9798224 1-319
+src/openapi-spec.generated.ts
+  h_af5ac1a9798224 4,6,13,15,20
+src/origin-actions.ts
+  h_af5ac1a9798224 1-49
+src/origin-webhook.ts
+  h_af5ac1a9798224 1-143
+src/product-meters-realtime.ts
+  h_af5ac1a9798224 90-98
+src/route-ladder-normalize.ts
+  h_af5ac1a9798224 1-108
+src/route-ladder.ts
+  h_af5ac1a9798224 95,104-118,451
+src/router-leaderboard-snapshot.json
+  h_af5ac1a9798224 2,4,6-7,16-19,25-34,38-41,51-54,57,60,74-79,81-85,94
+src/router.ts
+  h_af5ac1a9798224 158
+src/scopes.ts
+  h_af5ac1a9798224 108-116
+src/search-analytics.ts
+  h_af5ac1a9798224 1-105
+src/search-core.ts
+  h_af5ac1a9798224 23-24,51-137,358-359,368,376,380,389,402-404,406,409,411-414,418-441
+src/search-index.ts
+  h_af5ac1a9798224 15,95,117
+src/search.ts
+  h_af5ac1a9798224 35-40,47,55-58,87-93,97-128,134,212-219,252-255
+src/webhook-routes.ts
+  h_af5ac1a9798224 17-20,84-97
+src/webhook-signal.ts
+  h_af5ac1a9798224 1-45
+src/zdr.ts
+  h_af5ac1a9798224 70-79,104,115-119
+test/agent-budget.spec.ts
+  h_af5ac1a9798224 4-5,68-71,73,97-103
+test/anti-smuggle-headers.spec.ts
+  h_af5ac1a9798224 13,53-71
+test/capability-account.spec.ts
+  h_af5ac1a9798224 1-165
+test/capability-crypto.spec.ts
+  h_af5ac1a9798224 1-46
+test/capability-egress.spec.ts
+  h_af5ac1a9798224 1-45
+test/capability-exercise.spec.ts
+  h_af5ac1a9798224 1-100
+test/dispatch-mct-clamp.spec.ts
+  h_af5ac1a9798224 1-53
+test/dispatch-toolcall-stream.spec.ts
+  h_af5ac1a9798224 70-71,230-278
+test/dispatch-tools-guard.spec.ts
+  h_af5ac1a9798224 1,3-5,7,9-11,25-27,30-43,54-69,72,88,104-216,225,228,234,242,249,251,254,257,263,266-267,269,273,279-463
+test/inference-openrouter.spec.ts
+  h_af5ac1a9798224 125,137-138
+test/internal-service-routes.spec.ts
+  h_af5ac1a9798224 29,57
+test/main-break-health.spec.ts
+  h_af5ac1a9798224 1-264
+test/meter-ledger.spec.ts
+  h_af5ac1a9798224 1-280
+test/origin-actions.spec.ts
+  h_af5ac1a9798224 1-43
+test/pipeline-orchestrator-zdr.spec.ts
+  h_af5ac1a9798224 37,39
+test/search-analytics.spec.ts
+  h_af5ac1a9798224 1-96
+test/search.spec.ts
+  h_af5ac1a9798224 11,224-374
+test/spoke-routing.spec.ts
+  h_af5ac1a9798224 1-84
+test/webhook-signal.spec.ts
+  h_af5ac1a9798224 1-54
+test/zdr.spec.ts
+  h_af5ac1a9798224 47,63-66,91,118-119,161,200,288,292-293,295-296
+vendor/api-spec/openapi.yaml
+  h_af5ac1a9798224 1261-1262,1266,1276,1280-1286,1288-1289,1291-1298,1301,1305,1307-1308,1310-1311,1313-1314,1318,1320,1322-1323,1326,1330,1332-1333,1335-1336,1339,1343,3067-3071,3073-3090,3097-3102,3105,3108-3131,3133-3142,3144,3146,3148,3150,3152-3175,3178,3180,3183-3185,3189-3218,3221,3224-3225,3228-3249
+vendor/api-spec/pin.json
+  h_af5ac1a9798224 5-7
+wrangler.toml
+  h_af5ac1a9798224 143-148,393-400,589-604,1413-1421,1446-1449,1461-1467
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "506fd8926f18e604f4a69dfed479aeceb3005084",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

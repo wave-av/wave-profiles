@@ -1,0 +1,28 @@
+wrangler.toml
+  s_fed391465a5384::t_57b8275176fe9b 113-118
+  s_ae9a47a931c371::t_ff97c966143e61 112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "48d8e414250a08e71320f30661ab59c860c0a612",
+  "prompts": {},
+  "sessions": {
+    "s_ae9a47a931c371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_00380ec5dffeTWpKg5fTI0yijT",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_fed391465a5384": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_006564961ffeZhHbGEnsZSLoS0",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

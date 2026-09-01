@@ -1,0 +1,40 @@
+test/spend-cap-selfset.spec.ts
+  s_a54b15fe7bd741::t_0ae3bcea90cde8 1-39
+src/spend-cap.ts
+  s_a54b15fe7bd741::t_c96a71739a52a8 39
+  s_a54b15fe7bd741::t_49738bec97d80f 52,123-124,137-140,226,323
+  s_a54b15fe7bd741::t_35f7614352048a 96
+  s_a54b15fe7bd741::t_86c76e852397b7 309,324
+src/usage.ts
+  s_a54b15fe7bd741::t_86c76e852397b7 619,621-628,630-638,640-641
+  s_a54b15fe7bd741::t_95a6ef6c9fcc47 620,629,639
+src/authorized-forward.ts
+  s_a54b15fe7bd741::t_95a6ef6c9fcc47 226
+  s_a54b15fe7bd741::t_c96a71739a52a8 22,182
+  s_a54b15fe7bd741::t_e42a6b4a8eb45c 224-225
+src/scopes.ts
+  s_a54b15fe7bd741::t_86c76e852397b7 125
+src/gateway-native-routes.ts
+  s_a54b15fe7bd741::t_95a6ef6c9fcc47 82,90
+  s_a54b15fe7bd741::t_86c76e852397b7 47,89
+  s_a54b15fe7bd741::t_8b7386b1764441 91
+src/spend-cap-selfset.ts
+  s_a54b15fe7bd741::t_49738bec97d80f 1-11,14-28
+  s_a54b15fe7bd741::t_0ae3bcea90cde8 12-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "26ea54a9b3803d1be4312b614e00876cb0f09b18",
+  "prompts": {},
+  "sessions": {
+    "s_a54b15fe7bd741": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd5c9cd79ffebyH8X1eG13rSeq",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+moq/listen/wave-listen-braid-run.test.mjs
+  s_157583aa3b6686::t_0669994c884cec 12-65
+  s_157583aa3b6686::t_6a333bf2cc6510 1-11,66-186
+moq/listen/wave-listen-braid-run.mjs
+  s_157583aa3b6686::t_e83a07ac5b0d1c 16,26,31-62
+  s_157583aa3b6686::t_c35c263f2280be 82-86,97-106
+  s_157583aa3b6686::t_874f9512501ec3 63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "7854b705a83e2b08ffc37f61633bc0116243f872",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

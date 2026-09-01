@@ -1,0 +1,30 @@
+av/webrtc/rtp-transport.mts
+  s_157583aa3b6686::t_dc551d6e4917b7 1-35
+av/webrtc/index.mts
+  s_157583aa3b6686::t_24077175dd4934 1-4
+av/webrtc/opus-rtp.mts
+  s_157583aa3b6686::t_dfc54875baa7dd 1-130
+av/webrtc/webrtc-sink.mts
+  s_157583aa3b6686::t_7c9a6a57a50170 1-90
+av/webrtc/webrtc-source.mts
+  s_157583aa3b6686::t_0027d9f605336e 1-106
+av/webrtc/webrtc-roundtrip.test.mts
+  s_157583aa3b6686::t_fbad479225ee44 1-72,74-119
+  s_157583aa3b6686::t_cf3e9ea8e026d3 73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "938e3f39a8e39c5bee7199c238f3a90364938208",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

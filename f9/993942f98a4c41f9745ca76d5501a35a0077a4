@@ -1,0 +1,25 @@
+CHANGELOG.md
+  s_34633d9d8279f2::t_22f3a468e105b7 11-24
+src/errors.ts
+  s_34633d9d8279f2::t_aa8b96b0b0a314 66-69
+test/payments-discovery.spec.ts
+  s_34633d9d8279f2::t_39fba4decd7789 68,73-75,87-117
+test/x402-permit-spender-advertise.spec.ts
+  s_34633d9d8279f2::t_594560b29d038f 88-94,243-244
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "f9993942f98a4c41f9745ca76d5501a35a0077a4",
+  "prompts": {},
+  "sessions": {
+    "s_34633d9d8279f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab1f41eff255bf706",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

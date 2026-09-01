@@ -1,0 +1,21 @@
+test/jwt-org-fallback.spec.ts
+  s_6046880c148371::t_e11f03016f9efc 1-7
+  s_6046880c148371::t_70af5c68530094 150,157,162,165,170-174
+  s_6046880c148371::t_56f4b485b3bf06 187,192-196
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "fbe622dabd7a99f078240ae2a0e4ebfc29fbcb9c",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

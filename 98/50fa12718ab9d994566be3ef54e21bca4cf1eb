@@ -1,0 +1,24 @@
+src/spoke-route-table.ts
+  s_5eacd2b044e866::t_5685a1bdff896b 1-321
+test/spoke-drift.spec.ts
+  s_5eacd2b044e866::t_5d16adb1fff733 138-141
+  s_5eacd2b044e866::t_9cc330669a4df3 27,29
+src/spoke-routing.ts
+  s_5eacd2b044e866::t_bdcc1531dfd263 9,27-28,37,54,62-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "9850fa12718ab9d994566be3ef54e21bca4cf1eb",
+  "prompts": {},
+  "sessions": {
+    "s_5eacd2b044e866": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fde52b07fffegg8Zh4doIvjl5Y",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

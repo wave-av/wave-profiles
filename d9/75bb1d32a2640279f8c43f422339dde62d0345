@@ -1,0 +1,34 @@
+test/inference-backends.spec.ts
+  s_36d8b378159267::t_7330fce442b36d 10
+  s_36d8b378159267::t_8faef41c0bf8ac 61,64-87
+  s_36d8b378159267::t_e41ddbf249c4c3 101-107
+  s_36d8b378159267::t_a708477fba3b59 62-63
+src/inference-backends.ts
+  s_36d8b378159267::t_44f2898f953eb2 261-265,273-287
+  s_36d8b378159267::t_b5dd448c9a9987 291-298,301-306,314-317
+  s_dedb333dd5195e::t_f42209f5abe3fe 288-290
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d975bb1d32a2640279f8c43f422339dde62d0345",
+  "prompts": {},
+  "sessions": {
+    "s_36d8b378159267": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbc9ce7dffe5imVXGhYHA7FUx",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_dedb333dd5195e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74c7ad25-d88e-4e23-bf60-5c98e9d130b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

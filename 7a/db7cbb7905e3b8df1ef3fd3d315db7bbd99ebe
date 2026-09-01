@@ -1,0 +1,21 @@
+test/session-budget-do-reserve-race.spec.ts
+  s_5c2ddb6b924b3c::t_ef0b5bdf867e31 1-113
+CHANGELOG.internal.md
+  s_5c2ddb6b924b3c::t_77d69d28c8e6d7 21-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "7adb7cbb7905e3b8df1ef3fd3d315db7bbd99ebe",
+  "prompts": {},
+  "sessions": {
+    "s_5c2ddb6b924b3c": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcab7ed8cffee4leAUqEcDEWln",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

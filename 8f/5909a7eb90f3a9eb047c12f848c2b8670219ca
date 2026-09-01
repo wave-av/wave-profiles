@@ -1,0 +1,21 @@
+test/sync-triggers-webhook-verify.spec.ts
+  s_6f6453b23e3805::t_422aa6dbb0ce18 28-31
+  s_6f6453b23e3805::t_7ffe8ad39e989b 32
+  s_6f6453b23e3805::t_731095f469e63d 65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "8f5909a7eb90f3a9eb047c12f848c2b8670219ca",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

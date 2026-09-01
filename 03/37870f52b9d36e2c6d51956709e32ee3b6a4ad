@@ -1,0 +1,20 @@
+src/meter-sync.ts
+  s_e1b383248d553d::t_7d223ba4841d63 121,128-132
+  s_e1b383248d553d::t_86868938d11c6c 214
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "0337870f52b9d36e2c6d51956709e32ee3b6a4ad",
+  "prompts": {},
+  "sessions": {
+    "s_e1b383248d553d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d2b4a23d-6444-4720-ad99-f7ffd71527c4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

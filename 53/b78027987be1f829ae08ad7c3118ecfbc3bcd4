@@ -1,0 +1,14 @@
+src/webhook-routes.ts
+  h_af5ac1a9798224 1-6,15-35,37-40,42-132,136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "53b78027987be1f829ae08ad7c3118ecfbc3bcd4",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

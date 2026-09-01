@@ -1,0 +1,33 @@
+CHANGELOG.md
+  s_7ebbd5386d6c53::t_f874fb212fca57 24-31
+src/agent-budget.ts
+  s_18671b04bf13de::t_a02d0d0d168986 179-185,196
+test/agent-budget.spec.ts
+  s_18671b04bf13de::t_72f54c31f89b39 4-5,68-71,73,97-103
+wrangler.toml
+  s_18671b04bf13de::t_8742cbbd284ad4 589-604
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1fa593f074d9641c642243293318ee57a3377a1d",
+  "prompts": {},
+  "sessions": {
+    "s_18671b04bf13de": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ad775b8a155794b2c",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_7ebbd5386d6c53": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe829bc00ffe92XQ8Bz1A25Xl2",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

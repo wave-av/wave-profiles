@@ -1,0 +1,26 @@
+aes67/wave-aes67-clock-test.cpp
+  s_157583aa3b6686::t_2d98f57f83d5a5 1-98
+aes67/wave-aes67-clock.h
+  s_157583aa3b6686::t_66f3474cd8e97e 1-83
+aes67/CMakeLists.txt
+  s_157583aa3b6686::t_08897a750029ff 78-87
+  s_157583aa3b6686::t_f1ac934d82a8fd 122
+aes67/wave-aes67-jitter.h
+  s_157583aa3b6686::t_3e5c4ea941278d 26-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f198394e565814e71eed86d68e243f9bc7b21c96",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

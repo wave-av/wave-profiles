@@ -1,0 +1,21 @@
+test/viewport-meter-719.spec.ts
+  s_375efeac18ed55::t_3da3cb9f616796 20
+test/viewport-lease-715.spec.ts
+  s_375efeac18ed55::t_d08639f55573c9 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "01b2b633c915821749c34235d87528b5e5ef871e",
+  "prompts": {},
+  "sessions": {
+    "s_375efeac18ed55": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "36fdda83-f068-47e7-b3f6-f5ca7f834237",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

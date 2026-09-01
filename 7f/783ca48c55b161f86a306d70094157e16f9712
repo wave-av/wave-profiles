@@ -1,0 +1,29 @@
+test/usage-ingest-limiter-e0.spec.ts
+  s_1cea981189627b::t_4d3153d7b9fef9 15-16
+  s_1cea981189627b::t_4a8485f541add3 12-14
+  s_1cea981189627b::t_f9b1f4866b94bd 17-19
+  s_1cea981189627b::t_7446f1fc138a0d 1-11,20-177
+src/usage-guards.ts
+  s_1cea981189627b::t_eab8b91cb58530 87
+  s_1cea981189627b::t_cc45c79483d073 53-86,88-89
+wrangler.toml
+  s_1cea981189627b::t_1beac115e54112 765
+test/voice-agent-dead-meter-e0.spec.ts
+  s_1cea981189627b::t_762509c6f422d7 1-2,11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7f783ca48c55b161f86a306d70094157e16f9712",
+  "prompts": {},
+  "sessions": {
+    "s_1cea981189627b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8abf7d26-41ee-46b2-a9ca-90c06289cd20",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

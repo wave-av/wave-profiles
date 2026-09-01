@@ -1,0 +1,28 @@
+test/origin-method-guards.spec.ts
+  s_0e0e741b5fa965::t_76ecff4e503726 1-7,11-13,15,19,21-22,26,28-29,34,44,72,74-75,78-82,85,87-89,91,94-99,101-109,112-114,130,132-133,136,138-144,146-147,155-156,159-160
+  s_0e0e741b5fa965::t_7bfb31f2a1cc91 8-10,14,16-18,20,23-25,27,30-33,35-43,45-71,73,76-77,83-84,86,90,92-93,100,110-111,115-129,131,134-135,137,145,148-154,157-158
+test/smart-error.spec.json
+  s_0e0e741b5fa965::t_4d581f7c057494 4,6-7,16
+  s_0e0e741b5fa965::t_2c87cb04ef483b 5
+test/units-as-types.manifest.json
+  s_0e0e741b5fa965::t_628d3030c9e3d4 31-32,34-35
+  s_0e0e741b5fa965::t_2ab0832a4a73d0 64-67
+test/load-shedder.manifest.json
+  s_0e0e741b5fa965::t_95f7cd854967d4 4-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "ccb67f9588d47bd64810c77c3244d4c2d618c9d0",
+  "prompts": {},
+  "sessions": {
+    "s_0e0e741b5fa965": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd47a1955ffeK4BnhuOa6fJOuT",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

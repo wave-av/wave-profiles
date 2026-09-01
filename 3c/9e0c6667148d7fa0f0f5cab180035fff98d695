@@ -1,0 +1,30 @@
+src/origin-webhook.ts
+  s_4235ff3f39de73::t_ae3a50effdc126 20
+  s_2b4acc7ceba309::t_f1aaa04006bb8f 36-37,39-41
+src/capability-account.ts
+  s_4235ff3f39de73::t_28e426df42bb77 217
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3c9e0c6667148d7fa0f0f5cab180035fff98d695",
+  "prompts": {},
+  "sessions": {
+    "s_2b4acc7ceba309": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff3dead9affe2WOERvc2psX5Eq",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_4235ff3f39de73": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe9326a05ffe5RjNsOFeSJ8GAK",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+src/privy-rail.ts
+  s_756b33c630d33b::t_994eaa31240b99 1-6,9-16,24-158
+  s_756b33c630d33b::t_6109c382f44ac1 7-8,17-23
+test/billing-routes-scope-gate.spec.ts
+  s_756b33c630d33b::t_87c98fefef1de9 125-126
+  s_756b33c630d33b::t_24215536992dc3 73-75
+test/privy-rail.spec.ts
+  s_756b33c630d33b::t_69672ad94b1faf 1-109
+src/billing-routes.ts
+  s_756b33c630d33b::t_be94bc798dd5cd 161-163
+  s_756b33c630d33b::t_85ecb7e039f702 323-337
+  s_756b33c630d33b::t_4a6546d6bcd593 63,72
+  s_756b33c630d33b::t_46cefb3ad6761e 137-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "8c73c323e913a56bf629853ecd6283781fd40702",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

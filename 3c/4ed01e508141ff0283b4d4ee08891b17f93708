@@ -1,0 +1,26 @@
+src/gateway-native-routes.ts
+  s_9e0577c6de5313::t_c5ef5803e761f9 273-280
+  s_9e0577c6de5313::t_6123741fc9ef98 68
+test/b1-routes.spec.ts
+  s_9e0577c6de5313::t_95e7ec215323fa 87,89,91
+  s_9e0577c6de5313::t_4b50a3a2d58d45 1-86,88,90,92-300
+src/b1-routes.ts
+  s_9e0577c6de5313::t_a057d6631f8724 1-23,25-35,40-41,43-50,53-55,57-63,65-67,69-73,75-82,85-92,95-101,103-106
+  s_9e0577c6de5313::t_235a11dda43079 24,36-39,42,51-52,56,64,68,74,83-84,93-94,102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "3c4ed01e508141ff0283b4d4ee08891b17f93708",
+  "prompts": {},
+  "sessions": {
+    "s_9e0577c6de5313": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc9121459ffejSGi716SQyNYcL",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

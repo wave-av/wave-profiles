@@ -1,0 +1,28 @@
+.github/.token-budget-baseline
+  h_af5ac1a9798224 55-65,73
+CHANGELOG.md
+  h_af5ac1a9798224 11-23,50-55,254-255
+src/anti-smuggle-headers.ts
+  h_af5ac1a9798224 1-48
+src/cfwfp-proxy.ts
+  h_af5ac1a9798224 11-14,35-48
+src/forward.ts
+  h_af5ac1a9798224 29-31,269-273
+test/anti-smuggle-headers.spec.ts
+  h_af5ac1a9798224 1-87
+test/forward.spec.ts
+  h_af5ac1a9798224 46-86
+wrangler.toml
+  h_af5ac1a9798224 502,844-850
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "e362eb1cf2e996ba03c2f7cd4846d3ee2edf36d7",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+moq/crest/player/braid-header.js
+  s_157583aa3b6686::t_7dddaab1b239e1 1-48
+moq/crest/player/audio-sinks.js
+  s_157583aa3b6686::t_448f1ce210bc06 51-92
+moq/crest/player/stem-mixer-braid.test.mjs
+  s_157583aa3b6686::t_42859b8d8c30d0 1-55
+moq/crest/player/pcm-audio.js
+  s_157583aa3b6686::t_880db5bc485916 28-57
+moq/crest/player/braid-player.test.mjs
+  s_157583aa3b6686::t_e0f35ccb6054b7 1-66
+moq/listen/fly.chillwave-stems.toml
+  s_157583aa3b6686::t_215b2c9af69838 1,10-23,25,27,30-32,36-37
+moq/crest/player/stem-mixer.js
+  s_157583aa3b6686::t_a5423aea292b8f 97,108-163
+moq/crest/player/stem-braid-channel.js
+  s_157583aa3b6686::t_adf5ebc80204c1 1-94
+moq/crest/player/stem-channel.js
+  s_157583aa3b6686::t_b4a9da1c2e3045 108-112,117,119,121-128
+  s_157583aa3b6686::t_b28e7fc9625329 18-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "062966139f69635d117d8f2f4366e8b44a4b195f",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

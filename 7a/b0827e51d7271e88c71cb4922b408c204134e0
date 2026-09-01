@@ -1,0 +1,24 @@
+src/privy-policies.ts
+  s_756b33c630d33b::t_eab52748f0bb32 1-118
+src/billing-routes.ts
+  s_756b33c630d33b::t_9cd612076196dc 348-353
+  s_756b33c630d33b::t_36a74c7094332c 65,76,143-144,169-171
+test/privy-policies.spec.ts
+  s_756b33c630d33b::t_e5f25ba387c603 1-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7ab0827e51d7271e88c71cb4922b408c204134e0",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+src/listen-switch.ts
+  s_157583aa3b6686::t_1a9bc06e47c802 172-179
+test/listen-switch.spec.ts
+  s_157583aa3b6686::t_4548b6637e274a 60-65
+  s_157583aa3b6686::t_71b8f41d4dbe7f 153-172
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "0cafdc742d5054372b37a81f6ec7c09b5d1d57c6",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+av/dante/roundtrip.test.mts
+  s_157583aa3b6686::t_eaf12b7c2bd1e7 1-56
+av/dante/index.mts
+  s_157583aa3b6686::t_093c40e3f1be17 1-7
+av/dante/dante-source.test.mts
+  s_157583aa3b6686::t_24910ab4aaacc1 5
+  s_157583aa3b6686::t_4cb867f52395b1 1-4,6-67
+av/dante/pcm.mts
+  s_157583aa3b6686::t_7c1ce3655124bb 1-46
+av/dante/pcm.test.mts
+  s_157583aa3b6686::t_5933dc06325ebb 32
+  s_157583aa3b6686::t_3a35aa36c85754 1-31,33
+av/dante/dante-sink.test.mts
+  s_157583aa3b6686::t_e10df294c6057a 1-45
+av/dante/dante-source.mts
+  s_157583aa3b6686::t_08cb9304b451f2 1-84
+av/dante/dante-sink.mts
+  s_157583aa3b6686::t_c5b3fcc75cc75d 1-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "02a940b28aac4f121a148d6fa6bcdb53a46ce420",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

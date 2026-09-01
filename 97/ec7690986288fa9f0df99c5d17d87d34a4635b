@@ -1,0 +1,14 @@
+.claude/skills/gateway-rules/SKILL.md
+  h_af5ac1a9798224 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "97ec7690986288fa9f0df99c5d17d87d34a4635b",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

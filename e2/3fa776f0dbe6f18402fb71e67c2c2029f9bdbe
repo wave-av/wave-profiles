@@ -1,0 +1,57 @@
+test/spend-cap.spec.ts
+  s_364605915bb7ec::t_031ffc31192aa4 54-69
+.github/workflows/auto-approve.yml
+  s_8e391d47123fe4::t_5f8b8457cca774 34-39,43-46
+.github/workflows/auto-merge.yml
+  s_8e391d47123fe4::t_c1705234245503 51-63
+.github/workflows/bot-review.yml
+  s_8e391d47123fe4::t_415e5d11859c23 25-26,28-31,36,44
+src/mesh-gpu-meters.ts
+  s_8e391d47123fe4::t_7f953e8f42fc68 1-66
+src/mesh-gpu.ts
+  s_8e391d47123fe4::t_d5a22f0241d02d 156-163
+src/product-meters-tokens.ts
+  s_8e391d47123fe4::t_f701381e654832 1-37
+src/product-meters.ts
+  s_8e391d47123fe4::t_96d36223611da9 18-22,76-84,149-152
+src/spend-cap-tiers.ts
+  s_8e391d47123fe4::t_f2578eb4b2025b 1-106
+src/spend-cap.ts
+  s_8e391d47123fe4::t_fb67d9cc257b2d 36-39,51-58,253-287,304-308,313,324
+test/mesh-gpu-meters.spec.ts
+  s_8e391d47123fe4::t_12aabfa410cb64 1-103
+test/mesh-gpu.spec.ts
+  s_8e391d47123fe4::t_6998030a7fcf1a 26-27
+test/product-meters.catalog.spec.ts
+  s_8e391d47123fe4::t_ca82a7d2274a75 1-121
+test/product-meters.spec.ts
+  s_8e391d47123fe4::t_0793c4babed9c5 352-354
+test/spend-cap-evaluate.spec.ts
+  s_8e391d47123fe4::t_7e773ba726152e 1-206
+wrangler.toml
+  s_8e391d47123fe4::t_f6236436b63544 395-403,585-591,668-711
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e23fa776f0dbe6f18402fb71e67c2c2029f9bdbe",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_8e391d47123fe4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-aaf0c6b9098949c0f",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

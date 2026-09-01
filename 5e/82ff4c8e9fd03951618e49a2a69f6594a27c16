@@ -1,0 +1,27 @@
+test/spoke-drift.spec.ts
+  s_db1b2a792e5f25::t_8b3fcb5cf30a12 29-35
+  s_db1b2a792e5f25::t_581c396f236869 61-64
+  s_db1b2a792e5f25::t_252a2df0468f78 142-145
+  s_db1b2a792e5f25::t_07d588b9b44332 118-141,146-151
+  s_db1b2a792e5f25::t_6a471ecd8dc588 15-22
+  s_db1b2a792e5f25::t_c7cad100cfab3a 60
+  s_db1b2a792e5f25::t_4018f7270d1797 28
+  s_db1b2a792e5f25::t_d2e4861577231c 36
+  s_db1b2a792e5f25::t_976c909e5d9747 152-153
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "5e82ff4c8e9fd03951618e49a2a69f6594a27c16",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

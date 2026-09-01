@@ -1,0 +1,21 @@
+docs/superpowers/specs/2026-07-18-listen-stem-mixer-design.md
+  s_157583aa3b6686::t_a3477c0a248fd5 1-228
+docs/superpowers/plans/2026-07-18-listen-stem-mixer-plan.md
+  s_157583aa3b6686::t_2fb78576efe9a0 1-142
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "38b3452aaf0bc88ee3da3414e31e17f4179acbe2",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

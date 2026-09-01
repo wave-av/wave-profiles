@@ -1,0 +1,26 @@
+test/openapi-spec.spec.ts
+  s_1fdca12355f003::t_69b41baf2bb554 15
+  s_1fdca12355f003::t_7bcdf7339b2a63 66-68,72-81
+src/openapi-spec.generated.ts
+  s_1fdca12355f003::t_ecd37bc9d6fe52 4,6,13,15,17,20
+vendor/api-spec/openapi.yaml
+  s_1fdca12355f003::t_2bc80ca0246e92 105-109,1756-1810,3688-3807
+vendor/api-spec/pin.json
+  s_1fdca12355f003::t_ecd2d9a1a5b555 5-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b6d7c7b3f878ffa144adf64517e4b1c76bdefdd4",
+  "prompts": {},
+  "sessions": {
+    "s_1fdca12355f003": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe82b603cffeCGtlTCg4m3BPii",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

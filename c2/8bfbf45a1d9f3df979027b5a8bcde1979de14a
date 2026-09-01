@@ -1,0 +1,45 @@
+zoom-room.yaml
+  s_763704559b8a10::t_9b57a47a661899 1-9,19-20,23-27,30-32,34,36-39,41-61,66-71,78-79,84-87,93-94,97-100,102-109,111-115,117-126,136-144
+  s_763704559b8a10::t_a32e3d1e754c85 10-18,21-22,28-29,33,35,40,62-65,72-77,80-83,88-92,95-96,101,110,116,127-135,145-149
+CHANGELOG.md
+  s_763704559b8a10::t_40dabb1c20c7a0 9-14,23
+  s_763704559b8a10::t_e1fcbd73d8707f 15-22
+zoom-room/healthcheck.sh
+  s_763704559b8a10::t_e48521be139bf6 1-95
+docs/zoom-room.md
+  s_763704559b8a10::t_d07a3290170b71 5-9,12-18,20-40,45-73,76-84,88-117,121-173,176-196,198-212,219-228,230-252,256-260
+  s_763704559b8a10::t_82cfb71f506a12 1-4,10-11,19,41-44,74-75,85-87,118-120,174-175,197,213-218,229,253-255
+zoom-room/99-wave-zoom-room.rules
+  s_763704559b8a10::t_5c543ce3aee051 6-9,13-20,22-28,31-37
+  s_763704559b8a10::t_10885962e6648f 1-5,10-12,21,29-30,38
+zoom-room/zoom-room.env.example
+  s_763704559b8a10::t_55ab7103c22155 1-18
+zoom-room/wave-zoom-room-kiosk.service
+  s_763704559b8a10::t_91304b96f5c106 1-6,15-16,28-29,31-34,36-37
+  s_763704559b8a10::t_fd2ddaf96b96b9 7-14,17-27,30,35
+README.md
+  s_763704559b8a10::t_e48dc4601ffd64 37-39,47
+  s_763704559b8a10::t_83ef05ad281571 40-46
+  s_763704559b8a10::t_84529b14202fdd 14
+zoom-room/labwc-autostart
+  s_763704559b8a10::t_9af29c7485ac5b 5-16,20-22,26-32
+  s_763704559b8a10::t_789b49ad3f4348 1-4,17-19,23-25
+.gitignore
+  s_763704559b8a10::t_71ed9b7b8707ff 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "c28bfbf45a1d9f3df979027b5a8bcde1979de14a",
+  "prompts": {},
+  "sessions": {
+    "s_763704559b8a10": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e77ba90b-211c-4f34-9fdd-ec883ec30c42",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

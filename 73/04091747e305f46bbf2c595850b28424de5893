@@ -1,0 +1,30 @@
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 53-60
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+CHANGELOG.md
+  h_af5ac1a9798224 19-24
+src/capability-custody.ts
+  h_af5ac1a9798224 1-236
+src/env.ts
+  h_af5ac1a9798224 78,80
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 64,225-233
+src/scopes.ts
+  h_af5ac1a9798224 140-147
+test/capability-custody.spec.ts
+  h_af5ac1a9798224 1-196
+wrangler.toml
+  h_af5ac1a9798224 398-404,1589-1599
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7304091747e305f46bbf2c595850b28424de5893",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

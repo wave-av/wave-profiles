@@ -1,0 +1,61 @@
+wrangler.toml
+  s_db94f917bdf4ff::t_7285356e0d4fa6 443-455
+  s_db94f917bdf4ff::t_8c7275ce067527 213-218
+  s_db94f917bdf4ff::t_af947518f5a440 470-475
+containers/moq-encode/Dockerfile
+  s_5bd1e888bc4335::t_ac28155ccbafe0 1-30
+containers/moq-encode/README.md
+  s_5bd1e888bc4335::t_1931e93db852b8 1-74
+containers/moq-encode/demux.mjs
+  s_5bd1e888bc4335::t_90843d12e70554 1-64
+containers/moq-encode/demux.test.mjs
+  s_5bd1e888bc4335::t_a68f1f4930142f 1-108
+containers/moq-encode/ivf.mjs
+  s_5bd1e888bc4335::t_ee88aa18fc4729 1-43
+containers/moq-encode/ivf.test.mjs
+  s_5bd1e888bc4335::t_7745dc366160dc 1-60
+containers/moq-encode/moq-strand.mjs
+  s_5bd1e888bc4335::t_20aa077adbbb8f 1-511
+containers/moq-encode/package-lock.json
+  s_5bd1e888bc4335::t_c55ef3eb6f98e8 1-36
+containers/moq-encode/package.json
+  s_5bd1e888bc4335::t_76ac899ec94212 1-13
+containers/moq-encode/participant.mjs
+  s_5bd1e888bc4335::t_02e943630a7fcb 1-274
+containers/moq-encode/rtp.mjs
+  s_5bd1e888bc4335::t_ab73f3475973a6 1-33
+containers/moq-encode/rtp.test.mjs
+  s_5bd1e888bc4335::t_794f93c6714a16 1-30
+containers/moq-encode/safe-uid.test.mjs
+  s_5bd1e888bc4335::t_a2e4a3d9a902e2 1-27
+containers/moq-encode/server.mjs
+  s_5bd1e888bc4335::t_0bf2e848ca96af 1-132
+containers/moq-encode/session.mjs
+  s_5bd1e888bc4335::t_ba8223fbd9f5e7 1-111
+containers/moq-encode/session.test.mjs
+  s_5bd1e888bc4335::t_df151b78d9912a 1-122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "f0804c7f9ea036ef0bf2dd27df1c38ba1e6ec48e",
+  "prompts": {},
+  "sessions": {
+    "s_5bd1e888bc4335": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a8b82906c15378451",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_db94f917bdf4ff": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "79dc6e12-ee6f-4616-bc24-bbd40d39f3a8",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

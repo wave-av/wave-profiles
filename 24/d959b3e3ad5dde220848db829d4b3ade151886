@@ -1,0 +1,34 @@
+src/product-meters-tokens.ts
+  s_c34d94a7b16367::t_e9390f9d3651aa 48-57
+test/inference-openrouter.spec.ts
+  s_c34d94a7b16367::t_227f76e6a3de43 125
+src/dispatch-model-prices.ts
+  s_c34d94a7b16367::t_fa76ad64db3469 176-213
+test/dispatch-inference.spec.ts
+  s_c34d94a7b16367::t_84a27a5b67272b 108
+src/inference-backends.ts
+  s_c34d94a7b16367::t_a34af153c48046 118-121
+src/dispatch-inference-openrouter.ts
+  s_c34d94a7b16367::t_cb527f326f33f7 51-54
+  s_c34d94a7b16367::t_d8eee59e5822b2 30-33
+src/dispatch-inference-gemini.ts
+  s_c34d94a7b16367::t_f5b50853f027db 17
+src/dispatch-inference-openai.ts
+  s_c34d94a7b16367::t_f68a9618bdcbc1 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "24d959b3e3ad5dde220848db829d4b3ade151886",
+  "prompts": {},
+  "sessions": {
+    "s_c34d94a7b16367": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff796cd67ffebYC7EADvnFkM9u",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

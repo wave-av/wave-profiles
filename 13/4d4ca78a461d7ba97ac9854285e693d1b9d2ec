@@ -1,0 +1,24 @@
+moq/crest/player/mint-url.test.mjs
+  s_157583aa3b6686::t_990bfa95d3b13e 24-26,29-30,36-44
+moq/crest/player/mint-url.js
+  s_157583aa3b6686::t_b8fb5a7b43cc44 12-14,17-18,20,23,25
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_99388891bc1ba6 32-33
+  s_157583aa3b6686::t_87866ddfdb83a4 137
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "134d4ca78a461d7ba97ac9854285e693d1b9d2ec",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

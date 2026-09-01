@@ -1,0 +1,23 @@
+src/webhook-signal.ts
+  s_048ad7f61626d4::t_46e5f84aebe02b 1-29
+src/origin-webhook.ts
+  s_048ad7f61626d4::t_905a3d1e25bdab 6-9,11,30-31,35-38,51,53,62-63,68-74
+wrangler.toml
+  s_048ad7f61626d4::t_8f45c513938da9 143-148
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "124adb830a0bc1ef88a522ded724564faa9d8ff8",
+  "prompts": {},
+  "sessions": {
+    "s_048ad7f61626d4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_feee8970affenVKsU9Nt681bXx",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

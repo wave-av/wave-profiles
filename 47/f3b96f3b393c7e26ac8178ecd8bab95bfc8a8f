@@ -1,0 +1,21 @@
+test/e-rooms-two-party-receipt.test.ts
+  s_16513c8507cec2::t_2033d8b4e6c99f 139,141
+  s_16513c8507cec2::t_53a6b4d2256956 152,154
+  s_16513c8507cec2::t_192b8a0750a811 1-138,140,142-151,153,155-156
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "47f3b96f3b393c7e26ac8178ecd8bab95bfc8a8f",
+  "prompts": {},
+  "sessions": {
+    "s_16513c8507cec2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fce63de8dffeTM50DZYVhvL8lu",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

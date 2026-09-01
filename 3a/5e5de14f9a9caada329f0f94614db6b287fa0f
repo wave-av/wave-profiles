@@ -1,0 +1,21 @@
+test/mcp-x402-payto-822.spec.ts
+  s_e077f59d8037ec::t_fdc1d3a5d3eb06 16-23
+  s_e077f59d8037ec::t_cdc449ab9fe584 253-268,275-277,279,283-284
+  s_e077f59d8037ec::t_f3778868397b45 13-15,24-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "3a5e5de14f9a9caada329f0f94614db6b287fa0f",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

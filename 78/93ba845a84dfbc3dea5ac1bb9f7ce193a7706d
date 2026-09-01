@@ -1,0 +1,28 @@
+wrangler.toml
+  s_db1b2a792e5f25::t_7971e8c6023150 1304-1315
+test/insights-keystore.spec.ts
+  s_db1b2a792e5f25::t_94c1d37bacd0e2 1-104
+src/insights-drain.ts
+  s_db1b2a792e5f25::t_7216b36ee33aff 108-112,117-131,133-134
+  s_db1b2a792e5f25::t_c10ce4965778da 18,21,24,26
+test/insights-drain.spec.ts
+  s_db1b2a792e5f25::t_32a4b7cd07d996 1-95
+src/insights-keystore.ts
+  s_db1b2a792e5f25::t_94b0373e777a05 1-172
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "7893ba845a84dfbc3dea5ac1bb9f7ce193a7706d",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.github/deploy-secrets-allowlist.txt
+  s_124891ed63801b::t_098082ba82cb17 1-199
+.github/workflows/deploy.yml
+  s_124891ed63801b::t_42211e561193c8 121-124,136-154
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "d4617ab522398cc84a2e7bd03fe6d2fbc4b80d30",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

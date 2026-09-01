@@ -1,0 +1,18 @@
+src/favicon-asset.ts
+  h_af5ac1a9798224 1-10
+src/pages.ts
+  h_af5ac1a9798224 156
+src/public-surface.ts
+  h_af5ac1a9798224 18-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "6f7ff0eea9ef7f8f0590ab6c129167a945bcc696",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

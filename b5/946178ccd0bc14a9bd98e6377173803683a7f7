@@ -1,0 +1,23 @@
+infra/waf/README.md
+  s_19c8e603d8990b::t_d31fc86c68bc91 1-73
+infra/waf/apply-ruleset.mjs
+  s_19c8e603d8990b::t_2807654bca7a61 1-136
+infra/waf/wave-online-firewall-ruleset.json
+  s_19c8e603d8990b::t_d6f94e05775c31 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b5946178ccd0bc14a9bd98e6377173803683a7f7",
+  "prompts": {},
+  "sessions": {
+    "s_19c8e603d8990b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ab7045fc-2546-4259-800b-f8fc2fd6de97",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

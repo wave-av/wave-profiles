@@ -1,0 +1,21 @@
+test/preflight-sandbox.spec.ts
+  s_cf363a68d60e93::t_b6565235ab55ac 1-53
+src/preflight-sandbox.ts
+  s_cf363a68d60e93::t_fbc3ee46478716 1-133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.9",
+  "base_commit_sha": "1e000df6575d748175e9a50e5a7f6e5e9e131e7f",
+  "prompts": {},
+  "sessions": {
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

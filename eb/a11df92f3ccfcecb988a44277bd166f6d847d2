@@ -1,0 +1,26 @@
+moq/crest/player/pcm-audio.js
+  s_157583aa3b6686::t_6c80a84affebb5 29-57
+  s_157583aa3b6686::t_f616be68eb78fe 28
+moq/crest/player/pcm-audio.test.mjs
+  s_157583aa3b6686::t_c07c97a3474f25 6
+  s_157583aa3b6686::t_5c9c8af295b466 71-113
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_28c42263d9f372 19
+  s_157583aa3b6686::t_032c7a28116bfa 58-62,69-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "eba11df92f3ccfcecb988a44277bd166f6d847d2",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

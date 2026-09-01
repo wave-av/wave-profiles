@@ -1,0 +1,25 @@
+test/unit/meter-sync-principals.spec.ts
+  s_ae57f6e8d1ee19::t_871b765b533b22 6-21
+  s_ae57f6e8d1ee19::t_f0980bb7d4312b 69-101
+src/meter-sync-customers.ts
+  s_ae57f6e8d1ee19::t_d435a0539dd0a6 193
+  s_ae57f6e8d1ee19::t_9d9cff4c99494d 173-184
+  s_ae57f6e8d1ee19::t_0e383752e67958 91-100
+  s_ae57f6e8d1ee19::t_5382a6aa072c84 145-157
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "972478cffc23c3ccb100de36bd74b0aabf619c48",
+  "prompts": {},
+  "sessions": {
+    "s_ae57f6e8d1ee19": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "48c70c59-62a1-4b54-b782-303e5787322d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

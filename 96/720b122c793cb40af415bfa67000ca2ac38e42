@@ -1,0 +1,25 @@
+test/stripe-spt.spec.ts
+  s_6c1c1be138dfd4::t_c2db9ba37bb9dd 1-38,40-58,60-70,72-78,80-85,87-92,94-100,102-106,109-133
+  s_6c1c1be138dfd4::t_b1ca3a2f29f618 39,59,71,79,86,93,101,107-108
+wrangler.toml
+  s_6c1c1be138dfd4::t_1320e4a0983af5 281-287
+src/stripe-spt.ts
+  s_6c1c1be138dfd4::t_b1ca3a2f29f618 18,35,117
+  s_6c1c1be138dfd4::t_d8ff05f651c8c6 1-17,19-34,36-116,118-166
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "96720b122c793cb40af415bfa67000ca2ac38e42",
+  "prompts": {},
+  "sessions": {
+    "s_6c1c1be138dfd4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7a5dffe1-aa2a-4164-bcf4-2a833c950ff4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

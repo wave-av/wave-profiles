@@ -1,0 +1,30 @@
+src/worker.ts
+  s_8a470910d81a67::t_7ccd42acfd4b19 149-152
+  s_8a470910d81a67::t_00b894b33b1d47 180
+  s_8a470910d81a67::t_2a6fba9928c1f7 49-52
+src/console-studio-cors.ts
+  s_8a470910d81a67::t_0949a3ec4d6481 1-135
+src/public-surface.ts
+  s_8a470910d81a67::t_d9bd2a4714a76d 17
+  s_8a470910d81a67::t_7bfc5dbc0406f9 50-58
+test/console-studio-cors.spec.ts
+  s_8a470910d81a67::t_2511e2b2d98251 1-14,16-158,186-196
+  s_8a470910d81a67::t_6ce904ce619387 15
+  s_8a470910d81a67::t_8f0783e081945f 159-185
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "d3a55a8fc321fe9974b340f6926ace47c3619f29",
+  "prompts": {},
+  "sessions": {
+    "s_8a470910d81a67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9143d3ec-9637-4788-8bc2-510e83aa2fe3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+moq/crest/player/audio-clip.js
+  s_157583aa3b6686::t_ddbfb94bd1cb22 1-123
+moq/crest/player/audio-clip.test.mjs
+  s_157583aa3b6686::t_c606080925cb09 1-118
+moq/crest/player/listen.html
+  s_157583aa3b6686::t_f66d4e6b343ff0 68-82
+  s_157583aa3b6686::t_3c491aa108dc82 50,52-54
+  s_157583aa3b6686::t_b7763d5bd72b35 31-32,34-35
+  s_157583aa3b6686::t_1df603a8d48e6c 108
+  s_157583aa3b6686::t_685874a8e91457 93-95
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_bdde9eb43fb474 274-285
+  s_157583aa3b6686::t_d7b6371ae2c91f 35-36,38-45
+  s_157583aa3b6686::t_631ebe19302c1f 21
+  s_157583aa3b6686::t_05591c3817670f 173-176
+  s_157583aa3b6686::t_e6b648c5fd6100 315-365
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "62135ee3375935cdc367e58b46bcf55da7a9a118",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

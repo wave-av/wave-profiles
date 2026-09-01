@@ -1,0 +1,21 @@
+deck/deck-sdk.mjs
+  s_6046880c148371::t_70d71e8cabc013 13
+test/deck-sdk.test.ts
+  s_6046880c148371::t_63132ba240f72f 31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "953d76a38b91bd57bcd8c4b78305ae6c93a1e5d6",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

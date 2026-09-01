@@ -1,0 +1,23 @@
+src/leaderboard-live.ts
+  s_85113a1cef9a84::t_f9dfa96a106ad9 1-33
+src/leaderboard-page.ts
+  s_85113a1cef9a84::t_1f764c2f59b7a6 51-58,62,102-115,131-140
+src/public-surface.ts
+  s_85113a1cef9a84::t_e4a83c3d0cc254 19,138-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "017be48b46eaa2c9a9beb11b6e2db6ea2742a85c",
+  "prompts": {},
+  "sessions": {
+    "s_85113a1cef9a84": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "43bf7a61-f0f1-4f18-aea1-cdd8d156f4b5",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

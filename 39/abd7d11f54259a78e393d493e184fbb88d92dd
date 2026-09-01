@@ -1,0 +1,19 @@
+test/b1-routes.spec.ts
+  s_476688bf5e5ac1::t_c52616defb22cb 1-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "39abd7d11f54259a78e393d493e184fbb88d92dd",
+  "prompts": {},
+  "sessions": {
+    "s_476688bf5e5ac1": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fdb684f07ffeS07vBX36smsbT2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

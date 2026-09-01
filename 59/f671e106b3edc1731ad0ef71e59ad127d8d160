@@ -1,0 +1,21 @@
+dante/aes67-tx-backend.mts
+  s_6e7ad4df769349::t_d9aa79c5f0fed4 1-223
+dante/aes67-tx-backend.test.mts
+  s_6e7ad4df769349::t_2248c15a62093c 1-270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "59f671e106b3edc1731ad0ef71e59ad127d8d160",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

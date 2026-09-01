@@ -1,0 +1,19 @@
+CHANGELOG.md
+  s_ddc6ab5f5d6b64::t_6c6c957152f8ad 9-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "416fb4ac0c4a6b7d0be009322ca2fa800cd2a014",
+  "prompts": {},
+  "sessions": {
+    "s_ddc6ab5f5d6b64": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bd40e21a-4a9f-4329-af7d-2d974870ae31",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

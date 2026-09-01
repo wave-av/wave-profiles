@@ -1,0 +1,31 @@
+moq/crest/braid/braid-return.mjs
+  s_157583aa3b6686::t_0d28ae497e9ef4 1-213
+moq/crest/braid/braid-return-test.mjs
+  s_157583aa3b6686::t_f2139f2620795c 1-197
+moq/crest/receipts/e36-braid-return.json
+  s_6f462a543a4014::t_1ecaaeaf2a8c6c 1-87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2dded0497032bddfb5610b9101e57f0f413fa248",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_6f462a543a4014": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a50a4683550b55b66",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

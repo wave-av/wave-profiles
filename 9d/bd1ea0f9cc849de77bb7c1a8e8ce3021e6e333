@@ -1,0 +1,26 @@
+dante-dep-bridge/scripts/dep-watchdog.sh
+  s_157583aa3b6686::t_71d6314478c62a 71,73
+  s_157583aa3b6686::t_4bb61385f8165e 19-20
+dante-dep-bridge/scripts/shm_reader_follow.py
+  s_157583aa3b6686::t_e5b936e096c421 14-18
+dante-dep-bridge/scripts/shm_probe.py
+  s_157583aa3b6686::t_919359c206ff99 18-19
+  s_157583aa3b6686::t_579d03009a3152 6-8
+  s_157583aa3b6686::t_7f3b204bd4f05d 34-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "9dbd1ea0f9cc849de77bb7c1a8e8ce3021e6e333",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

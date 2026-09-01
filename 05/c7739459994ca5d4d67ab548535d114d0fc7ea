@@ -1,0 +1,22 @@
+src/money-attribution.ts
+  s_756b33c630d33b::t_1b297e0893693b 1-7
+src/prepaid-wallet.ts
+  s_756b33c630d33b::t_9d1c282b9c5b41 238-243
+  s_756b33c630d33b::t_e3b78f6a15323e 27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "05c7739459994ca5d4d67ab548535d114d0fc7ea",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

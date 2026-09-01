@@ -1,0 +1,27 @@
+test/realtime.spec.ts
+  s_ccbb3091d0f293::t_177483bd05ab47 112-114,116,120-124,126-130
+  s_ccbb3091d0f293::t_88aca0ffb97618 15,22,24,31-40,44-45,48,50,56,58,65-68
+src/realtime.ts
+  s_ccbb3091d0f293::t_6e7bad3c428288 25-36,38-40,43,52-54,57-58,62
+  s_ccbb3091d0f293::t_98c4aa402f340a 3-8
+  s_ccbb3091d0f293::t_3ae4db804d832a 17,20
+src/forward.ts
+  s_ccbb3091d0f293::t_95f8c3d55757ee 10
+  s_ccbb3091d0f293::t_4c97ba219b04e7 52-56,58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "e3cf399c51c73b548631c53800a1b646a28b0588",
+  "prompts": {},
+  "sessions": {
+    "s_ccbb3091d0f293": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5ad29f8c-8cc4-4950-bdb4-6b0ec735d5f2",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

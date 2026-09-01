@@ -1,0 +1,27 @@
+test/scopes.spec.ts
+  s_db1b2a792e5f25::t_77e29870842ad0 134-153
+src/insights-trends.ts
+  s_db1b2a792e5f25::t_3b03eaa9eb8487 1-42,51-196
+  s_db1b2a792e5f25::t_671b69b3265869 43-50
+src/gateway-native-routes.ts
+  s_db1b2a792e5f25::t_b73a4f5cd6888b 49
+  s_db1b2a792e5f25::t_a608af1eec970e 89-97
+test/insights-trends.spec.ts
+  s_db1b2a792e5f25::t_337952b99c601b 1-229
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e803051cb9d97b4a69d2f831aa03da575037084d",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+test/e-egress-router-receipt.test.ts
+  h_af5ac1a9798224 1-396
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "0c6de2ce736159d00abd0af1c8785d3e95949950",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

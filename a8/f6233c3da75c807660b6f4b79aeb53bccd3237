@@ -1,0 +1,21 @@
+src/route-ladder.ts
+  s_2b4acc7ceba309::t_a60d67ae4a0509 534
+src/router.ts
+  s_2b4acc7ceba309::t_e04522028a8904 158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a8f6233c3da75c807660b6f4b79aeb53bccd3237",
+  "prompts": {},
+  "sessions": {
+    "s_2b4acc7ceba309": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff3dead9affe2WOERvc2psX5Eq",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

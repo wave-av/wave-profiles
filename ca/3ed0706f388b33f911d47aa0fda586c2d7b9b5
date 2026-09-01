@@ -1,0 +1,37 @@
+CHANGELOG.md
+  s_60c5725270cba3::t_793c60e09927f9 10
+docs/api/openapi.yaml
+  s_60c5725270cba3::t_1fc7946f9794ae 9-15
+capabilities.json
+  s_60c5725270cba3::t_d49d6bc2bd0ca6 11-14
+docs/REALTIME.md
+  s_60c5725270cba3::t_fa4c37063bbb8d 40-57
+  s_60c5725270cba3::t_f761c62d7e26a9 119,127,134,140-141
+  s_60c5725270cba3::t_9088fa04fe1aa0 5-8
+  s_60c5725270cba3::t_428d871d35ecb4 115
+  s_60c5725270cba3::t_fb6621dc3f072c 131
+README.md
+  s_60c5725270cba3::t_13524c9345b8fb 49
+  s_60c5725270cba3::t_83c38a08bb0dec 13-15
+  s_60c5725270cba3::t_aff86057d79775 82-92
+  s_60c5725270cba3::t_029318cb2a7aac 99-103,110-113,119-123
+  s_60c5725270cba3::t_0a7e54cd643280 66
+  s_60c5725270cba3::t_fb4300312086e3 26,34,36-48
+  s_60c5725270cba3::t_c48d089f77a570 75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "ca3ed0706f388b33f911d47aa0fda586c2d7b9b5",
+  "prompts": {},
+  "sessions": {
+    "s_60c5725270cba3": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_01102325affeiT16qwRvWzIjqe",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

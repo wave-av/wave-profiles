@@ -1,0 +1,23 @@
+.github/workflows/api-spec-drift-watch.yml
+  s_15127d80763110::t_21117006a7bb31 1-137
+scripts/api-spec-drift-watch.mjs
+  s_15127d80763110::t_1541e5f56ff4d6 1-131
+package.json
+  s_15127d80763110::t_114f015e4c8b4e 20-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "43a3ef1f62718079db6b926624d4b55fb03e050c",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

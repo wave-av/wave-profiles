@@ -1,0 +1,48 @@
+src/b1-routes.ts
+  s_cab66c5252a039::t_c4b33747708750 1-100
+src/scope-groups.ts
+  s_cab66c5252a039::t_25a3a6668c9def 108
+test/b1-routes.spec.ts
+  s_cab66c5252a039::t_fb303edf6eac09 1-194
+src/webhook-subscriptions.ts
+  s_cab66c5252a039::t_31050ba60608cb 232-263
+src/gateway-native-routes.ts
+  s_cab66c5252a039::t_65d0d4657a3f10 148
+  s_cab66c5252a039::t_58b1e7f3f3a105 249-255
+  s_cab66c5252a039::t_b906c59c8f3161 1-5
+  s_cab66c5252a039::t_3a3d4778bafc36 28-29
+src/acp.ts
+  s_9bb1b1d1d998d4::t_b0b65f3d503d2d 1-324
+src/api-keys.ts
+  s_9bb1b1d1d998d4::t_89f50c9c6ee3ea 1-201
+src/org.ts
+  s_9bb1b1d1d998d4::t_67d74d5a335436 1-158
+src/user.ts
+  s_9bb1b1d1d998d4::t_a5f5d681e93a5d 1-132
+src/webhook-legacy.ts
+  s_9bb1b1d1d998d4::t_46ea00a517e448 1-150
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "2a5603aceda95d6be0f0df8d02b0db0c1cd4acaa",
+  "prompts": {},
+  "sessions": {
+    "s_9bb1b1d1d998d4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1af30fe3-98cc-4596-87b9-01dba03a0970",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_cab66c5252a039": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc8fa7770ffemu1jf8fAbzopkc",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

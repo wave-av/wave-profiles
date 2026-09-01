@@ -1,0 +1,20 @@
+docs/superpowers/specs/2026-07-22-insights-e0.5-intent-enrichment-design.md
+  s_db1b2a792e5f25::t_1b03c823d0236e 1-99,101,108-252
+  s_db1b2a792e5f25::t_26a85298eb0944 100,102-107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "72c5a4b42dd33ff5c7d76f75c689155b2f7121a5",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

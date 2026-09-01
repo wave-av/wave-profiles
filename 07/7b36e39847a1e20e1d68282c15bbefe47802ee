@@ -1,0 +1,29 @@
+test/audit-log.spec.ts
+  s_33808c00e16d52::t_9415de76cfdb60 1-59
+src/audit-log.ts
+  s_19ebd4fa10983d::t_86626754727850 1-83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "077b36e39847a1e20e1d68282c15bbefe47802ee",
+  "prompts": {},
+  "sessions": {
+    "s_19ebd4fa10983d": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc9ec3e21ffeqlF58ftwaVjTca",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_33808c00e16d52": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe049d22cffe1Ahc2vTU2Tf03d",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

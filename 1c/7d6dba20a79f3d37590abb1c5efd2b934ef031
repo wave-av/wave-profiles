@@ -1,0 +1,59 @@
+CHANGELOG.md
+  s_ff5268a6202624::t_c3b08659efeb1c 25-44
+src/agent-self-pay.ts
+  s_565d2579ccff74::t_3fe0a50c019f0b 264-267
+src/x402-capture.ts
+  s_565d2579ccff74::t_df97dbd336e827 33-35,43-45,427-431,436-438,446-449,518-520,527-528,535
+src/x402-challenge.ts
+  s_565d2579ccff74::t_e73ecf3d074d3d 8-25,135-223
+src/x402-deny-publish.ts
+  s_bca1aa4cdd7e96::t_520239f42921f0 1-118
+src/x402-envelope.ts
+  s_565d2579ccff74::t_2432ed1130fbca 7-15,17,20-21,23,27-111,121-125,130,133-156,159-161,163-164
+src/x402-pay-lane.ts
+  s_565d2579ccff74::t_0ef7505fdda9a3 128-133
+src/x402-simulate.ts
+  s_565d2579ccff74::t_5fdf8cc0c8b390 1-49
+src/x402-stream-ticks.ts
+  s_565d2579ccff74::t_e7fad0e3ea0a81 33-35,116-134,136-144,199-207
+src/x402.ts
+  s_565d2579ccff74::t_a7cac8263b3d78 36-42
+test/x402-deny-publish-818.spec.ts
+  s_565d2579ccff74::t_7ee9faab9760d2 1-210
+test/x402-deny-visibility-817.spec.ts
+  s_565d2579ccff74::t_6dab2b95d473e8 1-274
+test/x402-stream-ticks-deny-818.spec.ts
+  s_565d2579ccff74::t_c62b136d59696e 1-129
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "1c7d6dba20a79f3d37590abb1c5efd2b934ef031",
+  "prompts": {},
+  "sessions": {
+    "s_565d2579ccff74": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ae8dd585fc7c6d8ea",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_bca1aa4cdd7e96": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-acc046c532e7c0d22",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_ff5268a6202624": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a7bf66c17a5293356",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

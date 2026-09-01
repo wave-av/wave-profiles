@@ -1,0 +1,32 @@
+src/gateway-native-routes.ts
+  s_341e702ccab675::t_674b42f7cfd197 66-72
+  s_341e702ccab675::t_3646e481cb48ad 160-181
+src/env.ts
+  s_341e702ccab675::t_f914d04c5aebbd 84-87
+  s_341e702ccab675::t_a3dc519bb1ce94 89
+wrangler.toml
+  s_341e702ccab675::t_89b50296b53ee1 204-221
+src/webhook-subscriptions.ts
+  s_341e702ccab675::t_f47bae0ad696f6 1-215
+test/webhook-subscriptions.spec.ts
+  s_341e702ccab675::t_ba74cf47699ad7 1-172,176-181,184-190,193-301,305-306
+  s_341e702ccab675::t_5dcb09df2e9088 173-175,182-183,191-192,302-304
+src/scopes.ts
+  s_341e702ccab675::t_f904c1329b3e57 153-162
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7fd3ba9aad80a0cc54e5457b1d5b41772e9fe3b9",
+  "prompts": {},
+  "sessions": {
+    "s_341e702ccab675": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fde1b94c6ffevRhzTheYzV5czw",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

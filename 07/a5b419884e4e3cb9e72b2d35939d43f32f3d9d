@@ -1,0 +1,34 @@
+src/wallet-summary.ts
+  s_8a470910d81a67::t_9a83a96778f77c 1-96
+test/wallet-summary.spec.ts
+  s_8a470910d81a67::t_959e39115ec6b4 1-234
+src/billing-routes.ts
+  s_8a470910d81a67::t_7666e903d1c7aa 97-99
+  s_8a470910d81a67::t_6e5317718d2023 127
+  s_8a470910d81a67::t_a801304f1efd33 190-193
+  s_8a470910d81a67::t_8b985952507184 21
+src/tier-quota.ts
+  s_8a470910d81a67::t_e6121793db7303 1-53
+src/limits.ts
+  s_8a470910d81a67::t_d5829a7aecd9fb 57-58
+  s_8a470910d81a67::t_63fb514e81b84e 60-62,64-71
+  s_8a470910d81a67::t_20cdd1eb6d22d2 55-56
+  s_8a470910d81a67::t_9253942c28c2fd 7-9
+  s_8a470910d81a67::t_7ce933b95b499b 243-245
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "07a5b419884e4e3cb9e72b2d35939d43f32f3d9d",
+  "prompts": {},
+  "sessions": {
+    "s_8a470910d81a67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9143d3ec-9637-4788-8bc2-510e83aa2fe3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

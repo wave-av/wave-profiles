@@ -1,0 +1,36 @@
+src/fleet-executor.ts
+  s_8af4028370359f::t_63537da681f54d 123,125-127,129-134
+  s_8af4028370359f::t_010ad64f1faa36 26-28
+  s_8af4028370359f::t_1d597d81e484f1 121-122,124,128,136,154
+  s_8af4028370359f::t_d1eaf330547957 223-225,235
+src/fleet-provision.ts
+  s_8af4028370359f::t_e2d82a1502f89c 240
+  s_8af4028370359f::t_f7064e5e5b2315 357
+  s_8af4028370359f::t_6368462b11a582 32
+  s_8af4028370359f::t_d08e5e73978bf3 77
+  s_8af4028370359f::t_9a8e43c7e80f14 105
+  s_8af4028370359f::t_1ae9a9abd026d0 230,233-239,241-242
+  s_8af4028370359f::t_9561dbf63d3e5d 356
+test/fleet-provision-v2.spec.ts
+  s_8af4028370359f::t_d47fd8c72d8aec 16
+  s_8af4028370359f::t_63f96f50d82cc4 37,42-43
+  s_8af4028370359f::t_766793d1c4a0a5 56
+src/fleet-provision-v2.ts
+  s_8af4028370359f::t_5d336a07c1a8db 1-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "fcea9a723711bd6ff7682e5c37fc423e5e04752a",
+  "prompts": {},
+  "sessions": {
+    "s_8af4028370359f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef8fb36fffeRqnDhDU6nt6cu1",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

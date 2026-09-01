@@ -1,0 +1,19 @@
+src/scope-groups-edge.ts
+  s_048ad7f61626d4::t_7fac1a415f4dbd 69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "36a7f771d304042f9e8ce8900ef4eb14b28c5859",
+  "prompts": {},
+  "sessions": {
+    "s_048ad7f61626d4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_feee8970affenVKsU9Nt681bXx",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

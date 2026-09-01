@@ -1,0 +1,14 @@
+.github/workflows/tailnet-watch.yml
+  h_af5ac1a9798224 38,86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "bc341b2a3e1569b66c2d9250fed417110245cfb6",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

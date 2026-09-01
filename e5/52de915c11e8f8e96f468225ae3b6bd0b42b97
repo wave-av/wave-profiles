@@ -1,0 +1,26 @@
+src/scheduled-crons.ts
+  s_9e432dc94c73ad::t_b1888b8475e10a 10
+  s_9e432dc94c73ad::t_3a4ecf3ff6d3bc 28-32
+src/creator-payout-cycle.ts
+  s_9e432dc94c73ad::t_f51e4c32beb9b2 1-132
+src/connect.ts
+  s_9e432dc94c73ad::t_cd0b855e1f1543 27-29
+test/creator-payout-cycle.spec.ts
+  s_9e432dc94c73ad::t_97a443a0744ec5 1-154
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "e552de915c11e8f8e96f468225ae3b6bd0b42b97",
+  "prompts": {},
+  "sessions": {
+    "s_9e432dc94c73ad": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe89b54d0ffeJzhiAS9bz5iAjc",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

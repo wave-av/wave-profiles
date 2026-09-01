@@ -1,0 +1,25 @@
+src/usage-counter.ts
+  s_e077f59d8037ec::t_20c3a6f2b715fa 177-194
+src/usage.ts
+  s_e077f59d8037ec::t_a7e4d322807237 95
+  s_e077f59d8037ec::t_fb399240d293a9 615-619
+  s_e077f59d8037ec::t_afbbf68b5aaf7b 613-614
+test/usage-dimensions.spec.ts
+  s_e077f59d8037ec::t_22f3dd4604d177 353-377
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "d866a9ef075e1de7a7d39402e6cda20febde6c3f",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+src/x402-verify.ts
+  s_15127d80763110::t_a2b8ab0bed1a6d 57-59
+  s_ecb2b4c01f332b::t_4caf5c3f168c1b 54-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "0f3733ea1fadf60f21e653f002e8820ea6b7805b",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_ecb2b4c01f332b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a54c5efd5ef0e5a15",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

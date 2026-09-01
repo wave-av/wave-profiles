@@ -1,0 +1,18 @@
+src/comms-tenants.ts
+  h_af5ac1a9798224 151-171
+src/internal-service-routes.ts
+  h_af5ac1a9798224 39,81-83
+test/comms-tenants-read.spec.ts
+  h_af5ac1a9798224 41-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "2ece1b4986517de26f826e8cda3ef843c28ca32c",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

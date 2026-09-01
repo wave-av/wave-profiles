@@ -1,0 +1,26 @@
+moq/listen/dante-mix-run.mjs
+  s_157583aa3b6686::t_0052177615d7fd 133
+  s_157583aa3b6686::t_54fe767a8309c5 40
+moq/listen/mix-run.test.mjs
+  s_157583aa3b6686::t_ee7a603f5ca05a 130-161
+moq/listen/mix-run.mjs
+  s_157583aa3b6686::t_d7bcdf102d1800 31-38
+  s_157583aa3b6686::t_5f99970bbd5958 94,109-118,131-139
+  s_157583aa3b6686::t_0d2e74f42334c7 230
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "83a88240691f3d2defcf5e9d4016020c341a924f",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+moq/crest/player/captions-overlay.css
+  s_157583aa3b6686::t_65d71adf8aa4b7 202-273
+moq/crest/player/ai-effects.js
+  s_157583aa3b6686::t_4097ccac8a207d 1-58
+moq/crest/crest-ai-effects-test.mjs
+  s_157583aa3b6686::t_7a2e9a493b6c07 1-68,70-132
+  s_157583aa3b6686::t_355077efb49019 69
+moq/crest/player/ai-effects-overlay.js
+  s_157583aa3b6686::t_29aaa7e7c2cd43 1-90
+moq/crest/player/captions-demo.html
+  s_157583aa3b6686::t_30f9e0cc4752bc 47,56-57
+  s_157583aa3b6686::t_d14d3911873d88 30
+  s_157583aa3b6686::t_00310f32f18127 120-123
+  s_157583aa3b6686::t_54c9a333f8e2da 58
+moq/crest/receipts/e38-ai-effects.json
+  s_157583aa3b6686::t_746b047f8a778f 1-64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4ecaa4daa9ccd9c78763ed1909641edaafab106f",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

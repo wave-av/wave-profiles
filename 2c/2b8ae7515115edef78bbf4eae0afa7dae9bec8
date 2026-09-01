@@ -1,0 +1,20 @@
+test/mcp-pricing-tools.spec.ts
+  s_68a1dc0626acc6::t_7929b60e1579c2 1-88
+  s_68a1dc0626acc6::t_a93713c20660eb 89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2c2b8ae7515115edef78bbf4eae0afa7dae9bec8",
+  "prompts": {},
+  "sessions": {
+    "s_68a1dc0626acc6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff4e4ebb2ffeIk1zeBG7l5n6Tm",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

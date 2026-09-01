@@ -1,0 +1,19 @@
+dante-dep-bridge/scripts/dep-watchdog.sh
+  s_364605915bb7ec::t_115a79df792b8e 8,13-19,28-32,49-65,68-76,78,80-81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "0b3098c373fbb84db5dfe7047c713b9f08bd2a35",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

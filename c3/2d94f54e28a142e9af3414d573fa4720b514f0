@@ -1,0 +1,20 @@
+src/dispatch-toolcall-stream.ts
+  s_2b4acc7ceba309::t_d75e84d2466e0b 80-84,86,91-97,117-123
+  s_2b4acc7ceba309::t_e247be3f01e9f0 53,57-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "c32d94f54e28a142e9af3414d573fa4720b514f0",
+  "prompts": {},
+  "sessions": {
+    "s_2b4acc7ceba309": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff3dead9affe2WOERvc2psX5Eq",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

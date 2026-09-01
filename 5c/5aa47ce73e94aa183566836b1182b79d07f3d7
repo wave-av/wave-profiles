@@ -1,0 +1,25 @@
+src/bounded-body.ts
+  s_e077f59d8037ec::t_cd6e920c59895f 1-56
+src/mcp.ts
+  s_e077f59d8037ec::t_33aeb69439a603 109-112,116-124,129-132,134,136,138-139,144,151-164,168-170
+  s_e077f59d8037ec::t_d1a4486617ef62 125-128,133,135,137,141-143
+  s_e077f59d8037ec::t_359c865c68dc7e 29-33
+test/mcp-repair-short-circuit-843.spec.ts
+  s_e077f59d8037ec::t_e766eadfce9c5a 80-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "5c5aa47ce73e94aa183566836b1182b79d07f3d7",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

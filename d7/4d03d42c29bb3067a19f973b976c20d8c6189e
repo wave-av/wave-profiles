@@ -1,0 +1,20 @@
+src/facilitator.ts
+  h_af5ac1a9798224 46,54,363-365
+src/tempo-mpp.ts
+  h_af5ac1a9798224 92-117
+src/x402-discovery.ts
+  h_af5ac1a9798224 2-28
+test/tempo-webhook.spec.ts
+  h_af5ac1a9798224 6,33,35,40-41,43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d74d03d42c29bb3067a19f973b976c20d8c6189e",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+src/signaling.ts
+  s_6046880c148371::t_86c4c0437c9455 272,278-290,293
+src/room.ts
+  s_6046880c148371::t_c1bcf7ed7ffc02 762-765
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "49dba011312003875cd80bfe66779389835823e6",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

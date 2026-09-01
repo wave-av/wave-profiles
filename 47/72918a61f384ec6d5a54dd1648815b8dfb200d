@@ -1,0 +1,19 @@
+test/billing-routes-scope-gate.spec.ts
+  s_2e30bff6169f7a::t_b211656372c132 244-263
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "4772918a61f384ec6d5a54dd1648815b8dfb200d",
+  "prompts": {},
+  "sessions": {
+    "s_2e30bff6169f7a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f1898398-4d25-4d52-8e81-7ebf3227e822",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.github/workflows/build-check.yml
+  s_6f6453b23e3805::t_fec8d18859b51a 101-115
+scripts/coverage-ratchet.mjs
+  s_6f6453b23e3805::t_fc870b76e3d8cd 68-69,71,81,83,101,107,127,142,149,154,165,167-192,198
+  s_6f6453b23e3805::t_24bd35b10bd2ba 65-67
+  s_6f6453b23e3805::t_4d80eacc4105bf 70
+  s_6f6453b23e3805::t_d48cfec79c9fb5 72-74,78-80
+  s_6f6453b23e3805::t_c170c32f0a94a5 82
+  s_6f6453b23e3805::t_7768750703795b 84-86,98-100
+  s_6f6453b23e3805::t_7022b112d4e1ea 102-106
+  s_6f6453b23e3805::t_40a60dc9a611b2 108-110,124-126
+  s_6f6453b23e3805::t_5934ef9931024c 128-130,139-141
+  s_6f6453b23e3805::t_f05e64c2f9bdc7 143-148
+  s_6f6453b23e3805::t_fb3e6d486545dc 150-153
+  s_6f6453b23e3805::t_1cd6baf65dc423 155-157,162-164
+  s_6f6453b23e3805::t_b7b39b72f2ac82 166
+  s_6f6453b23e3805::t_e48255dbff2a21 193-197
+  s_6f6453b23e3805::t_4bca24dcdfa426 199
+  s_6f6453b23e3805::t_6d4eb10a02b6e8 1-64,75-77,87-97,111-123,131-138,158-161
+.github/workflows/coverage-gap-weekly.yml
+  s_6f6453b23e3805::t_1383d927fa50fc 1-72,75-112
+  s_6f6453b23e3805::t_9ff3d1f71175c3 73-74
+.github/workflows/flake-detector.yml
+  s_6f6453b23e3805::t_a23a620f7ca916 1-67,69-70,79-124,127-156
+  s_6f6453b23e3805::t_b8746654af1b4e 68,71-78
+  s_6f6453b23e3805::t_77833ec52b0f35 125-126
+test/x402-permit-capture-on-serve.spec.ts
+  s_6f6453b23e3805::t_87f3f997613574 107-139
+  s_6f6453b23e3805::t_4cb4178b2dc184 14
+.github/workflows/mutation-nightly.yml
+  s_6f6453b23e3805::t_5806c47963ba70 1-96,100-147
+  s_6f6453b23e3805::t_e8d5a7eef795af 97-99
+coverage-baseline.json
+  s_6f6453b23e3805::t_fd1253d1a2bdb1 1-925
+scripts/mutation-catalogue.json
+  s_6f6453b23e3805::t_7c2b7cbc6c1bba 1-70
+scripts/mutation-run.mjs
+  s_6f6453b23e3805::t_0b7c3efc871f6f 1-112
+vitest.config.ts
+  s_6f6453b23e3805::t_d693f84b2f75e6 97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "7348ae0e46e14ce9ae886e785d90da0e983252bb",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

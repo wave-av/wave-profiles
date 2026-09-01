@@ -1,0 +1,22 @@
+src/anti-smuggle-headers.ts
+  s_756b33c630d33b::t_8be8b2442faa26 67-75
+test/anti-smuggle-headers.spec.ts
+  s_756b33c630d33b::t_1391f8af488fb8 54-89
+  s_756b33c630d33b::t_f78c8eb291aa38 13-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "421e5b42c271993883f118c29262cf0ea0e783d6",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

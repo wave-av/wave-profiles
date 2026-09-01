@@ -1,0 +1,27 @@
+.github/workflows/golden-path-e2e.yml
+  s_6bd73d48dc7ec3::t_cf5a9b0a5ab380 1-62
+test/golden-path.spec.ts
+  s_6bd73d48dc7ec3::t_2480994b0b108d 1-90
+e2e/run.ts
+  s_6bd73d48dc7ec3::t_a99799694e99e4 1-19
+e2e/golden-path.ts
+  s_6bd73d48dc7ec3::t_68dfdc50d7925e 1-133
+e2e/README.md
+  s_6bd73d48dc7ec3::t_e901f6e036aba5 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "0711120a33519e98504d434d8b2a6ec052ebd8a8",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

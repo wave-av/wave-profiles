@@ -1,0 +1,23 @@
+av/timestamp.mts
+  s_157583aa3b6686::t_faa24d53345409 66-78
+av/timestamp.test.mts
+  s_157583aa3b6686::t_7e1a2758522cbb 4
+  s_157583aa3b6686::t_be926e1aad1ced 46-52
+  s_157583aa3b6686::t_2ddfba390c01fd 53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "0c2af11896c2a7cad1d81b502675b448812096ac",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

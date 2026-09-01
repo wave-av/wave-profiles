@@ -1,0 +1,46 @@
+test/thumbnail-route.spec.ts
+  s_124891ed63801b::t_89dcea47bee9f4 1-122
+src/spoke-routing.ts
+  s_124891ed63801b::t_b43d0febb9f4ee 171-180
+src/usage-meters.ts
+  s_124891ed63801b::t_ebc746220457df 91-98
+  s_124891ed63801b::t_9d43bd152be717 44
+  s_124891ed63801b::t_e057927cb8a415 125-126
+test/catalog.spec.ts
+  s_124891ed63801b::t_dd5a7597f11425 35
+src/scopes.ts
+  s_124891ed63801b::t_ba51d4838111be 96-102
+src/env-local/spoke-origins.ts
+  s_124891ed63801b::t_c9e5db879bda39 121-131
+test/spoke-drift.spec.ts
+  s_124891ed63801b::t_c4ec5e298c022f 69-72,76
+  s_124891ed63801b::t_99845c92ad07ff 61
+src/catalog.ts
+  s_124891ed63801b::t_01f85cbd5f8aa5 123-129
+src/spoke-classification.ts
+  s_124891ed63801b::t_3d41c16d1fe666 62
+src/usage-multimeter.ts
+  s_124891ed63801b::t_d094b883c15b67 76
+src/product-meters-catalog.ts
+  s_124891ed63801b::t_87da2511d0c31b 169-187
+src/usage.ts
+  s_124891ed63801b::t_2603a168d3a13f 222-223
+  s_124891ed63801b::t_98dfa81c7f18ba 250,253
+  s_124891ed63801b::t_d43b6e35381f7e 56-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "5895626dce5023c4ccd160cd119648dcfba8219c",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

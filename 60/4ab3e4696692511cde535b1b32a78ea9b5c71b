@@ -1,0 +1,19 @@
+.github/workflows/x402-paid-smoke.yml
+  s_10e53e3a039bfa::t_370653c031acc1 158-169,172
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "604ab3e4696692511cde535b1b32a78ea9b5c71b",
+  "prompts": {},
+  "sessions": {
+    "s_10e53e3a039bfa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d6c2cfc-2b0d-42fa-9e8e-0888ca9d739b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

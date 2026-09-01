@@ -1,0 +1,31 @@
+src/limits.ts
+  s_6c1c1be138dfd4::t_2cfe27f80dd4b7 133
+src/stripe-spt.ts
+  s_6c1c1be138dfd4::t_de6dbdbf55a8a1 61
+src/mpp-stripe-rail.ts
+  s_6c1c1be138dfd4::t_1b6494294e29a8 26,30,38-40
+  s_6c1c1be138dfd4::t_c8a3557948ecbb 130,141,147-149,152-153,157-184
+  s_6c1c1be138dfd4::t_056ad6767d34bd 136-138
+src/facilitator.ts
+  s_6c1c1be138dfd4::t_826c43eb761bca 360
+test/mpp-facilitator-stripe.spec.ts
+  s_6c1c1be138dfd4::t_5e81a6f1497db4 15-24
+  s_6c1c1be138dfd4::t_fe509c9ef75858 162
+  s_6c1c1be138dfd4::t_5c116186bac8b2 137-161,163-168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.8",
+  "base_commit_sha": "75655fd85f3e13fdacfd68f7eb099286451ec1ec",
+  "prompts": {},
+  "sessions": {
+    "s_6c1c1be138dfd4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7a5dffe1-aa2a-4164-bcf4-2a833c950ff4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

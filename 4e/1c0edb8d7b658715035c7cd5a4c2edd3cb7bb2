@@ -1,0 +1,26 @@
+test/usage-conservation.spec.ts
+  s_9767d90c6e501b::t_5bbe69f49b3a9f 124-127
+  s_9767d90c6e501b::t_e9ef2ce24c9ad0 75-77,84,96-97
+  s_9767d90c6e501b::t_bddae7825f0d94 186-190,192-195
+  s_9767d90c6e501b::t_200780c91f51e9 191
+  s_9767d90c6e501b::t_82d223f4edfe2a 89-91
+  s_9767d90c6e501b::t_69e7f3bc032a0e 173
+  s_9767d90c6e501b::t_ca00dab93e22da 1-74,78-83,85-88,92-95,98-123,128-166,168-172,174-185,196-199
+  s_9767d90c6e501b::t_71637037994891 167
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "4e1c0edb8d7b658715035c7cd5a4c2edd3cb7bb2",
+  "prompts": {},
+  "sessions": {
+    "s_9767d90c6e501b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_00794ec85ffegLbIl60sXidpPn",
+        "model": "kimi-k2.7-code"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

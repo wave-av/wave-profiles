@@ -1,0 +1,25 @@
+test/unit/render-meter-live-read.spec.ts
+  s_cf363a68d60e93::t_3933ec3999b60f 1-93
+src/usage.ts
+  s_cf363a68d60e93::t_5ce53d9601a03b 36-39
+  s_cf363a68d60e93::t_66f8de330a3417 149
+  s_cf363a68d60e93::t_f9a398a45dc4e4 268
+  s_cf363a68d60e93::t_7d3d992b334b21 285
+  s_cf363a68d60e93::t_f83bf6a86003e5 493-498,500-515
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "96369c451b1ee6651dc7aff5c039ac4a56e9cd6b",
+  "prompts": {},
+  "sessions": {
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

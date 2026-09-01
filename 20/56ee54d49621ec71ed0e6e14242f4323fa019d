@@ -1,0 +1,19 @@
+docs/superpowers/specs/2026-07-16-native-dante-buildout-design.md
+  s_157583aa3b6686::t_106c3d21c553d0 1-327
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2056ee54d49621ec71ed0e6e14242f4323fa019d",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

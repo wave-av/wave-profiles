@@ -1,0 +1,14 @@
+scripts/qodo-fixer-probe.ts
+  h_af5ac1a9798224 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "0137a3aa8ca36a67522a54b665d398cf61f19a33",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

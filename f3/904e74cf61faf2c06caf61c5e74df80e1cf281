@@ -1,0 +1,25 @@
+src/agent-plugin.ts
+  s_e077f59d8037ec::t_c8771c06d82f27 22-23
+  s_e077f59d8037ec::t_67bc4ef223c0bf 1-21,24-161
+src/public-surface.ts
+  s_e077f59d8037ec::t_2bec961b2370e4 24
+  s_e077f59d8037ec::t_0393045e3044fb 137-143
+scripts/probe-agent-plugin-redline.sh
+  s_e077f59d8037ec::t_f919f053a2c6db 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "f3904e74cf61faf2c06caf61c5e74df80e1cf281",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

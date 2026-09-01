@@ -1,0 +1,21 @@
+.github/workflows/build-check.yml
+  s_7326a769c7efe8::t_157cbb078e854a 309
+  s_7326a769c7efe8::t_75f3033e81202c 248,256-266
+  s_7326a769c7efe8::t_4137655009803f 267-268
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "c52343060ac8838f3e9016a55e649edeb4924e4d",
+  "prompts": {},
+  "sessions": {
+    "s_7326a769c7efe8": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff841cf60ffelJVuw7cn2bkyUE",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

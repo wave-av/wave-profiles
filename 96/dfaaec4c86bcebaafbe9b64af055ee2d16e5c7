@@ -1,0 +1,29 @@
+test/inference-openrouter.spec.ts
+  s_b3d02654ef4fae::t_15b42bac6f37f8 125
+test/dispatch-inference.spec.ts
+  s_b3d02654ef4fae::t_dcb0e50cafed27 108
+src/dispatch-inference-gemini.ts
+  s_b3d02654ef4fae::t_5e0907117cb9ef 17
+src/dispatch-inference-openai.ts
+  s_b3d02654ef4fae::t_b035538e0be82b 18
+src/inference-backends.ts
+  s_b3d02654ef4fae::t_1ebfc7a79cafb4 119-122
+src/product-meters-tokens.ts
+  s_b3d02654ef4fae::t_cdfc38c05530ea 50-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "96dfaaec4c86bcebaafbe9b64af055ee2d16e5c7",
+  "prompts": {},
+  "sessions": {
+    "s_b3d02654ef4fae": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff7626121ffewtxsSiiYVGdxwY",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

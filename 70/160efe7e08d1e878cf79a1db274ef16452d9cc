@@ -1,0 +1,22 @@
+src/audit-log.ts
+  h_af5ac1a9798224 1-90
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 69,89-105
+src/scopes.ts
+  h_af5ac1a9798224 159
+test/audit-log.spec.ts
+  h_af5ac1a9798224 1-59
+test/billing.spec.ts
+  h_af5ac1a9798224 14,17,103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "70160efe7e08d1e878cf79a1db274ef16452d9cc",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

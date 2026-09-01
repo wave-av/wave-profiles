@@ -1,0 +1,24 @@
+src/insights-trends.ts
+  s_db1b2a792e5f25::t_3b874c96639caf 20-23
+  s_db1b2a792e5f25::t_ba0c218ca555c3 54-92
+  s_db1b2a792e5f25::t_8269cef10a990b 221-223,230-232,234
+test/insights-privacy-contract.spec.ts
+  s_db1b2a792e5f25::t_4147904cdf34d4 1-6,8,10,12,24-119
+  s_db1b2a792e5f25::t_bae074ef5b901d 7,9,11,13-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "be1488d19caa8d01177ee07702aaecd73a58ce7b",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

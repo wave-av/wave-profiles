@@ -1,0 +1,23 @@
+moq/crest/player/stem-mixer.js
+  s_157583aa3b6686::t_5956879bb57ddf 1-65
+moq/crest/player/stem-mixer.test.mjs
+  s_157583aa3b6686::t_d22c20deaec812 1-104
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_c0b5c1e2a23189 89-91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "3430aac127125db032b5c46cf5f227b49b3640dd",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

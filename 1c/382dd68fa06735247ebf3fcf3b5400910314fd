@@ -1,0 +1,22 @@
+src/agent-plugin.ts
+  s_e077f59d8037ec::t_69013be5367c84 122-137,141-142,146-150
+  s_e077f59d8037ec::t_756e8a9abca484 35-40
+  s_e077f59d8037ec::t_f7a23d158e53a7 57-62,70-88,98-99
+  s_e077f59d8037ec::t_ee5d8e5db10d71 100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "1c382dd68fa06735247ebf3fcf3b5400910314fd",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

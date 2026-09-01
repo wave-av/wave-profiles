@@ -1,0 +1,30 @@
+src/billing-info.ts
+  s_d821c4af0f0a99::t_4d9f7b8b277699 1-176
+src/billing-usage.ts
+  s_d821c4af0f0a99::t_d4bd9e21578772 1-84
+src/b2-routes.ts
+  s_d821c4af0f0a99::t_f42c5b26953fb1 1-35
+src/gateway-native-routes.ts
+  s_d821c4af0f0a99::t_953706b952b839 72
+  s_d821c4af0f0a99::t_3f74714ccafe27 110-114
+test/b2-routes.spec.ts
+  s_d821c4af0f0a99::t_e3acfb0a71e2b6 1-10,13-22,24-28,30-320
+  s_d821c4af0f0a99::t_9def880b53c845 23,29
+  s_d821c4af0f0a99::t_b8b4b8fb1fd9ac 11-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "0f340a3fbcf2d3b3421be8860f5c27bc9b435457",
+  "prompts": {},
+  "sessions": {
+    "s_d821c4af0f0a99": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc8d36a02ffetxLQ4Q5vdvbgeN",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

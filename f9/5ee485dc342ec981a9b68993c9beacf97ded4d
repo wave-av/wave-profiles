@@ -1,0 +1,19 @@
+CHANGELOG.md
+  s_8a470910d81a67::t_3658936235e39f 11-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "f95ee485dc342ec981a9b68993c9beacf97ded4d",
+  "prompts": {},
+  "sessions": {
+    "s_8a470910d81a67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9143d3ec-9637-4788-8bc2-510e83aa2fe3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

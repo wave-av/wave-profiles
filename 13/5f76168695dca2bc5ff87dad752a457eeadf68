@@ -1,0 +1,54 @@
+src/dispatch-inference-openai.ts
+  s_b04020df48533b::t_a3f8e7a4890ba2 27-28
+  s_b04020df48533b::t_d033a1866623e9 36,51,62-66
+  s_b04020df48533b::t_c13e411d1d85db 5
+  s_b04020df48533b::t_950dce01c7235a 67-68
+src/dispatch-inference-providers.ts
+  s_b04020df48533b::t_12e85e0f7c3c67 126
+  s_b04020df48533b::t_e7cdf0b4bc6731 199,214,225-229
+  s_b04020df48533b::t_ddf7f6403afea8 264,279,290-294
+  s_b04020df48533b::t_38b4f777d47144 62
+  s_b04020df48533b::t_048aa40cf1e9b1 4-5
+  s_b04020df48533b::t_a1d4b1a38f533d 70,85,96-100
+  s_b04020df48533b::t_c6b22a5086e44e 190-191
+  s_b04020df48533b::t_a912362035e045 134,149,160-164
+  s_b04020df48533b::t_383f9d586bc125 255-256
+  s_b04020df48533b::t_3c2ab7a4d03ec4 101-102
+  s_b04020df48533b::t_23f171d5efdba0 165-166
+  s_b04020df48533b::t_e3d59ae7748b36 230-231
+  s_b04020df48533b::t_ebaec1433ed873 295-296
+src/dispatch-inference-cerebras.ts
+  s_b04020df48533b::t_ba7db3456f5d04 41,56,66-70
+  s_b04020df48533b::t_53cb7791a43ec4 32-33
+  s_b04020df48533b::t_553290031677bb 4-5
+  s_b04020df48533b::t_798250e284ad16 71-72
+src/dispatch-inference-gemini.ts
+  s_b04020df48533b::t_5aa1429e259d48 34,49,59-63
+  s_b04020df48533b::t_c1c300a9024e6c 25-26
+  s_b04020df48533b::t_a43d07563da14f 5
+  s_b04020df48533b::t_6eeb670d45a269 64-65
+test/dispatch-inference.spec.ts
+  s_b04020df48533b::t_954ee7453800cc 333-438
+  s_b04020df48533b::t_e29834a118c96b 33-34
+src/dispatch-inference-openrouter.ts
+  s_b04020df48533b::t_661f6eb26f966d 63-64
+  s_b04020df48533b::t_ab46216927e2df 72,89,101-105
+  s_b04020df48533b::t_0c283133b18f55 4-5
+  s_b04020df48533b::t_5bff7576679f87 106-107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "135f76168695dca2bc5ff87dad752a457eeadf68",
+  "prompts": {},
+  "sessions": {
+    "s_b04020df48533b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef408c9affedqz7SadbMuj4f7",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

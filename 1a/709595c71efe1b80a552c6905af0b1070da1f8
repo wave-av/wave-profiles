@@ -1,0 +1,18 @@
+src/billing-routes.ts
+  h_af5ac1a9798224 64,143-144,172-173,352-357
+src/tempo-funding.ts
+  h_af5ac1a9798224 135-206
+test/tempo-funding.spec.ts
+  h_af5ac1a9798224 4,59-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1a709595c71efe1b80a552c6905af0b1070da1f8",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

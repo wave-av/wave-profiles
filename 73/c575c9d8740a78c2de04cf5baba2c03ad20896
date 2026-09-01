@@ -1,0 +1,23 @@
+av/fixtures/author-dante.mts
+  s_157583aa3b6686::t_852f44b3ea0e19 1-21
+av/dante/fixtures.test.mts
+  s_157583aa3b6686::t_a405c2ce2f1ecb 1-43
+av/fixtures/dante-l24.expected.json
+  s_157583aa3b6686::t_64badeec649b25 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "73c575c9d8740a78c2de04cf5baba2c03ad20896",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

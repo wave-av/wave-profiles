@@ -1,0 +1,21 @@
+.gitar/rules/ci-eval.md
+  s_cae6bae8468b2e::t_d69b42be6ab978 1,3,5-17,21,25,32
+README.md
+  s_cae6bae8468b2e::t_a97d13534b2ecc 72-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3876cd791cf7088c56cc08b3270ec8af880c68cd",
+  "prompts": {},
+  "sessions": {
+    "s_cae6bae8468b2e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff4e05768ffeJwN7dEdvzJ7j5k",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

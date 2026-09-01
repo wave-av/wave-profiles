@@ -1,0 +1,27 @@
+scripts/mpp-services.mjs
+  s_6eee0b1ab56b3a::t_b31bff9befa0ef 186-187
+  s_6eee0b1ab56b3a::t_dddc5f7d01fe7d 154
+  s_6eee0b1ab56b3a::t_b7ca0f600a1fe4 1-19,39-145,147-148,156,158-159,165-168,170-172,177-185,188-202
+  s_6eee0b1ab56b3a::t_414b303e4709d3 20-38
+  s_6eee0b1ab56b3a::t_4e086383bf4616 163
+  s_6eee0b1ab56b3a::t_948444f65b3789 146,149,151-153,155,157,160
+  s_6eee0b1ab56b3a::t_2ea5dff8d15223 150
+  s_6eee0b1ab56b3a::t_29eda1df52b951 169,173-176
+  s_6eee0b1ab56b3a::t_2c33135e6e7d08 161-162,164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "f750d50649bb6d8dbd50a439ec8a45fbbbfe776b",
+  "prompts": {},
+  "sessions": {
+    "s_6eee0b1ab56b3a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe86b74fbffewLl2H6sMrZgN62",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

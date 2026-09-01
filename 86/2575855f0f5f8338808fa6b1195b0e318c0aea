@@ -1,0 +1,21 @@
+av/mediaframe.test.mts
+  s_157583aa3b6686::t_fc4dfc7e8f1133 1-50
+av/mediaframe.mts
+  s_157583aa3b6686::t_dbd4ef20cc75b2 1-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "862575855f0f5f8338808fa6b1195b0e318c0aea",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

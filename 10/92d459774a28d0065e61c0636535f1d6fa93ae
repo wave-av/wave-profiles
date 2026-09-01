@@ -1,0 +1,14 @@
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1092d459774a28d0065e61c0636535f1d6fa93ae",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

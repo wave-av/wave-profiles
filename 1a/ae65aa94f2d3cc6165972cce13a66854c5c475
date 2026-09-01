@@ -1,0 +1,51 @@
+src/x402-rail.ts
+  s_15127d80763110::t_2065e8bb51ecc9 1-26,28-31,33-60
+  s_15127d80763110::t_9bdf03e19fe1b6 32
+  s_15127d80763110::t_cf50e4191ca45b 27
+src/mcp-payment.ts
+  s_15127d80763110::t_3ee7ca8e9e9695 1-81
+src/mcp.ts
+  s_15127d80763110::t_1ea3bec432798b 187-206
+  s_15127d80763110::t_e81e8e7520555e 58-59
+  s_15127d80763110::t_c82ced557256ed 7,11,13-15
+  s_15127d80763110::t_133a1bcb904073 20,23-25,30-32,38-42,44
+  s_15127d80763110::t_68ea63335974a4 234-269,271-291
+  s_b1e7d2b07ff028::t_4347e839fefdfc 217-218,229-230
+test/mcp-x402-payto-822.spec.ts
+  s_15127d80763110::t_d0203f3e88e580 1-201
+src/x402-challenge.ts
+  s_15127d80763110::t_be2a1b7585e282 155-158
+  s_15127d80763110::t_34b529062f7fa9 184-185
+  s_15127d80763110::t_9c68717650f94a 22-23
+test/mcp-x402-pricing.spec.ts
+  s_15127d80763110::t_ea1fb3fa5be76b 125,132,137-146
+  s_15127d80763110::t_c65aad9a2acea5 49-62,64-65,67,70-71,83,88,100,108
+  s_15127d80763110::t_73673f6932c4b6 26
+  s_15127d80763110::t_bc4f84a1c9c24b 147
+src/mcp-x402-challenge.ts
+  s_15127d80763110::t_baab15c0311cad 1-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "1aae65aa94f2d3cc6165972cce13a66854c5c475",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_b1e7d2b07ff028": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a1070c4349df3a748",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+src/dispatch-inference-edge.ts
+  s_03441e7f8206c1::t_faac99f4b0eff3 65
+  s_03441e7f8206c1::t_64667f6d407ffe 9
+test/dispatch-generation-stamp.spec.ts
+  s_03441e7f8206c1::t_8c879d72410899 1-175
+src/dispatch-inference-providers.ts
+  s_03441e7f8206c1::t_f710c446963f95 9
+  s_03441e7f8206c1::t_a43c1106ba3cbe 255
+  s_03441e7f8206c1::t_7fe34e4d2fed12 85
+src/dispatch-inference-openai.ts
+  s_03441e7f8206c1::t_9b4d01f6d29bf7 51
+  s_03441e7f8206c1::t_aaf52921752198 9
+src/dispatch-generation-stamp.ts
+  s_03441e7f8206c1::t_2df163a6e6472f 75-77
+  s_03441e7f8206c1::t_278ea47257591a 1-74,78-135
+src/dispatch-inference-openrouter.ts
+  s_03441e7f8206c1::t_56503cbb3c4c92 94
+  s_03441e7f8206c1::t_b9199d33664084 12
+src/dispatch-inference-anthropic.ts
+  s_03441e7f8206c1::t_9ef52abeefed71 118
+  s_03441e7f8206c1::t_53ea925381053b 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "57529c023cf06dbc1e617339ae297784ac6e1995",
+  "prompts": {},
+  "sessions": {
+    "s_03441e7f8206c1": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff35ae29affeZ0jD4VXww1LP4f",
+        "model": "mimo-v2.5"
+      },
+      "human_author": null
+    }
+  }
+}

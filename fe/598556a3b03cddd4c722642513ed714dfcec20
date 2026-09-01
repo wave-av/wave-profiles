@@ -1,0 +1,34 @@
+moq/zoom-rtms/rtms-ingest-plan.test.mjs
+  s_157583aa3b6686::t_10143682ca3dba 1-73
+moq/zoom-rtms/package.json
+  s_157583aa3b6686::t_ad42312b793f1e 1-21
+moq/zoom-rtms/README.md
+  s_157583aa3b6686::t_1964dc15dc53b6 1-52
+moq/zoom-rtms/rtms-auth.mjs
+  s_157583aa3b6686::t_7a0ee9bff1dc72 1-70
+moq/zoom-rtms/rtms-auth.test.mjs
+  s_157583aa3b6686::t_b40127c234dc67 12,17-19
+  s_157583aa3b6686::t_9781a2c344f117 1-11,13-16,20-51
+moq/zoom-rtms/index.mjs
+  s_157583aa3b6686::t_ace65e1309439d 1-8
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_ad3ce320e6889b 100-105
+moq/zoom-rtms/rtms-ingest-plan.mjs
+  s_157583aa3b6686::t_d32a827ff3631e 1-102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "fe598556a3b03cddd4c722642513ed714dfcec20",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

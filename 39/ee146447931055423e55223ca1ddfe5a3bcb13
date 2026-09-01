@@ -1,0 +1,21 @@
+src/capability-account.ts
+  s_2606de950a60c6::t_71ece20640a7f6 217
+src/origin-webhook.ts
+  s_2606de950a60c6::t_baf55eb46e72f1 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "39ee146447931055423e55223ca1ddfe5a3bcb13",
+  "prompts": {},
+  "sessions": {
+    "s_2606de950a60c6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef439bb6ffePesTgCloA0Efke",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

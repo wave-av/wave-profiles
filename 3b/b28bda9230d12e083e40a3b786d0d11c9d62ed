@@ -1,0 +1,25 @@
+src/comms-tenants.ts
+  s_9bb1b1d1d998d4::t_2b80ead1891a6a 133-150
+src/gateway-native-routes.ts
+  s_9bb1b1d1d998d4::t_08e8fa54c50f48 53,153-155
+src/scopes.ts
+  s_9bb1b1d1d998d4::t_dd8781ef29df59 133
+test/comms-tenants-read.spec.ts
+  s_9bb1b1d1d998d4::t_574f3a3e780e93 1-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "3bb28bda9230d12e083e40a3b786d0d11c9d62ed",
+  "prompts": {},
+  "sessions": {
+    "s_9bb1b1d1d998d4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1af30fe3-98cc-4596-87b9-01dba03a0970",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+src/scopes.ts
+  s_157583aa3b6686::t_5ffe30a970f5e0 195
+test/braid-route.spec.ts
+  s_157583aa3b6686::t_b64c8302ddacbe 59,85-86
+  s_157583aa3b6686::t_8d964d33f55190 30
+  s_157583aa3b6686::t_ae5c35e1827594 1-29,31-58
+  s_157583aa3b6686::t_432132a2f4d7c7 60-84
+src/scope-groups.ts
+  s_157583aa3b6686::t_31c4c6b46ad7f5 19-22
+  s_157583aa3b6686::t_eba51470a5c9bf 144-152
+src/env-local.ts
+  s_157583aa3b6686::t_5a7eca88041644 56-64
+src/spoke-routing.ts
+  s_157583aa3b6686::t_cc0e258794e502 38-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ed1e95dd66eb8b87fbd6ebe4f596029d1bb9ffdb",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

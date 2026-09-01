@@ -1,0 +1,20 @@
+src/billing-provider.ts
+  s_756b33c630d33b::t_a7f2f16f6b94b2 5-7
+  s_756b33c630d33b::t_9da43e31a7e149 17-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "f9b4ed0fd43647d4a825bb7c1becd6f552a4b7ce",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

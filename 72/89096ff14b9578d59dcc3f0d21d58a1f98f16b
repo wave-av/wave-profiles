@@ -1,0 +1,21 @@
+test/entitlement-stripe-direct.spec.ts
+  s_f9ff6dc10be18e::t_243a84730a59c9 136-186
+src/entitlements.ts
+  s_f9ff6dc10be18e::t_7abe1dc0267f29 161-168,170-178,180-198
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "7289096ff14b9578d59dcc3f0d21d58a1f98f16b",
+  "prompts": {},
+  "sessions": {
+    "s_f9ff6dc10be18e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aa20d111-123e-4fad-b86d-3c93f1965088",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

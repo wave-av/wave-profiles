@@ -1,0 +1,23 @@
+.github/workflows/moq-secret-sync.yml
+  s_7e3e50fa23978e::t_f03ab2db474fff 42
+  s_7e3e50fa23978e::t_56d46fb4fafe70 63-71,74-78
+.github/workflows/build-check.yml
+  s_7e3e50fa23978e::t_bea0b65b45e5ee 52-94,96
+  s_7e3e50fa23978e::t_6290bcd0bfe35c 120-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "4212a7ba78c9ec30707184808f534c703dfd3070",
+  "prompts": {},
+  "sessions": {
+    "s_7e3e50fa23978e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5c4389db-33e9-4332-aea2-5545d85cbdeb",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+wrangler.toml
+  s_7e3e50fa23978e::t_2bc71704d22a78 962-974
+  s_7e3e50fa23978e::t_b05a566d4ab0bf 957-958
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "3b9edc604051fb7810521be7ca4f2f34b46cd255",
+  "prompts": {},
+  "sessions": {
+    "s_7e3e50fa23978e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5c4389db-33e9-4332-aea2-5545d85cbdeb",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.github/workflows/ci.yml
+  s_0227926428e4b1::t_4b4c86579fb3e1 104,153,218
+.github/workflows/srt_bonding_tests.yml
+  s_0227926428e4b1::t_1c98324bb448a2 65
+.github/workflows/tests.yml
+  s_0227926428e4b1::t_f48fda7c2ca9b5 79,86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "39767069f76584e26e73a0df64b6724cffb74125",
+  "prompts": {},
+  "sessions": {
+    "s_0227926428e4b1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f3c5befe-7152-480f-95ef-5f23bf26224d",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

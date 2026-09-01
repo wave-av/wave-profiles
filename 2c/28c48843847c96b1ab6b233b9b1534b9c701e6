@@ -1,0 +1,52 @@
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 237
+src/dispatch-inference-openai.ts
+  h_af5ac1a9798224 50
+src/env.ts
+  h_af5ac1a9798224 30-33,72
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 57,161-169
+src/products.ts
+  h_af5ac1a9798224 64
+src/scope-groups-edge.ts
+  h_af5ac1a9798224 1-69
+src/scope-groups.ts
+  h_af5ac1a9798224 100-111
+src/search-bm25.ts
+  h_af5ac1a9798224 1-256
+src/search-core.ts
+  h_af5ac1a9798224 1-240
+src/search-index.ts
+  h_af5ac1a9798224 1-115
+src/search.ts
+  h_af5ac1a9798224 1-199
+src/status.ts
+  h_af5ac1a9798224 13,30-32,34-35,37,55,64,68,97
+src/zdr.ts
+  h_af5ac1a9798224 18-20,96-106,116-120,175-179,183
+test/pipeline-orchestrator-zdr.spec.ts
+  h_af5ac1a9798224 29-30,37,39,48-49
+test/search-index.spec.ts
+  h_af5ac1a9798224 1-150
+test/search-mocks.ts
+  h_af5ac1a9798224 1-81
+test/search.spec.ts
+  h_af5ac1a9798224 1-162
+test/zdr.spec.ts
+  h_af5ac1a9798224 63-72,76-81,91,94-99,164-167,203-206,209,287-288,292-305
+vitest.config.ts
+  h_af5ac1a9798224 45-47,51-53,55,59,75-77
+wrangler.toml
+  h_af5ac1a9798224 244-252,298-338
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2c28c48843847c96b1ab6b233b9b1534b9c701e6",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

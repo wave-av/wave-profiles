@@ -1,0 +1,25 @@
+av/fixtures/rtp-h264.expected.json
+  s_157583aa3b6686::t_6d06a8518de3e3 1-10
+av/rtp/index.mts
+  s_157583aa3b6686::t_0f169cc8c6ee68 1-4
+av/fixtures/author-rtp.mts
+  s_157583aa3b6686::t_7a8bc47b0c0e9a 1-32
+av/rtp/fixtures.test.mts
+  s_157583aa3b6686::t_203fe81de5d7bb 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "f14ce981bc977813a1323785e8507e08c95ec63f",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

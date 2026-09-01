@@ -1,0 +1,20 @@
+docs/superpowers/specs/2026-07-16-listen-llm-caption-leg-design.md
+  s_157583aa3b6686::t_9b8496e5163317 118
+  s_157583aa3b6686::t_bba04c6b518d33 1-117,119-149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "c89a8a84b27094a871cceafe1e34dd5366302e94",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

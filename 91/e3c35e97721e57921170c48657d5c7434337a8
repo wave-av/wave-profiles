@@ -1,0 +1,24 @@
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 308-314
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+src/dispatch-inference-edge.ts
+  h_af5ac1a9798224 15-27,45,52,61
+src/dispatch-provider-ladder.ts
+  h_af5ac1a9798224 41,86
+src/env.ts
+  h_af5ac1a9798224 68-71
+src/router-leaderboard-snapshot.json
+  h_af5ac1a9798224 44-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "91e3c35e97721e57921170c48657d5c7434337a8",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

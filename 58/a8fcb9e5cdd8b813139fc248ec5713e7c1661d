@@ -1,0 +1,31 @@
+src/gateway-native-routes.ts
+  s_fe58fcb2330c32::t_14f94bff283a50 66,84-88
+src/billing.ts
+  s_fe58fcb2330c32::t_14f94bff283a50 90,95-99,102-104
+src/internal-service-routes.ts
+  s_fe58fcb2330c32::t_d5b23b0dbc00f9 61-62
+  s_fe58fcb2330c32::t_14f94bff283a50 63-64
+src/scopes.ts
+  s_fe58fcb2330c32::t_14f94bff283a50 191-192,195,204,214
+test/billing.spec.ts
+  s_fe58fcb2330c32::t_d5b23b0dbc00f9 4,59,83,86-102,104-105
+  s_fe58fcb2330c32::t_32be1e72c67076 103
+src/billing-webhook.ts
+  s_fe58fcb2330c32::t_14f94bff283a50 4-9,12-13,16-18,20-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "58a8fcb9e5cdd8b813139fc248ec5713e7c1661d",
+  "prompts": {},
+  "sessions": {
+    "s_fe58fcb2330c32": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd4f8f429ffeJzVT4zW37pIINF",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

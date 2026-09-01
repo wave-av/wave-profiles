@@ -1,0 +1,46 @@
+dante-dep-bridge/scripts/dante-listen-up.sh
+  s_157583aa3b6686::t_f45efa2e2b0dfd 42-52
+  s_157583aa3b6686::t_5f2ea97b890995 1-41,53-58
+moq/crest/player/pcm-audio.js
+  s_157583aa3b6686::t_551b82f97cff32 1-88
+dante-dep-bridge/scripts/arc_sub.py
+  s_157583aa3b6686::t_aec9e52ed308c9 1-116
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_deedbef6733b85 128,138-142
+  s_157583aa3b6686::t_a9b5b33002fbaf 1-64,85-127,129-137,143-147
+  s_157583aa3b6686::t_5e9d7a21cf097e 65-84
+dante-dep-bridge/scripts/shm_scan.py
+  s_157583aa3b6686::t_aec9e52ed308c9 1-125
+moq/crest/player/pcm-ring-worklet.js
+  s_157583aa3b6686::t_35bbfda856d3b5 1-41
+moq/crest/player/serve.mjs
+  s_157583aa3b6686::t_0823adae5f2d3d 1-6,14-16,18-33,38-52,64
+dante-dep-bridge/scripts/arc_probe.py
+  s_157583aa3b6686::t_f100cce7dffb53 1-76
+dante-dep-bridge/scripts/shm_reader.py
+  s_157583aa3b6686::t_aec9e52ed308c9 1-71
+dante-dep-bridge/scripts/dante-listen-down.sh
+  s_157583aa3b6686::t_f874db9c3d897d 1-15
+dante-dep-bridge/README.md
+  s_157583aa3b6686::t_014355f9db0f56 1-104
+moq/crest/player/listen.html
+  s_157583aa3b6686::t_ff9bdac1b13ed1 1-36
+moq/crest/player/pcm-audio.test.mjs
+  s_157583aa3b6686::t_fa74bcc52247b5 1-80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "3ae1126e9ee84ec677fa85beaf764110baf26d70",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

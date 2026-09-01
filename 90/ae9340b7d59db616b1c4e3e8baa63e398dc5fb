@@ -1,0 +1,58 @@
+.gitar/rules/README.md
+  h_af5ac1a9798224 1-22
+.gitar/rules/ci-eval.md
+  h_af5ac1a9798224 1-32
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 255-256,258,260,290,295,297-299,303-305,307-309,311-317
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 38,120-149,215-319
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+.github/workflows/pr-agent.yml
+  h_af5ac1a9798224 43-45
+README.md
+  h_af5ac1a9798224 72-75
+src/dispatch-inference-anthropic.ts
+  h_af5ac1a9798224 18-20
+src/dispatch-inference-cerebras.ts
+  h_af5ac1a9798224 23-24
+src/dispatch-inference-edge.ts
+  h_af5ac1a9798224 15-27,34-36,48,55,64
+src/dispatch-inference-gemini.ts
+  h_af5ac1a9798224 17
+src/dispatch-inference-openai.ts
+  h_af5ac1a9798224 17-18
+src/dispatch-inference-openrouter.ts
+  h_af5ac1a9798224 21-22,24-35,39,42-57
+src/dispatch-inference-providers.ts
+  h_af5ac1a9798224 19,42,53
+src/dispatch-model-prices.ts
+  h_af5ac1a9798224 35-38,40,48,62-63,65-88,92-93,96-98,105-222
+src/dispatch-provider-ladder.ts
+  h_af5ac1a9798224 5,11-13,42,87,116-118
+src/env.ts
+  h_af5ac1a9798224 68-71
+src/inference-backends.ts
+  h_af5ac1a9798224 118-129
+src/product-meters-tokens.ts
+  h_af5ac1a9798224 29-65
+src/router-leaderboard-snapshot.json
+  h_af5ac1a9798224 44-66
+test/dispatch-inference.spec.ts
+  h_af5ac1a9798224 108,258-261,269,272
+test/inference-openrouter.spec.ts
+  h_af5ac1a9798224 28,125
+wrangler.toml
+  h_af5ac1a9798224 76-79,374-375,719-720,725-742
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "90ae9340b7d59db616b1c4e3e8baa63e398dc5fb",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

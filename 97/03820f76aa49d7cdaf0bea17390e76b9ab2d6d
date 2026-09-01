@@ -1,0 +1,21 @@
+test/catalog.spec.ts
+  s_19c8e603d8990b::t_490e863816b884 73-80
+src/catalog.ts
+  s_19c8e603d8990b::t_0ff4b9877b6d8f 133-147,158-159,161
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9703820f76aa49d7cdaf0bea17390e76b9ab2d6d",
+  "prompts": {},
+  "sessions": {
+    "s_19c8e603d8990b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ab7045fc-2546-4259-800b-f8fc2fd6de97",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

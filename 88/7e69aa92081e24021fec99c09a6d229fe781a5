@@ -1,0 +1,102 @@
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 323-325
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 31-32,239,266-269
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+CHANGELOG.md
+  h_af5ac1a9798224 11-15,44-54
+scripts/x402-paid-smoke.mjs
+  h_af5ac1a9798224 58-61,103,140
+src/dispatch-generation-stamp.ts
+  h_af5ac1a9798224 85-91,101-102,105-106,111,120-128,131-136
+src/dispatch-inference-anthropic.ts
+  h_af5ac1a9798224 121
+src/dispatch-inference-edge.ts
+  h_af5ac1a9798224 68
+src/dispatch-inference-openai.ts
+  h_af5ac1a9798224 52
+src/dispatch-inference-openrouter.ts
+  h_af5ac1a9798224 96
+src/dispatch-inference-providers.ts
+  h_af5ac1a9798224 87,145,204,263
+src/dispatch-toolcall-stream.ts
+  h_af5ac1a9798224 44,56-103,111-114
+src/env-local/spoke-origins.ts
+  h_af5ac1a9798224 134-141
+src/env.ts
+  h_af5ac1a9798224 30-33,48-49,74
+src/fleet-executor.ts
+  h_af5ac1a9798224 28,30-31,35,96-101,116-156,158-159,166-169,177,189,193,222-223,225,233-240,242,255,262
+src/fleet-provision-v2.ts
+  h_af5ac1a9798224 1-58
+src/fleet-provision.ts
+  h_af5ac1a9798224 32-33,77-78,105,127,230-231,236,238-241,262,276,353,357,367
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 57,161-169
+src/origin-webhook.ts
+  h_af5ac1a9798224 1-51
+src/products.ts
+  h_af5ac1a9798224 16,64,93
+src/scope-groups-edge.ts
+  h_af5ac1a9798224 1-69
+src/scope-groups.ts
+  h_af5ac1a9798224 100-111
+src/search-bm25.ts
+  h_af5ac1a9798224 1-256
+src/search-core.ts
+  h_af5ac1a9798224 1-411
+src/search-index.ts
+  h_af5ac1a9798224 1-119
+src/search.ts
+  h_af5ac1a9798224 1-266
+src/spoke-classification.ts
+  h_af5ac1a9798224 66
+src/spoke-routing.ts
+  h_af5ac1a9798224 190-200
+src/status.ts
+  h_af5ac1a9798224 13,30-31,55,64,68,97
+src/webhook-routes.ts
+  h_af5ac1a9798224 17-19,83-89
+src/zdr.ts
+  h_af5ac1a9798224 18-20,96-106,116-120,175-179,183
+test/dispatch-generation-stamp.spec.ts
+  h_af5ac1a9798224 129-161,250-255
+test/dispatch-toolcall-stream.spec.ts
+  h_af5ac1a9798224 1-6,9-14,16,19-25,27-31,33-93,95-113,115-116,119-120,122-125,128-143,146-151,155-156,158-179,182-188,191-219,222-228
+test/fleet-provision-v2.spec.ts
+  h_af5ac1a9798224 1-140
+test/inference-39.spec.ts
+  h_af5ac1a9798224 66-67
+test/inference-openrouter.spec.ts
+  h_af5ac1a9798224 137-139
+test/pipeline-orchestrator-zdr.spec.ts
+  h_af5ac1a9798224 29-30,37,39,48-49
+test/search-index.spec.ts
+  h_af5ac1a9798224 1-150
+test/search-mocks.ts
+  h_af5ac1a9798224 1-81
+test/search.spec.ts
+  h_af5ac1a9798224 1-315
+test/spoke-drift.spec.ts
+  h_af5ac1a9798224 67
+test/spoke-routing.spec.ts
+  h_af5ac1a9798224 1-84
+test/zdr.spec.ts
+  h_af5ac1a9798224 63-72,76-81,91,94-99,164-167,203-206,209,287-288,292-305
+vitest.config.ts
+  h_af5ac1a9798224 45-47,51-53,55,59,75-77
+wrangler.toml
+  h_af5ac1a9798224 244-262,304-344,1072-1082
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "887e69aa92081e24021fec99c09a6d229fe781a5",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

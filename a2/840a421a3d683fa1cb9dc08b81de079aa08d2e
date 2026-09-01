@@ -1,0 +1,30 @@
+src/connect-payouts.ts
+  s_756b33c630d33b::t_4993c9b5b64afd 429
+  s_756b33c630d33b::t_ab8bbbaa1e257c 397-400,402
+  s_756b33c630d33b::t_5d6d0d87ae8188 403-404
+  s_413cc3a128ba6c::t_e5859808b69c52 446,474
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "a2840a421a3d683fa1cb9dc08b81de079aa08d2e",
+  "prompts": {},
+  "sessions": {
+    "s_413cc3a128ba6c": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fda76959cffevXClbOm9uD6yVF",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

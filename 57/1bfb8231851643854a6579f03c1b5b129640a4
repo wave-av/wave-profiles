@@ -1,0 +1,24 @@
+moq/listen/av-ondemand-publish.mts
+  s_157583aa3b6686::t_72430fddf3dfd4 152-162
+moq/listen/listen-runtime-cap.d.mts
+  s_157583aa3b6686::t_f66d154a4f400c 1-14
+moq/listen/av-ondemand-publish.test.mts
+  s_157583aa3b6686::t_00e26dc012eb90 21
+  s_157583aa3b6686::t_ccc4b266575a3b 130-132,135,138-147,150-156,158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "571bfb8231851643854a6579f03c1b5b129640a4",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

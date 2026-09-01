@@ -1,0 +1,30 @@
+av/demux.test.mts
+  s_157583aa3b6686::t_063b6a60cc0e5f 32-36,38-42
+  s_157583aa3b6686::t_5ca29970ef6bfa 86
+  s_157583aa3b6686::t_9298f764b52b56 37
+av/mux.test.mts
+  s_157583aa3b6686::t_7451b408a957af 60
+  s_157583aa3b6686::t_d702434a4a10e2 28-37
+av/hls/hls-roundtrip.test.mts
+  s_157583aa3b6686::t_e9beeee22a1a99 49-62,65
+  s_157583aa3b6686::t_7427fc8c6cb883 109
+av/srt/srt-roundtrip.test.mts
+  s_157583aa3b6686::t_2488c20ef9b854 40-51,53,55
+  s_157583aa3b6686::t_6118a0c1648bcd 85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e81c8a44d3c947b157b29c7721972312732c94ad",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

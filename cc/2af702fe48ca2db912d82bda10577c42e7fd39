@@ -1,0 +1,21 @@
+test/dispatch-toolcall-stream.spec.ts
+  s_7326a769c7efe8::t_ed5cbf89a802a9 70-71
+test/inference-openrouter.spec.ts
+  s_7326a769c7efe8::t_e288fb04c41327 137-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "cc2af702fe48ca2db912d82bda10577c42e7fd39",
+  "prompts": {},
+  "sessions": {
+    "s_7326a769c7efe8": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff841cf60ffelJVuw7cn2bkyUE",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

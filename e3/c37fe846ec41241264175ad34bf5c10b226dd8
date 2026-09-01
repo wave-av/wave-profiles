@@ -1,0 +1,44 @@
+src/x402-core.ts
+  s_cf363a68d60e93::t_616367239860d3 196-223
+src/worker.ts
+  s_cf363a68d60e93::t_bda3f63a989b8a 605
+  s_cf363a68d60e93::t_4f82c6e0f48023 589
+  s_cf363a68d60e93::t_ac4d602bc053b1 25
+  s_cf363a68d60e93::t_6ccaa43ae5c37a 579-585
+src/x402.ts
+  s_cf363a68d60e93::t_8bbd8ad3046f89 43
+  s_cf363a68d60e93::t_281f0f1359e64f 133-140
+  s_cf363a68d60e93::t_16277bacdeec71 119
+src/render-pricing.ts
+  s_c126d32910488d::t_63f0d4e5fdcb13 1-202
+test/fixtures/render-price-vectors.json
+  s_c126d32910488d::t_a569565c0e9205 1-50
+test/render-pricing.spec.ts
+  s_c126d32910488d::t_a51b442538fc0f 1-123
+test/render-x402-advertise-bind.spec.ts
+  s_c126d32910488d::t_fa5765f0392ae2 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e3c37fe846ec41241264175ad34bf5c10b226dd8",
+  "prompts": {},
+  "sessions": {
+    "s_c126d32910488d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-aad154c2d7a135d94",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_cf363a68d60e93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bbbefa81-9cb1-4285-bf46-bcddbc452bfa",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

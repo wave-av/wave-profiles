@@ -1,0 +1,25 @@
+src/gateway-native-routes.ts
+  s_1fdca12355f003::t_9e42d7129b1444 115-120
+src/identity-resolve.ts
+  s_1fdca12355f003::t_d17dbfe6a737f2 7-24,29-30,35-43,57-58,60-61,68-75,80,90,94-103,106-109,112-117,121,124,126-128,130-134
+test/identity-resolve.spec.ts
+  s_1fdca12355f003::t_c2e7643989b9f2 2-8,17,26,37-41,43-45,53-61,65-75,77-78,80-83,85-86,88-89,93,95,98,100,103,105,110,112,115-116,122,138,140-141,143-147,150,155-158,162-163
+src/scopes.ts
+  s_1fdca12355f003::t_0103432c175212 119-131
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "c88a4a30d6ce327b0981d42a272eb4199408dfee",
+  "prompts": {},
+  "sessions": {
+    "s_1fdca12355f003": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe82b603cffeCGtlTCg4m3BPii",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

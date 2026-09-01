@@ -1,0 +1,37 @@
+src/edge-markers.ts
+  s_e077f59d8037ec::t_8639cde8f53b31 43-45,50,57
+src/usage-types.ts
+  s_e077f59d8037ec::t_421e1c1e55487a 84-91
+  s_e077f59d8037ec::t_1f92b8b97d220a 69-77,82
+  s_e077f59d8037ec::t_3ef852ade2dbf8 83
+scripts/usage-attribution-report.mjs
+  s_e077f59d8037ec::t_02815e63a7c7e6 1-112
+src/usage.ts
+  s_e077f59d8037ec::t_6a0ae545ca91e4 440-442,444
+test/usage-install-channel-attribution-e2.spec.ts
+  s_e077f59d8037ec::t_5c2ae6e8eb6f6b 1-84
+src/authorized-forward.ts
+  s_e077f59d8037ec::t_48eb24833db517 200
+  s_e077f59d8037ec::t_72c7b8a51ca36c 198
+  s_e077f59d8037ec::t_e18514f4844a71 199
+  s_e077f59d8037ec::t_bfdf4d6e5be9b2 32
+test/unit/usage-ledger.unit.spec.ts
+  s_e077f59d8037ec::t_84bee183bd91b6 7
+  s_e077f59d8037ec::t_9b3071fbcfa296 45,51-52,69-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "507ef5cbcc400f6b4ad5d5d7351a5f68a9155f72",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

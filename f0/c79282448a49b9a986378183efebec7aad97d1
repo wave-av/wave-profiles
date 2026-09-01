@@ -1,0 +1,24 @@
+bin/wave-meter-mcp.mjs
+  s_03bfa1226c2046::t_a83c44c46853a7 18
+  s_03bfa1226c2046::t_cbad45d0ac4b85 27-29
+  s_03bfa1226c2046::t_6ea699f7b0ad3c 40-47,52-58
+bin/wave-meter.mjs
+  s_03bfa1226c2046::t_c3fa15fc5b3c1e 35-41
+  s_03bfa1226c2046::t_b47662d403c888 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "f0c79282448a49b9a986378183efebec7aad97d1",
+  "prompts": {},
+  "sessions": {
+    "s_03bfa1226c2046": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd4702d88ffej20LbHO7a9UlUY",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

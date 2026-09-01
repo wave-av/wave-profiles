@@ -1,0 +1,30 @@
+src/mesh-gpu.ts
+  s_e2e3e43d0638c5::t_fe8653fca80dd0 184
+  s_e2e3e43d0638c5::t_005a03ebaac7dc 157-159,169-173
+  s_e2e3e43d0638c5::t_b5b1d7ffb7989d 199-206
+wrangler.toml
+  s_e2e3e43d0638c5::t_116d175f2cdf96 576-582
+  s_e2e3e43d0638c5::t_2859a209191659 659-702
+src/product-meters.ts
+  s_e2e3e43d0638c5::t_9f82832f62232a 71-79
+test/mesh-gpu.spec.ts
+  s_e2e3e43d0638c5::t_0d3ad7b748dd49 139,149-153,155
+test/product-meters.spec.ts
+  s_e2e3e43d0638c5::t_5b5a8c63896833 389-446
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "de002ce4bb92a5f2f1e05735661f8dc675f0660c",
+  "prompts": {},
+  "sessions": {
+    "s_e2e3e43d0638c5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1c78a7f2-132a-470e-8dae-4f28336b528f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

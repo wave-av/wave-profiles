@@ -1,0 +1,26 @@
+moq/crest/player/captions-overlay.css
+  s_157583aa3b6686::t_3eba1782cd6b08 1-122
+moq/crest/player/captions-demo.html
+  s_157583aa3b6686::t_30f7221cbf542a 7-8
+  s_157583aa3b6686::t_2323f89566d2df 1-6,9-97
+moq/crest/player/captions-overlay.js
+  s_157583aa3b6686::t_b6efe69136a9d5 1-94
+moq/crest/receipts/e28-karaoke-overlay.json
+  s_157583aa3b6686::t_7f4267df51585c 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e64ba1a3d8298ad28f75944fd71cf7ee7296bb20",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

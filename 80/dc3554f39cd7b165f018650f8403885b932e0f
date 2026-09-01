@@ -1,0 +1,16 @@
+src/spoke-classification.ts
+  h_af5ac1a9798224 71
+test/spoke-drift.spec.ts
+  h_af5ac1a9798224 71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "80dc3554f39cd7b165f018650f8403885b932e0f",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

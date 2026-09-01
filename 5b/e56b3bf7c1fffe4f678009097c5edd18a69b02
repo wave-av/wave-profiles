@@ -1,0 +1,21 @@
+.github/workflows/governance-enforce.yml
+  s_cf3356a24071e8::t_9d3d000c0cd8cf 22-27
+.github/workflows/gam-conformance.yml
+  s_cf3356a24071e8::t_66d2f39edbe8ee 33-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "5be56b3bf7c1fffe4f678009097c5edd18a69b02",
+  "prompts": {},
+  "sessions": {
+    "s_cf3356a24071e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d18e62fe-2536-40f1-8a11-d0e663091179",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

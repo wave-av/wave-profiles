@@ -1,0 +1,14 @@
+.github/workflows/wave-sec-gate.yml
+  h_af5ac1a9798224 1-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3bbb4e84eea6e5e8f68ceae50c924b71f600ee65",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

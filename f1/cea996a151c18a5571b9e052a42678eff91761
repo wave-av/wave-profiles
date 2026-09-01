@@ -1,0 +1,25 @@
+wrangler.toml
+  s_ccbb3091d0f293::t_ea2f3979088dec 67-72,75-76,81
+scripts/check-kv-isolation.mjs
+  s_ccbb3091d0f293::t_13fd65d5378241 1-86
+package.json
+  s_ccbb3091d0f293::t_68f4ee70fa25a1 14
+.github/workflows/build-check.yml
+  s_ccbb3091d0f293::t_4a8037023ee9b8 44-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "f1cea996a151c18a5571b9e052a42678eff91761",
+  "prompts": {},
+  "sessions": {
+    "s_ccbb3091d0f293": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5ad29f8c-8cc4-4950-bdb4-6b0ec735d5f2",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

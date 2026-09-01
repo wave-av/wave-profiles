@@ -1,0 +1,218 @@
+.coderabbit.yaml
+  h_af5ac1a9798224 33-40,87-92,108-111
+.github/workflows/contract-tests.yml
+  h_af5ac1a9798224 48-75
+.github/workflows/pr-agent.yml
+  h_af5ac1a9798224 1-24
+.gitignore
+  h_af5ac1a9798224 1
+.wave/repo.json
+  h_af5ac1a9798224 1-112
+CHANGELOG.md
+  h_af5ac1a9798224 9-17,19-20
+README.md
+  h_af5ac1a9798224 13-15,26,34,36-49,66,75,82-92,99-103,110-113,119-123
+capabilities.json
+  h_af5ac1a9798224 11-14
+containers/moq-encode/Dockerfile
+  h_af5ac1a9798224 1-30
+containers/moq-encode/README.md
+  h_af5ac1a9798224 1-74
+containers/moq-encode/demux.mjs
+  h_af5ac1a9798224 1-64
+containers/moq-encode/demux.test.mjs
+  h_af5ac1a9798224 1-108
+containers/moq-encode/ivf.mjs
+  h_af5ac1a9798224 1-43
+containers/moq-encode/ivf.test.mjs
+  h_af5ac1a9798224 1-60
+containers/moq-encode/moq-strand.mjs
+  h_af5ac1a9798224 1-511
+containers/moq-encode/package-lock.json
+  h_af5ac1a9798224 1-36
+containers/moq-encode/package.json
+  h_af5ac1a9798224 1-13
+containers/moq-encode/participant.mjs
+  h_af5ac1a9798224 1-274
+containers/moq-encode/rtp.mjs
+  h_af5ac1a9798224 1-33
+containers/moq-encode/rtp.test.mjs
+  h_af5ac1a9798224 1-30
+containers/moq-encode/safe-uid.test.mjs
+  h_af5ac1a9798224 1-27
+containers/moq-encode/server.mjs
+  h_af5ac1a9798224 1-132
+containers/moq-encode/session.mjs
+  h_af5ac1a9798224 1-111
+containers/moq-encode/session.test.mjs
+  h_af5ac1a9798224 1-122
+containers/stream-bridge/Dockerfile
+  h_af5ac1a9798224 12-86,89-93,96-101
+containers/stream-bridge/README.md
+  h_af5ac1a9798224 78-80
+docs/REALTIME.md
+  h_af5ac1a9798224 5-8,40-59,74-85,129,133,141,145,148-150,156-159
+docs/api/openapi.yaml
+  h_af5ac1a9798224 9-16,44-47,52-61,92-301,306-309,311,332-334,343-382,387-391,393,395-403,424-426,430-437,442-790,796-797,800,805-806,809,847,854
+harness/README.md
+  h_af5ac1a9798224 14
+harness/leg3.mjs
+  h_af5ac1a9798224 14-15,29-40,53
+harness/leg4-bargein.mjs
+  h_af5ac1a9798224 21,33-46,59
+package.json
+  h_af5ac1a9798224 11-14
+scripts/kill-egress.mjs
+  h_af5ac1a9798224 1-64
+src/agent-session.ts
+  h_af5ac1a9798224 451
+src/agent-turn-meter.ts
+  h_af5ac1a9798224 1-185
+src/agent-turn-providers.ts
+  h_af5ac1a9798224 13-17,21,25-35
+src/agent-turn-sink.ts
+  h_af5ac1a9798224 127,138-144
+src/agent-turn-speech.ts
+  h_af5ac1a9798224 1-269
+src/agent-turn.ts
+  h_af5ac1a9798224 43-48,219-224,238-239,247-248,294,322,334-338,347-353,360-406,424,426-427,429-430,454-462,503-505,507-514,517,523-524,526-553,698,719
+src/cf-stream-live-client.ts
+  h_af5ac1a9798224 37,67-71,76-78,116,125,129-131,139,194-206,208,210,212-213
+src/dest-key-crypto.ts
+  h_af5ac1a9798224 1-103
+src/e3n-autorecord.ts
+  h_af5ac1a9798224 1-20
+src/e3n-recording-pull.ts
+  h_af5ac1a9798224 1-204
+src/e3n-recording-sweep.ts
+  h_af5ac1a9798224 1-289
+src/egress-arm-route.ts
+  h_af5ac1a9798224 1-349
+src/egress-arm.test.ts
+  h_af5ac1a9798224 17-22,24-25,131-200
+src/egress-arm.ts
+  h_af5ac1a9798224 44-54,146-159,175-416
+src/egress-cf-stream-live-output-client.ts
+  h_af5ac1a9798224 1-246
+src/egress-destinations.ts
+  h_af5ac1a9798224 1-357
+src/egress-killswitch.test.ts
+  h_af5ac1a9798224 1-234
+src/egress-killswitch.ts
+  h_af5ac1a9798224 1-319
+src/egress-leg-metering.ts
+  h_af5ac1a9798224 1-119
+src/egress-runpod-nvenc.test.ts
+  h_af5ac1a9798224 1-88
+src/egress-runpod-nvenc.ts
+  h_af5ac1a9798224 36-42,64-77,81-87,90,156-170,203,210,216-220,249-250,266-275
+src/encoders/moq-forward-target.ts
+  h_af5ac1a9798224 1-185
+src/encoders/moq-publish-container.ts
+  h_af5ac1a9798224 1-23
+src/gateway-llm-envelope.ts
+  h_af5ac1a9798224 1-263
+src/landing.ts
+  h_af5ac1a9798224 17,40
+src/proof-harness-legs.ts
+  h_af5ac1a9798224 1-137
+src/proof-harness.ts
+  h_af5ac1a9798224 1-138
+src/recorder-ws-route.ts
+  h_af5ac1a9798224 1-103
+src/room.ts
+  h_af5ac1a9798224 19-20,451-456,593-599,601,605-614,656
+src/route-dispatch.ts
+  h_af5ac1a9798224 17-21,82,219-221,532-540
+src/rtk-webhook.ts
+  h_af5ac1a9798224 180-186
+src/rtms-bridge-core.ts
+  h_af5ac1a9798224 84-91,98-204,240-244,271-276,286-287,302,366,369,385-388,390-406,420-466,478,480-495,506-529,559-570
+src/scheduled.ts
+  h_af5ac1a9798224 10,72-76
+src/sentence-chunker.ts
+  h_af5ac1a9798224 1-151
+src/ssrf-guard.ts
+  h_af5ac1a9798224 1-274
+src/voice-cogs-ledger.ts
+  h_af5ac1a9798224 1-115
+src/voice-cogs.ts
+  h_af5ac1a9798224 1-239
+src/voice-meter.ts
+  h_af5ac1a9798224 16-25,98-99,116-150,152,159-208
+src/whep-sources.ts
+  h_af5ac1a9798224 2-3,11-14,29-30,32,35-36,40,84-159,179-180,188-202,230,276-277,286-287
+src/worker.ts
+  h_af5ac1a9798224 30-33
+src/zoom-rtms-bridge-do.ts
+  h_af5ac1a9798224 29,33-34,45,49,56-61,79-90,112-123,137-144,167-174,198-210,213,237-240,247,268,290-292,298-393,433,435-458,471,513-517
+test/agent-turn-d1-sentence-streaming.test.ts
+  h_af5ac1a9798224 1-437
+test/agent-turn-deps.test.ts
+  h_af5ac1a9798224 116-117,125,289,342
+test/agent-turn-e1-latency.test.ts
+  h_af5ac1a9798224 1-392
+test/cf-stream-live-client.test.ts
+  h_af5ac1a9798224 33-35,208-232
+test/dest-key-crypto.test.ts
+  h_af5ac1a9798224 1-63
+test/e3n-autorecord.test.ts
+  h_af5ac1a9798224 1-18
+test/e3n-recording-pull.test.ts
+  h_af5ac1a9798224 1-158
+test/e3n-recording-sweep.test.ts
+  h_af5ac1a9798224 1-222
+test/egress-arm-o1-restream.test.ts
+  h_af5ac1a9798224 1-294
+test/egress-arm-o2-srt-restream.test.ts
+  h_af5ac1a9798224 1-295
+test/egress-arm-route.test.ts
+  h_af5ac1a9798224 1-409
+test/egress-cf-stream-live-output-client.test.ts
+  h_af5ac1a9798224 1-250
+test/egress-cf-stream-passthrough.test.ts
+  h_af5ac1a9798224 19,92-122
+test/egress-destinations.test.ts
+  h_af5ac1a9798224 1-213
+test/egress-leg-metering.test.ts
+  h_af5ac1a9798224 1-180
+test/gateway-llm-contract.test.ts
+  h_af5ac1a9798224 1-196
+test/moq-forward-target.test.ts
+  h_af5ac1a9798224 1-172
+test/proof-harness-legs.test.ts
+  h_af5ac1a9798224 1-178
+test/proof-harness.test.ts
+  h_af5ac1a9798224 1-171
+test/room.routed-egress.test.ts
+  h_af5ac1a9798224 10,54,66,76,107-108,111-146
+test/rtms-bridge-core.test.ts
+  h_af5ac1a9798224 10-11,15-16,47-49,67,69,75,195-306,369-421
+test/ssrf-guard.test.ts
+  h_af5ac1a9798224 1-165
+test/types/node-builtins.d.ts
+  h_af5ac1a9798224 1-26
+test/voice-cogs-ledger.test.ts
+  h_af5ac1a9798224 1-256
+test/voice-cogs.test.ts
+  h_af5ac1a9798224 1-203
+test/voice-meter-recorded-zero.test.ts
+  h_af5ac1a9798224 1-162
+test/whep-sources.test.ts
+  h_af5ac1a9798224 1-5,7,13,16,28-30,149-237
+test/zoom-rtms-bridge-do.test.ts
+  h_af5ac1a9798224 6,10-12,22-25,27-30,34-37,40-42,46-50,63-66,68-69,157-307,317-387
+wrangler.toml
+  h_af5ac1a9798224 113-119,171-199,220-226,244-254,461-474,488-493,561-589,593-598,603-617,620-630,646-681
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b8106d34871c469627e073b33f0711fcb623c31e",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

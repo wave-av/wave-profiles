@@ -1,0 +1,14 @@
+test/connect-payouts.spec.ts
+  h_af5ac1a9798224 515-539
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "6c106a5344deb6ddc65b62d5c5008d2f8d3390ed",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

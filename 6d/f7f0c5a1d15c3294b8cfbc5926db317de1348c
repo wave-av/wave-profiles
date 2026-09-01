@@ -1,0 +1,21 @@
+src/scope-groups.ts
+  s_a4bf449cf66fcd::t_a891eefedecfc0 31
+src/spoke-classification.ts
+  s_a4bf449cf66fcd::t_eb3e3394e4b2b7 68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "6df7f0c5a1d15c3294b8cfbc5926db317de1348c",
+  "prompts": {},
+  "sessions": {
+    "s_a4bf449cf66fcd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbe8519effeLiCWT22OLP2AYd",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

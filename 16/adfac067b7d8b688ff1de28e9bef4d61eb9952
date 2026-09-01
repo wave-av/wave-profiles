@@ -1,0 +1,39 @@
+test/x402-quote-fallback.spec.ts
+  s_10e53e3a039bfa::t_1b2e8b84619cd6 101-112,115-118,206,210,216
+  s_10e53e3a039bfa::t_772bddaea15908 10-11
+  s_10e53e3a039bfa::t_33d376192e4092 14
+  s_10e53e3a039bfa::t_1a2ac7bb65685b 113-114
+  s_10e53e3a039bfa::t_8c80e995f7f3f7 203-205
+  s_10e53e3a039bfa::t_3dfdbd3f1b89b1 207-209
+  s_10e53e3a039bfa::t_94b518804815d2 211-215
+  s_10e53e3a039bfa::t_88085f0cc4abd5 217
+src/x402-deny-publish.ts
+  s_10e53e3a039bfa::t_a3df00d897ffc3 110-113
+  s_10e53e3a039bfa::t_f50f389c9ba425 81-92
+src/x402-quote-fallback.ts
+  s_10e53e3a039bfa::t_41a56a683648ad 94-98
+  s_10e53e3a039bfa::t_a7c77469609bf8 62-72
+  s_10e53e3a039bfa::t_b89122984243f5 39-41
+CHANGELOG.md
+  s_10e53e3a039bfa::t_ea18b5d2e08a51 41-49
+src/x402-capture.ts
+  s_10e53e3a039bfa::t_52e76e2884ec6b 181
+src/x402.ts
+  s_10e53e3a039bfa::t_36d08a3d060c36 529
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "16adfac067b7d8b688ff1de28e9bef4d61eb9952",
+  "prompts": {},
+  "sessions": {
+    "s_10e53e3a039bfa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d6c2cfc-2b0d-42fa-9e8e-0888ca9d739b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

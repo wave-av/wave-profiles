@@ -1,0 +1,35 @@
+src/env-local.ts
+  s_157583aa3b6686::t_c88521c958b6af 5-15,17-24
+src/env-local/auth-secrets.ts
+  s_e1144f575bd37e::t_4ad4d7cad6f73d 1-92
+src/env-local/runtime-obs.ts
+  s_e1144f575bd37e::t_e6cfbb3723f9cb 1-20
+src/env-local/spoke-origins.ts
+  s_e1144f575bd37e::t_474e2b797ffce5 1-116
+src/env-local/treasury-agents.ts
+  s_e1144f575bd37e::t_0f61c3f7677188 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "46082f085953ef8b680b4f03bdd31c6c3ad07ae2",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_e1144f575bd37e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a59c91be38646294c",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

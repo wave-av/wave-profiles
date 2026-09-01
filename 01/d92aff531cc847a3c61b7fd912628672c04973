@@ -1,0 +1,23 @@
+moq/listen/wave-listen-common.mjs
+  s_157583aa3b6686::t_a6f83b5a148c20 1-99
+moq/listen/wave-listen-braid-run.mjs
+  s_157583aa3b6686::t_73faf8ee9263e0 1-163
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_9c4cc8e805f1dc 11-14,17-18,22,24-27,31-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "01d92aff531cc847a3c61b7fd912628672c04973",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

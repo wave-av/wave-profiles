@@ -1,0 +1,28 @@
+src/agent-turn.ts
+  s_6046880c148371::t_1d964839b2d6ac 140
+  s_6046880c148371::t_ebc268cbc50b96 535
+  s_6046880c148371::t_13d3ef207fa31f 155
+  s_6046880c148371::t_e54e82d1d3e357 775
+  s_6046880c148371::t_bf7d4b40564df0 738
+  s_6046880c148371::t_3f3075b0ce8517 73-74
+  s_6046880c148371::t_92f487dfa540f9 139
+src/agent-turn-providers.ts
+  s_6046880c148371::t_d64336dfa6af0f 149,180
+  s_6046880c148371::t_5667283394cfbf 22-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "bb7c9be8843a56dbfed911d461afb5019e93f9be",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

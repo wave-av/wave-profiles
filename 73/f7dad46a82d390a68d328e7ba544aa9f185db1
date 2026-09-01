@@ -1,0 +1,38 @@
+src/mcp-native-tools.ts
+  s_e077f59d8037ec::t_7237faaff53dda 24
+test/mcp-native-tools-843.spec.ts
+  s_e077f59d8037ec::t_604fc778b1e4e4 16
+test/mcp-product-exec-821.spec.ts
+  s_e077f59d8037ec::t_fab1855dfb6763 10-12
+src/mcp-product-tools.ts
+  s_e077f59d8037ec::t_36cee8a56f219e 51-54
+  s_e077f59d8037ec::t_2b9f45d1eac20c 160-168
+  s_e077f59d8037ec::t_cfc43d7b416209 112-113
+  s_e077f59d8037ec::t_f0e43319869096 169-172
+  s_e077f59d8037ec::t_5cde1ec2819b56 47
+test/mcp-product-tools-planted-821.spec.ts
+  s_e077f59d8037ec::t_776325492e4cfd 120-149
+  s_e077f59d8037ec::t_56a1d215b4ec0c 256-278
+src/mcp-product-params.ts
+  s_e077f59d8037ec::t_225fd93b351dce 1-112
+src/mcp-product-exec.ts
+  s_e077f59d8037ec::t_a1d140b658687a 171-175,178,181
+  s_e077f59d8037ec::t_0dd705d14448ad 25-26
+  s_e077f59d8037ec::t_e5d553b12a0b53 27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "73f7dad46a82d390a68d328e7ba544aa9f185db1",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

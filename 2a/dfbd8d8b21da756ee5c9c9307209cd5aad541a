@@ -1,0 +1,20 @@
+sdk/README.md
+  h_af5ac1a9798224 1-13
+sdk/package.json
+  h_af5ac1a9798224 1-11
+sdk/src/index.ts
+  h_af5ac1a9798224 1-53
+sdk/tsconfig.json
+  h_af5ac1a9798224 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2adfbd8d8b21da756ee5c9c9307209cd5aad541a",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

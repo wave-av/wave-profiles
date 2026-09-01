@@ -1,0 +1,25 @@
+src/dispatch-provider-ladder.ts
+  s_f74a7b3de37d08::t_05060d84ca1b8d 5,11-13
+  s_f74a7b3de37d08::t_08b4f8375d6a8b 116-118
+.github/deploy-secrets-allowlist.txt
+  s_f74a7b3de37d08::t_28aaf91b289839 295-297,301-303,305-307
+  s_f74a7b3de37d08::t_f44c88f77c9fb6 256,258
+  s_f74a7b3de37d08::t_f9015cd8f4b458 288
+  s_f74a7b3de37d08::t_8bae9c5ed1d3d4 293
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7156cf48877c4e7b4a306a386fd752ab5a8b9a55",
+  "prompts": {},
+  "sessions": {
+    "s_f74a7b3de37d08": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff8eaf970ffemqefDDIo2pGvU6",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

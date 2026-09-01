@@ -1,0 +1,14 @@
+src/leaderboard-page.ts
+  h_af5ac1a9798224 106
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "9d89805176e2d434bee8b0a008432d361fd66c67",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

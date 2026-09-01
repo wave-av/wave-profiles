@@ -1,0 +1,14 @@
+harness/voice-conversation.mjs
+  h_af5ac1a9798224 1-152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "b1df6862f32352622dc0da50967c6f639779de37",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

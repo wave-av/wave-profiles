@@ -1,0 +1,19 @@
+test/moq-authproxy.spec.ts
+  s_820258ec315bc2::t_f68023627b7fd8 140,145
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "cc38ffb27d9319b3f0bab4b47042b0d11cf7d813",
+  "prompts": {},
+  "sessions": {
+    "s_820258ec315bc2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe50233e7ffeqfl29o427q4SND",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+test/sync-triggers-webhook-verify.spec.ts
+  s_63c6ee080d73c3::t_9bf2a837f8557f 1-204
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "7b56bf9b12aff949eeaa947354f6114bc1ccac38",
+  "prompts": {},
+  "sessions": {
+    "s_63c6ee080d73c3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28a4927c-1b01-4d33-904e-e27db5f3d5dc",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.github/workflows/changelog-check.yml
+  s_45122d373ff699::t_abc68ff22a912b 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "37680cfe114c185301094440a3a777ce39686408",
+  "prompts": {},
+  "sessions": {
+    "s_45122d373ff699": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcff96796ffeChwSrd1jSPearT",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

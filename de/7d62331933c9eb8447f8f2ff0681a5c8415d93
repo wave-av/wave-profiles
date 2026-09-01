@@ -1,0 +1,22 @@
+src/inference-backends.ts
+  s_b2f2e6bf8833c5::t_9a855d92673e46 162-172,174-184,186-199,201-212,214-228,230-242
+src/dispatch-generation-stamp.ts
+  s_b2f2e6bf8833c5::t_3f36efa2144fe1 118,153-177
+  s_b2f2e6bf8833c5::t_46a754e8b2106f 178
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "de7d62331933c9eb8447f8f2ff0681a5c8415d93",
+  "prompts": {},
+  "sessions": {
+    "s_b2f2e6bf8833c5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fefb5b042ffesAWSk4T7ZmHxte",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

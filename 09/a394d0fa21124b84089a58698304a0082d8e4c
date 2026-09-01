@@ -1,0 +1,36 @@
+test/remote-write.spec.ts
+  s_6bd73d48dc7ec3::t_a0aeaa4aec890f 1-182
+wrangler.toml
+  s_6bd73d48dc7ec3::t_193492b8675283 232
+  s_6bd73d48dc7ec3::t_036b54f963a459 211-218
+  s_6bd73d48dc7ec3::t_d3b3d8440cd73f 195-200
+test/metrics-push.spec.ts
+  s_6bd73d48dc7ec3::t_8921d330aa4a0e 1-24
+src/metrics-push.ts
+  s_6bd73d48dc7ec3::t_b40d5b663c7454 1-58
+src/worker.ts
+  s_6bd73d48dc7ec3::t_01ea52b37251d9 646-650
+  s_6bd73d48dc7ec3::t_893129d7f5f0e4 95-101
+  s_6bd73d48dc7ec3::t_445be7d930a8f0 31
+src/remote-write.ts
+  s_6bd73d48dc7ec3::t_a49023b4e2c13e 1-145
+src/metrics-do.ts
+  s_6bd73d48dc7ec3::t_80641909f9cec4 57-61
+  s_6bd73d48dc7ec3::t_4def9e008ea632 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "09a394d0fa21124b84089a58698304a0082d8e4c",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

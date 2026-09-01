@@ -1,0 +1,14 @@
+src/pricing-manifests.ts
+  h_af5ac1a9798224 18,198-201
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "19d6aaacb67d968f03dfdbdd206a653f2a49357f",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

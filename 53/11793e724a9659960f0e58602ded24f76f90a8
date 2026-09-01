@@ -1,0 +1,24 @@
+src/public-surface.ts
+  s_ef11291e2e6182::t_1da1c833cc348f 182-188
+  s_ef11291e2e6182::t_0b2973615e6089 21-23
+src/status-incidents.ts
+  s_ef11291e2e6182::t_bd52024e7925c0 1-214
+test/status-incidents.spec.ts
+  s_ef11291e2e6182::t_02f315bddd87f0 1-187
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "5311793e724a9659960f0e58602ded24f76f90a8",
+  "prompts": {},
+  "sessions": {
+    "s_ef11291e2e6182": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fdf2e4b56ffeW3mvbVr3ycZ9Q6",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

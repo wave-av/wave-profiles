@@ -1,0 +1,38 @@
+src/authorized-forward.ts
+  s_db1b2a792e5f25::t_f876d4ef6694cf 222
+  s_db1b2a792e5f25::t_d23632f1fef8eb 190-196
+  s_db1b2a792e5f25::t_e4555af135377e 231
+test/agent-auth.spec.ts
+  s_db1b2a792e5f25::t_670724f36c3e74 1-218
+src/auth.ts
+  s_db1b2a792e5f25::t_b436ef0043612c 61-74
+  s_db1b2a792e5f25::t_16421c704f6f83 425-428
+  s_db1b2a792e5f25::t_e6a735b82ae93f 113-124
+  s_db1b2a792e5f25::t_99d4003f2590cc 26-29
+src/agent-auth.ts
+  s_db1b2a792e5f25::t_6578d127beba4b 1-266
+src/usage-types.ts
+  s_db1b2a792e5f25::t_f8990529e5a21c 41-59
+src/usage.ts
+  s_db1b2a792e5f25::t_9a1ae69105b0ff 92-93
+  s_db1b2a792e5f25::t_1fdd26bfcd38d9 679
+  s_db1b2a792e5f25::t_0493e2ffde4eb8 644,647-655
+  s_db1b2a792e5f25::t_2bf509b1bcd862 721
+  s_db1b2a792e5f25::t_25272934aecc90 656
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "6f1a68b079d02d9c3cf152be785cd7ee4208d1d7",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

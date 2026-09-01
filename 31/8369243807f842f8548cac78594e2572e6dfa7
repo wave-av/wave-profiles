@@ -1,0 +1,14 @@
+test/sync-triggers-webhook-verify.spec.ts
+  h_af5ac1a9798224 98-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "318369243807f842f8548cac78594e2572e6dfa7",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

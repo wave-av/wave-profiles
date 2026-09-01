@@ -1,0 +1,25 @@
+observability/slo/README.md
+  s_6bd73d48dc7ec3::t_d18b07ded8c144 1-50
+observability/slo/slos.json
+  s_6bd73d48dc7ec3::t_a7ad050be1770f 1-120
+observability/slo/apply-slo.sh
+  s_6bd73d48dc7ec3::t_f15456e26e33a6 1-75
+observability/slo/dashboard.json
+  s_6bd73d48dc7ec3::t_3e0134a78f80de 1-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "00732c91c9be81a184bd302f9ce45309e6df9c5c",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

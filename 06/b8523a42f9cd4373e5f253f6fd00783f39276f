@@ -1,0 +1,29 @@
+.github/workflows/mutation-nightly.yml
+  s_6fe73f07822c82::t_cf75e8b11bf46d 148
+coverage-baseline.json
+  s_df3df4882acaf1::t_16c728d3645651 164-167,208-231,712-715,900-903,932-935,960-963,1076-1079
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "06b8523a42f9cd4373e5f253f6fd00783f39276f",
+  "prompts": {},
+  "sessions": {
+    "s_6fe73f07822c82": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd0100025ffeBHOucVCoFuR2O2",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_df3df4882acaf1": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd00fcdd7ffe6KbSIhch6wgI5J",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

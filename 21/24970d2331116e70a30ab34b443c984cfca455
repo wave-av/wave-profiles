@@ -1,0 +1,21 @@
+moq/listen/mix-graph.mjs
+  s_157583aa3b6686::t_bb938d67947541 1-129
+moq/listen/mix-graph.test.mjs
+  s_157583aa3b6686::t_58c9385d667d02 1-179
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2124970d2331116e70a30ab34b443c984cfca455",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

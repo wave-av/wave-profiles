@@ -1,0 +1,24 @@
+test/product-meters.spec.ts
+  s_19c8e603d8990b::t_2cf824e9eddb07 335-338,342,348
+  s_19c8e603d8990b::t_03c4db89efdbde 340-341,343,345-346
+  s_19c8e603d8990b::t_31cda955beb5af 313-334,339,344,347,349-350
+  s_19c8e603d8990b::t_d211e09426b4a5 17-18
+src/product-meters.ts
+  s_19c8e603d8990b::t_a912682a43a6d3 360-380
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1df2f386baab31860fb2138377a8c8e1fb61e290",
+  "prompts": {},
+  "sessions": {
+    "s_19c8e603d8990b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ab7045fc-2546-4259-800b-f8fc2fd6de97",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

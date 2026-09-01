@@ -1,0 +1,32 @@
+src/gateway-llm-envelope.ts
+  s_6046880c148371::t_e0ae0909c9f6cb 102,105-128
+  s_6046880c148371::t_af1688dc34f251 145-147
+  s_6046880c148371::t_7e43c8e94b4f88 186
+  s_6046880c148371::t_eaceed065567fd 29,37,264-280
+  s_6046880c148371::t_0b5a90197498d5 26-28
+  s_6046880c148371::t_34577cba7e4e0b 30-32,34-36
+  s_6046880c148371::t_a93d739a2074f2 38
+  s_6046880c148371::t_78f75ce353ec65 263
+src/agent-turn.ts
+  s_6046880c148371::t_5002b9698917bf 662-664
+wrangler.toml
+  s_6046880c148371::t_6c9b4b34d5a84a 257-265
+test/gateway-llm-contract.test.ts
+  s_6046880c148371::t_7b904c6d5d3f1c 197-238
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "36a91d460ac299818a232877f9b1016e673dfb73",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

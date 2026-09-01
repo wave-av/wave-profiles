@@ -1,0 +1,31 @@
+moq/crest/crest-captions.mjs
+  s_157583aa3b6686::t_5e8f8f587514a3 1-95
+moq/crest/crest-captions-test.mjs
+  s_157583aa3b6686::t_0bb883f9232373 1-180
+moq/crest/receipts/e28-captions.json
+  s_03945c82a73abf::t_bf72e8a8c718dc 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0bb2313bc4a19247cc1cb36a46f2161a6a8f249b",
+  "prompts": {},
+  "sessions": {
+    "s_03945c82a73abf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a295ef5e0569d3f22",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+CHANGELOG.md
+  h_af5ac1a9798224 17-25
+src/attribution.ts
+  h_af5ac1a9798224 73-83
+src/auth-key-store.ts
+  h_af5ac1a9798224 188-228
+src/auth-supabase-jwt.ts
+  h_af5ac1a9798224 18,45-58,63-64
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 50,115-124
+src/meter-ledger.ts
+  h_af5ac1a9798224 69,149-161,258-262,264-270,301-340
+src/meter-rollup.ts
+  h_af5ac1a9798224 1-156
+src/scopes.ts
+  h_af5ac1a9798224 117-124
+src/spoke-classification.ts
+  h_af5ac1a9798224 67
+test/meter-rollup.spec.ts
+  h_af5ac1a9798224 1-252
+test/moq-authproxy.spec.ts
+  h_af5ac1a9798224 102-119,140,145
+test/spoke-drift.spec.ts
+  h_af5ac1a9798224 55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3e554928f683656441b58bcd44da704862a8ad70",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

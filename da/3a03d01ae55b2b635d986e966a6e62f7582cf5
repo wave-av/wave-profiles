@@ -1,0 +1,71 @@
+.github/workflows/pr-agent.yml
+  s_dedb333dd5195e::t_8425b66613bd13 18-23,25
+src/agent-self-pay.ts
+  s_dedb333dd5195e::t_353d8e15d5e9e6 29,182-183,192
+src/authorized-forward.ts
+  s_dedb333dd5195e::t_12e8f7ed41aa6a 50,225
+src/billing-checkout.ts
+  s_dedb333dd5195e::t_9a2f2d9e1c8726 24,38,108,397
+src/comms-tenants.ts
+  s_dedb333dd5195e::t_017fa9e0a637d0 133-150
+src/dispatch-inference-ollama.ts
+  s_dedb333dd5195e::t_9610cd30cce499 1-98
+src/dispatch-model-prices.ts
+  s_dedb333dd5195e::t_efaf349ca8b926 77-81
+src/env-local/spoke-origins.ts
+  s_dedb333dd5195e::t_79ae31734f9706 106-114
+src/gateway-native-routes.ts
+  s_dedb333dd5195e::t_ec4a00d1c44c7d 53,70-74,77-81,83,88,153-155
+src/idempotency.ts
+  s_dedb333dd5195e::t_de7b1d083a16d1 1-89
+src/inference-backends.ts
+  s_dedb333dd5195e::t_4b764fc037f851 164,171-173,212,218-221,227-231,238-242,244-251,254-259,267-270
+src/internal-service-routes.ts
+  s_dedb333dd5195e::t_a5dc59a75a1f87 55,143-145,158,162-174
+src/pages.ts
+  s_dedb333dd5195e::t_a52377ad886d6c 32-35,48-59,91,151-157,273-278
+src/pricing-manifests.ts
+  s_dedb333dd5195e::t_f479353f267f6f 197-199
+src/public-surface.ts
+  s_dedb333dd5195e::t_5d57b862ac24e1 18,142-143,145
+src/scopes.ts
+  s_dedb333dd5195e::t_e6f6e465a9a7f8 133
+src/slo.ts
+  s_dedb333dd5195e::t_4e4dde98743641 1-98
+src/spoke-routing.ts
+  s_dedb333dd5195e::t_2802f63b697651 38-48
+src/webhook-routes.ts
+  s_dedb333dd5195e::t_21ee1c529c092a 1-6,15-35,37-40,42-132,136
+src/worker.ts
+  s_dedb333dd5195e::t_2d4652c1e4bbd0 63,125
+test/comms-tenants-read.spec.ts
+  s_dedb333dd5195e::t_30a32d5526f9f1 1-40
+test/idempotency.spec.ts
+  s_dedb333dd5195e::t_6a1dfb515e6b48 1-62
+test/inference-backends.spec.ts
+  s_dedb333dd5195e::t_67d28444e4aec1 10,61-94,108-130
+test/products.spec.ts
+  s_dedb333dd5195e::t_67616b9735bdcc 63,68
+test/slo.spec.ts
+  s_dedb333dd5195e::t_c3af07cfc9e990 1-77
+test/spoke-drift.spec.ts
+  s_dedb333dd5195e::t_fe6da64ce1f07a 63
+test/vision-index-route.spec.ts
+  s_dedb333dd5195e::t_fbe12aae047ccc 1-74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "da3a03d01ae55b2b635d986e966a6e62f7582cf5",
+  "prompts": {},
+  "sessions": {
+    "s_dedb333dd5195e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74c7ad25-d88e-4e23-bf60-5c98e9d130b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

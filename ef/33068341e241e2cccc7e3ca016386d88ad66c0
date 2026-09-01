@@ -1,0 +1,38 @@
+src/usage-types.ts
+  s_212a2b9f6028b5::t_97aa4c4e8035b4 54-57
+src/usage-normalize.ts
+  s_212a2b9f6028b5::t_6d32f4aae5806c 54-55
+src/router.ts
+  s_212a2b9f6028b5::t_e5715af8e50c79 1-219
+src/env.ts
+  s_212a2b9f6028b5::t_6e4525c7e7ec08 50
+  s_212a2b9f6028b5::t_6747e822539e19 68
+src/scope-groups.ts
+  s_212a2b9f6028b5::t_ec7f05d2d42ae5 100
+src/gateway-native-routes.ts
+  s_212a2b9f6028b5::t_85ccb025d02ec0 170-178
+  s_212a2b9f6028b5::t_e90a069b5de31b 59
+src/usage.ts
+  s_212a2b9f6028b5::t_128174984e2842 244
+  s_212a2b9f6028b5::t_6bb59aaa4e7e65 242-243
+test/router-resolve.spec.ts
+  s_212a2b9f6028b5::t_47dbd639e58d58 20
+  s_212a2b9f6028b5::t_80ece29c574538 46
+  s_212a2b9f6028b5::t_239397c2685abb 1-19,21-45,47-255
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ef33068341e241e2cccc7e3ca016386d88ad66c0",
+  "prompts": {},
+  "sessions": {
+    "s_212a2b9f6028b5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffeca5a8effe0gJCtA91HP2oxH",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.github/workflows/deploy.yml
+  s_db1b2a792e5f25::t_eccfec1316c826 133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8d73ab822a48b4a8ad8266c785beaad82b13e44a",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}

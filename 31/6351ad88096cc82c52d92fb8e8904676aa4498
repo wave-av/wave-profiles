@@ -1,0 +1,74 @@
+.github/workflows/build-check.yml
+  h_af5ac1a9798224 237,249,257-273,314
+CHANGELOG.md
+  h_af5ac1a9798224 39-49
+src/dispatch-generation-stamp.ts
+  h_af5ac1a9798224 118,153-178
+src/dispatch-inference-openai.ts
+  h_af5ac1a9798224 50
+src/env-local/spoke-origins.ts
+  h_af5ac1a9798224 134-141
+src/env.ts
+  h_af5ac1a9798224 30-33,72
+src/fleet-executor.ts
+  h_af5ac1a9798224 28,30-31,35,96-101,116-156,158-159,166-169,177,189,193,222-223,225,233-240,242,255,262
+src/fleet-provision-v2.ts
+  h_af5ac1a9798224 1-58
+src/fleet-provision.ts
+  h_af5ac1a9798224 32-33,77-78,105,127,230-231,236,238-241,262,276,353,357,367
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 57,161-169
+src/inference-backends.ts
+  h_af5ac1a9798224 162-172,174-184,186-199,201-212,214-228,230-242,245
+src/products.ts
+  h_af5ac1a9798224 16,64,93
+src/scope-groups-edge.ts
+  h_af5ac1a9798224 1-69
+src/scope-groups.ts
+  h_af5ac1a9798224 100-111
+src/search-bm25.ts
+  h_af5ac1a9798224 1-256
+src/search-core.ts
+  h_af5ac1a9798224 1-240
+src/search-index.ts
+  h_af5ac1a9798224 1-115
+src/search.ts
+  h_af5ac1a9798224 1-199
+src/spoke-classification.ts
+  h_af5ac1a9798224 66
+src/spoke-routing.ts
+  h_af5ac1a9798224 190-200
+src/status.ts
+  h_af5ac1a9798224 13,30-31,55,64,68,97
+src/zdr.ts
+  h_af5ac1a9798224 18-20,96-106,116-120,175-179,183
+test/fleet-provision-v2.spec.ts
+  h_af5ac1a9798224 1-140
+test/pipeline-orchestrator-zdr.spec.ts
+  h_af5ac1a9798224 29-30,37,39,48-49
+test/search-index.spec.ts
+  h_af5ac1a9798224 1-150
+test/search-mocks.ts
+  h_af5ac1a9798224 1-81
+test/search.spec.ts
+  h_af5ac1a9798224 1-162
+test/spoke-drift.spec.ts
+  h_af5ac1a9798224 67
+test/zdr.spec.ts
+  h_af5ac1a9798224 63-72,76-81,91,94-99,164-167,203-206,209,287-288,292-305
+vitest.config.ts
+  h_af5ac1a9798224 45-47,51-53,55,59,75-77
+wrangler.toml
+  h_af5ac1a9798224 244-252,298-338,1066-1076
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "316351ad88096cc82c52d92fb8e8904676aa4498",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

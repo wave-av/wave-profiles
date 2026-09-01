@@ -1,0 +1,37 @@
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_381540ebbc4125 67-90,99-100,104,107,111,114-227,229,231
+  s_157583aa3b6686::t_1df58dd664b21a 91-98,101-103,105-106,108-110,112-113
+  s_157583aa3b6686::t_eab13b316c41ef 17,19-21,25
+moq/listen/stem-anchor.test.mjs
+  s_157583aa3b6686::t_7cb0442d0ca2d5 1-70
+moq/listen/stem-manifest.mjs
+  s_157583aa3b6686::t_6a1e26ca0a86b5 1-129
+moq/listen/stem-source.test.mjs
+  s_157583aa3b6686::t_1b63cad7caf62e 1-57
+moq/listen/stem-anchor.mjs
+  s_157583aa3b6686::t_ca11feab6eecd5 1-80
+moq/listen/wave-listen-publish.mjs
+  s_157583aa3b6686::t_1513ffbd24fab4 123-133
+  s_157583aa3b6686::t_6b307d4decfafb 37,47-52
+  s_157583aa3b6686::t_5fe622ec85966e 26
+moq/listen/stem-manifest.test.mjs
+  s_157583aa3b6686::t_59b13a6d178a56 1-91
+moq/listen/stem-source.mjs
+  s_157583aa3b6686::t_78ee3cf67e5cc9 1-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "3a0343314765c242b803af6ff5463e82a33225e5",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

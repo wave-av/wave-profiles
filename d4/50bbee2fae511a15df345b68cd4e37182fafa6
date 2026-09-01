@@ -1,0 +1,29 @@
+src/b3-routes.ts
+  s_2df9e3abeed654::t_38c766e2ea4be7 1-70
+src/webhook-routes.ts
+  s_2df9e3abeed654::t_36234511448030 18
+  s_2df9e3abeed654::t_e9a16b07e381c8 163-165
+src/analytics-routes.ts
+  s_2df9e3abeed654::t_3fa186031776ce 1-263
+src/zoom-meetings.ts
+  s_2df9e3abeed654::t_594c95f7aa432b 264
+  s_2df9e3abeed654::t_f75e6b0ce41490 1-263,265-368
+test/b3-routes.spec.ts
+  s_2df9e3abeed654::t_2b509a6ada4f59 1-373
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d450bbee2fae511a15df345b68cd4e37182fafa6",
+  "prompts": {},
+  "sessions": {
+    "s_2df9e3abeed654": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc8ba9e24ffeR5FL66rLmO5j7h",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

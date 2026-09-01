@@ -1,0 +1,41 @@
+src/billing-plans.ts
+  s_15127d80763110::t_2db9f408771123 1-118
+test/forward.spec.ts
+  s_15127d80763110::t_1400b2bb73ead0 347-351
+src/errors-next-action.ts
+  s_15127d80763110::t_e2786c7c4d8dbe 60-64
+  s_15127d80763110::t_84e5a83dc1637a 17-23,26-28
+  s_15127d80763110::t_49b54c1b46f2aa 29
+test/billing-plans.spec.ts
+  s_15127d80763110::t_405b97d9c8480c 1-111
+wrangler.toml
+  s_15127d80763110::t_96bf1c2ebb4fd2 1016-1026
+src/billing-routes.ts
+  s_15127d80763110::t_d8a2877ea8da53 141
+  s_15127d80763110::t_2baf217ff31d66 24
+  s_15127d80763110::t_b40b937ef7ea44 164-167
+  s_15127d80763110::t_4a95f1bbe2e8fc 106-110
+test/errors-next-action.spec.ts
+  s_15127d80763110::t_80fdf45aef67f4 17-25
+src/billing-checkout.ts
+  s_15127d80763110::t_33f5721e0bf835 25
+  s_15127d80763110::t_7ca416493169f4 31
+  s_15127d80763110::t_44e2d920c61d9e 66
+  s_15127d80763110::t_075e3aff2b1232 89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "9a2cfeb76b41fae5f6259901fbe0b91162b90dbe",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

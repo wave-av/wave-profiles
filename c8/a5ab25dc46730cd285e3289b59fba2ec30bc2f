@@ -1,0 +1,14 @@
+wrangler.toml
+  h_af5ac1a9798224 401,404,1596-1599
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "c8a5ab25dc46730cd285e3289b59fba2ec30bc2f",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

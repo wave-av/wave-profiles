@@ -1,0 +1,21 @@
+test/auth.spec.ts
+  s_e2e3e43d0638c5::t_3665c75f814ff8 114-156
+src/auth.ts
+  s_e2e3e43d0638c5::t_c030cca27a91be 286-309,318
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "5698a26cb7a53c1ed49c59eae3c562fa7b0f3d26",
+  "prompts": {},
+  "sessions": {
+    "s_e2e3e43d0638c5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1c78a7f2-132a-470e-8dae-4f28336b528f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

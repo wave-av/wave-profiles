@@ -1,0 +1,41 @@
+src/x402-challenge.ts
+  s_124891ed63801b::t_077651feba1700 73-90
+src/x402-challenge-price.ts
+  s_124891ed63801b::t_e0f33135ae033e 101-112
+CHANGELOG.md
+  s_3682ee9ac24456::t_0951d567065263 45-106
+src/stream-session-do.ts
+  s_3682ee9ac24456::t_13e2d90a60178c 174
+src/x402-pay-lane.ts
+  s_3682ee9ac24456::t_281c8c7c294ed3 72-76
+src/x402-stream-ticks.ts
+  s_3682ee9ac24456::t_83cce76495ee2a 192-193
+src/x402-stream.ts
+  s_3682ee9ac24456::t_e9a31edfc405a5 128-129
+test/x402-unpayable-challenge-840.spec.ts
+  s_3682ee9ac24456::t_fd24ec7ad74490 21,24,150,166,262-275
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "efec7829996b92c33313f683686b0a4a87a5c7c7",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_3682ee9ac24456": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a2a474fe3a8843744",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

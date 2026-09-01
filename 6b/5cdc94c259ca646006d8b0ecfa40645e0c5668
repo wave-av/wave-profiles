@@ -1,0 +1,38 @@
+test/agent-session.test.ts
+  s_6046880c148371::t_a2dc33b5ca50f0 222,234
+  s_6046880c148371::t_0afc09c419ce3e 251-252
+  s_6046880c148371::t_a89e1e5082f164 220-221,223-233,235-250,253-287
+src/dispatch-helpers.ts
+  s_6046880c148371::t_a294f37f522e09 168-172
+src/agent-session.ts
+  s_6046880c148371::t_353f789e44b5fa 410-444
+  s_6046880c148371::t_b8412461f94be4 327-328
+  s_6046880c148371::t_67941e6ce88b67 541,547-581
+  s_6046880c148371::t_822367dd8515dd 582-583
+  s_6046880c148371::t_42fe18573c0a02 461-468
+  s_6046880c148371::t_b31d94e2f87a8a 480-482
+test/worker.agent-route.test.ts
+  s_6046880c148371::t_8c16f0617ac3ec 51-54
+  s_6046880c148371::t_3a7cac8ef6bc2a 121-141
+CHANGELOG.md
+  s_6046880c148371::t_86993a9cfa9fd2 19
+src/route-dispatch.ts
+  s_6046880c148371::t_d201fa90b387a9 72
+  s_6046880c148371::t_147455baf1416f 721-744
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "6b5cdc94c259ca646006d8b0ecfa40645e0c5668",
+  "prompts": {},
+  "sessions": {
+    "s_6046880c148371": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff29dc127ffeWs25bzO5ussib2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": null
+    }
+  }
+}

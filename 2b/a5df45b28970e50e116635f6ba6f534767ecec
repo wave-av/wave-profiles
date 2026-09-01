@@ -1,0 +1,24 @@
+.github/workflows/build-check.yml
+  s_11f01c22e59a16::t_78a8c64ea1f7f6 268-280
+CHANGELOG.md
+  s_11f01c22e59a16::t_03fc55728ba4ac 7-8
+  s_11f01c22e59a16::t_944786787e0725 3,10,14-17,21-23,27-29
+scripts/check-changelog.mjs
+  s_11f01c22e59a16::t_f24967d5b9d032 1-89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2ba5df45b28970e50e116635f6ba6f534767ecec",
+  "prompts": {},
+  "sessions": {
+    "s_11f01c22e59a16": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_010f611f8ffeu0PBw8nXYqfkaV",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

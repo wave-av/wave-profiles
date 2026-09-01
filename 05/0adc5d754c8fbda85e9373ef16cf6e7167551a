@@ -1,0 +1,41 @@
+.github/deploy-secrets-allowlist.txt
+  s_a95190fc1e5afd::t_813f99ac251d4d 255-264
+.github/workflows/deploy.yml
+  s_a95190fc1e5afd::t_b3860653c53492 186
+src/dispatch-inference-providers.ts
+  s_a95190fc1e5afd::t_31d852eb5acd02 1-144
+src/env.ts
+  s_a95190fc1e5afd::t_0bef61d98de3d3 50,68
+src/gateway-native-routes.ts
+  s_a95190fc1e5afd::t_2e4c838b507e13 59,170-178
+src/router.ts
+  s_a95190fc1e5afd::t_1efa26ce2da68f 1-222
+src/scope-groups.ts
+  s_a95190fc1e5afd::t_9a7adc1dc403ec 100
+src/usage-normalize.ts
+  s_a95190fc1e5afd::t_c81699a980f2ed 54-55
+src/usage-router-dim.ts
+  s_a95190fc1e5afd::t_f0a7a8b1edba3b 1-38
+src/usage-types.ts
+  s_a95190fc1e5afd::t_90551d134d6d8b 54-57
+src/usage.ts
+  s_a95190fc1e5afd::t_01bab8a7bbe7d1 38,225-227,229,239
+test/router-resolve.spec.ts
+  s_a95190fc1e5afd::t_76c2d4dc5f0cea 1-255
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "050adc5d754c8fbda85e9373ef16cf6e7167551a",
+  "prompts": {},
+  "sessions": {
+    "s_a95190fc1e5afd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffc9ee574ffeme8huGEA4WlxA5",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

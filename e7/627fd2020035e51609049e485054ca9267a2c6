@@ -1,0 +1,29 @@
+CHANGELOG.md
+  s_6e7ad4df769349::t_020cd15fd590a4 12-16
+dante/ptp-status.test.mts
+  s_6e7ad4df769349::t_e9221a9612972a 137
+  s_6e7ad4df769349::t_7d251926987cf5 129
+  s_6e7ad4df769349::t_01cf2bdbdf23fd 10-11,17-34,37-38,41-50
+  s_6e7ad4df769349::t_b92098fd66c01a 100-101,106-107,111
+dante/ptp-status.mts
+  s_6e7ad4df769349::t_45f874a9ba1c7c 24-25
+  s_6e7ad4df769349::t_a926a5397a03a5 113-115
+  s_6e7ad4df769349::t_242180d7dc0ff9 77-79,81
+  s_6e7ad4df769349::t_5f7fcc62b0093a 31,34,36,49-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e7627fd2020035e51609049e485054ca9267a2c6",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

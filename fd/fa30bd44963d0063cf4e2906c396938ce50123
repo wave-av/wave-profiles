@@ -1,0 +1,34 @@
+dante-dep-bridge/scripts/dante_arc_discovery.py
+  s_364605915bb7ec::t_5e0bd13df35772 1-145
+dante-dep-bridge/scripts/dante_route_map.py
+  s_364605915bb7ec::t_3f87608b365ce7 262
+  s_364605915bb7ec::t_47f25508a26a79 258-261,267-268
+  s_364605915bb7ec::t_04677a8b91f279 174-175,177-182
+  s_364605915bb7ec::t_f785551029e99d 43-44
+dante-dep-bridge/scripts/dante_route_map_test.py
+  s_364605915bb7ec::t_83ecafe88fecd8 346
+  s_364605915bb7ec::t_fffa4473020ee5 321
+  s_364605915bb7ec::t_bffe6c2b215f0e 234-271,288,291
+  s_364605915bb7ec::t_e6dd145b03ab20 53-60
+  s_364605915bb7ec::t_77637175788d01 272-274,285-287
+  s_364605915bb7ec::t_2bfbecb9bc28f8 289-290
+  s_364605915bb7ec::t_f72a23f65e21e5 322-324
+  s_364605915bb7ec::t_0aa4225ae4e442 347-349
+  s_364605915bb7ec::t_e8f9c33de946ff 30,275-284,297,302,307-308,310-311,313-317,338-341,350,365-366
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "fdfa30bd44963d0063cf4e2906c396938ce50123",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

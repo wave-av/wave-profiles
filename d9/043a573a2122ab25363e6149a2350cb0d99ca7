@@ -1,0 +1,22 @@
+src/env-local/spoke-origins.ts
+  h_af5ac1a9798224 73-75
+src/product-meters.ts
+  h_af5ac1a9798224 65-68
+src/scope-groups-edge.ts
+  h_af5ac1a9798224 69
+src/spoke-classification.ts
+  h_af5ac1a9798224 68
+src/spoke-routing.ts
+  h_af5ac1a9798224 83-87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "d9043a573a2122ab25363e6149a2350cb0d99ca7",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

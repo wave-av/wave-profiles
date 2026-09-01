@@ -1,0 +1,92 @@
+.github/.token-budget-baseline
+  h_af5ac1a9798224 121-124
+package-lock.json
+  h_af5ac1a9798224 2108-2110
+src/acp.ts
+  h_af5ac1a9798224 1-324
+src/agent-spokes.ts
+  h_af5ac1a9798224 23-24,28,68,280-281,305-318
+src/api-keys.ts
+  h_af5ac1a9798224 1-201
+src/audit-log.ts
+  h_af5ac1a9798224 1-90
+src/authorized-forward.ts
+  h_af5ac1a9798224 22,183,225-227
+src/b1-routes.ts
+  h_af5ac1a9798224 1-40
+src/b2-routes.ts
+  h_af5ac1a9798224 1-35
+src/billing-info.ts
+  h_af5ac1a9798224 1-176
+src/billing-usage.ts
+  h_af5ac1a9798224 1-84
+src/comms-tenants.ts
+  h_af5ac1a9798224 151-171
+src/dispatch-gpu-forward.ts
+  h_af5ac1a9798224 1-150
+src/env-local/spoke-origins.ts
+  h_af5ac1a9798224 73-77
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 40,47-48,70,88,91-104,107-113
+src/idempotency.ts
+  h_af5ac1a9798224 17
+src/internal-service-routes.ts
+  h_af5ac1a9798224 39,81-83
+src/mcp-native-tools.ts
+  h_af5ac1a9798224 149,160-172
+src/org.ts
+  h_af5ac1a9798224 1-158
+src/scopes.ts
+  h_af5ac1a9798224 125,160
+src/spend-cap-selfset.ts
+  h_af5ac1a9798224 1-28
+src/spend-cap.ts
+  h_af5ac1a9798224 39,52,96,123-124,137-140,226,309,323-324
+src/spoke-route-table-tail.ts
+  h_af5ac1a9798224 1-52
+src/spoke-route-table.ts
+  h_af5ac1a9798224 7,151-159,292-294
+src/usage-cap.ts
+  h_af5ac1a9798224 1-31
+src/usage-routes.ts
+  h_af5ac1a9798224 1-31
+src/usage.ts
+  h_af5ac1a9798224 619-621
+src/user.ts
+  h_af5ac1a9798224 1-132
+src/webhook-legacy.ts
+  h_af5ac1a9798224 1-150
+src/webhook-routes.ts
+  h_af5ac1a9798224 17-20,155-161
+test/audit-log.spec.ts
+  h_af5ac1a9798224 1-59
+test/b1-routes.spec.ts
+  h_af5ac1a9798224 1-40
+test/b2-routes.spec.ts
+  h_af5ac1a9798224 1-320
+test/billing.spec.ts
+  h_af5ac1a9798224 14,17,103
+test/comms-tenants-read.spec.ts
+  h_af5ac1a9798224 41-73
+test/identity-resolve-endpoint.spec.ts
+  h_af5ac1a9798224 1-87
+test/inference-backends.spec.ts
+  h_af5ac1a9798224 269-317
+test/spend-cap-selfset.spec.ts
+  h_af5ac1a9798224 1-39
+test/spoke-drift.spec.ts
+  h_af5ac1a9798224 30,59,145
+wrangler.toml
+  h_af5ac1a9798224 1117-1121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "7cd57e95bb0c5b02d400a86765c39986450a9b96",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

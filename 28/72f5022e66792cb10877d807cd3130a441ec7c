@@ -1,0 +1,24 @@
+src/realtimekit.ts
+  s_ccbb3091d0f293::t_54ae4e6ec4c052 57-61,63
+  s_ccbb3091d0f293::t_623bc80fec476c 84-86,90
+test/realtimekit.test.ts
+  s_ccbb3091d0f293::t_47fb67e9732e56 13
+  s_ccbb3091d0f293::t_d736d888084e8e 46-48,50-56,58-60
+  s_ccbb3091d0f293::t_0be88abf83046f 49,57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "2872f5022e66792cb10877d807cd3130a441ec7c",
+  "prompts": {},
+  "sessions": {
+    "s_ccbb3091d0f293": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5ad29f8c-8cc4-4950-bdb4-6b0ec735d5f2",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

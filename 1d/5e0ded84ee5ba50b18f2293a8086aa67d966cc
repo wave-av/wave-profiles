@@ -1,0 +1,32 @@
+src/spoke-classification.ts
+  s_d8a665e3a34a6b::t_91e82ac6be2004 70
+src/spoke-routing.ts
+  s_d8a665e3a34a6b::t_80a206155a9010 122-132
+src/scope-groups-edge.ts
+  s_d8a665e3a34a6b::t_a64a27854e7759 68-75
+src/env-local/spoke-origins.ts
+  s_d8a665e3a34a6b::t_ac80f519e682b9 118-127
+test/spoke-routing.spec.ts
+  s_d8a665e3a34a6b::t_8d80681d677c28 23
+  s_d8a665e3a34a6b::t_4ef7501482d679 71,75-76
+test/spoke-drift.spec.ts
+  s_d8a665e3a34a6b::t_dd743c0399c322 69
+wrangler.toml
+  s_d8a665e3a34a6b::t_74df60e52d6f86 1021-1030
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1d5e0ded84ee5ba50b18f2293a8086aa67d966cc",
+  "prompts": {},
+  "sessions": {
+    "s_d8a665e3a34a6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fdeeb4951ffe7nmM7VzkZTqe1u",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

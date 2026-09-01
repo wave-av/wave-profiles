@@ -1,0 +1,49 @@
+CHANGELOG.md
+  s_15127d80763110::t_a1be4f10377470 84-93
+.github/workflows/build-check.yml
+  s_15127d80763110::t_53beb4b32f47a3 68-85
+scripts/sync-openapi.mjs
+  s_15127d80763110::t_b3d41418a443ba 6,8,19-47,56-57,60-94,96-102,110-111,121-124,126-127,131,137-138,141-144,149,154,156-157,159-160,163,165,176-204,206,211,214-220,223-235,237-249,251-254
+scripts/ci/assert-offline.mjs
+  s_15127d80763110::t_cee7c9f5fa0a81 1-53
+package.json
+  s_5fbc7dfec242b6::t_a9b70dc5f529af 20
+src/openapi-spec.generated.ts
+  s_5fbc7dfec242b6::t_e5b8ed80cb0120 2,4-5,7-8
+vendor/api-spec/openapi.yaml
+  s_5fbc7dfec242b6::t_976ad37f299869 1-3589
+vendor/api-spec/pin.json
+  s_565d2579ccff74::t_49619cbfa3bb39 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "40e41d7bfc928b80a2eba5a14ce6fc9d0a611a50",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_565d2579ccff74": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ae8dd585fc7c6d8ea",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_5fbc7dfec242b6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-aeacb6d2dd0a6bbbd",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

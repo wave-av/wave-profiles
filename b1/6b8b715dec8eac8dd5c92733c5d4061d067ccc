@@ -1,0 +1,21 @@
+test/product-meters.catalog.spec.ts
+  s_88820ad70f3bbf::t_0f1bafcba132b4 149-178
+src/product-meters.ts
+  s_88820ad70f3bbf::t_7bac4353293e56 102-106
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "b16b8b715dec8eac8dd5c92733c5d4061d067ccc",
+  "prompts": {},
+  "sessions": {
+    "s_88820ad70f3bbf": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcb6782ebffeCHPD7QVBLLWpjA",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+src/wallet-service-auth.ts
+  s_8a470910d81a67::t_10430cc53f3f90 96-112,114-127,140-141,143-144
+  s_8a470910d81a67::t_646f80612347e1 148,153-157,164-166
+test/wallet-service-auth.spec.ts
+  s_8a470910d81a67::t_5ffef252461f09 219-237
+  s_8a470910d81a67::t_97e8e31a9385e3 9
+  s_8a470910d81a67::t_e29e59eb79966e 139-151
+src/billing-routes.ts
+  s_8a470910d81a67::t_6cae8314195934 162,171-180,189-190
+  s_8a470910d81a67::t_9fb8459d641afd 14
+test/billing-routes-wallet-service-auth.spec.ts
+  s_8a470910d81a67::t_55f3146b9f334f 163
+  s_8a470910d81a67::t_a8d373ea2221cc 146-162,164-182
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "6eb2eaf2538dd3634e7b216bdddd37965e7279b4",
+  "prompts": {},
+  "sessions": {
+    "s_8a470910d81a67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9143d3ec-9637-4788-8bc2-510e83aa2fe3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

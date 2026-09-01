@@ -1,0 +1,34 @@
+CHANGELOG.md
+  h_af5ac1a9798224 11-13
+src/env-local/spoke-origins.ts
+  h_af5ac1a9798224 118-127
+src/scope-groups-edge.ts
+  h_af5ac1a9798224 68-75
+src/spoke-classification.ts
+  h_af5ac1a9798224 70
+src/spoke-route-table.ts
+  h_af5ac1a9798224 1-326
+src/spoke-routing.ts
+  h_af5ac1a9798224 9,27-28,37,54,62-73
+src/status-incidents.ts
+  h_af5ac1a9798224 164,174,179-184
+test/spoke-drift.spec.ts
+  h_af5ac1a9798224 27,29,71,138-141
+test/spoke-routing.spec.ts
+  h_af5ac1a9798224 23,58-60,71,75-76
+test/status-incidents.spec.ts
+  h_af5ac1a9798224 66,108,134,184
+wrangler.toml
+  h_af5ac1a9798224 1021-1030
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e4618c6cf618c276c9eedf9ad0932b14663432cb",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

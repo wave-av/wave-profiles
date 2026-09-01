@@ -1,0 +1,30 @@
+src/agent-budget.ts
+  s_13086dcbacd4a6::t_b24bb3cea49642 207-230
+  s_13086dcbacd4a6::t_4024b26c150e64 160-163,171
+  s_13086dcbacd4a6::t_2c55b04fd3c2b8 115-116,124
+  s_13086dcbacd4a6::t_38327442f5b893 97-101
+src/session-budget-do.ts
+  s_13086dcbacd4a6::t_7ffa369a438f7b 153-164,166-179
+  s_13086dcbacd4a6::t_a08b69d12abce7 165
+  s_13086dcbacd4a6::t_74e96fc1346d4b 364-379
+  s_13086dcbacd4a6::t_68b29806bebd65 308
+test/session-budget-do.spec.ts
+  s_13086dcbacd4a6::t_2138deae232b29 12-13,18-19
+  s_13086dcbacd4a6::t_82f35b8c15b381 37-38,40,42,44,50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "72b86eecd172f7a46a1999b5eccac2809eac9b23",
+  "prompts": {},
+  "sessions": {
+    "s_13086dcbacd4a6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef676a74ffeGDIpvQIhMKNdae",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

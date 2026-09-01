@@ -1,0 +1,21 @@
+containers/rt-encoder/server/codecs.mjs
+  s_8d34dc2035def4::t_40dfd7f308c78f 100-108
+containers/rt-encoder/test/mlvc-seam.test.mjs
+  s_8d34dc2035def4::t_067657d167fc9b 1-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3e1c7f6bce865971e6a3b4ae0ff8ffde7a2addf7",
+  "prompts": {},
+  "sessions": {
+    "s_8d34dc2035def4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fedc4bce0ffeR9XQfe6367vDZL",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+moq/crest/player/switch-chip.js
+  s_157583aa3b6686::t_ee7620f22172be 5-14,16-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2ae21d12e2b26a9e1956a97165c1a7bb616b9ee3",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

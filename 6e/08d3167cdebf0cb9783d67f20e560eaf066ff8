@@ -1,0 +1,33 @@
+moq/listen/Dockerfile
+  s_157583aa3b6686::t_84d719abf6b0e6 1-27
+moq/listen/listen-source.mjs
+  s_157583aa3b6686::t_c7776a9f438916 1-88
+moq/listen/listen-source.test.mjs
+  s_157583aa3b6686::t_1a10619ab4b1d0 1-65
+moq/listen/fly.radio.toml
+  s_157583aa3b6686::t_a21d79fd27a678 1-24
+moq/listen/fly.atc.toml
+  s_157583aa3b6686::t_11987f1307232a 1-25
+moq/listen/README.md
+  s_157583aa3b6686::t_50dabe9ffc4108 1-49
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_056fe79e1f036a 1-85
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_783eaaf4e516ee 83-91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "6e08d3167cdebf0cb9783d67f20e560eaf066ff8",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

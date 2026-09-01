@@ -1,0 +1,31 @@
+av-bridge/wave-av-muxer.h
+  s_157583aa3b6686::t_1465576e57873a 1-101
+av-bridge/wave-ts-sidecar-test.cpp
+  s_157583aa3b6686::t_2b068cc869ed55 1-117
+av-bridge/wave-format-bridge.h
+  s_157583aa3b6686::t_5f4b09bffcd9b0 1-110
+av-bridge/wave-format-bridge-test.cpp
+  s_157583aa3b6686::t_0eca492b0a936e 1-147
+av-bridge/wave-av-muxer-test.cpp
+  s_157583aa3b6686::t_3a140b4dcd5eaa 1-126
+av-bridge/CMakeLists.txt
+  s_157583aa3b6686::t_7e337bb7c07c27 32-69
+av-bridge/wave-ts-sidecar.h
+  s_157583aa3b6686::t_731667c35f503f 1-82
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2c15b03e5c1f5a65147db25e664c2b7199c43e8a",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

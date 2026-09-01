@@ -1,0 +1,20 @@
+test/capability-custody.spec.ts
+  s_2606de950a60c6::t_3d91511dc5185e 3-5
+  s_2606de950a60c6::t_116a6a691f9905 66,69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "a14c4b735fe7977a4b1498e4526b27446a6a7710",
+  "prompts": {},
+  "sessions": {
+    "s_2606de950a60c6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef439bb6ffePesTgCloA0Efke",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

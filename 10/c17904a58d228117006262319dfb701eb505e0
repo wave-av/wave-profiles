@@ -1,0 +1,50 @@
+test/x402-unpayable-challenge-840.spec.ts
+  s_124891ed63801b::t_b3c9a16f16c555 1
+  s_124891ed63801b::t_23e1373716517c 15-25
+  s_124891ed63801b::t_1a967f15996c7a 123,125-126,134-165
+  s_124891ed63801b::t_1249f720bee886 56-57,60-79
+  s_124891ed63801b::t_1d0f9bfa0afae1 166
+  s_124891ed63801b::t_82048137fde33c 30
+test/x402-quoted-price-b1.spec.ts
+  s_124891ed63801b::t_18e39436301143 183-188
+  s_124891ed63801b::t_983360797dfab0 181-182
+  s_124891ed63801b::t_19ee013d26ecad 189
+  s_b57a1fc8f24e8d::t_0237cc5546ab9d 11-14,72-74,171
+test/x402-capture-on-serve.spec.ts
+  s_124891ed63801b::t_954cfb5bf530cb 79-81
+test/x402-quoted-price-b5.spec.ts
+  s_124891ed63801b::t_0ef5d5307f35cf 75-81
+src/x402-challenge.ts
+  s_124891ed63801b::t_9446d51ddde879 89-113,116,118
+  s_124891ed63801b::t_ba7f15b4dbbd6a 129-134,136-137
+  s_124891ed63801b::t_8469b782944dc6 147-152,154-157,159-166,168
+src/x402-quote-required.ts
+  s_124891ed63801b::t_955d8ef325cd87 1,3-5,7-14,16-24,32-33,36,38,42-44,60,62-64,72,74
+  s_124891ed63801b::t_bc5308299fb751 47-52
+test/x402-capture-quote-binding.spec.ts
+  s_b57a1fc8f24e8d::t_00d6bfa99434e2 58-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "10c17904a58d228117006262319dfb701eb505e0",
+  "prompts": {},
+  "sessions": {
+    "s_124891ed63801b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "657e721e-b9b4-4e0f-b7bb-049f27115a75",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_b57a1fc8f24e8d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a04b4cd7edc3ea452",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

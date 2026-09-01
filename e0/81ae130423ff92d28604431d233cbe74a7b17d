@@ -1,0 +1,121 @@
+.github/workflows/foundation-gate.yml
+  s_ea8755337f3c0d::t_f81f160c31a2b7 22-29
+CHANGELOG.md
+  s_ea8755337f3c0d::t_0f2af2d1b61e9a 9-15,20-27
+scripts/check-money-surface-naming.mjs
+  s_ea8755337f3c0d::t_c6530cfa696efd 1-47
+src/agent-budget.ts
+  s_ea8755337f3c0d::t_ef7f208e796b16 97-108,122-123,131,167-170,178,214-242
+src/billing-routes.ts
+  s_ea8755337f3c0d::t_3e29d55716186c 62-63,72,110,113-114,116-117,132,137-138,157,161-163,184,292-293,323-337
+src/bridge-kyc.ts
+  s_ea8755337f3c0d::t_632f7cc7d3e5ae 1-136
+src/bridge-rail.ts
+  s_ea8755337f3c0d::t_2405826394e1d5 38,41,139,155,197,220,284
+src/connect-payouts-settlement.ts
+  s_ea8755337f3c0d::t_24702450ca79f7 1-129
+src/connect-payouts.ts
+  s_ea8755337f3c0d::t_b3519ea8fb5da8 34-39,280-283,285-290,292-294,317,334,361-365,367
+src/connect.ts
+  s_ea8755337f3c0d::t_77656127e74a70 27-29
+src/creator-payout-cycle.ts
+  s_ea8755337f3c0d::t_9fe72c900b9986 1-138
+src/env-local/spoke-origins.ts
+  s_ea8755337f3c0d::t_3febe124df7b16 118-127
+src/mcp-native-tools.ts
+  s_ea8755337f3c0d::t_a1a69c15d474cb 26,307
+src/mcp-pricing-tools.ts
+  s_ea8755337f3c0d::t_5601fb92a6f813 1-245
+src/mcp-runtime.ts
+  s_ea8755337f3c0d::t_8965363c14da68 54-58,62,125,141,168,172,190-199
+src/mcp.ts
+  s_ea8755337f3c0d::t_406f309717945e 235
+src/money-attribution.ts
+  s_ea8755337f3c0d::t_6039e86d8db1ef 1-7
+src/prepaid-wallet.ts
+  s_ea8755337f3c0d::t_f9dfa47a01edd4 27,238-243
+src/pricing-manifests.ts
+  s_ea8755337f3c0d::t_f17f3a1a9458c3 19-24,134,161,182
+src/privy-rail.ts
+  s_ea8755337f3c0d::t_2080e6aafff88f 1-158
+src/public-surface.ts
+  s_ea8755337f3c0d::t_41b1f0b02b72c2 39-42,122-134,169-181,245-246
+src/routes/v1/network/surface.ts
+  s_ea8755337f3c0d::t_2cca56359af580 1-87
+src/scheduled-crons.ts
+  s_dedb333dd5195e::t_31b3a9869f16f3 11,32-36
+src/scope-groups-edge.ts
+  s_ea8755337f3c0d::t_4d4c70c5a1d32d 68-75
+src/scopes.ts
+  s_ea8755337f3c0d::t_b48882c1498170 171-173,175
+src/session-budget-do.ts
+  s_ea8755337f3c0d::t_c050663964c060 34-41,47-49,68-70,115-141,162,164,167,169,172,174,177,179,183,239-254
+src/session-budget-wallet.ts
+  s_ea8755337f3c0d::t_a2031653c5dd4f 1-176
+src/spoke-classification.ts
+  s_ea8755337f3c0d::t_d17fd16195ff78 70
+src/spoke-route-table.ts
+  s_ea8755337f3c0d::t_18bf68b07b3f48 1-326
+src/spoke-routing.ts
+  s_ea8755337f3c0d::t_88412430b2949a 9,27-28,37,54,62-73
+test/agent-budget.spec.ts
+  s_ea8755337f3c0d::t_5f7ad7885ceaea 157-216
+test/billing-routes-scope-gate.spec.ts
+  s_ea8755337f3c0d::t_e48892619c8bd3 73-75,107-112,125-126,190,192,200
+test/billing-routes-wallet-service-auth.spec.ts
+  s_ea8755337f3c0d::t_e1ad5711fd3513 3,68,70,77,79,86,88,95,97,104,106,108,115,117,119,136,138,146,150,152,159,170,172,196,198,200,205,207,209,219,221,228,230,257,259,270,272,285,287,303,305,323,325
+test/bridge-kyc.spec.ts
+  s_ea8755337f3c0d::t_6e70a94c7b57fb 1-167
+test/bridge-rail.spec.ts
+  s_ea8755337f3c0d::t_4b9a079da10e62 72,97,220,404
+test/connect-payouts-hardening.spec.ts
+  s_ea8755337f3c0d::t_7c66a26577af71 1-137
+test/connect-payouts-helpers.ts
+  s_ea8755337f3c0d::t_5c3e09db20e5f1 1-69
+test/connect-payouts.spec.ts
+  s_ea8755337f3c0d::t_d2d7fe8bbbfdea 11-18,147
+test/creator-payout-cycle.spec.ts
+  s_ea8755337f3c0d::t_f4da32e00a3ea4 1-170
+test/mcp-pricing-tools.spec.ts
+  s_ea8755337f3c0d::t_e08adec37abf8e 1-113
+test/mcp-runtime-843.spec.ts
+  s_ea8755337f3c0d::t_c7e3eee518f5be 63,83,90,96
+test/network-surface.spec.ts
+  s_ea8755337f3c0d::t_55f3e5427bf831 1-118
+test/privy-rail.spec.ts
+  s_ea8755337f3c0d::t_88da5724f19f97 1-109
+test/router-leaderboard-public.spec.ts
+  s_ea8755337f3c0d::t_5cae1eb902fdab 102-121
+test/session-budget-do.spec.ts
+  s_ea8755337f3c0d::t_8b2e7864be1d26 12-13,18-19,37-38,40-42,44,46,52
+test/spoke-drift.spec.ts
+  s_ea8755337f3c0d::t_2b400a5ffa64e5 27,29,71,138-141
+test/spoke-routing.spec.ts
+  s_ea8755337f3c0d::t_65809d289dd080 23,58-60,71,75-76
+wrangler.toml
+  s_ea8755337f3c0d::t_c80792cb28352e 20-26,1040-1049,1345-1346
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "e081ae130423ff92d28604431d233cbe74a7b17d",
+  "prompts": {},
+  "sessions": {
+    "s_dedb333dd5195e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74c7ad25-d88e-4e23-bf60-5c98e9d130b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_ea8755337f3c0d": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fddcfe6e2ffe8lTqVhm2EIMEs8",
+        "model": "qwen3.8:27b-chat"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

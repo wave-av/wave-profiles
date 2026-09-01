@@ -1,0 +1,39 @@
+test/slo.spec.ts
+  s_14a92f2c991e53::t_e96f4cac82b485 3,43-54
+  s_14a92f2c991e53::t_42d45fdac021a0 1-2,4-42,55-56
+src/slo.ts
+  s_14a92f2c991e53::t_42d45fdac021a0 1-76
+src/internal-service-routes.ts
+  s_14a92f2c991e53::t_42d45fdac021a0 55,161-170
+  s_9bb1b1d1d998d4::t_53853adbc4ef0c 171-172
+src/authorized-forward.ts
+  s_14a92f2c991e53::t_42d45fdac021a0 50
+  s_14a92f2c991e53::t_321e70417e64f3 225
+src/worker.ts
+  s_14a92f2c991e53::t_321e70417e64f3 125
+  s_14a92f2c991e53::t_42d45fdac021a0 63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d86f4175b4513e02f3c4e92f63afd2bb56332957",
+  "prompts": {},
+  "sessions": {
+    "s_14a92f2c991e53": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc9e93e1cffeMdeuvCOtW8dQ2U",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_9bb1b1d1d998d4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1af30fe3-98cc-4596-87b9-01dba03a0970",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

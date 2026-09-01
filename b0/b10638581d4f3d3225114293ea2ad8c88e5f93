@@ -1,0 +1,23 @@
+.github/workflows/mutation-nightly.yml
+  s_6f6453b23e3805::t_9720e5d652a020 21-28
+scripts/mutation-run.mjs
+  s_6f6453b23e3805::t_701bebee1385ea 114
+  s_6f6453b23e3805::t_cac042dc844fc8 50-53,56,58-59,65-67
+  s_6f6453b23e3805::t_a470735bd2a787 91,96-102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "b0b10638581d4f3d3225114293ea2ad8c88e5f93",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

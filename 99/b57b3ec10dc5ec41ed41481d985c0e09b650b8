@@ -1,0 +1,24 @@
+docs/superpowers/specs/2026-07-17-wave-av-bridge-design.md
+  s_157583aa3b6686::t_2bf294a05b176c 176-187
+  s_157583aa3b6686::t_dd15c6ad180073 85-105
+  s_157583aa3b6686::t_6feb4d083a9400 63
+  s_157583aa3b6686::t_31902840703946 106
+  s_157583aa3b6686::t_5efcac630bad4b 132-157
+  s_157583aa3b6686::t_0098f6fe61d3a4 228-231
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "99b57b3ec10dc5ec41ed41481d985c0e09b650b8",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

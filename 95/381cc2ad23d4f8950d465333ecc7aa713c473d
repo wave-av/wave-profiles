@@ -1,0 +1,31 @@
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_0792f80bb9fb8d 92,99
+moq/braid-fabric/fabric-session.mjs
+  s_157583aa3b6686::t_444057d69e9dc2 1-165
+docs/superpowers/specs/2026-07-20-braid-fabric-orchestrator-design.md
+  s_157583aa3b6686::t_c2c6d6f1c5bf62 1-140
+moq/braid-fabric/fabric-session.test.mjs
+  s_157583aa3b6686::t_8b40edc886e17c 1-179
+moq/braid-fabric/package.json
+  s_157583aa3b6686::t_86b90fa998072d 1-20
+moq/braid-fabric/README.md
+  s_157583aa3b6686::t_51629395882b87 1-72
+moq/braid-fabric/index.mjs
+  s_157583aa3b6686::t_691dd3b6a97b2e 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "95381cc2ad23d4f8950d465333ecc7aa713c473d",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

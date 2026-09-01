@@ -1,0 +1,36 @@
+src/acp.ts
+  s_80ec7a407a00ce::t_34b2a1ed6a4c03 1-215
+src/gateway-native-routes.ts
+  s_80ec7a407a00ce::t_2fc084a27197a3 70-76
+  s_80ec7a407a00ce::t_ed633e4983a081 279-315
+src/user.ts
+  s_80ec7a407a00ce::t_adb598ee79c7c1 1-174
+src/org.ts
+  s_80ec7a407a00ce::t_b0f71c2ce21d2f 1-38,40-106,111-227
+  s_80ec7a407a00ce::t_63a4f2303a25cc 107-110
+  s_80ec7a407a00ce::t_3187fe03dc99e9 39
+src/scope-groups.ts
+  s_80ec7a407a00ce::t_da94ada3d655a8 108-111
+src/api-keys.ts
+  s_80ec7a407a00ce::t_746531ab55b629 1-217
+src/scopes.ts
+  s_80ec7a407a00ce::t_6e5901adabd72c 170-180
+src/webhook-legacy.ts
+  s_80ec7a407a00ce::t_2cd72545ffe6cb 1-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "96651da83c4d675e7a5d5aa07be7b604e2b64a4b",
+  "prompts": {},
+  "sessions": {
+    "s_80ec7a407a00ce": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc98684d0ffe5EZUeF3GBEz4bZ",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

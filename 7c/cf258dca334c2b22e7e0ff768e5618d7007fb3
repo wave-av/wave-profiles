@@ -1,0 +1,23 @@
+test/session-budget-autorecharge.spec.ts
+  s_6f6453b23e3805::t_6bcdfb17dc5389 1-242
+test/session-budget-autorecharge.fixtures.ts
+  s_6f6453b23e3805::t_3ce1889e52b2c6 1-64
+test/session-budget-autorecharge-ledger.spec.ts
+  s_6f6453b23e3805::t_9d11832d1adcd1 1-136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "7ccf258dca334c2b22e7e0ff768e5618d7007fb3",
+  "prompts": {},
+  "sessions": {
+    "s_6f6453b23e3805": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "de1b87be-6770-4480-95f9-9ade2a2d7eb6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

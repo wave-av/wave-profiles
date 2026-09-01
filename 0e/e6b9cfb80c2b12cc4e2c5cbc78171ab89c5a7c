@@ -1,0 +1,291 @@
+.claude/skills/gateway-rules/SKILL.md
+  s_37d3f61160b2dd::t_871a0875f8dea9 18
+.github/deploy-secrets-allowlist.txt
+  s_37d3f61160b2dd::t_cd206139fbb3ac 85-89,317-323
+.github/workflows/changelog-check.yml
+  s_37d3f61160b2dd::t_98c4b86762d878 1-32
+.github/workflows/deploy.yml
+  s_37d3f61160b2dd::t_00c70b24929e17 186
+.github/workflows/foundation-gate.yml
+  s_37d3f61160b2dd::t_45dab326c4b35a 27
+.github/workflows/pr-agent.yml
+  s_37d3f61160b2dd::t_736dda8267623f 40
+.github/workflows/tailnet-watch.yml
+  s_37d3f61160b2dd::t_05aeefad78acc3 25
+.wave/repo.json
+  s_37d3f61160b2dd::t_f6703a80e0f248 6
+AGENTS.md
+  s_37d3f61160b2dd::t_0ee77c7f859946 25
+CHANGELOG.internal.md
+  s_37d3f61160b2dd::t_72066dcf79a091 1-1398
+CHANGELOG.md
+  s_37d3f61160b2dd::t_3c7f9359cd13c9 3,7-9,12-61,67-91,95-165,207,268-271,273-277,279-281,283-285,287-288,290-293,295-298,300-303,307-351,367-370,447-479,491-495,497-500,502-506,508-520
+bin/wave-meter-mcp.mjs
+  s_37d3f61160b2dd::t_0eb791b5e61d4c 1-62
+bin/wave-meter.mjs
+  s_37d3f61160b2dd::t_04e03db38af4cc 1-73
+bin/wave-meter.test.mjs
+  s_37d3f61160b2dd::t_6d2c24f4d3c076 1-28
+docs/api/next-action.md
+  s_37d3f61160b2dd::t_50c43878fda788 18
+docs/superpowers/specs/2026-07-05-dual-audience-error-envelope-design.md
+  s_37d3f61160b2dd::t_2a2561b5e26589 68
+package-lock.json
+  s_37d3f61160b2dd::t_a83048b8e090b0 16-17,20-22,26,334-336,342-344,353-355,363,366,380,388-397,399-401,416-418,433-435,450-452,467-469,484-486,1097-1099,1117-1119,1137-1139,1157-1159,1177-1179,1197-1199,1217-1219,1237-1239,1257-1259,1283-1285,1309-1311,1335-1337,1361-1363,1387-1389,1413-1415,1439-1441,2058-2060,2108-2110,2114,2695-2697,3056-3058,3063-3065,3124-3126,3434-3436,3482-3484,3499-3500,3697-3699,3710-3714,3718-3720,3727-3728,3731,3745,3754-3756,3771-3773,3788-3790,3805-3807,3822-3824,3839-3841,3846-3849,3857-3859,3870-3874
+package.json
+  s_37d3f61160b2dd::t_1809ab314b6434 35-36,39-41,45
+scripts/check-changelog.mjs
+  s_37d3f61160b2dd::t_e8596d3ec801aa 1-122
+src/abuse-controls.ts
+  s_37d3f61160b2dd::t_16276cf951c37c 32-33,249-250,459,461
+src/agent-budget.ts
+  s_37d3f61160b2dd::t_b55d7b0689484c 97-108,122-123,131,167-170,178,214-242
+src/agent-self-pay.ts
+  s_37d3f61160b2dd::t_bf40fb4f48a8d3 241,274-276
+src/agent-spokes.ts
+  s_37d3f61160b2dd::t_b36065c577ed70 18,166-181
+src/agent-trust.ts
+  s_37d3f61160b2dd::t_e432b26dfef10e 54-55
+src/allowance.ts
+  s_37d3f61160b2dd::t_ddd3489c10849a 213-215
+src/auth-key-store.ts
+  s_37d3f61160b2dd::t_e2821bd9b09703 73-74,144-145,195-196,228-229
+src/billing-checkout.ts
+  s_37d3f61160b2dd::t_0848c78f4232cd 25,31,66,89
+src/billing-plans.ts
+  s_37d3f61160b2dd::t_0ff2b7ef3baeba 1-143
+src/billing-routes.ts
+  s_37d3f61160b2dd::t_34fe24b46349fd 21,28-29,65-67,71,75,80-82,84,122-123,151-157,160,165-166,186-192,195,200-210,278-279,368-398,414
+src/billing-webhook.ts
+  s_37d3f61160b2dd::t_7434236dc923a0 1-22
+src/billing.ts
+  s_37d3f61160b2dd::t_126764d0b383cb 1-105
+src/comms-tenants.ts
+  s_37d3f61160b2dd::t_3b38d87e500de5 1-93
+src/connect-payouts-settlement.ts
+  s_37d3f61160b2dd::t_6bbbcd5a5e8a41 1-129
+src/connect-payouts.ts
+  s_37d3f61160b2dd::t_c8d532dea75afd 34-39,119-121,283-287,289-291,358-362,364
+src/connect.ts
+  s_37d3f61160b2dd::t_d9acf5c9959fd6 27-29
+src/console-studio-cors.ts
+  s_37d3f61160b2dd::t_9ee6a37ecb043b 62
+src/counter-do.ts
+  s_37d3f61160b2dd::t_9658b3b8b6f83b 13-25,69-79,86,116,126-134,136,140-147,149,151-160,163,277,335-340
+src/creator-payout-cycle.ts
+  s_37d3f61160b2dd::t_75435080dce7f5 1-142
+src/discovery-urls.ts
+  s_37d3f61160b2dd::t_34f59ac1e97d92 1-71
+src/dispatch-inference-ssd-stream.ts
+  s_37d3f61160b2dd::t_ea379064a571ce 10-52,57-256
+src/dispatch-inference-vercel.ts
+  s_37d3f61160b2dd::t_23005f73fb2c8b 1-100
+src/dispatch-inference.ts
+  s_37d3f61160b2dd::t_0ae4236c1c0773 108-113,201-210
+src/dispatch-provider-ladder.ts
+  s_37d3f61160b2dd::t_3f3a9fc2803303 29,49,104-106,130-132
+src/entitlements.ts
+  s_37d3f61160b2dd::t_40e1e57f2233c4 62
+src/env-local/spoke-origins.ts
+  s_37d3f61160b2dd::t_34c62f1a264c71 94
+src/env.ts
+  s_37d3f61160b2dd::t_7202dd1acef071 79,85-89,91
+src/errors-next-action.ts
+  s_37d3f61160b2dd::t_3d8ad7f3dca344 8-21,30-36,39-42,94-98,108-114,138-145,147-150,153-155
+src/errors.ts
+  s_37d3f61160b2dd::t_c422b2a8b26a4f 13,15-27,64,66-70,89,91,99,152-163,169,171,175-178,220-222,227
+src/facilitator.ts
+  s_37d3f61160b2dd::t_9b74170d796a64 46,54,363-367
+src/favicon-asset.ts
+  s_37d3f61160b2dd::t_09c9c5d6e8c43a 1-10
+src/gateway-native-routes.ts
+  s_37d3f61160b2dd::t_fd710ad8ca5654 53,67,85-89,149-152
+src/inference-backends.ts
+  s_37d3f61160b2dd::t_ebc18c7b808cfe 127-130,134,137-140,166,225-227
+src/internal-service-routes.ts
+  s_37d3f61160b2dd::t_20271a27522b3c 53,61-66
+src/leaderboard-page.ts
+  s_37d3f61160b2dd::t_e0d58c52403b96 1-110
+src/ledger-sync.ts
+  s_37d3f61160b2dd::t_0e5407bd8ceec8 1-140
+src/limits-agent-ops.ts
+  s_37d3f61160b2dd::t_d141007d51c190 41,43,52-54,57,69-71,73,75-76
+src/limits.ts
+  s_37d3f61160b2dd::t_e2b3158725427f 87,89
+src/meter-sync-customers.ts
+  s_37d3f61160b2dd::t_8b484d43c7c4f0 17
+src/org-credits.ts
+  s_37d3f61160b2dd::t_2c5eef5fea4a3c 36-38
+src/pages.ts
+  s_37d3f61160b2dd::t_f24756e1b0de41 95,156,272-276
+src/payments-discovery.ts
+  s_37d3f61160b2dd::t_5bb12fb3c97992 1-203
+src/privy-policies.ts
+  s_37d3f61160b2dd::t_e42ed9325d8a6d 1-118
+src/product-meters.ts
+  s_37d3f61160b2dd::t_9a3a492a899282 111-132
+src/products.ts
+  s_37d3f61160b2dd::t_bfee19093b3246 64-79
+src/public-surface.ts
+  s_37d3f61160b2dd::t_2bd93d2b61dfad 18-20,31,35,43-46,126-138,173-185,205-213,250-260,268-269,278
+src/route-ladder-normalize.ts
+  s_37d3f61160b2dd::t_926065b8a52f10 18,31-32,38,42
+src/route-ladder.ts
+  s_37d3f61160b2dd::t_0b80609e599760 26-29,333-340,366-380
+src/routes/v1/network/surface.ts
+  s_37d3f61160b2dd::t_443f9e04ad64eb 1-87
+src/sandbox-lease.ts
+  s_37d3f61160b2dd::t_363882a58908a6 1-87
+src/scheduled-crons.ts
+  s_37d3f61160b2dd::t_49293bb2daa346 10,28-32
+src/scope-catalog.ts
+  s_37d3f61160b2dd::t_4019839277b297 1-240
+src/scope-groups-edge.ts
+  s_37d3f61160b2dd::t_c3cfdbdf3eb246 75
+src/scope-groups.ts
+  s_37d3f61160b2dd::t_36fd34f66f8d2d 44
+src/scopes.ts
+  s_37d3f61160b2dd::t_5f81fa6d510a21 130-133,157-159,168-170,172,195-196,199,208,218
+src/session-budget-do.ts
+  s_37d3f61160b2dd::t_cb64b96a2a3871 34-41,47-49,68-70,115-141,162,164,167,169,172,174,177,179,183,239-254
+src/session-budget-wallet.ts
+  s_37d3f61160b2dd::t_c4b2f8827c6072 1-176
+src/skills.ts
+  s_37d3f61160b2dd::t_cc4cfa471bdbdd 43,45-64,206,251-260,294
+src/spoke-classification.ts
+  s_37d3f61160b2dd::t_01e4f1a3cf1964 71
+src/spoke-routing.ts
+  s_9bb1b1d1d998d4::t_fb1c49ecc5f0f3 49-52
+src/supabase-jwt.ts
+  s_37d3f61160b2dd::t_b0e96653872a53 191
+src/sync-triggers.ts
+  s_37d3f61160b2dd::t_7fa90d51418fda 22-23,234-247
+src/tempo-funding.ts
+  s_37d3f61160b2dd::t_664bfc447b4a1e 1-242
+src/tempo-mpp.ts
+  s_37d3f61160b2dd::t_115c80234da446 1-147
+src/tempo-rail.ts
+  s_37d3f61160b2dd::t_3ad2a463c8b71e 1-94
+src/tempo-webhook.ts
+  s_37d3f61160b2dd::t_06d217943ad0cf 1-68
+src/usage-meters.ts
+  s_37d3f61160b2dd::t_5288bebbda55e8 77-84,158-159,233-234
+src/usage-trace.ts
+  s_37d3f61160b2dd::t_96726f9bd3b1c9 1-65
+src/vendor/wave-eval-router/registry.ts
+  s_37d3f61160b2dd::t_6420a0a3d4c849 69-120
+src/webhook-routes.ts
+  s_37d3f61160b2dd::t_26000e6a69168f 12,81-85
+src/x402-discovery.ts
+  s_37d3f61160b2dd::t_7059c1037f55f3 2-4,6-32,34-98,104,108-113
+src/x402-envelope.ts
+  s_37d3f61160b2dd::t_c3c832ae174db6 55,141-144,149
+test/agent-budget.spec.ts
+  s_37d3f61160b2dd::t_21972c04b3e7fb 157-216
+test/agent-self-pay-atomic-293.spec.ts
+  s_37d3f61160b2dd::t_1f6a6afc54433f 83-86
+test/agent-self-pay-verify-throw-293.spec.ts
+  s_37d3f61160b2dd::t_25c0bdc210915d 61,72-73
+test/billing-plans.spec.ts
+  s_37d3f61160b2dd::t_281732011e4b13 1-113
+test/billing.spec.ts
+  s_37d3f61160b2dd::t_00eb0a9b6767fb 1-106
+test/comms-tenants.spec.ts
+  s_37d3f61160b2dd::t_137362c63a11be 1-64
+test/connect-payouts-hardening.spec.ts
+  s_37d3f61160b2dd::t_d4618a68253fd5 1-137
+test/connect-payouts-helpers.ts
+  s_37d3f61160b2dd::t_d521514f254d12 1-69
+test/connect-payouts.spec.ts
+  s_37d3f61160b2dd::t_01b0f107c1cddc 11-18,147
+test/counter-do-atomic.spec.ts
+  s_37d3f61160b2dd::t_d5379f9076a23d 18,22-26,28,31,46-62,91-96,164-223
+test/creator-payout-cycle.spec.ts
+  s_37d3f61160b2dd::t_54e43772ed4315 1-170
+test/dispatch-inference.spec.ts
+  s_37d3f61160b2dd::t_1d9be37039b673 22,343-366
+test/errors-next-action.spec.ts
+  s_37d3f61160b2dd::t_456c13fb498d80 17-25
+test/errors.spec.ts
+  s_37d3f61160b2dd::t_212ee8f8ab7e0e 10,17-21
+test/forward.spec.ts
+  s_37d3f61160b2dd::t_fee666f2ebd707 347-351
+test/inference-openrouter.spec.ts
+  s_37d3f61160b2dd::t_b82579b533adb7 125
+test/jwt-org-fallback.spec.ts
+  s_37d3f61160b2dd::t_152c1ea8d5b411 32,35,48-59
+test/ledger-sync.spec.ts
+  s_37d3f61160b2dd::t_8c3a34deb56154 1-72
+test/load-shedder.manifest.json
+  s_37d3f61160b2dd::t_ba28c4972bf586 1-103
+test/model-registry-frame-gate.spec.ts
+  s_37d3f61160b2dd::t_389be81571908e 1-82
+test/model-registry-gate.spec.ts
+  s_37d3f61160b2dd::t_876b783f1bfded 1-161
+test/network-surface.spec.ts
+  s_37d3f61160b2dd::t_504ae69444c2d8 1-118
+test/origin-method-guards.spec.ts
+  s_37d3f61160b2dd::t_ee7c45997ba94d 1-160
+test/payments-discovery.spec.ts
+  s_37d3f61160b2dd::t_173ad00072eefa 1-210
+test/privy-policies.spec.ts
+  s_37d3f61160b2dd::t_e66c6af4dca3c9 1-60
+test/products.spec.ts
+  s_37d3f61160b2dd::t_f70e0f2b7c2414 1-107
+test/router-leaderboard-public.spec.ts
+  s_37d3f61160b2dd::t_fad355a6d05663 95-103,111-166
+test/sandbox-abuse.spec.ts
+  s_37d3f61160b2dd::t_3fd319dddaba7b 299
+test/scope-catalog.spec.ts
+  s_37d3f61160b2dd::t_c4aefe7cdcb17d 1-233
+test/seconds-meter-scale.spec.ts
+  s_37d3f61160b2dd::t_97f827e004bf39 24-27,234-253
+test/session-budget-do.spec.ts
+  s_37d3f61160b2dd::t_939d951b45c478 12-13,18-19,37-38,40-42,44,46,52
+test/skills-wire-truth.spec.ts
+  s_37d3f61160b2dd::t_c2028592e3b6e0 177-180
+test/smart-error.spec.json
+  s_37d3f61160b2dd::t_57e4f28842fc51 1-18
+test/spoke-drift.spec.ts
+  s_37d3f61160b2dd::t_9a42303fa305c7 72
+test/tempo-funding.spec.ts
+  s_37d3f61160b2dd::t_6314f440545016 1-136
+test/tempo-mpp.spec.ts
+  s_37d3f61160b2dd::t_d343a892673f59 1-126
+test/tempo-rail.spec.ts
+  s_37d3f61160b2dd::t_4a538d9eebc4f4 1-59
+test/tempo-webhook.spec.ts
+  s_37d3f61160b2dd::t_3aac6cd4fdd832 1-45
+test/units-as-types.manifest.json
+  s_37d3f61160b2dd::t_f5410611d88df7 1-70
+test/usage-trace.spec.ts
+  s_37d3f61160b2dd::t_8a58ce84a64ee5 1-47
+test/x402-permit-spender-advertise.spec.ts
+  s_37d3f61160b2dd::t_12b2c4dca8909c 87-94,96,241-246,248-254
+wrangler.toml
+  s_37d3f61160b2dd::t_3ddb521b9d1cdc 20-26,176-181,480-481,792-795,1290-1300
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "0ee6b9cfb80c2b12cc4e2c5cbc78171ab89c5a7c",
+  "prompts": {},
+  "sessions": {
+    "s_37d3f61160b2dd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0bc1ffdc-a72b-4965-9de8-3c391c235616",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_9bb1b1d1d998d4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1af30fe3-98cc-4596-87b9-01dba03a0970",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

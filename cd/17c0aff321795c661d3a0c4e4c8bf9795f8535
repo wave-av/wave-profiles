@@ -1,0 +1,16 @@
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 146-150
+src/pricing-manifests.ts
+  h_af5ac1a9798224 63-68,81-86,144-147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "cd17c0aff321795c661d3a0c4e4c8bf9795f8535",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

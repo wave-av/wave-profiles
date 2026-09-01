@@ -1,0 +1,34 @@
+moq/crest/crest-lowerthirds-test.mjs
+  s_157583aa3b6686::t_43e3738daf7243 1-142
+moq/crest/crest-lowerthirds.mjs
+  s_157583aa3b6686::t_fbb1011dd9e4fe 1-101
+moq/crest/player/captions-overlay.css
+  s_157583aa3b6686::t_ff61ba68a759ec 139-201
+moq/crest/player/lowerthirds-overlay.js
+  s_157583aa3b6686::t_b40e34a29051c2 18-24
+  s_157583aa3b6686::t_90ced890ecefb3 1-17,25-89
+moq/crest/player/captions-demo.html
+  s_157583aa3b6686::t_98be3878ec2cbc 114-118
+  s_157583aa3b6686::t_77e88053610b91 30
+  s_157583aa3b6686::t_85c018790ade58 46,50-53
+  s_157583aa3b6686::t_ea2fa00be0cd38 148,153,159,162,164
+  s_157583aa3b6686::t_4d708b2962dd29 54
+moq/crest/receipts/e38-lowerthirds.json
+  s_157583aa3b6686::t_cbc8bd65551cc1 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b44d808e6b3c9babe49171c610970936974c9e05",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

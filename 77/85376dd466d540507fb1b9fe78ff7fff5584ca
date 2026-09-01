@@ -1,0 +1,29 @@
+test/insights-privacy-contract.spec.ts
+  s_db1b2a792e5f25::t_e9124431a29005 113-150
+  s_db1b2a792e5f25::t_d449b64a98a2a5 3-4
+  s_db1b2a792e5f25::t_0a0e594ddec686 9
+src/internal-service-routes.ts
+  s_db1b2a792e5f25::t_391563f88da304 21-23
+  s_db1b2a792e5f25::t_f874d7205b2cf8 106-109
+  s_db1b2a792e5f25::t_9d9dda4278f77d 47
+src/insights-offboard.ts
+  s_db1b2a792e5f25::t_00096031010335 1-62
+test/insights-offboard.spec.ts
+  s_db1b2a792e5f25::t_9245db2e14b8dc 1-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "7785376dd466d540507fb1b9fe78ff7fff5584ca",
+  "prompts": {},
+  "sessions": {
+    "s_db1b2a792e5f25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11ed0fd9-f2c4-4bb5-bbb9-1b4c14237f77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

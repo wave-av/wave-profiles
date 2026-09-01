@@ -1,0 +1,20 @@
+.github/workflows/av-smoke.yml
+  s_157583aa3b6686::t_14c0722d22e7d6 17-19
+  s_157583aa3b6686::t_7fb1d2996e4171 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e4523294e69c45eebe6137d2785b5d493734e7c2",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

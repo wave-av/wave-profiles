@@ -1,0 +1,14 @@
+src/public-surface.ts
+  h_af5ac1a9798224 118-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d441bccb44c6031df2edff7a566a0d6f396d2d86",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

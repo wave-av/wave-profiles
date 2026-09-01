@@ -1,0 +1,21 @@
+av/ts/ts-mux.test.mts
+  s_157583aa3b6686::t_44a4a6bb96d1bf 1-52
+av/ts/ts-mux.mts
+  s_157583aa3b6686::t_6666b6708a8b81 1-83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "caf15aa2a1c5938238d41a1bf8bac1db10896ac0",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

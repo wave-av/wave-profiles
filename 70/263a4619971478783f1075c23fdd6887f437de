@@ -1,0 +1,33 @@
+test/zdr.spec.ts
+  s_7b60aa0dad5d81::t_fcd4139ce053ea 69-72,76-81
+  s_7b60aa0dad5d81::t_270e2f810e834e 164-167
+  s_7b60aa0dad5d81::t_86720b636a2e85 67,287-288,292-305
+  s_7b60aa0dad5d81::t_2319343045db5c 63-66,91
+  s_7b60aa0dad5d81::t_e813187a2a60f1 94-99
+  s_7b60aa0dad5d81::t_751b4b6a9b9fa9 203-206,209
+  s_7b60aa0dad5d81::t_033515e02dc658 68
+test/pipeline-orchestrator-zdr.spec.ts
+  s_7b60aa0dad5d81::t_7d0550a8747539 29-30,37,39,48-49
+src/zdr.ts
+  s_7b60aa0dad5d81::t_b06aac8ad6627d 18-20
+  s_7b60aa0dad5d81::t_4402fe77e76061 97-106,116-118
+  s_7b60aa0dad5d81::t_a414cd174f0fb9 175-179,183
+  s_7b60aa0dad5d81::t_4e2a27006cbb0d 96
+  s_7b60aa0dad5d81::t_c583346dea98b3 119-120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "70263a4619971478783f1075c23fdd6887f437de",
+  "prompts": {},
+  "sessions": {
+    "s_7b60aa0dad5d81": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff71807e2ffewoF7Y0i2mkCBn2",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

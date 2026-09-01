@@ -1,0 +1,25 @@
+src/telemetry.ts
+  s_eb2f7e65359b4f::t_346ba2d6fa0f10 46-55
+  s_eb2f7e65359b4f::t_e169303015079e 94-100
+  s_eb2f7e65359b4f::t_d1a693238cab48 85
+src/worker.ts
+  s_eb2f7e65359b4f::t_3674a44188ccf9 675
+test/telemetry.spec.ts
+  s_eb2f7e65359b4f::t_6ae8160b5d3ace 1-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "37cb9fb0232ccdc2d4579b1479aa1ecc5652595a",
+  "prompts": {},
+  "sessions": {
+    "s_eb2f7e65359b4f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b3d1e764-db6f-4033-aa5b-ac1ed7a4fb4b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

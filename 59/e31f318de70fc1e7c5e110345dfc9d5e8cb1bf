@@ -1,0 +1,28 @@
+moq/listen/wave-listen-braid-run.mjs
+  s_157583aa3b6686::t_c080bade6415c3 90-94
+  s_157583aa3b6686::t_d70fdaa752962e 80
+  s_157583aa3b6686::t_5d60e0a6eaa275 123-135,137-143,145-150,152-175,177,179-185
+moq/listen/wave-listen-run.test.mjs
+  s_157583aa3b6686::t_87ce70b3c45136 7
+  s_157583aa3b6686::t_7c318225c0f92d 71-101
+moq/listen/wave-listen-run.mjs
+  s_157583aa3b6686::t_3f213b5ac69a81 316-317
+  s_157583aa3b6686::t_fc2cbb73855723 52-87
+  s_157583aa3b6686::t_34f99f25384e1a 251-259
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "59e31f318de70fc1e7c5e110345dfc9d5e8cb1bf",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

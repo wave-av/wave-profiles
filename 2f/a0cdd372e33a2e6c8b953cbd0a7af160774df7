@@ -1,0 +1,21 @@
+src/attribution.ts
+  s_756b33c630d33b::t_92a161073377bc 73-83
+test/moq-authproxy.spec.ts
+  s_756b33c630d33b::t_21df7c87b3443f 102-119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2fa0cdd372e33a2e6c8b953cbd0a7af160774df7",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

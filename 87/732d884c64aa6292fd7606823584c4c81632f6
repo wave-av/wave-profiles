@@ -1,0 +1,23 @@
+src/facilitator.ts
+  s_53b49eff5b8c5d::t_e94d44a92309df 365
+src/tempo-funding.ts
+  s_53b49eff5b8c5d::t_bec6f496f0a0ce 39-66,106-110,151,175-179,227
+src/tempo-mpp.ts
+  s_53b49eff5b8c5d::t_5eedf594a8fd72 96-128,131,135-136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "87732d884c64aa6292fd7606823584c4c81632f6",
+  "prompts": {},
+  "sessions": {
+    "s_53b49eff5b8c5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0575df03-12ca-46db-ae23-cd745d432915",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

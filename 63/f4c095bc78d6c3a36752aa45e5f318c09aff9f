@@ -1,0 +1,14 @@
+src/viewport-id.ts
+  h_af5ac1a9798224 122-123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "63f4c095bc78d6c3a36752aa45e5f318c09aff9f",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

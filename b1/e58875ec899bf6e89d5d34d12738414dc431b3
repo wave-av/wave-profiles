@@ -1,0 +1,26 @@
+dante/aes67-tx-backend.test.mts
+  s_6e7ad4df769349::t_ce44141ac56b55 65-137
+dante/aes67-tx-backend.mts
+  s_6e7ad4df769349::t_3624fdda95d7c9 12-18,20-27
+  s_6e7ad4df769349::t_ba6a1f2b568211 182-187
+  s_6e7ad4df769349::t_c6e0a65e6310ff 170-174
+  s_6e7ad4df769349::t_42c6d739946b80 149-156
+  s_6e7ad4df769349::t_684348102226bf 62-74,81-85
+  s_6e7ad4df769349::t_732d902d6912d7 86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "b1e58875ec899bf6e89d5d34d12738414dc431b3",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+src/env.ts
+  s_1944f39f54881a::t_fd9be5a13fd3b8 88-93,95
+src/webhook-onboard.ts
+  s_1944f39f54881a::t_d50f486fbc3b80 1-43,45-159
+  s_1944f39f54881a::t_4527922ab515ca 44
+src/webhook-dispatch.ts
+  s_1944f39f54881a::t_2e2aed72817ac7 31
+  s_1944f39f54881a::t_023b2eb3d19270 1-30,32-37
+test/webhook-dispatch.spec.ts
+  s_1944f39f54881a::t_5935c02f604c83 1-43,45-195
+  s_1944f39f54881a::t_f0d45b6837996b 44
+src/worker-runtime.ts
+  s_1944f39f54881a::t_b4397e6a027875 41
+  s_1944f39f54881a::t_fa97158d0f6e98 16-17
+  s_1944f39f54881a::t_45ab4b92cc0f8d 40
+wrangler.toml
+  s_1944f39f54881a::t_577acfc586ad76 216-238
+test/event-matching.spec.ts
+  s_1944f39f54881a::t_2799e02cec5c8a 1-58
+test/webhook-onboard.spec.ts
+  s_1944f39f54881a::t_6e5e17a834e2a7 1-86,88-90,94-152
+  s_1944f39f54881a::t_12ab780c6e2379 92
+  s_1944f39f54881a::t_ce4614c53b19ba 87,91,93
+src/webhook-dispatch-worker.ts
+  s_1944f39f54881a::t_c5fe72e9485ac6 1-212
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "a3b6849af174eaa5ef623c97e743229dc88f17b8",
+  "prompts": {},
+  "sessions": {
+    "s_1944f39f54881a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fc45aeacbffetXSq61VPVBl1Nz",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+dante-dep-bridge/scripts/dante-listen-up.sh
+  s_157583aa3b6686::t_5d2d5909878030 56-61
+dante-dep-bridge/scripts/dante-listen-publisher.sh
+  s_157583aa3b6686::t_973c6ced0d4afa 25-31
+  s_157583aa3b6686::t_7dd0bbedbdae15 50-54
+  s_157583aa3b6686::t_2ddf0b96958852 48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "adc35f2a18ab68024594f1a353e8a5991b0ad368",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

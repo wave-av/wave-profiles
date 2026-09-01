@@ -1,0 +1,21 @@
+test/tempo-mpp.spec.ts
+  s_756b33c630d33b::t_6ac089ed3d5921 1-62
+src/tempo-mpp.ts
+  s_756b33c630d33b::t_2f0f3d1969128d 1-91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ad5cb590ed3ee2c56dc987b41349e11135a0b331",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,500 @@
+.github/workflows/build-check.yml
+  s_8c7c3097cc61aa::t_ff6b7fc9eb58f7 122-124
+  s_dedb333dd5195e::t_78e17d09255fc1 31-32,40,51,53-54,140-166,232-384,396
+.claude/skills/gateway-rules/SKILL.md
+  s_53b49eff5b8c5d::t_eb8dcfd8254c1f 18
+.gitar/rules/README.md
+  s_53b49eff5b8c5d::t_65c545c85c75e7 1-22
+.gitar/rules/ci-eval.md
+  s_53b49eff5b8c5d::t_1f65969b048093 1-32
+.github/deploy-secrets-allowlist.txt
+  s_53b49eff5b8c5d::t_5a2effdf5630b1 53-60,85-89,105-111,269-356
+.github/workflows/api-spec-drift-watch.yml
+  s_53b49eff5b8c5d::t_a6260a088e7266 56,60
+.github/workflows/auto-merge.yml
+  s_53b49eff5b8c5d::t_8b8943d8b7cb8e 101,107
+.github/workflows/changelog-check.yml
+  s_53b49eff5b8c5d::t_d0014d17b1ef45 1-32
+.github/workflows/deploy.yml
+  s_53b49eff5b8c5d::t_fad2a4bd263747 44-45,186
+.github/workflows/foundation-gate.yml
+  s_53b49eff5b8c5d::t_abe16d64668e39 22-29
+.github/workflows/gam-conformance.yml
+  s_53b49eff5b8c5d::t_b3b566925495b7 35,38
+.github/workflows/golden-path-e2e.yml
+  s_53b49eff5b8c5d::t_3a32ce91cdb6d1 25-26
+.github/workflows/governance-enforce.yml
+  s_53b49eff5b8c5d::t_4cfbfdcbb9b785 26,30
+.github/workflows/moq-secret-sync.yml
+  s_53b49eff5b8c5d::t_2d51f42d1f709e 57,60
+.github/workflows/pr-agent.yml
+  s_53b49eff5b8c5d::t_76e866837e0f41 1-57
+.github/workflows/tailnet-watch.yml
+  s_53b49eff5b8c5d::t_15a2e2bc7f6970 1-89
+.github/workflows/x402-paid-smoke.yml
+  s_53b49eff5b8c5d::t_7691cc25d1c1ff 37-38,105-106,227-228
+.wave/repo.json
+  s_53b49eff5b8c5d::t_b24b326d3213a1 6
+AGENTS.md
+  s_53b49eff5b8c5d::t_5dbb14054f3884 25
+CHANGELOG.internal.md
+  s_53b49eff5b8c5d::t_df5fdd05f73641 1-1391
+CHANGELOG.md
+  s_53b49eff5b8c5d::t_f793f148f7479e 3,7-9,12-20,23-67,71-95,99-121,125-160,164-208,212-214,216,218-222,224-227,229-231,235-247,509-512
+README.md
+  s_53b49eff5b8c5d::t_81cc7751a82dcc 72-75
+bin/wave-meter-mcp.mjs
+  s_53b49eff5b8c5d::t_d0b0d147852427 1-62
+bin/wave-meter.mjs
+  s_53b49eff5b8c5d::t_e75584eb901440 1-73
+bin/wave-meter.test.mjs
+  s_53b49eff5b8c5d::t_f253d3f8f9ecf8 1-28
+governance/test/fixtures/gam-nonconformant/.github/workflows/auto-merge.yml
+  s_53b49eff5b8c5d::t_a194947d6a6ff3 13
+package-lock.json
+  s_8c7c3097cc61aa::t_f014a593e8cf26 10,2636-2638
+scripts/check-changelog.mjs
+  s_53b49eff5b8c5d::t_06f138a4a3ad1f 1-122
+scripts/check-money-surface-naming.mjs
+  s_53b49eff5b8c5d::t_253df17691ce22 1-47
+scripts/mpp-services.mjs
+  s_53b49eff5b8c5d::t_d131143d3cb5c1 1-193
+scripts/search-eval.mjs
+  s_53b49eff5b8c5d::t_e31f8775eb1e16 1-71
+scripts/x402-paid-smoke.mjs
+  s_53b49eff5b8c5d::t_d1320c3ab8a8b1 58-61,103,140
+sdk/README.md
+  s_53b49eff5b8c5d::t_04603dea3672b8 1-13
+sdk/package.json
+  s_53b49eff5b8c5d::t_f3bec1447fb22f 1-11
+sdk/src/index.ts
+  s_53b49eff5b8c5d::t_49558195535cd1 1-53
+sdk/tsconfig.json
+  s_53b49eff5b8c5d::t_cc67d4725504e6 1-14
+src/agent-budget.ts
+  s_53b49eff5b8c5d::t_d653c5ce7cc992 97-108,122-123,131,167-170,178,195-201,212-240,242
+src/agent-spokes.ts
+  s_53b49eff5b8c5d::t_b1638bb7d119d3 18,29,166-181,691-694
+src/agent-trust.ts
+  s_53b49eff5b8c5d::t_18b86c40e6f41d 54-55
+src/allowance.ts
+  s_53b49eff5b8c5d::t_033293a9c8ad85 213-215
+src/anti-smuggle-headers.ts
+  s_53b49eff5b8c5d::t_3ddad2e716c342 67-75
+src/attribution.ts
+  s_53b49eff5b8c5d::t_dac11c10f0a6eb 73-83
+src/auth-key-store.ts
+  s_53b49eff5b8c5d::t_5d833e0bcceb88 73-74,144-145,182-219,228-229
+src/auth-supabase-jwt.ts
+  s_53b49eff5b8c5d::t_48c0fc623d5521 18,45-60,65-66
+src/betterstack-webhook.ts
+  s_53b49eff5b8c5d::t_d8ff3f71028720 1-175
+src/billing-provider.ts
+  s_53b49eff5b8c5d::t_0948947830abe6 2-7,9-12,17-22,33-37,53-55
+src/billing-routes.ts
+  s_53b49eff5b8c5d::t_bdba4ccceadc18 27,63-68,73,78-82,120-121,124-125,127-128,143,148-157,162,177,181-191,212,263-264,322-323,353-399
+src/billing-webhook.ts
+  s_53b49eff5b8c5d::t_d16482b2a1fbf9 1-22
+src/billing.ts
+  s_53b49eff5b8c5d::t_5e6b215cd18dd1 1-105
+src/bridge-kyc.ts
+  s_53b49eff5b8c5d::t_97eff29bfc1dee 1-136
+src/bridge-rail.ts
+  s_53b49eff5b8c5d::t_914121af91363f 38,41,139,155,197,220,284
+src/capability-account.ts
+  s_53b49eff5b8c5d::t_22d98cff90cb35 1-423
+src/capability-crypto.ts
+  s_53b49eff5b8c5d::t_e7a29da38f2979 1-77
+src/capability-custody.ts
+  s_53b49eff5b8c5d::t_97154a2e10bba1 1-236
+src/capability-egress.ts
+  s_53b49eff5b8c5d::t_5bad0eccd352db 1-58
+src/capability-exercise.ts
+  s_53b49eff5b8c5d::t_42886cdc74db3d 1-94
+src/connect-payouts-settlement.ts
+  s_53b49eff5b8c5d::t_4214b5370f678b 1-129
+src/connect-payouts.ts
+  s_53b49eff5b8c5d::t_b86b3abeed05f9 34-39,119-121,277-280,282-287,289-291,314,331,358-362,364
+src/connect.ts
+  s_53b49eff5b8c5d::t_84f87297484eef 27-29
+src/creator-payout-cycle.ts
+  s_53b49eff5b8c5d::t_0b996ecaad9d87 1-138
+src/dispatch-empty-guard.ts
+  s_53b49eff5b8c5d::t_1432a332070ae6 1-69
+src/dispatch-generation-stamp.ts
+  s_53b49eff5b8c5d::t_dc7ca5fa0a1245 1-200
+src/dispatch-inference-anthropic.ts
+  s_53b49eff5b8c5d::t_43e41fc8830085 1-145
+src/dispatch-inference-cerebras.ts
+  s_53b49eff5b8c5d::t_b933710fde4e8b 1-84
+src/dispatch-inference-edge.ts
+  s_53b49eff5b8c5d::t_5f1165aaeb6dcf 1-113
+src/dispatch-inference-gemini.ts
+  s_53b49eff5b8c5d::t_d90a902f5e5711 1-79
+src/dispatch-inference-openai.ts
+  s_53b49eff5b8c5d::t_50a05c0ebeca6e 1-81
+src/dispatch-inference-openrouter.ts
+  s_53b49eff5b8c5d::t_1511b043c7bdb9 1-128
+src/dispatch-inference-providers.ts
+  s_53b49eff5b8c5d::t_c05af79316093e 1-292
+src/dispatch-inference-ssd-stream.ts
+  s_53b49eff5b8c5d::t_12684a070b48b9 1-314
+src/dispatch-inference-vercel.ts
+  s_53b49eff5b8c5d::t_f3887e2ae3793d 1-100
+src/dispatch-inference.ts
+  s_53b49eff5b8c5d::t_e5a20ac94d3270 22,26,29,34-38,72-75,108-182,200-208,210
+src/dispatch-model-prices.ts
+  s_53b49eff5b8c5d::t_f69d9559cae164 35-38,40,48,62-63,65-88,92-93,96-98,105-222
+src/dispatch-provider-ladder.ts
+  s_53b49eff5b8c5d::t_92ba01037f83cf 1-271
+src/dispatch-toolcall-stream.ts
+  s_53b49eff5b8c5d::t_dda00058275b53 1-195
+src/do-exports.ts
+  s_53b49eff5b8c5d::t_99d3c4e1e4888d 19
+src/entitlements.ts
+  s_53b49eff5b8c5d::t_07532200987679 62,276-278,281,284,387-392,398
+src/env-local/spoke-origins.ts
+  s_53b49eff5b8c5d::t_f060b74cf88579 65-78,94,119-128,156-163
+src/env.ts
+  s_53b49eff5b8c5d::t_d8f6f5346cbaa2 30-33,48-49,56,73-88,90-93
+src/errors.ts
+  s_53b49eff5b8c5d::t_b637885381bef4 82-126,245-256
+src/facilitator.ts
+  s_53b49eff5b8c5d::t_c1c1956e7382f2 46,54,363-367
+src/favicon-asset.ts
+  s_53b49eff5b8c5d::t_d0214ef567b2be 1-10
+src/fleet-executor.ts
+  s_53b49eff5b8c5d::t_6c8373dd28c042 28,30-31,35,96-101,116-156,158-159,166-169,177,189,193,222-223,225,233-240,242,255,262
+src/fleet-provision-v2.ts
+  s_53b49eff5b8c5d::t_1c4902defad6de 1-58
+src/fleet-provision.ts
+  s_53b49eff5b8c5d::t_ea18622d70d388 32-33,77-78,105,127,230-231,236,238-241,262,276,353,357,367
+src/gateway-native-routes.ts
+  s_53b49eff5b8c5d::t_e99854ca4250c5 49-52,61,64-66,84-88,112-158,219-227,238-255
+src/github-webhook.ts
+  s_53b49eff5b8c5d::t_ba10776ee5c50e 1-118
+src/identity-resolve.ts
+  s_53b49eff5b8c5d::t_0eb75ee1ef8839 1-136
+src/inference-backends.ts
+  s_53b49eff5b8c5d::t_28a6d9bc816034 26,39-45,92,118-134,137-141,164-174,176-186,188-201,203-222,225-228,278-280
+src/internal-service-routes.ts
+  s_53b49eff5b8c5d::t_da2b7d68b9ca23 38,50,53,61-66,73-82,145-152
+src/leaderboard-page.ts
+  s_53b49eff5b8c5d::t_1a3202762f7c0a 1-110
+src/main-break-health.ts
+  s_53b49eff5b8c5d::t_299167bb8efb11 1-260
+src/mcp-native-tools.ts
+  s_53b49eff5b8c5d::t_580787e1eb1831 26,307
+src/mcp-pricing-tools.ts
+  s_53b49eff5b8c5d::t_c7835f9dca07c7 1-245
+src/mcp-runtime.ts
+  s_53b49eff5b8c5d::t_cd59cb61a67fb3 54-58,62,125,141,168,172,190-199
+src/mcp.ts
+  s_53b49eff5b8c5d::t_713c4869c1b0c5 235
+src/meter-ledger.ts
+  s_53b49eff5b8c5d::t_8a37ef01e91c1b 1-350
+src/meter-rollup.ts
+  s_53b49eff5b8c5d::t_e4f103fb5bc1b9 1-156
+src/meter-sync-customers.ts
+  s_53b49eff5b8c5d::t_c0c0ae117b6752 17,91-100,145-157,173-184,193
+src/money-attribution.ts
+  s_53b49eff5b8c5d::t_72babc376bf5a5 1-7
+src/openapi-spec.generated.ts
+  s_53b49eff5b8c5d::t_d7a68243c1093d 4,6,13,15,17,20
+src/org-credits.ts
+  s_53b49eff5b8c5d::t_b165a2f24178b8 36-38
+src/origin-actions.ts
+  s_53b49eff5b8c5d::t_953257b8db4752 1-49
+src/origin-webhook.ts
+  s_53b49eff5b8c5d::t_d081171b435890 1-143
+src/pages.ts
+  s_53b49eff5b8c5d::t_06ceaac3e022a3 156,272-276
+src/prepaid-wallet.ts
+  s_53b49eff5b8c5d::t_45a5ecb9282a43 27,238-243
+src/pricing-manifests.ts
+  s_53b49eff5b8c5d::t_d8ebfb17c019c8 1-222
+src/privy-policies.ts
+  s_53b49eff5b8c5d::t_6dec7e34a244e6 1-118
+src/privy-rail.ts
+  s_53b49eff5b8c5d::t_69b07a29971cb9 1-158
+src/product-meters-catalog.ts
+  s_53b49eff5b8c5d::t_4739749099b618 195-211
+src/product-meters-realtime.ts
+  s_53b49eff5b8c5d::t_103788d7b1a791 90-98
+src/product-meters-tokens.ts
+  s_53b49eff5b8c5d::t_9f3ca870fabb62 29-65
+src/product-meters.ts
+  s_53b49eff5b8c5d::t_94d1e1008c270b 61-71,111-119
+src/products.ts
+  s_53b49eff5b8c5d::t_3d0294a6aa1618 16,64,93
+src/prose-compress.ts
+  s_53b49eff5b8c5d::t_63b93454d5fb11 39
+src/public-surface.ts
+  s_53b49eff5b8c5d::t_9af85637f2adc5 18-20,23-25,38-44,124-136,171-183,214-220,241-261
+src/realtime.ts
+  s_53b49eff5b8c5d::t_2e292230fbc296 160-183,194-195,218
+src/route-ladder-normalize.ts
+  s_53b49eff5b8c5d::t_78600267dea552 1-109
+src/route-ladder.ts
+  s_53b49eff5b8c5d::t_adc5e4d0c0443f 26-29,96,105-119,333-340,366-380,471
+src/router-leaderboard-snapshot.json
+  s_53b49eff5b8c5d::t_bc612ce49e5627 2,4-7,16-19,22,25-35,39-42,48-50,54-57,60,63-168,170-201
+src/router.ts
+  s_53b49eff5b8c5d::t_0e643a836198ee 1-224
+src/routes/v1/network/surface.ts
+  s_53b49eff5b8c5d::t_3e3e5d61334e29 1-87
+src/scheduled-crons.ts
+  s_53b49eff5b8c5d::t_a3993a701476f6 10,28-32
+src/scope-groups-edge.ts
+  s_53b49eff5b8c5d::t_928d503208f9fb 1-75
+src/scope-groups.ts
+  s_53b49eff5b8c5d::t_967ff13e6b4c12 44,100-111
+src/scopes.ts
+  s_53b49eff5b8c5d::t_6e56f6ca3ec417 108-155,164-166,168,191-192,195,204,214
+src/search-analytics.ts
+  s_53b49eff5b8c5d::t_f8bff4ae0fa96e 1-105
+src/search-bm25.ts
+  s_53b49eff5b8c5d::t_479523dec5ff99 1-256
+src/search-core.ts
+  s_53b49eff5b8c5d::t_3cfd269dab9449 1-441
+src/search-index.ts
+  s_53b49eff5b8c5d::t_89c48446341b7c 1-119
+src/search.ts
+  s_53b49eff5b8c5d::t_1b3f483c27b62b 1-271
+src/session-budget-do.ts
+  s_53b49eff5b8c5d::t_0c31ac6f4342ba 34-41,47-49,68-70,115-141,162,164,167,169,172,174,177,179,183,239-254
+src/session-budget-wallet.ts
+  s_53b49eff5b8c5d::t_79cdc43b82794d 1-176
+src/skills.ts
+  s_53b49eff5b8c5d::t_9e31e77b1e0054 233-242
+src/spoke-classification.ts
+  s_53b49eff5b8c5d::t_c89396e53a3de1 66-71
+src/spoke-route-table.ts
+  s_53b49eff5b8c5d::t_c4cc71ee1c7e69 1-326
+src/spoke-routing.ts
+  s_53b49eff5b8c5d::t_a9bbd69a9d985c 9,27-28,37-41,58,66-77
+src/status-incidents.ts
+  s_53b49eff5b8c5d::t_1b4452e50498c1 1-218
+src/status.ts
+  s_53b49eff5b8c5d::t_abf7719cb3113c 13,30-31,55,64,68,97
+src/supabase-jwt.ts
+  s_53b49eff5b8c5d::t_be18f9c02b8a60 191
+src/tempo-funding.ts
+  s_53b49eff5b8c5d::t_5393eb033c7380 1-206
+src/tempo-mpp.ts
+  s_53b49eff5b8c5d::t_3f44ee53c036a8 1-117
+src/tempo-rail.ts
+  s_53b49eff5b8c5d::t_fda46ad7d9e101 1-94
+src/tempo-webhook.ts
+  s_53b49eff5b8c5d::t_bdcebc086ffe42 1-68
+src/usage-meters.ts
+  s_53b49eff5b8c5d::t_d4c85608dae254 77-84,158-159,233-234
+src/usage-normalize.ts
+  s_53b49eff5b8c5d::t_36556de9f6d7a1 54-55
+src/usage-router-dim.ts
+  s_53b49eff5b8c5d::t_9089f20836cd7b 1-38
+src/usage-trace.ts
+  s_53b49eff5b8c5d::t_c6bb40df14d9ae 1-65
+src/usage-types.ts
+  s_53b49eff5b8c5d::t_90f3a19bd5f39e 54-57
+src/usage.ts
+  s_53b49eff5b8c5d::t_f3fd1de00d0a09 38,225-227,229,239
+src/vendor/wave-eval-router/registry.ts
+  s_53b49eff5b8c5d::t_6edc88d291a529 69-120
+src/viewport-id.ts
+  s_53b49eff5b8c5d::t_d406f72213e8ee 122-123
+src/webhook-routes.ts
+  s_53b49eff5b8c5d::t_63107bbb9b3b48 12,18-25,81-85,94-116
+src/webhook-signal.ts
+  s_53b49eff5b8c5d::t_2fdda51b9e1321 1-45
+src/x402-discovery.ts
+  s_53b49eff5b8c5d::t_dc91807e81af8a 2-28
+src/zdr.ts
+  s_53b49eff5b8c5d::t_960b7ce1357620 18-20,70-79,104-119,130-134,189-193,197
+test/agent-budget.spec.ts
+  s_53b49eff5b8c5d::t_811d3a4d623216 4-5,68-71,73,97-103,157-216
+test/anti-smuggle-headers.spec.ts
+  s_53b49eff5b8c5d::t_b4a8bf299c5d9f 13,53-71
+test/betterstack-webhook.spec.ts
+  s_53b49eff5b8c5d::t_9238a03d67e5c2 1-180
+test/billing-routes-scope-gate.spec.ts
+  s_53b49eff5b8c5d::t_11e3bd2713f700 73-75,107-112,125-126,190,192,200
+test/billing-routes-wallet-service-auth.spec.ts
+  s_53b49eff5b8c5d::t_9a9c389ee709ba 3,68,70,77,79,86,88,95,97,104,106,108,115,117,119,136,138,146,150,152,159,170,172,196,198,200,205,207,209,219,221,228,230,257,259,270,272,285,287,303,305,323,325
+test/billing.spec.ts
+  s_53b49eff5b8c5d::t_aef14dc98565c7 1-106
+test/bridge-kyc.spec.ts
+  s_53b49eff5b8c5d::t_109e421446a129 1-167
+test/bridge-rail.spec.ts
+  s_53b49eff5b8c5d::t_7b4c658b3c217f 72,97,220,404
+test/capability-account.spec.ts
+  s_53b49eff5b8c5d::t_5f4e88e63c6b71 1-165
+test/capability-crypto.spec.ts
+  s_53b49eff5b8c5d::t_9f6b58597d9d71 1-46
+test/capability-custody.spec.ts
+  s_53b49eff5b8c5d::t_970f0401482f1c 1-196
+test/capability-egress.spec.ts
+  s_53b49eff5b8c5d::t_66b4d4234a4b56 1-45
+test/capability-exercise.spec.ts
+  s_53b49eff5b8c5d::t_cb11f94c45b69c 1-100
+test/connect-payouts-hardening.spec.ts
+  s_53b49eff5b8c5d::t_57170769f941f1 1-137
+test/connect-payouts-helpers.ts
+  s_53b49eff5b8c5d::t_540aef3c30c6af 1-69
+test/connect-payouts.spec.ts
+  s_53b49eff5b8c5d::t_86330b3b13e6d5 11-18,147
+test/creator-payout-cycle.spec.ts
+  s_53b49eff5b8c5d::t_18ffda23126f75 1-170
+test/dispatch-empty-guard.spec.ts
+  s_53b49eff5b8c5d::t_6f8110bfc6453c 1-55
+test/dispatch-generation-stamp.spec.ts
+  s_53b49eff5b8c5d::t_a018671d8d3e94 1-256
+test/dispatch-inference.spec.ts
+  s_53b49eff5b8c5d::t_d9d1e9bfd567b0 22,109,256-333,343-366
+test/dispatch-ladder-shadow.spec.ts
+  s_53b49eff5b8c5d::t_547486bcc3eb12 1-63
+test/dispatch-mct-clamp.spec.ts
+  s_53b49eff5b8c5d::t_1121662ca5c579 1-53
+test/dispatch-toolcall-stream.spec.ts
+  s_53b49eff5b8c5d::t_23391d74ee55a2 1-279
+test/dispatch-tools-guard.spec.ts
+  s_53b49eff5b8c5d::t_24909d6897b43f 1-465
+test/fleet-provision-v2.spec.ts
+  s_53b49eff5b8c5d::t_26eb1f80d9e870 1-140
+test/identity-resolve.spec.ts
+  s_53b49eff5b8c5d::t_38f6bf88d2dad4 1-174
+test/inference-39.spec.ts
+  s_53b49eff5b8c5d::t_d961228344f300 66-67
+test/inference-openrouter.spec.ts
+  s_53b49eff5b8c5d::t_2be18db0978fdf 28,125,137-139
+test/internal-service-routes.spec.ts
+  s_53b49eff5b8c5d::t_c5f9ef08e8e702 29,57
+test/jwt-org-fallback.spec.ts
+  s_53b49eff5b8c5d::t_3884ca500d0d65 1-7,32,35,48-59,162,169,174,177,182-186,199,204-208
+test/load-shedder.manifest.json
+  s_53b49eff5b8c5d::t_660e3763e35697 1-103
+test/main-break-health.spec.ts
+  s_53b49eff5b8c5d::t_bf7b0f8a4d8ba1 1-264
+test/mcp-pricing-tools.spec.ts
+  s_53b49eff5b8c5d::t_26bca0a31887ee 1-113
+test/mcp-runtime-843.spec.ts
+  s_53b49eff5b8c5d::t_30f6dd7b1a638c 63,83,90,96
+test/meter-ledger.spec.ts
+  s_53b49eff5b8c5d::t_293929db367c71 1-280
+test/meter-rollup.spec.ts
+  s_53b49eff5b8c5d::t_08a2be3374d091 1-252
+test/model-registry-frame-gate.spec.ts
+  s_53b49eff5b8c5d::t_692240121ba300 1-82
+test/model-registry-gate.spec.ts
+  s_53b49eff5b8c5d::t_94d69ba66c2e93 1-161
+test/moq-authproxy.spec.ts
+  s_53b49eff5b8c5d::t_e201f6b1643102 102-119,140,145
+test/network-surface.spec.ts
+  s_53b49eff5b8c5d::t_3c41a0c16b858a 1-118
+test/openapi-spec.spec.ts
+  s_53b49eff5b8c5d::t_ffac4652d65a34 15,66-68,72-81
+test/origin-actions.spec.ts
+  s_53b49eff5b8c5d::t_bc470e125a0caa 1-43
+test/origin-method-guards.spec.ts
+  s_53b49eff5b8c5d::t_2f58f9eea9b6e4 1-160
+test/pipeline-orchestrator-zdr.spec.ts
+  s_53b49eff5b8c5d::t_b1c807f9b95602 29-30,37,39,48-49
+test/pricing-manifests.spec.ts
+  s_53b49eff5b8c5d::t_5aef1c6be9860e 1-126
+test/privy-policies.spec.ts
+  s_53b49eff5b8c5d::t_a1acfe74f9f9fb 1-60
+test/privy-rail.spec.ts
+  s_53b49eff5b8c5d::t_1732912edd70d4 1-109
+test/product-meters.catalog.spec.ts
+  s_53b49eff5b8c5d::t_16f58c4a8acf9d 122-148
+test/router-leaderboard-public.spec.ts
+  s_53b49eff5b8c5d::t_22ea37652bfdee 1-166
+test/router-resolve.spec.ts
+  s_53b49eff5b8c5d::t_3cabec47400fd2 1-255
+test/search-analytics.spec.ts
+  s_53b49eff5b8c5d::t_1b19c88e554d39 1-96
+test/search-index.spec.ts
+  s_53b49eff5b8c5d::t_b4c66cdf7a9b12 1-150
+test/search-mocks.ts
+  s_53b49eff5b8c5d::t_ae35237f5a5171 1-81
+test/search.spec.ts
+  s_53b49eff5b8c5d::t_a48ccfd055775d 1-374
+test/seconds-meter-scale.spec.ts
+  s_53b49eff5b8c5d::t_9e43873d93f051 24-27,234-253
+test/session-budget-do.spec.ts
+  s_53b49eff5b8c5d::t_0cead7e45fae1b 12-13,18-19,37-38,40-42,44,46,52
+test/skills-wire-truth.spec.ts
+  s_53b49eff5b8c5d::t_520ce80bdaac94 177-180
+test/smart-error.spec.json
+  s_53b49eff5b8c5d::t_80edccbc9edec1 1-18
+test/spoke-drift.spec.ts
+  s_53b49eff5b8c5d::t_96a56237e0724d 27,29,57,70-74,139-142
+test/spoke-routing.spec.ts
+  s_53b49eff5b8c5d::t_3b4d1605d86b8d 1-91
+test/status-incidents.spec.ts
+  s_53b49eff5b8c5d::t_3404659ef5de8c 1-187
+test/tempo-funding.spec.ts
+  s_53b49eff5b8c5d::t_2222df4a601f35 1-85
+test/tempo-mpp.spec.ts
+  s_53b49eff5b8c5d::t_6204de814fc2e2 1-62
+test/tempo-rail.spec.ts
+  s_53b49eff5b8c5d::t_d3a946a979bf57 1-59
+test/tempo-webhook.spec.ts
+  s_53b49eff5b8c5d::t_6498a71e9d3b81 1-45
+test/unit/entitlements-schema-adaptive-37.spec.ts
+  s_53b49eff5b8c5d::t_7c03d3af6b1f29 50-53,88
+test/unit/meter-sync-principals.spec.ts
+  s_53b49eff5b8c5d::t_1dcf824884f29b 6-21,69-101
+test/units-as-types.manifest.json
+  s_53b49eff5b8c5d::t_a5c3317081bbd2 1-70
+test/usage-trace.spec.ts
+  s_53b49eff5b8c5d::t_e4b24d724cfb05 1-47
+test/webhook-signal.spec.ts
+  s_53b49eff5b8c5d::t_08407163704b12 1-54
+test/whip-dual-auth.spec.ts
+  s_53b49eff5b8c5d::t_2fa1a4a0bad429 106,110-113
+test/x402-capture-budget-order.spec.ts
+  s_53b49eff5b8c5d::t_21d00b51896b46 97-104,106
+test/zdr.spec.ts
+  s_53b49eff5b8c5d::t_62cd8c9280310d 47,63-64,69-74,76-81,91,94-99,118-119,161,164-167,200,203-206,209,287-288,292,296,299-310
+vendor/api-spec/openapi.yaml
+  s_53b49eff5b8c5d::t_bade8695d16a82 105-109,1266-1267,1271,1281,1285-1291,1293-1294,1296-1303,1306,1310,1312-1313,1315-1316,1318-1319,1323,1325,1327-1328,1331,1335,1337-1338,1340-1341,1344,1348,1756-1810,3127-3131,3133-3150,3157-3162,3165,3168-3191,3193-3202,3204,3206,3208,3210,3212-3235,3238,3240,3243-3245,3249-3278,3281,3284-3285,3288-3309,3688-3807
+vendor/api-spec/pin.json
+  s_53b49eff5b8c5d::t_8d579aa28809e4 5-7
+vitest.config.ts
+  s_53b49eff5b8c5d::t_d3dffb7cb4ed61 45-47,51-53,55,59,75-77
+wrangler.toml
+  s_53b49eff5b8c5d::t_4c013f2e883b73 20-26,83-86,150-155,171-175,201-210,272-290,332-372,409-429,473-475,619-634,674-681,786-789,847-848,853-870,1033-1042,1091-1096,1160-1170,1338-1339,1471-1479,1504-1507,1519-1525,1634-1644
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "e45bf2a6a67641cca83bc00151ad96c5f8d99295",
+  "prompts": {},
+  "sessions": {
+    "s_53b49eff5b8c5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0575df03-12ca-46db-ae23-cd745d432915",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_8c7c3097cc61aa": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcfb486adffemhIXB2MSN1gMj7",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_dedb333dd5195e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74c7ad25-d88e-4e23-bf60-5c98e9d130b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

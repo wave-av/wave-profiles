@@ -1,0 +1,19 @@
+.github/workflows/build-check.yml
+  s_04aa6283b9e7d4::t_a280fdcf23ebcc 280-289
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "66aa6e386dbf469bd4cf4a108b8b9b2a94f43f15",
+  "prompts": {},
+  "sessions": {
+    "s_04aa6283b9e7d4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff3e62c92ffewkXLQ569QHAkUG",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

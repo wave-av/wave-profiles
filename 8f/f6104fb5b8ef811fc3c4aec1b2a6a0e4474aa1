@@ -1,0 +1,14 @@
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 320-321
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "8ff6104fb5b8ef811fc3c4aec1b2a6a0e4474aa1",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

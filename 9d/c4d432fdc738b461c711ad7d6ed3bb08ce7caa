@@ -1,0 +1,21 @@
+src/usage-quota.ts
+  s_2eb3961538b1ae::t_f4e5f721571d70 1-51
+src/usage.ts
+  s_2eb3961538b1ae::t_2c20c9f2c3ed98 490-494
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "9dc4d432fdc738b461c711ad7d6ed3bb08ce7caa",
+  "prompts": {},
+  "sessions": {
+    "s_2eb3961538b1ae": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ad87fe1f5769f2f0b",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

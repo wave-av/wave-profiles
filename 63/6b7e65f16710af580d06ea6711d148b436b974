@@ -1,0 +1,19 @@
+docs/superpowers/specs/2026-07-16-wave-av-fabric-bridge-design.md
+  s_157583aa3b6686::t_0882ea8f7e1c6f 1-368
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "636b7e65f16710af580d06ea6711d148b436b974",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

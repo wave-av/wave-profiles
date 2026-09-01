@@ -1,0 +1,354 @@
+.claude/skills/gateway-rules/SKILL.md
+  h_af5ac1a9798224 18
+.github/deploy-secrets-allowlist.txt
+  h_af5ac1a9798224 85-89,317-323
+.github/workflows/changelog-check.yml
+  h_af5ac1a9798224 1-32
+.github/workflows/deploy.yml
+  h_af5ac1a9798224 186
+.github/workflows/foundation-gate.yml
+  h_af5ac1a9798224 27
+.github/workflows/pr-agent.yml
+  h_af5ac1a9798224 18-23,25,46
+.github/workflows/tailnet-watch.yml
+  h_af5ac1a9798224 25
+.wave/repo.json
+  h_af5ac1a9798224 6
+AGENTS.md
+  h_af5ac1a9798224 25
+CHANGELOG.internal.md
+  h_af5ac1a9798224 1-1417
+CHANGELOG.md
+  h_af5ac1a9798224 3,7-9,12-61,67-91,95-165,207,268-271,273-277,279-281,283-285,287-288,290-293,295-298,300-303,307-351,367-370,447-479,491-495,497-500,502-506,508-520
+bin/wave-meter-mcp.mjs
+  h_af5ac1a9798224 1-62
+bin/wave-meter.mjs
+  h_af5ac1a9798224 1-73
+bin/wave-meter.test.mjs
+  h_af5ac1a9798224 1-28
+docs/api/next-action.md
+  h_af5ac1a9798224 18
+docs/superpowers/specs/2026-07-05-dual-audience-error-envelope-design.md
+  h_af5ac1a9798224 68
+package-lock.json
+  h_af5ac1a9798224 16-17,20-22,26,334-336,342-344,353-355,363,366,380,388-397,399-401,416-418,433-435,450-452,467-469,484-486,1097-1099,1117-1119,1137-1139,1157-1159,1177-1179,1197-1199,1217-1219,1237-1239,1257-1259,1283-1285,1309-1311,1335-1337,1361-1363,1387-1389,1413-1415,1439-1441,2058-2060,2108-2110,2114,2695-2697,3056-3058,3063-3065,3124-3126,3424-3426,3430,3434-3436,3482-3484,3499-3500,3697-3699,3710-3714,3718-3720,3727-3728,3731,3745,3754-3756,3771-3773,3788-3790,3805-3807,3822-3824,3839-3841,3846-3849,3857-3859,3870-3874
+package.json
+  h_af5ac1a9798224 35-36,39-41,45,52
+scripts/check-changelog.mjs
+  h_af5ac1a9798224 1-122
+sdk/package.json
+  h_af5ac1a9798224 10
+src/abuse-controls.ts
+  h_af5ac1a9798224 32-33,249-250,459,461
+src/agent-budget.ts
+  h_af5ac1a9798224 97-108,122-123,131,167-170,178,214-242
+src/agent-self-pay.ts
+  h_af5ac1a9798224 29,182-183,192,245,278-280
+src/agent-spokes.ts
+  h_af5ac1a9798224 18,23-24,28,68,161-176,280-281,305-318
+src/agent-tools-exec.ts
+  h_af5ac1a9798224 67-71,127,151-155,161-181
+src/agent-tools-registry.ts
+  h_af5ac1a9798224 55-57,87
+src/agent-trust.ts
+  h_af5ac1a9798224 54-55
+src/allowance.ts
+  h_af5ac1a9798224 213-215
+src/auth-key-store.ts
+  h_af5ac1a9798224 73-74,144-145,195-196,228-229
+src/authorized-forward.ts
+  h_af5ac1a9798224 51,228
+src/betterstack-webhook.ts
+  h_af5ac1a9798224 15,66-67,164-172
+src/billing-checkout.ts
+  h_af5ac1a9798224 24,26,32,38,68,91,108,397
+src/billing-plans.ts
+  h_af5ac1a9798224 1-143
+src/billing-routes.ts
+  h_af5ac1a9798224 21,28-29,65-67,71,75,80-82,84,122-123,151-157,160,165-166,186-192,195,200-210,278-279,368-398,414
+src/billing-webhook.ts
+  h_af5ac1a9798224 1-22
+src/billing.ts
+  h_af5ac1a9798224 1-105
+src/comms-tenants.ts
+  h_af5ac1a9798224 1-171
+src/connect-payouts-settlement.ts
+  h_af5ac1a9798224 1-129
+src/connect-payouts.ts
+  h_af5ac1a9798224 34-39,119-121,283-287,289-291,358-362,364
+src/connect.ts
+  h_af5ac1a9798224 27-29
+src/console-studio-cors.ts
+  h_af5ac1a9798224 62
+src/counter-do.ts
+  h_af5ac1a9798224 13-25,69-79,86,116,126-134,136,140-147,149,151-160,163,277,335-340
+src/creator-payout-cycle.ts
+  h_af5ac1a9798224 1-142
+src/discovery-urls.ts
+  h_af5ac1a9798224 1-71
+src/dispatch-gpu-forward.ts
+  h_af5ac1a9798224 1-150
+src/dispatch-inference-ollama.ts
+  h_af5ac1a9798224 1-98
+src/dispatch-inference-ssd-stream.ts
+  h_af5ac1a9798224 10-52,57-256
+src/dispatch-inference-vercel.ts
+  h_af5ac1a9798224 1-100
+src/dispatch-inference.ts
+  h_af5ac1a9798224 108-113,201-210
+src/dispatch-model-prices.ts
+  h_af5ac1a9798224 77-81
+src/dispatch-provider-ladder.ts
+  h_af5ac1a9798224 29,49,104-106,130-132
+src/entitlements.ts
+  h_af5ac1a9798224 62
+src/env-local/spoke-origins.ts
+  h_af5ac1a9798224 73-77,99,111-119
+src/env.ts
+  h_af5ac1a9798224 79,85-95
+src/errors-next-action.ts
+  h_af5ac1a9798224 8-21,30-36,39-42,94-98,108-114,138-145,147-150,153-155
+src/errors.ts
+  h_af5ac1a9798224 13,15-27,64,66-70,89,91,99,152-163,169,171,175-178,220-222,227
+src/facilitator.ts
+  h_af5ac1a9798224 46,54,363-367
+src/favicon-asset.ts
+  h_af5ac1a9798224 1-9
+src/forward.ts
+  h_af5ac1a9798224 7,38-41,81-84,161,195-204,206
+src/gateway-native-routes.ts
+  h_af5ac1a9798224 53,67-69,88-92,155-161,173-177,260-262
+src/idempotency.ts
+  h_af5ac1a9798224 1-89
+src/inference-backends.ts
+  h_af5ac1a9798224 127-130,134,137-140,164,166,171-173,208-210,212,218-221,227-231,238-242,244-251,254-259,267-270
+src/internal-service-routes.ts
+  h_af5ac1a9798224 39,54-55,63-68,76-84,146-148,161,165-177
+src/leaderboard-page.ts
+  h_af5ac1a9798224 1-110
+src/ledger-sync.ts
+  h_af5ac1a9798224 1-140
+src/lib/analytics-engine.ts
+  h_af5ac1a9798224 33-36,55
+src/limits-agent-ops.ts
+  h_af5ac1a9798224 41,43,52-54,57,69-71,73,75-76
+src/limits.ts
+  h_af5ac1a9798224 87,89
+src/mcp-native-tools.ts
+  h_af5ac1a9798224 149,160-172
+src/meter-ledger.ts
+  h_af5ac1a9798224 61-65,228
+src/meter-sync-customers.ts
+  h_af5ac1a9798224 17
+src/org-credits.ts
+  h_af5ac1a9798224 36-38
+src/pages.ts
+  h_af5ac1a9798224 32-35,48-59
+src/payments-discovery.ts
+  h_af5ac1a9798224 1-203
+src/pricing-manifests.ts
+  h_af5ac1a9798224 197-199
+src/privy-policies.ts
+  h_af5ac1a9798224 1-118
+src/product-meters.ts
+  h_af5ac1a9798224 102-106,116-137
+src/products.ts
+  h_af5ac1a9798224 64-79
+src/public-surface.ts
+  h_af5ac1a9798224 18-20,31,35,43-46,126-138,142-143,145,175-187,207-215,252-262,270-271,280
+src/rate-limit-enforce.ts
+  h_af5ac1a9798224 1-115
+src/route-ladder-normalize.ts
+  h_af5ac1a9798224 18,31-32,38,42
+src/route-ladder.ts
+  h_af5ac1a9798224 26-29,333-340,366-380
+src/router.ts
+  h_af5ac1a9798224 33-36,174,176-184
+src/routes/v1/network/surface.ts
+  h_af5ac1a9798224 1-87
+src/sandbox-lease.ts
+  h_af5ac1a9798224 1-87
+src/scheduled-crons.ts
+  h_af5ac1a9798224 10-11,29-36
+src/scope-catalog.ts
+  h_af5ac1a9798224 1-240
+src/scope-groups-edge.ts
+  h_af5ac1a9798224 75
+src/scope-groups.ts
+  h_af5ac1a9798224 44
+src/scopes.ts
+  h_af5ac1a9798224 131-134,158-170,179-181,183,206-207,210,219,229
+src/session-budget-do.ts
+  h_af5ac1a9798224 34-41,47-49,68-70,115-141,162,164,167,169,172,174,177,179,183,239-254
+src/session-budget-wallet.ts
+  h_af5ac1a9798224 1-176
+src/settlement-do.ts
+  h_af5ac1a9798224 56,80-81,84-89,114,119-133,138,140,157-159,163-168,188,190,208-210,214-219,230,232,238-239,248,250,261-262,284,297,299,301,304
+src/skills.ts
+  h_af5ac1a9798224 43,45-64,206,251-260,294
+src/slo.ts
+  h_af5ac1a9798224 1-99
+src/spoke-classification.ts
+  h_af5ac1a9798224 71
+src/spoke-route-table-tail.ts
+  h_af5ac1a9798224 1-52
+src/spoke-route-table.ts
+  h_af5ac1a9798224 7,151-159,292-294
+src/spoke-routing.ts
+  h_af5ac1a9798224 38-52
+src/supabase-jwt.ts
+  h_af5ac1a9798224 191
+src/sync-triggers.ts
+  h_af5ac1a9798224 22-23,234-247
+src/tempo-funding.ts
+  h_af5ac1a9798224 1-242
+src/tempo-mpp.ts
+  h_af5ac1a9798224 1-147
+src/tempo-rail.ts
+  h_af5ac1a9798224 1-94
+src/tempo-webhook.ts
+  h_af5ac1a9798224 1-68
+src/usage-meters.ts
+  h_af5ac1a9798224 77-84,158-159,233-234
+src/usage-trace.ts
+  h_af5ac1a9798224 1-65
+src/vendor/wave-eval-router/registry.ts
+  h_af5ac1a9798224 69-120
+src/webhook-routes.ts
+  h_af5ac1a9798224 7-14,17,21,90-94,129-152
+src/webhook-sender.ts
+  h_af5ac1a9798224 1-227
+src/webhook-subscriptions.ts
+  h_af5ac1a9798224 1-231
+src/worker.ts
+  h_af5ac1a9798224 63,125
+src/x402-discovery.ts
+  h_af5ac1a9798224 2-4,6-32,34-98,104,108-113
+src/x402-envelope.ts
+  h_af5ac1a9798224 55,141-144,149
+src/x402.ts
+  h_af5ac1a9798224 207,217,239,246,464,474,698
+test/agent-budget.spec.ts
+  h_af5ac1a9798224 157-216
+test/agent-self-pay-atomic-293.spec.ts
+  h_af5ac1a9798224 83-86
+test/agent-self-pay-verify-throw-293.spec.ts
+  h_af5ac1a9798224 61,72-73
+test/agent-tools-exec.spec.ts
+  h_af5ac1a9798224 261-288
+test/billing-plans.spec.ts
+  h_af5ac1a9798224 1-113
+test/billing.spec.ts
+  h_af5ac1a9798224 1-106
+test/comms-tenants-internal.spec.ts
+  h_af5ac1a9798224 1-49
+test/comms-tenants-read.spec.ts
+  h_af5ac1a9798224 1-73
+test/comms-tenants.spec.ts
+  h_af5ac1a9798224 1-64
+test/connect-payouts-hardening.spec.ts
+  h_af5ac1a9798224 1-137
+test/connect-payouts-helpers.ts
+  h_af5ac1a9798224 1-69
+test/connect-payouts.spec.ts
+  h_af5ac1a9798224 11-18,147
+test/counter-do-atomic.spec.ts
+  h_af5ac1a9798224 18,22-26,28,31,46-62,91-96,164-223
+test/creator-payout-cycle.spec.ts
+  h_af5ac1a9798224 1-170
+test/dispatch-inference.spec.ts
+  h_af5ac1a9798224 22,343-366
+test/errors-next-action.spec.ts
+  h_af5ac1a9798224 17-25
+test/errors.spec.ts
+  h_af5ac1a9798224 10,17-21
+test/forward.spec.ts
+  h_af5ac1a9798224 99-142,391-395
+test/idempotency.spec.ts
+  h_af5ac1a9798224 1-62
+test/identity-resolve-endpoint.spec.ts
+  h_af5ac1a9798224 1-87
+test/inference-backends.spec.ts
+  h_af5ac1a9798224 10,61-94,108-130,269-317
+test/inference-openrouter.spec.ts
+  h_af5ac1a9798224 125
+test/jwt-org-fallback.spec.ts
+  h_af5ac1a9798224 32,35,48-59
+test/ledger-sync.spec.ts
+  h_af5ac1a9798224 1-72
+test/load-shedder.manifest.json
+  h_af5ac1a9798224 1-103
+test/model-registry-frame-gate.spec.ts
+  h_af5ac1a9798224 1-82
+test/model-registry-gate.spec.ts
+  h_af5ac1a9798224 1-161
+test/network-surface.spec.ts
+  h_af5ac1a9798224 1-118
+test/origin-method-guards.spec.ts
+  h_af5ac1a9798224 1-160
+test/payments-discovery.spec.ts
+  h_af5ac1a9798224 1-210
+test/privy-policies.spec.ts
+  h_af5ac1a9798224 1-60
+test/product-meters.catalog.spec.ts
+  h_af5ac1a9798224 149-178
+test/products.spec.ts
+  h_af5ac1a9798224 1-107
+test/router-leaderboard-public.spec.ts
+  h_af5ac1a9798224 95-103,111-166
+test/router-resolve.spec.ts
+  h_af5ac1a9798224 141-142,145
+test/sandbox-abuse.spec.ts
+  h_af5ac1a9798224 299
+test/scope-catalog.spec.ts
+  h_af5ac1a9798224 1-233
+test/seconds-meter-scale.spec.ts
+  h_af5ac1a9798224 24-27,234-253
+test/session-budget-do-reserve-race.spec.ts
+  h_af5ac1a9798224 1-113
+test/session-budget-do.spec.ts
+  h_af5ac1a9798224 12-13,18-19,37-38,40-42,44,46,52
+test/settlement-ownership-m26.spec.ts
+  h_af5ac1a9798224 1-219
+test/skills-wire-truth.spec.ts
+  h_af5ac1a9798224 177-180
+test/slo.spec.ts
+  h_af5ac1a9798224 1-77
+test/smart-error.spec.json
+  h_af5ac1a9798224 1-18
+test/spoke-drift.spec.ts
+  h_af5ac1a9798224 30,59,65,74,145
+test/tempo-funding.spec.ts
+  h_af5ac1a9798224 1-136
+test/tempo-mpp.spec.ts
+  h_af5ac1a9798224 1-126
+test/tempo-rail.spec.ts
+  h_af5ac1a9798224 1-59
+test/tempo-webhook.spec.ts
+  h_af5ac1a9798224 1-45
+test/units-as-types.manifest.json
+  h_af5ac1a9798224 1-70
+test/usage-trace.spec.ts
+  h_af5ac1a9798224 1-47
+test/vision-index-route.spec.ts
+  h_af5ac1a9798224 1-74
+test/webhook-sender.spec.ts
+  h_af5ac1a9798224 1-190
+test/webhook-subscriptions.spec.ts
+  h_af5ac1a9798224 1-345
+test/x402-permit-spender-advertise.spec.ts
+  h_af5ac1a9798224 87-94,96,241-246,248-254
+wrangler.toml
+  h_af5ac1a9798224 20-26,176-181,217-228,492-493,804-807,809-812,1117-1121,1311-1321,1406-1407,1409
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "780124ba707039e92846a08fed876ae188844480",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

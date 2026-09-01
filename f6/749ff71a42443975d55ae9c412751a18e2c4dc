@@ -1,0 +1,33 @@
+src/sync-triggers.ts
+  s_521c7fbc8920d1::t_5bf895d553067e 22
+  s_521c7fbc8920d1::t_f5097279faad3e 23,234-246
+  s_521c7fbc8920d1::t_9fbaf8628ba9c1 247
+CHANGELOG.internal.md
+  s_521c7fbc8920d1::t_be75194c3d4d6e 12-18
+src/ledger-sync.ts
+  s_521c7fbc8920d1::t_5bf895d553067e 3-4,16,49,51-54,56,58-90,92,97-98,102-105,108-137
+  s_521c7fbc8920d1::t_29b706a0ba4f23 107
+CHANGELOG.md
+  s_521c7fbc8920d1::t_be75194c3d4d6e 12-17
+test/ledger-sync.spec.ts
+  s_521c7fbc8920d1::t_be75194c3d4d6e 3,36,40,58-62,64,69
+  s_521c7fbc8920d1::t_37da2283610cf9 39
+  s_521c7fbc8920d1::t_29b706a0ba4f23 41,47,55,63
+  s_521c7fbc8920d1::t_2739b4ba94ef84 56-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "f6749ff71a42443975d55ae9c412751a18e2c4dc",
+  "prompts": {},
+  "sessions": {
+    "s_521c7fbc8920d1": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcf81a020ffegzS6f1JoF9I4tI",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+src/paymaster.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-123
+observability/apply-alerts.sh
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-108
+.gitmodules
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-3
+scripts/register-wave-products.sh
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-103
+AGENTS.md
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 9-24
+src/pages.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 5,23-24,36,72,81,126-238
+test/facilitator-exact.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-72
+src/usage.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-480
+src/counter-do.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 10-22,65-69,71,74,76,83-121,146-153,162-179,181-186,189-190,196-210
+src/facilitator.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-408
+scripts/provision-vectorize.sh
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-43
+src/receipt-store-do.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-185
+.github/workflows/build-check.yml
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 26-29,31-54,69
+docs/adr/0002-gateway-vs-dispatch-boundary.md
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-98
+docs/adr/0003-x402-settlement-verifier-hardening.md
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-85
+src/products.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 28-33,42,49-70,84,96,100-102
+src/catalog.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 17-26,38,51-66,97-119
+src/settlement-do.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 21-28,45,50-54,56,58-59,96,120,123-126,135,143,149-155,170,185-187
+test/settle-cap-success-only.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-176
+test/unit/facilitator-ratelimit.unit.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-138
+src/x402-verify.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 20,59,65-75,183-190,200-220,245,248,252-256,258,262-265,275-276,278,280,284-285,291-292,294,296,300-301
+.github/workflows/deploy.yml
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 32-36,38-57
+.github/workflows/bot-review.yml
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 19-23,26-27
+observability/alerts/wave-alerts.json
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-133
+test/settlement-ttl.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-61
+test/usage-dimensions.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-351
+src/bridge.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-53
+package.json
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 17-19
+src/facilitator-ratelimit.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-126
+src/limits.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 29-34,77,110-127,309-403
+test/x402.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 45-48,70-87,163-231,343-376,421-454
+src/receipts.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-266
+src/x402.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 18,21-24,38-42,46-56,77-97,250-257,270-281,327-351,365,387,412-445,462
+test/oidc-discovery.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-54
+tsconfig.json
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 15-20,22-23
+src/mcp.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-102
+test/entitlement-sync.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-54
+test/facilitator-settle-guard.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-103
+package-lock.json
+  s_6bd73d48dc7ec3::t_364ab2f6e49d2a 10-12,21-26,1238-1276,1598-1633,1810-1834,1969-1974,2018-2032,2377-2406,2722,2752-2781,3074,3079-3089
+observability/README.md
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-84
+test/catalog.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-81
+wrangler.toml
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 35-50,54-62,95-103,112-139,148-167,172-174,187-190,206-207,212-214
+src/scopes.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 88-110,114,128,187-188
+test/scopes.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-48
+test/receipts.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-322
+CHANGELOG.md
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 8-17
+test/facilitator-discovery.spec.ts
+  s_6bd73d48dc7ec3::t_32bee57acfc63b 1-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "e188f9e666c2f46a454fef449f93c907604fea35",
+  "prompts": {},
+  "sessions": {
+    "s_6bd73d48dc7ec3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8306bf2-1f6d-47c3-83be-e51cccc9e336",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

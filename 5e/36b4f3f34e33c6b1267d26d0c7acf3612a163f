@@ -1,0 +1,30 @@
+src/billing-routes.ts
+  s_8a470910d81a67::t_358ef249748573 10-15
+  s_8a470910d81a67::t_d21712b56e81c3 67-68
+  s_8a470910d81a67::t_6ec22244616097 155-175
+  s_8a470910d81a67::t_4a4a3654eaa4cb 8
+src/wallet-service-auth.ts
+  s_8a470910d81a67::t_2571af19fe19cd 1-65
+test/billing-routes-wallet-service-auth.spec.ts
+  s_8a470910d81a67::t_5c0084ee0cd4a6 1-194
+CHANGELOG.md
+  s_8a470910d81a67::t_c80a04cef231c4 11-26
+test/wallet-service-auth.spec.ts
+  s_8a470910d81a67::t_a9dc5e788d4647 1-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "5e36b4f3f34e33c6b1267d26d0c7acf3612a163f",
+  "prompts": {},
+  "sessions": {
+    "s_8a470910d81a67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9143d3ec-9637-4788-8bc2-510e83aa2fe3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

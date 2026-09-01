@@ -1,0 +1,45 @@
+docs/receipts/e9p3-reach-autoselect-2026-06-21.txt
+  s_364605915bb7ec::t_8fbbc7735338ab 1-8
+docs/receipts/bridge-real-content-bbb-ladder-2026-06-27.txt
+  s_364605915bb7ec::t_a99aa05cdca90c 1-8
+docs/receipts/e9p5-geo-capstone-studio-air-lan-2026-06-21.txt
+  s_364605915bb7ec::t_c8982a3f297b1f 1-11
+scripts/check-receipt-scope_test.sh
+  s_364605915bb7ec::t_fff0aea141efd1 164
+  s_364605915bb7ec::t_61fd864c527c45 1-31,36-163,165-191
+  s_364605915bb7ec::t_b74136de75d71c 32-35
+docs/receipts/README.md
+  s_364605915bb7ec::t_71756e8fb137f1 1-88
+scripts/check-receipt-scope.sh
+  s_364605915bb7ec::t_5e818f4035c5d7 1-187
+docs/receipts/bridge-4stream-matrix-2026-06-27.txt
+  s_364605915bb7ec::t_0ee6476f847841 1-7
+docs/receipts/srt-latency-autotune-2026-06-27.txt
+  s_364605915bb7ec::t_868fb2f3e2a9e4 1-7
+docs/receipts/bridge-moq-on-fly-rootcause-fix-2026-06-28.txt
+  s_364605915bb7ec::t_f2bdfcf75f8e42 1-9
+docs/receipts/bridge-rtmps-ingest-distribute-2026-06-28.txt
+  s_364605915bb7ec::t_87a9977e523530 1-8
+docs/receipts/bridge-perstrand-srt-latency-2026-06-27.txt
+  s_364605915bb7ec::t_bc7e94682b6261 1-7
+docs/receipts/bridge-first-mile-ingest-2026-06-27.txt
+  s_364605915bb7ec::t_fe1c7b55061210 1-7
+docs/receipts/e10p2-srt-rist-bonding-2026-06-21.txt
+  s_364605915bb7ec::t_534fdafebdd8b4 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "105e94bc6e964c31ca64d9ba394155634e5c51aa",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

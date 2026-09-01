@@ -1,0 +1,25 @@
+docs/superpowers/plans/2026-07-22-wave-av-mux-demux-p2-fmp4.md
+  s_157583aa3b6686::t_719c86a4a6b84d 709-925
+  s_157583aa3b6686::t_be8dfd5287db30 926-1119
+  s_157583aa3b6686::t_a01d4b31909a03 86-399
+  s_157583aa3b6686::t_a540d26cabaa3b 400-708
+  s_157583aa3b6686::t_a1dd07d64db9dd 1120-1400
+  s_157583aa3b6686::t_9b84bd9e1da0d5 1401-1626
+  s_157583aa3b6686::t_fe6794dbb9e78b 1-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "78e8b67f8a269f95572200e16babb7892bd59046",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+test/spec-drift.spec.ts
+  s_11f01c22e59a16::t_d3f5577a78b389 33,35-37
+  s_11f01c22e59a16::t_4ba5cee8486776 40-41
+  s_11f01c22e59a16::t_2ce191c5ad8c97 1-32,34,38-39,42-81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b8a555c73efec99949a1be1cd8326665613ee199",
+  "prompts": {},
+  "sessions": {
+    "s_11f01c22e59a16": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_010f611f8ffeu0PBw8nXYqfkaV",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

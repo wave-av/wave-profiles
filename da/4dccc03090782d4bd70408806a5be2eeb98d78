@@ -1,0 +1,26 @@
+src/usage-routes.ts
+  s_756b33c630d33b::t_2855a8bb7f3191 2,14
+  s_756b33c630d33b::t_56f576540f2be3 13,19
+  s_756b33c630d33b::t_18c73ebc926648 1,3-12,15-18,20-31
+src/gateway-native-routes.ts
+  s_756b33c630d33b::t_12c24527085c34 94
+  s_756b33c630d33b::t_b2afb818157e88 95-96
+  s_756b33c630d33b::t_7dfb88b0b0b7b5 47-48
+  s_756b33c630d33b::t_0b33131ceede93 40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "da4dccc03090782d4bd70408806a5be2eeb98d78",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

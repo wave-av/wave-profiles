@@ -1,0 +1,24 @@
+aes67/wave-aes67-jitter.h
+  s_157583aa3b6686::t_05600e1a550f04 1-181
+aes67/CMakeLists.txt
+  s_157583aa3b6686::t_72b2da82c59e8d 58-67
+  s_157583aa3b6686::t_90da5fdcb7f744 101
+aes67/wave-aes67-jitter-test.cpp
+  s_157583aa3b6686::t_75a9b01177bcc1 1-200
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ad030cda566e8864dd714e676df01e1afd8c31fb",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

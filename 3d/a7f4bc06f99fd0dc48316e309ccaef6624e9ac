@@ -1,0 +1,25 @@
+test/forward.spec.ts
+  s_157583aa3b6686::t_902b654f7a7893 166-183
+src/env.ts
+  s_157583aa3b6686::t_a94cde70c6534d 86-91
+wrangler.toml
+  s_157583aa3b6686::t_85338759199efc 632-639
+src/forward.ts
+  s_157583aa3b6686::t_a49ab8b7a5270b 172-180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3da7f4bc06f99fd0dc48316e309ccaef6624e9ac",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

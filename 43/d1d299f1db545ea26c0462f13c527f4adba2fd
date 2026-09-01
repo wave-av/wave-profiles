@@ -1,0 +1,28 @@
+av/srt/srt-live-proof.mts
+  s_157583aa3b6686::t_6dec7f718f4d3a 8-15,18,23-30,33-39,45
+  s_157583aa3b6686::t_d5258fa983c1af 60-64,68,71-76
+av/srt/srt-live-proof.sh
+  s_157583aa3b6686::t_687d963c3a7a92 28-31
+  s_157583aa3b6686::t_33473041b85efd 68
+  s_157583aa3b6686::t_ae9c5963c14a65 44-51
+  s_157583aa3b6686::t_ad99cc60d10c5f 84
+  s_157583aa3b6686::t_a1d4b01b2d7b27 90-95
+  s_157583aa3b6686::t_77f327b132d4c9 114-115,118
+  s_157583aa3b6686::t_1eb5c3cc5ab146 119-121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "43d1d299f1db545ea26c0462f13c527f4adba2fd",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

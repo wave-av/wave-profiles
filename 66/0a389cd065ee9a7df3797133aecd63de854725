@@ -1,0 +1,53 @@
+test/mcp-x402-payto-822.spec.ts
+  s_15127d80763110::t_ca3c500bc5cf8c 91-98
+src/mcp-x402-challenge.ts
+  s_15127d80763110::t_f979e325fc6055 109
+  s_15127d80763110::t_e6c11f12e119f3 28
+  s_15127d80763110::t_c78ed607af64cc 82-88
+CHANGELOG.md
+  s_34633d9d8279f2::t_becf8ecb6be9af 9-19,34-37
+src/x402-capture.ts
+  s_34633d9d8279f2::t_5f6bbbc923e959 42-45,440-447
+src/x402-challenge.ts
+  s_34633d9d8279f2::t_3711a441bbf286 24,187-206,221-228
+src/x402-deny-publish.ts
+  s_34633d9d8279f2::t_e8188d1831d353 69,98-102
+src/x402-envelope.ts
+  s_34633d9d8279f2::t_55af6d7a5a8ed3 20-23,26,83-103,109-112,118-132,180-184
+src/x402-permit-inline.ts
+  s_34633d9d8279f2::t_f8c02b0a019d26 20-22,109-112,227,279-280
+src/x402-permit-serve.ts
+  s_34633d9d8279f2::t_3717f11b15483c 1-103
+src/x402-permit-spender.ts
+  s_34633d9d8279f2::t_223e9735500079 1-69
+test/x402-deny-publish-818.spec.ts
+  s_34633d9d8279f2::t_c72cda93bdf109 33,138-175
+test/x402-permit-capture-on-serve.spec.ts
+  s_34633d9d8279f2::t_78fe34f18fd54a 18-19
+test/x402-permit-spender-advertise.spec.ts
+  s_34633d9d8279f2::t_fc46e310ba5b07 1-235
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "660a389cd065ee9a7df3797133aecd63de854725",
+  "prompts": {},
+  "sessions": {
+    "s_15127d80763110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f70037af-ffae-40e0-adc5-d29d25d96fee",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_34633d9d8279f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab1f41eff255bf706",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

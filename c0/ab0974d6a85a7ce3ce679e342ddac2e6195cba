@@ -1,0 +1,36 @@
+src/usage-multimeter.ts
+  s_157583aa3b6686::t_a772a576148220 76
+src/product-meters-catalog.ts
+  s_157583aa3b6686::t_3f6a3dc2ebe654 155-168
+src/usage.ts
+  s_157583aa3b6686::t_26abcca56f1ca7 55
+  s_157583aa3b6686::t_3c813225ce2ab5 215-216
+  s_157583aa3b6686::t_a54e69f5e8ad84 243
+  s_157583aa3b6686::t_81cc149e7fb8c7 246
+src/usage-meters.ts
+  s_157583aa3b6686::t_207472b7b09e5e 44
+  s_157583aa3b6686::t_6b1d921909fb70 116
+  s_157583aa3b6686::t_3db3797f40569b 87-90
+test/dante-observe-spoke.spec.ts
+  s_157583aa3b6686::t_8f1ae2b4706b64 1-125
+src/env-local/spoke-origins.ts
+  s_157583aa3b6686::t_4ae579a9f5b532 92-100
+src/spoke-routing.ts
+  s_157583aa3b6686::t_16f5937c2c8834 136-146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "c0ab0974d6a85a7ce3ce679e342ddac2e6195cba",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}

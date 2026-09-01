@@ -1,0 +1,41 @@
+moq/crest/player/captions-overlay.js
+  s_157583aa3b6686::t_aa64bf61ae06fb 9-13,19
+  s_157583aa3b6686::t_24bee26f2d57c4 70-71
+moq/crest/crest-captions.mjs
+  s_157583aa3b6686::t_56217055db1e26 74,108-151,214
+  s_157583aa3b6686::t_b13af015dda502 83-87,93,97
+  s_157583aa3b6686::t_5b6f26cc71b089 168-179,195-213
+  s_157583aa3b6686::t_aca17c36e93304 217-218
+  s_157583aa3b6686::t_af2b9caf2c4375 37-43,52,56-73
+  s_157583aa3b6686::t_7c9f700d9a6189 75
+  s_157583aa3b6686::t_1e7cdee3e46c4d 215
+moq/crest/crest-captions-translation-test.mjs
+  s_157583aa3b6686::t_51f737bb688e9f 84-85
+  s_157583aa3b6686::t_789bec16eddf29 1-83,86-146
+moq/crest/player/captions-i18n.js
+  s_157583aa3b6686::t_6dc0a3ac4e6a27 1-50
+moq/crest/player/captions-demo.html
+  s_157583aa3b6686::t_2da764331e2b23 104-106,108
+  s_157583aa3b6686::t_72d414fdd060ae 127-140,143,149,154
+  s_157583aa3b6686::t_5e12117f7bd160 39,41
+  s_157583aa3b6686::t_fd84eec5cc683f 47,49-50,60-73
+  s_157583aa3b6686::t_8d84ad0af90c57 74
+moq/crest/receipts/e38-caption-translation.json
+  s_157583aa3b6686::t_dff0a6dac41600 1-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "7d77ddb4c790a14062a4a712995079821e477c20",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+moq/crest/player/braid-header.js
+  s_157583aa3b6686::t_ea620aaa2583c4 63,83,90,97-99,105
+  s_157583aa3b6686::t_5f21b645f4f334 21,24,33-58
+moq/listen/braid-publish-plan.mjs
+  s_157583aa3b6686::t_e944449906092d 18
+  s_157583aa3b6686::t_b3597c393b733a 166,179
+  s_157583aa3b6686::t_98ce0fa9994402 64,67,71,82,92
+  s_157583aa3b6686::t_09b66f0605b6ba 24
+  s_157583aa3b6686::t_81835895b13a6d 96-109
+  s_157583aa3b6686::t_7c0abf28ab99c0 127,130,134
+moq/braid-receiver/braid-reassembler.mjs
+  s_157583aa3b6686::t_ec4fc68ca18bc1 78,84-85
+  s_157583aa3b6686::t_f11e32dfe0536c 172-183,187-191,193-196
+  s_157583aa3b6686::t_22675a1ead5f61 48
+  s_157583aa3b6686::t_bd121e44b6de8a 155-158
+moq/listen/braid-frame.mjs
+  s_157583aa3b6686::t_26bd5f3bf3d9df 110-111,121-135
+  s_157583aa3b6686::t_aa2c8e3bd061c6 150,167,172,179-181,184,189
+  s_157583aa3b6686::t_dade4562f0d918 30,33,44-69
+  s_157583aa3b6686::t_655748e6ff7f0f 78-80,82-84,93-99
+moq/braid-audio/braid-v3-spatial-plumbing.test.mjs
+  s_157583aa3b6686::t_fa4113a0d07df7 121
+  s_157583aa3b6686::t_2fb21bf6525410 1-120,122-169
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "6e2fdac388605dbfd96cd9d59b73a832626a3241",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+moq/crest/listen-caption-bridge.test.mjs
+  s_157583aa3b6686::t_e696aea8ec257b 198-200,202-233
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "11b694c6e3a8f3a64cbb3d28377be12e24479430",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

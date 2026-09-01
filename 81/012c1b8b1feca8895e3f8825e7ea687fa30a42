@@ -1,0 +1,38 @@
+moq/braid-receiver/braid-reassembler.test.mjs
+  s_157583aa3b6686::t_a186af1db5efc3 71
+  s_157583aa3b6686::t_b19c87f3805609 1-70,72-151,164-170
+  s_157583aa3b6686::t_8d73f1e45014d2 152-163
+.github/workflows/bridge-wire-smoke.yml
+  s_157583aa3b6686::t_f8fa31028d9d81 92-99
+moq/braid-receiver/package.json
+  s_157583aa3b6686::t_c7b233a205abc9 1-20
+moq/braid-receiver/README.md
+  s_157583aa3b6686::t_4f7c38e2ad1897 1-60
+moq/braid-receiver/braid-reassembler.mjs
+  s_157583aa3b6686::t_f2995f12c104a4 16-17,27-34,38,41,47,55,69,75,91-95,112-116,118-119,170-173,197-202,205-213,218-233
+  s_157583aa3b6686::t_7f4bba92b42d4c 1-15,18-26,35-37,39-40,42-46,48-54,56-68,70-74,76-90,96-111,117,120-169,174-196,203-204,214-217,234-247
+moq/braid-receiver/index.mjs
+  s_157583aa3b6686::t_5200d350b1dd33 1-6
+moq/listen/braid-group-plan.test.mjs
+  s_157583aa3b6686::t_96dba792ab9970 1-84
+moq/listen/braid-group-plan.mjs
+  s_157583aa3b6686::t_33fdfd5d12c787 1-144
+docs/superpowers/specs/2026-07-20-braid-native-receiver-design.md
+  s_157583aa3b6686::t_c66bf3e71920a3 1-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "81012c1b8b1feca8895e3f8825e7ea687fa30a42",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+av/rtp/rtp-h264-sink.test.mts
+  s_157583aa3b6686::t_f2ba910de8ce9a 131,135-136,138-151
+av/rtp/rtp-packet.mts
+  s_157583aa3b6686::t_26a875371ffb9b 59-63,65
+av/rtp/rtp-h264-sink.mts
+  s_157583aa3b6686::t_880b18e553f842 43-45,51-53
+  s_157583aa3b6686::t_bb20e80c2e0585 66-71
+  s_157583aa3b6686::t_c4bcf41fc083f6 82-86
+docs/superpowers/plans/2026-07-22-wave-av-mux-demux-p6-1-rtpsink.md
+  s_157583aa3b6686::t_706b4ab1400f7c 71
+  s_157583aa3b6686::t_26e88f306cccec 26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "7bb6a10646e82c5cab61f081744723a8f639d6a4",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

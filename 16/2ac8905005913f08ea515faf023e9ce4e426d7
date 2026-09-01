@@ -1,0 +1,27 @@
+threat-model.md
+  s_19c8e603d8990b::t_f40b11823c6605 18-19
+docs/PROD-AUTH-RUNBOOK.md
+  s_19c8e603d8990b::t_b973588016569f 4-5
+src/auth.ts
+  s_19c8e603d8990b::t_cae75531962922 15-16
+README.md
+  s_19c8e603d8990b::t_3b9e93c4d540e6 55-56
+scripts/mint-staging-key.sh
+  s_19c8e603d8990b::t_0007b9e78db966 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "162ac8905005913f08ea515faf023e9ce4e426d7",
+  "prompts": {},
+  "sessions": {
+    "s_19c8e603d8990b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ab7045fc-2546-4259-800b-f8fc2fd6de97",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

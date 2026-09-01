@@ -1,0 +1,23 @@
+CHANGELOG.md
+  s_83b73641415a39::t_83631b5272fc88 11-13
+src/dispatch-provider-ladder.ts
+  s_83b73641415a39::t_322c629b18e01c 40
+  s_83b73641415a39::t_e629099dfbd787 114-118
+  s_83b73641415a39::t_96ec157711e452 26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "28802253a0fcac040b77cef0a2a78e19e9afe29a",
+  "prompts": {},
+  "sessions": {
+    "s_83b73641415a39": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffd196880ffeXRUvrkjXudtttM",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

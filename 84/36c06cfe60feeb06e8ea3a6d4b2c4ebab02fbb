@@ -1,0 +1,125 @@
+.dockerignore
+  s_157583aa3b6686::t_c048fc42e51196 1-9
+CMakeLists.txt
+  s_157583aa3b6686::t_5a18fba7b7a9f8 24,55-69
+dante-dep-bridge/README.md
+  s_157583aa3b6686::t_29c60f5103a8cc 1-104
+dante-dep-bridge/scripts/arc_probe.py
+  s_157583aa3b6686::t_db15ba518b7749 1-76
+dante-dep-bridge/scripts/arc_sub.py
+  s_157583aa3b6686::t_cff2bfec3685d0 1-116
+dante-dep-bridge/scripts/dante-listen-down.sh
+  s_157583aa3b6686::t_b43cd152f1f653 1-15
+dante-dep-bridge/scripts/dante-listen-up.sh
+  s_157583aa3b6686::t_9f7a6020c73975 1-66
+dante-dep-bridge/scripts/dep-watchdog.sh
+  s_157583aa3b6686::t_def53ba2101e0b 1-79
+dante-dep-bridge/scripts/shm_probe.py
+  s_157583aa3b6686::t_2b750a5a3255e8 1-37
+dante-dep-bridge/scripts/shm_reader.py
+  s_157583aa3b6686::t_d2b3325f4751d6 1-71
+dante-dep-bridge/scripts/shm_reader_follow.py
+  s_157583aa3b6686::t_b3a9b734d2a2e7 1-88
+dante-dep-bridge/scripts/shm_scan.py
+  s_157583aa3b6686::t_9e39a5751f1c02 1-125
+docs/superpowers/plans/2026-07-15-path-b-fly-srt-listener.md
+  s_157583aa3b6686::t_8115c8c4133ac9 1-780
+docs/superpowers/specs/2026-07-15-wave-listen-design.md
+  s_157583aa3b6686::t_be15ff3ac9faa5 1-66
+docs/superpowers/specs/2026-07-16-listen-llm-caption-leg-design.md
+  s_157583aa3b6686::t_f328ecc0205731 1-149
+docs/superpowers/specs/2026-07-16-native-dante-buildout-design.md
+  s_157583aa3b6686::t_2b454083f2609e 1-327
+docs/superpowers/specs/2026-07-16-wave-av-leverage-index.md
+  s_157583aa3b6686::t_75385c16e9fb90 1-95
+docs/superpowers/specs/2026-07-16-wave-listen-productization-design.md
+  s_157583aa3b6686::t_90fb5672f7af0e 1-299
+listen/aes67-discovery.mts
+  s_157583aa3b6686::t_1acd7aad1c1edb 1-133
+listen/aes67-discovery.test.mts
+  s_157583aa3b6686::t_93fc564f264f22 1-123
+listen/sap-sdp.mts
+  s_157583aa3b6686::t_3279f8d86f41f7 1-251
+listen/sap-sdp.test.mts
+  s_157583aa3b6686::t_01036ef9016947 1-252
+listen/stream.mts
+  s_157583aa3b6686::t_9b566c006bcae3 11-14,88-107
+listen/stream.test.mts
+  s_157583aa3b6686::t_cb3560d4bd933f 42-58
+moq/crest/listen-caption-bridge.mjs
+  s_157583aa3b6686::t_c7b20e5f75ed4e 1-217
+moq/crest/listen-caption-bridge.test.mjs
+  s_157583aa3b6686::t_67ce6fe45f65ae 1-192
+moq/crest/pcm-wav.mjs
+  s_157583aa3b6686::t_0398bdccd8214e 1-163
+moq/crest/pcm-wav.test.mjs
+  s_157583aa3b6686::t_4284b7692f6252 1-164
+moq/crest/player/audio-scope.js
+  s_157583aa3b6686::t_d515751e9a40be 1-132
+moq/crest/player/listen.html
+  s_157583aa3b6686::t_056894b22f5e0c 1-107
+moq/crest/player/moq-audio-player.js
+  s_157583aa3b6686::t_1f7204c22a2692 1-303
+moq/crest/player/pcm-audio.js
+  s_157583aa3b6686::t_f6c954f6788ba1 1-88
+moq/crest/player/pcm-audio.test.mjs
+  s_157583aa3b6686::t_2205402c4efe88 1-80
+moq/crest/player/pcm-ring-worklet.js
+  s_157583aa3b6686::t_6481212fb49d7c 1-41
+moq/crest/player/serve.mjs
+  s_157583aa3b6686::t_9059c603e0a4ba 1-6,14-16,18-33,38-52,64
+srt-adapter/wave-srt-adapter.cpp
+  s_157583aa3b6686::t_2f153b06e5cdb9 157-168,298-307
+srt-adapter/wave-srt-adapter.h
+  s_157583aa3b6686::t_2660914c667fc1 51-54
+srt-adapter/wave-srt-smoke.cpp
+  s_157583aa3b6686::t_e9506aa1a08067 62-66,76,88-95,152-153,155,159-160
+srt-listener/CMakeLists.txt
+  s_157583aa3b6686::t_e98761bc732b5f 1-27
+srt-listener/Dockerfile
+  s_157583aa3b6686::t_ecba54e369e842 1-35
+srt-listener/README.md
+  s_157583aa3b6686::t_f26a4d1525a672 1-81
+srt-listener/config.cpp
+  s_157583aa3b6686::t_fa8a9ac5ce9dab 1-30
+srt-listener/config.h
+  s_157583aa3b6686::t_f45330e4228752 1-17
+srt-listener/fly.toml
+  s_157583aa3b6686::t_2a36db2bfc3977 1-23
+srt-listener/gateway.cpp
+  s_157583aa3b6686::t_52aa893d940b80 1-92
+srt-listener/gateway.h
+  s_157583aa3b6686::t_dc8dd05546cfb8 1-19
+srt-listener/main.cpp
+  s_157583aa3b6686::t_cb77d75e7504cf 1-71
+srt-listener/meter-loop.h
+  s_157583aa3b6686::t_e9d9e8d42aa9fb 1-4
+srt-listener/relay.cpp
+  s_157583aa3b6686::t_5da42186494b2b 1-40
+srt-listener/relay.h
+  s_157583aa3b6686::t_87198c99b5db02 1-27
+srt-listener/test/config-test.cpp
+  s_157583aa3b6686::t_651893fd07d817 1-23
+srt-listener/test/gateway-test.cpp
+  s_157583aa3b6686::t_8bed18a1891c02 1-40
+srt-listener/test/meter-emit-test.cpp
+  s_157583aa3b6686::t_c927cb9d6bda91 1-12
+srt-listener/test/relay-loopback-test.cpp
+  s_157583aa3b6686::t_2c926c71fb81aa 1-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "8436c06cfe60feeb06e8ea3a6d4b2c4ebab02fbb",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

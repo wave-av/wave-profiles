@@ -1,0 +1,19 @@
+src/meter-sync.ts
+  s_2463ea602694b0::t_35d25440f4269d 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "bdb6201ee72e362b99f84ff4503f8dd963de0c9b",
+  "prompts": {},
+  "sessions": {
+    "s_2463ea602694b0": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff71629f5ffeiWt3zKz6M8jGrp",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

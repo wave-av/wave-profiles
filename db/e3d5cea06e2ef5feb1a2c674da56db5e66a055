@@ -1,0 +1,24 @@
+dante-dep-bridge/scripts/dep-hostops-drift.sh
+  s_364605915bb7ec::t_5dad56b9a0bdba 130,133-134,136-145
+  s_364605915bb7ec::t_c05d051beef680 131-132,135,146,149-151,155
+  s_364605915bb7ec::t_bb30f6e1d25b66 23-32,36-38,44-52
+  s_364605915bb7ec::t_9a96d836c96f4c 81,86-90,95,102-105,108,113,117-120,123,125
+  s_364605915bb7ec::t_ac38293455897f 91-94,96-101
+  s_364605915bb7ec::t_df4771dd5ec0e2 82,85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "dbe3d5cea06e2ef5feb1a2c674da56db5e66a055",
+  "prompts": {},
+  "sessions": {
+    "s_364605915bb7ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d367c84a-2390-40de-b101-d4f0e674783a",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

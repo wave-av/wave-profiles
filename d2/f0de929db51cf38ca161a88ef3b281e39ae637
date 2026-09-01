@@ -1,0 +1,18 @@
+src/billing-routes.ts
+  h_af5ac1a9798224 108,111-112,114-115,176
+test/billing-routes-scope-gate.spec.ts
+  h_af5ac1a9798224 105-110,186,188,196
+test/billing-routes-wallet-service-auth.spec.ts
+  h_af5ac1a9798224 3,68,70,77,79,86,88,95,97,104,106,108,115,117,119,136,138,146,150,152,159,170,172,196,198,200,205,207,209,219,221,228,230,257,259,270,272,285,287,303,305,323,325
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "d2f0de929db51cf38ca161a88ef3b281e39ae637",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

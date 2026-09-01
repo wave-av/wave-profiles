@@ -1,0 +1,21 @@
+CHANGELOG.internal.md
+  s_11f01c22e59a16::t_04ce76eb30f335 15
+CHANGELOG.md
+  s_11f01c22e59a16::t_33648ec6e54020 15-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "0fa57c20b89996f9a80ac6949de930479375d52e",
+  "prompts": {},
+  "sessions": {
+    "s_11f01c22e59a16": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_010f611f8ffeu0PBw8nXYqfkaV",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

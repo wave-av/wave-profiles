@@ -1,0 +1,14 @@
+test/mcp-pricing-tools.spec.ts
+  h_af5ac1a9798224 90-113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ddba95c768e5dab56510762e925faf78ccb1d383",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

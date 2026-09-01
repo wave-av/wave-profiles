@@ -1,0 +1,21 @@
+CHANGELOG.md
+  s_0755b247a6189a::t_bcfb478944c932 25-30
+wrangler.toml
+  s_0755b247a6189a::t_37e9530f83300d 656-663
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "62884f7566750f5c9d361ad449dbed6ad464e85a",
+  "prompts": {},
+  "sessions": {
+    "s_0755b247a6189a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe030d4f5ffe1N76GHpQtZYt2q",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

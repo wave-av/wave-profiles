@@ -1,0 +1,26 @@
+av/fmp4/init-segment.test.mts
+  s_157583aa3b6686::t_16c8a280353c25 1-37
+av/fmp4/init-segment.mts
+  s_157583aa3b6686::t_548ee7d8aab9e3 1-152
+av/fmp4/media-segment.mts
+  s_157583aa3b6686::t_4c16f159ff9140 1-65,67-125
+  s_157583aa3b6686::t_727afc4a574863 66
+av/fmp4/media-segment.test.mts
+  s_157583aa3b6686::t_511523011e9ed0 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "d3b10352aae7f369ed246f9c5a76f4f575928a09",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

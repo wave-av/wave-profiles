@@ -1,0 +1,23 @@
+test/dispatch-tools-guard.spec.ts
+  s_2b4acc7ceba309::t_a9c95b837667d2 24,37-67
+src/errors.ts
+  s_2b4acc7ceba309::t_7f28232c9c2068 82-91
+src/dispatch-inference.ts
+  s_2b4acc7ceba309::t_b7aab1dafec5c6 102-109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "607c4915620f489b6ac910f02f41f6fad1d53879",
+  "prompts": {},
+  "sessions": {
+    "s_2b4acc7ceba309": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff3dead9affe2WOERvc2psX5Eq",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

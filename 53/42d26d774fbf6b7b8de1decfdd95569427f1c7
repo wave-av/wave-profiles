@@ -1,0 +1,30 @@
+src/gateway-native-routes.ts
+  s_6e7ad4df769349::t_9307a0c1d2bc46 49
+  s_6e7ad4df769349::t_4e9e2a634d0287 88-93
+src/moq-join.ts
+  s_6e7ad4df769349::t_9c8df70d464c21 19-28
+  s_6e7ad4df769349::t_51fd3e7b4657cf 123-132,144
+  s_6e7ad4df769349::t_be05f6c78af96a 92
+test/moq-join.spec.ts
+  s_6e7ad4df769349::t_6314ae13d99ba4 115-147
+src/moq-join-token.ts
+  s_6e7ad4df769349::t_17a482e00c1dd2 145
+  s_6e7ad4df769349::t_bff591a1ebc785 222
+  s_6e7ad4df769349::t_43ff872592a107 51-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "5342d26d774fbf6b7b8de1decfdd95569427f1c7",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

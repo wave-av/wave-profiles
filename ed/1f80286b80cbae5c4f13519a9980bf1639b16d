@@ -1,0 +1,20 @@
+test/main-break-health.spec.ts
+  s_7ddeb5d251570f::t_c45683d44cb56d 77
+  s_7ddeb5d251570f::t_b5ebfde3d3266d 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ed1f80286b80cbae5c4f13519a9980bf1639b16d",
+  "prompts": {},
+  "sessions": {
+    "s_7ddeb5d251570f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffd18905effeQT6zud4m713r2F",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

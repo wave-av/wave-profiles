@@ -1,0 +1,31 @@
+package.json
+  s_e077f59d8037ec::t_0c7c31966cd216 9-11
+scripts/check-agent-money-build.mjs
+  s_e077f59d8037ec::t_ddb448264f9ec7 1-30,33-34,39-80,82-201
+  s_e077f59d8037ec::t_7e535d080a13b8 31
+  s_e077f59d8037ec::t_1d2483e63854d3 35-38
+  s_e077f59d8037ec::t_9e6f3761900dcb 32
+  s_e077f59d8037ec::t_5649c05d888e33 81
+scripts/lib/stale-build-rules.mjs
+  s_e077f59d8037ec::t_ff29bc6b6e650b 1-86
+test/agent-money-staleness.spec.ts
+  s_e077f59d8037ec::t_d550e0e7573fb5 1-128
+scripts/lib/stale-build-rules.d.mts
+  s_e077f59d8037ec::t_1c40e5481b2a5e 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "a86180f23dd2ef68bd3175be5aecfa5bb5e46881",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

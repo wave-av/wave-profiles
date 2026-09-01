@@ -1,0 +1,48 @@
+.github/workflows/_checks.yml
+  h_af5ac1a9798224 25,56,116
+CHANGELOG.md
+  h_af5ac1a9798224 19-21
+harness/voice-cli.mjs
+  h_af5ac1a9798224 1-170
+harness/voice-conversation.mjs
+  h_af5ac1a9798224 1-152
+src/agent-session.ts
+  h_af5ac1a9798224 51,54,76-79,301-306,309-310,315-316,343-346,349-350,372-389,440-443,489-519,544-557,562-563,566,570-571,579-612,626-672,679,684-686,693
+src/agent-stt-streaming.ts
+  h_af5ac1a9798224 56-59,69
+src/agent-turn-providers.ts
+  h_af5ac1a9798224 21-51,140,147-150,168,199,249
+src/agent-turn-speech.ts
+  h_af5ac1a9798224 44-49,113-115,119-121,183-185,187-191,196
+src/agent-turn.ts
+  h_af5ac1a9798224 73-75,140,155,202,205-208,248-249,260,283-288,474-478,554-555,740,777
+src/dispatch-helpers.ts
+  h_af5ac1a9798224 173-177
+src/fft.ts
+  h_af5ac1a9798224 1-221
+src/flow-tap.ts
+  h_af5ac1a9798224 1-30
+src/route-dispatch.ts
+  h_af5ac1a9798224 73,85,237-242,753-776
+src/transcript-route.ts
+  h_af5ac1a9798224 1-35
+test/agent-session.test.ts
+  h_af5ac1a9798224 288-323
+test/e-rooms-two-party-receipt.test.ts
+  h_af5ac1a9798224 1-158
+test/worker.agent-route.test.ts
+  h_af5ac1a9798224 142-162
+wrangler.toml
+  h_af5ac1a9798224 266,270-281,310-321
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "3e284a9d30cddab2943e7f15b37f24e533ee4bb9",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+CHANGELOG.md
+  s_10e53e3a039bfa::t_1f9b7d0bbdc276 41-52
+test/seconds-meter-scale.spec.ts
+  s_10e53e3a039bfa::t_70592f80e38f75 131-147
+src/usage-read.ts
+  s_10e53e3a039bfa::t_4d14d2c1d40695 96-100
+src/usage.ts
+  s_10e53e3a039bfa::t_d880a8e54757f3 105-108
+src/usage-meters.ts
+  s_10e53e3a039bfa::t_f6176f57b498b9 181-192
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "f77db2e30cae685292c0d235eed6aef0919da445",
+  "prompts": {},
+  "sessions": {
+    "s_10e53e3a039bfa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d6c2cfc-2b0d-42fa-9e8e-0888ca9d739b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

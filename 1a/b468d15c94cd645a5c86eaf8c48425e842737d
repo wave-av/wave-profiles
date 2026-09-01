@@ -1,0 +1,19 @@
+src/tempo-webhook.ts
+  s_756b33c630d33b::t_47c6780c2c062a 3,5-9,11,14-17,25,28,41-48,50-52,55-56,59,61-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "1ab468d15c94cd645a5c86eaf8c48425e842737d",
+  "prompts": {},
+  "sessions": {
+    "s_756b33c630d33b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe99def39ffeGc1l8vjaj3GcVO",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

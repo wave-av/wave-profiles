@@ -1,0 +1,30 @@
+.github/workflows/deploy.yml
+  s_e077f59d8037ec::t_3e5d105fe16e4d 34-39
+  s_e077f59d8037ec::t_a574105d6c2d8e 199-208
+  s_e077f59d8037ec::t_1bbc45c10c0765 168-172
+  s_e077f59d8037ec::t_fbcf4f2da98cbc 173-181
+scripts/ci/test-assert-emitted-secrets.sh
+  s_e077f59d8037ec::t_db79e0765dd771 1-141
+scripts/ci/assert-emitted-secrets.sh
+  s_e077f59d8037ec::t_856bbc34163184 1-135
+.github/workflows/build-check.yml
+  s_e077f59d8037ec::t_773996f1182af7 250-280
+.github/deploy-secrets-allowed-absent.txt
+  s_e077f59d8037ec::t_c7146be33c3886 1-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "72425b3b3ebca6da9a721355d9eea66e7f96ca39",
+  "prompts": {},
+  "sessions": {
+    "s_e077f59d8037ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9b52870-24e2-4d85-951d-2946b709f9b6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

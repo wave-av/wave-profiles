@@ -1,0 +1,23 @@
+dante-dep-bridge/scripts/aes67_reader.py
+  s_6e7ad4df769349::t_6f54fa036dd5d0 141-145,153-154
+  s_6e7ad4df769349::t_7aa4592afce007 155
+dante-dep-bridge/scripts/aes67_reader_test.py
+  s_6e7ad4df769349::t_73722e58eea9ce 131-140
+  s_6e7ad4df769349::t_801fd9e39b0dcb 148-149,151-155
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8e5a7dc429692f2352b405b605a28e9fe6684300",
+  "prompts": {},
+  "sessions": {
+    "s_6e7ad4df769349": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91274c95-abfb-4ffd-b243-f2916d2e4e07",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

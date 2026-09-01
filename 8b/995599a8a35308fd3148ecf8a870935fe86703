@@ -1,0 +1,16 @@
+src/router-shadow.ts
+  h_af5ac1a9798224 35-41,95-124
+wrangler.toml
+  h_af5ac1a9798224 1600-1605
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "8b995599a8a35308fd3148ecf8a870935fe86703",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

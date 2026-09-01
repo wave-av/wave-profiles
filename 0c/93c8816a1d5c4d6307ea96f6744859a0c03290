@@ -1,0 +1,56 @@
+wrangler.toml
+  s_10e53e3a039bfa::t_69e2503237ebe3 777-778,780-794
+CHANGELOG.md
+  s_10e53e3a039bfa::t_a5a23c1e6072c7 46-67
+src/usage.ts
+  s_10e53e3a039bfa::t_141858a490a3d2 539-540
+  s_10e53e3a039bfa::t_337b8a3a12f950 53
+  s_10e53e3a039bfa::t_bab7643dd3b1db 543-545,547
+  s_10e53e3a039bfa::t_cbc948f0e9cb1e 52
+src/usage-read.ts
+  s_10e53e3a039bfa::t_6d65c44a13face 103-105,109,112-114
+  s_10e53e3a039bfa::t_83a74fab8bb85d 117
+  s_10e53e3a039bfa::t_6092acafc81d6e 24
+src/usage-cap-env.ts
+  s_10e53e3a039bfa::t_e09877d78db26c 40,50,63,67,69-84,86,91,95,106,111
+  s_10e53e3a039bfa::t_f05643b43a9c49 93
+  s_10e53e3a039bfa::t_81deb8a3dfc648 37-39
+  s_10e53e3a039bfa::t_f51f93b99d954b 41-43,47-49
+  s_10e53e3a039bfa::t_a309191bc501ea 51-53,60-62
+  s_10e53e3a039bfa::t_d0ca36f6157565 64-66
+  s_10e53e3a039bfa::t_3e7d11fe4a5c95 68
+  s_10e53e3a039bfa::t_2c26126753b180 85
+  s_10e53e3a039bfa::t_a638d607616732 87-90
+  s_10e53e3a039bfa::t_ecb3748a241d01 92
+  s_10e53e3a039bfa::t_b7ed068d8f04ef 94
+  s_10e53e3a039bfa::t_0ebac94b705215 96-98,103-105
+  s_10e53e3a039bfa::t_77f427ab579cc7 107-110
+  s_10e53e3a039bfa::t_00511bff6aed14 1-36,44-46,54-59,99-102
+test/usage-dimension-quota.spec.ts
+  s_10e53e3a039bfa::t_669a71f862eb04 114-158
+  s_10e53e3a039bfa::t_cbdcd4855e0082 8-9,40,50,58,63,103
+test/seconds-meter-scale.spec.ts
+  s_10e53e3a039bfa::t_34b3abdda9d0ba 141-142,144
+test/usage-dedupe-quota.spec.ts
+  s_10e53e3a039bfa::t_38042cf4ee9441 36,38
+test/usage-read-102.spec.ts
+  s_10e53e3a039bfa::t_bc014be003de64 136,180,183,190,207-208,210
+test/usage-replay.spec.ts
+  s_10e53e3a039bfa::t_7da24d3c06fb81 199
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "0c93c8816a1d5c4d6307ea96f6744859a0c03290",
+  "prompts": {},
+  "sessions": {
+    "s_10e53e3a039bfa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d6c2cfc-2b0d-42fa-9e8e-0888ca9d739b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

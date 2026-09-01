@@ -1,0 +1,24 @@
+moq/crest/crest-burnin.mjs
+  s_157583aa3b6686::t_000992c0104a67 27-28,34-35,49
+  s_157583aa3b6686::t_fb322c3913eb39 1-26,29-33,36-48,50-216
+moq/crest/crest-burnin-test.mjs
+  s_157583aa3b6686::t_2c57b0dfe90b6b 1-166
+moq/crest/receipts/e38-burnin.json
+  s_157583aa3b6686::t_d2e21b36e0cceb 1-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e95cd45e2e5e079619454a2996ae25f3f434c2b4",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

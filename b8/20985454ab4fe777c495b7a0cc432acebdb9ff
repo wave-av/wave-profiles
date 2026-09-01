@@ -1,0 +1,27 @@
+moq/braid-audio/braid-audio.mjs
+  s_157583aa3b6686::t_9d8a34a02584dc 1-163
+moq/braid-audio/package.json
+  s_157583aa3b6686::t_a724a5fa1041cf 1-20
+moq/braid-audio/braid-audio.test.mjs
+  s_157583aa3b6686::t_2af1b66fe8f891 1-104
+moq/braid-audio/README.md
+  s_157583aa3b6686::t_a7ecdcf0414875 1-78
+moq/braid-audio/index.mjs
+  s_157583aa3b6686::t_e759315fd4649d 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b820985454ab4fe777c495b7a0cc432acebdb9ff",
+  "prompts": {},
+  "sessions": {
+    "s_157583aa3b6686": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0800e731-23e3-40e5-abec-27e99bf7f8c7",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

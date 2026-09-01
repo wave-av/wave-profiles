@@ -1,0 +1,14 @@
+test/router-leaderboard-public.spec.ts
+  h_af5ac1a9798224 58-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "f05801337327e67dbd0f359ffd307874a6898165",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

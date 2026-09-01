@@ -1,0 +1,51 @@
+test/viewport-meter-719.spec.ts
+  s_375efeac18ed55::t_06a23ddb9ef442 1-215
+src/gateway-native-routes.ts
+  s_375efeac18ed55::t_e82b2767688238 116-128
+  s_375efeac18ed55::t_66104bc8be3434 58
+src/usage-normalize.ts
+  s_375efeac18ed55::t_0741176b3c95ff 1-55
+src/usage-types.ts
+  s_375efeac18ed55::t_d537db414dd7d7 41-53
+src/env.ts
+  s_375efeac18ed55::t_2ea622a57efd5d 62-65,67
+src/usage.ts
+  s_375efeac18ed55::t_4205b88dc25a8c 357-361
+  s_375efeac18ed55::t_9b315357df6a49 306-329
+test/viewport-trust-715.spec.ts
+  s_375efeac18ed55::t_897f5a6a43df79 1-3,5-10,12,29
+  s_375efeac18ed55::t_fe239017979728 4,11,13-28,30-181
+src/viewport-scope.ts
+  s_375efeac18ed55::t_7ebece4d4d1016 1-93
+test/viewport-lease-715.spec.ts
+  s_375efeac18ed55::t_8ff9946230828e 1-199
+src/viewport-routes.ts
+  s_375efeac18ed55::t_f0697605b0d8f2 226-230
+  s_375efeac18ed55::t_49f9261ba0009f 1-42,44-225,231-402
+  s_375efeac18ed55::t_df4d6ac8137b8c 43
+src/viewport-lease.ts
+  s_375efeac18ed55::t_35287371c59cb5 1-230
+src/viewport-id.ts
+  s_375efeac18ed55::t_0642e93f4c831e 1-121
+src/scope-groups.ts
+  s_375efeac18ed55::t_22ba8f7a0f28ee 193-206
+  s_375efeac18ed55::t_b3b77d53cb8a6d 58-66
+src/viewport-meter.ts
+  s_375efeac18ed55::t_c61ab8b2f9f9a2 1-97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "2ba1e607e4c88345e3770a43a29999fea62de25a",
+  "prompts": {},
+  "sessions": {
+    "s_375efeac18ed55": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "36fdda83-f068-47e7-b3f6-f5ca7f834237",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

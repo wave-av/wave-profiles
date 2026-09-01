@@ -1,0 +1,14 @@
+src/routes/platform-usage.ts
+  h_af5ac1a9798224 52-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "6f9b8c879733a53322ff7748f9c3e718f644a62a",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

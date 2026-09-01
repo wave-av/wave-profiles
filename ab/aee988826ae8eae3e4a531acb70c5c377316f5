@@ -1,0 +1,34 @@
+test/pricing-manifests.spec.ts
+  s_b6f4ff150ec0bf::t_c88f7fbf0cdaf7 1-99
+src/scopes.ts
+  s_b6f4ff150ec0bf::t_c88f7fbf0cdaf7 125-129
+src/gateway-native-routes.ts
+  s_b6f4ff150ec0bf::t_c88f7fbf0cdaf7 52,138-151
+  s_b6f4ff150ec0bf::t_a8873be1d929cf 152
+src/env.ts
+  s_b6f4ff150ec0bf::t_016ed28319516f 85
+  s_b6f4ff150ec0bf::t_c88f7fbf0cdaf7 78
+CHANGELOG.md
+  s_b6f4ff150ec0bf::t_c88f7fbf0cdaf7 9-10
+src/pricing-manifests.ts
+  s_b6f4ff150ec0bf::t_c88f7fbf0cdaf7 1-189
+wrangler.toml
+  s_b6f4ff150ec0bf::t_c88f7fbf0cdaf7 165-168
+  s_b6f4ff150ec0bf::t_0b7fc56469139a 164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "abaee988826ae8eae3e4a531acb70c5c377316f5",
+  "prompts": {},
+  "sessions": {
+    "s_b6f4ff150ec0bf": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fe049f739ffezCIOr9IYnKihal",
+        "model": "kimi-k3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

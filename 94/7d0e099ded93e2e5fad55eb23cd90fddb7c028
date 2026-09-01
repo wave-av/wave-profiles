@@ -1,0 +1,19 @@
+src/core/streaming/srt.py
+  s_d5b9b7bd5a9501::t_b61ec6f509c388 498-501
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "947d0e099ded93e2e5fad55eb23cd90fddb7c028",
+  "prompts": {},
+  "sessions": {
+    "s_d5b9b7bd5a9501": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff280955effeMtHyWyMaGjRd3S",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}
