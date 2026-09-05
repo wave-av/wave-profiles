@@ -18,6 +18,7 @@ on:
   pull_request:
   push:
     branches: [main, master, staging]
+  merge_group:
 
 permissions:
   contents: read
