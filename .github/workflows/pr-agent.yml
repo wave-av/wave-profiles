@@ -187,7 +187,7 @@ jobs:
         # run 32589642731). 360s is 2x the larger. 6 + 0.75 + 6 = 12.75 keeps both
         # attempts inside the job's 15.
         timeout-minutes: 6
-        uses: The-PR-Agent/pr-agent@f6af7d77554ff8d26adffded077e6461329e92fa # v0.42.0
+        uses: The-PR-Agent/pr-agent@f3b385ea2927247ddcff2fe252472380b9c8f5fc # v0.45.0
         continue-on-error: true   # outcome is classified by the verdict step below (#3128)
         env:
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
@@ -234,7 +234,7 @@ jobs:
         id: agent_retry
         if: steps.agent.outcome == 'failure'
         timeout-minutes: 6   # same budget as attempt 1 — see its comment
-        uses: The-PR-Agent/pr-agent@f6af7d77554ff8d26adffded077e6461329e92fa # v0.42.0
+        uses: The-PR-Agent/pr-agent@f3b385ea2927247ddcff2fe252472380b9c8f5fc # v0.45.0
         continue-on-error: true
         # Duplicated, not aliased: GitHub Actions does not support YAML anchors.
         # Keep both blocks identical — a drift here silently reviews attempt 2
