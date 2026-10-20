@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wave-av.github.io/claude-workstation/schemas/build-provenance/v1.json",
+  "title": "WAVE Buildkite run provenance (v1, unsigned-but-hashed)",
+  "description": "SLSA-style provenance emitted per Buildkite run (WAVE-26503 O1). Secrets appear name-only; never values. The digest covers the canonical form of the whole document minus itself; signing the digest is WAVE-26504 Q4's call.",
+  "type": "object",
+  "required": ["schema", "pipeline", "build", "base_rev", "pr", "steps", "guards", "secrets", "emitter", "digest"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": "wave-av/build-provenance/v1" },
+    "pipeline": {
+      "type": "object",
+      "required": ["slug"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": { "type": "string", "minLength": 1 },
+        "uuid": { "type": "string" }
+      }
+    },
+    "build": {
+      "type": "object",
+      "required": ["number", "uuid", "branch", "commit"],
+      "additionalProperties": false,
+      "properties": {
+        "number": { "type": "integer", "minimum": 1 },
+        "uuid": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" },
+        "branch": { "type": "string", "minLength": 1 },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" }
+      }
+    },
+    "base_rev": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$",
+      "description": "Trusted base revision: the rev the base branch was at (merge-base for PR builds). Reviewers check out scripts from here, never from the PR head."
+    },
+    "pr": {
+      "type": "object",
+      "required": ["head_repo", "head_sha", "head_ref", "base_repo", "base_ref"],
+      "additionalProperties": false,
+      "properties": {
+        "number": { "type": "string" },
+        "head_repo": { "type": "string", "minLength": 1 },
+        "head_sha": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "head_ref": { "type": "string", "minLength": 1 },
+        "base_repo": { "type": "string", "minLength": 1 },
+        "base_ref": { "type": "string", "minLength": 1 },
+        "is_fork_claimed": {
+          "type": "boolean",
+          "description": "Emitter's claim only. Reviewers MUST recompute fork-ness from head_repo vs base_repo and never trust this bit."
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["index", "key", "queue", "command", "script_sha256", "exit"],
+        "additionalProperties": false,
+        "properties": {
+          "index": { "type": "integer", "minimum": 0, "description": "0-based position in the pipeline steps list." },
+          "key": { "type": "string", "minLength": 1 },
+          "queue": { "type": "string", "minLength": 1 },
+          "command": { "type": "string", "minLength": 1, "description": "Executed command; by convention exactly one checked-in script path." },
+          "script_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA-256 of the executed script file bytes." },
+          "exit": { "type": "integer", "description": "Step exit status. -1 = agent lost / never ran." }
+        }
+      }
+    },
+    "guards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "verdict"],
+        "additionalProperties": false,
+        "properties": {
+          "key": { "type": "string", "minLength": 1 },
+          "verdict": { "enum": ["pass", "fail"] },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "secrets": {
+      "type": "object",
+      "required": ["injected", "withheld"],
+      "additionalProperties": false,
+      "properties": {
+        "injected": {
+          "type": "array",
+          "description": "Name-only records of host-injected secrets. Values MUST never appear.",
+          "items": {
+            "type": "object",
+            "required": ["step_key", "name"],
+            "additionalProperties": false,
+            "properties": {
+              "step_key": { "type": "string", "minLength": 1 },
+              "name": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" }
+            }
+          }
+        },
+        "withheld": {
+          "type": "array",
+          "description": "Name-only records of injections the host refused (e.g. fork builds).",
+          "items": {
+            "type": "object",
+            "required": ["step_key", "name", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "step_key": { "type": "string", "minLength": 1 },
+              "name": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
+              "reason": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "emitter": {
+      "type": "object",
+      "required": ["name", "version", "emitted_at"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 },
+        "emitted_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "sha256: + hex of SHA-256 over the canonical JSON (sorted keys, no whitespace) of this document with the digest field removed."
+    }
+  }
+}

@@ -83,3 +83,19 @@ steps:
       automatic:
         - exit_status: -1
           limit: 1
+
+  - wait
+
+  # O1 (WAVE-26520): provenance-emit runs last behind its own barrier so the
+  # manifest's exit-0 claims hold (every prior step passed). Queue
+  # fpc-isolated: this step receives NO secrets, names only.
+  - label: ":scroll: provenance emit (O1)"
+    key: provenance-emit
+    command: .buildkite/scripts/provenance-emit.sh
+    agents:
+      queue: fpc-isolated
+    timeout_in_minutes: 5
+    retry:
+      automatic:
+        - exit_status: -1
+          limit: 1

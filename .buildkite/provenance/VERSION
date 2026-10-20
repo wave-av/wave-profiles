@@ -1,0 +1,12 @@
+O1 provenance emitter vendored for Buildkite wiring (WAVE-26520).
+source_repo: wave-av/claude-workstation
+source_branch: feat/prov-emitter-o1
+source_sha: cad13c68d53d8b55d43934b03bd2e1e95ba4b3e7
+source_dir: governance/tools/build-provenance
+vendored: 2026-10-20
+files (sha256 of vendored bytes):
+  bin/emit-provenance.mjs a412bd9975bc38490763dbdd9d996f262f48ba16df7c25feda8fefb032695538
+  lib/provenance.mjs c4c02324f3d654fccbd40345764a0464fc7b8949e940c40f4458de3ab77b8f0c
+  schema/provenance.schema.json b609bbb9f4cbadf0de39c7a9ec6a9fa943399f042898adcbbc8afe76c30ae464
+note: re-deriver (bin/rederive-verdict-inputs.mjs) stays reviewer-side in
+claude-workstation; only the emit path is vendored here.
