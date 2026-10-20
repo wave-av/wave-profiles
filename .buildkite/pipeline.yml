@@ -1,0 +1,50 @@
+# Trivial-tier CI on Buildkite: foundation gates only (parity with the
+# `checks`, `skill-validate`, and `verify-routes` jobs in
+# .github/workflows/_checks.yml). FPC agents run --no-command-eval, so every
+# step's command is exactly one checked-in script path with no arguments
+# (wave-monitor PR #108 pattern). No secrets, no plugins, no interpolation.
+# Retry matches PR #108: automatic retry on agent loss only, never on failure.
+steps:
+  - label: ":mag: foundation secret-scan"
+    key: foundation-secret-scan
+    command: .buildkite/scripts/foundation-secret-scan.sh
+    agents:
+      queue: fpc-isolated
+    timeout_in_minutes: 10
+    retry:
+      automatic:
+        - exit_status: -1
+          limit: 1
+
+  - label: ":straight_ruler: foundation file-size gate"
+    key: foundation-file-size
+    command: .buildkite/scripts/foundation-file-size.sh
+    agents:
+      queue: fpc-isolated
+    timeout_in_minutes: 10
+    retry:
+      automatic:
+        - exit_status: -1
+          limit: 1
+
+  - label: ":scroll: foundation skill-validate"
+    key: foundation-skill-validate
+    command: .buildkite/scripts/foundation-skill-validate.sh
+    agents:
+      queue: fpc-isolated
+    timeout_in_minutes: 5
+    retry:
+      automatic:
+        - exit_status: -1
+          limit: 1
+
+  - label: ":globe_with_meridians: foundation verify-routes"
+    key: foundation-verify-routes
+    command: .buildkite/scripts/foundation-verify-routes.sh
+    agents:
+      queue: fpc-isolated
+    timeout_in_minutes: 5
+    retry:
+      automatic:
+        - exit_status: -1
+          limit: 1
