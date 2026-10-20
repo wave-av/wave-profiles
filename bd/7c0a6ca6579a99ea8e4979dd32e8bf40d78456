@@ -1,0 +1,24 @@
+.buildkite/pipeline.yml
+  h_af5ac1a9798224 1-50
+.buildkite/scripts/foundation-file-size.sh
+  h_af5ac1a9798224 1-15
+.buildkite/scripts/foundation-secret-scan.sh
+  h_af5ac1a9798224 1-15
+.buildkite/scripts/foundation-skill-validate.sh
+  h_af5ac1a9798224 1-62
+.buildkite/scripts/foundation-verify-routes.sh
+  h_af5ac1a9798224 1-43
+.buildkite/upload.sh
+  h_af5ac1a9798224 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "bd7c0a6ca6579a99ea8e4979dd32e8bf40d78456",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}
