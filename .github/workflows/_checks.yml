@@ -2,7 +2,7 @@ name: foundation checks
 
 # Reusable cross-project gate (the executable half of wave-foundation). Any WAVE repo runs the same
 # secret-scan + file-size gate by calling this:
-#   jobs: { gate: { uses: wave-av/wave-foundation/.github/workflows/checks.yml@master } }
+#   jobs: { gate: { uses: ./.github/workflows/_checks.yml } }
 # One source of truth -> update here, every repo inherits it (no copying = no drift).
 on:
   workflow_call:
