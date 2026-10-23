@@ -205,3 +205,61 @@ setup() {
     [[ "$output" == *"ripgrep (rg) is required"* ]]
   fi
 }
+
+# Review round 3 (wave-1): fail-closed completeness.
+@test "explicitly empty full value fails closed even when chunks exist" {
+  run env -u BUILDKITE_PULL_REQUEST_REPO -u BUILDKITE_REPO "GUARD_PRIVATE_REPOS=" \
+    "GUARD_PRIVATE_REPOS_01=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_02=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_03=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_04=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_05=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_06=$FIXTURE_REPOS" \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"explicitly empty"* ]]
+}
+
+@test "whitespace-only chunk counts as missing (fails closed)" {
+  run env -u GUARD_PRIVATE_REPOS -u BUILDKITE_PULL_REQUEST_REPO -u BUILDKITE_REPO \
+    "GUARD_PRIVATE_REPOS_01=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_02=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_03=   " \
+    "GUARD_PRIVATE_REPOS_04=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_05=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_06=$FIXTURE_REPOS" \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"missing GUARD_PRIVATE_REPOS_03"* ]]
+}
+
+@test "degenerate token with no alphanumerics fails closed" {
+  if ! command -v rg >/dev/null 2>&1; then
+    skip "rg not installed"
+  fi
+  TDIR="$(mktemp -d)"
+  run env "GUARD_PRIVATE_REPOS=[]" bash "$POLICY" "$TDIR"
+  rm -rf "$TDIR"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"degenerate token"* ]]
+}
+
+@test "equally malformed PR/pipeline URLs refuse (no identity, no bypass)" {
+  run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
+    "BUILDKITE_PULL_REQUEST_REPO=https://github.com/" \
+    "BUILDKITE_REPO=https://github.com/" \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"refusing to run"* ]]
+}
+
+@test "fork refusal redacts userinfo (logs normalized forms only)" {
+  run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
+    "BUILDKITE_PULL_REQUEST_REPO=https://user:s3cret@github.com/fork/repo" \
+    "BUILDKITE_REPO=$PIPELINE_REPO" \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"refusing to run"* ]]
+  [[ "$output" != *"s3cret"* ]]
+  [[ "$output" == *"github.com/fork/repo"* ]]
+}

@@ -99,13 +99,21 @@ check BLOCK abs-user-path    '/(Users|home)/(?!runner/)[a-z][a-z0-9._-]+/'      
 # at run time via GUARD_PRIVATE_REPOS (CI injects it from an org-level Actions
 # variable), comma- or space-separated. UNSET locally → this check is skipped
 # (documented dev behavior). SET but empty/degenerate → fail closed: an
-# explicit empty value must never silently disable the rule (review finding).
+# explicit empty value must never silently disable the rule.
 if [[ -n "${GUARD_PRIVATE_REPOS+x}" ]]; then
   IFS=', ' read -r -a _PRIV <<< "${GUARD_PRIVATE_REPOS:-}"
   _priv_count=0
   for _name in "${_PRIV[@]}"; do
     [[ -z "$_name" ]] && continue
     [[ "$_name" =~ ^[[:space:]]+$ ]] && continue
+    # A token with no alphanumeric characters (e.g. "[]") would only match
+    # itself literally while real names go undetected — fail closed loud
+    # instead of guarding nothing. (Value not echoed: configured names are
+    # confidential.)
+    if [[ ! "$_name" =~ [[:alnum:]] ]]; then
+      echo "::error title=public-repo-guard (private-repo)::GUARD_PRIVATE_REPOS contains a degenerate token with no alphanumeric characters — failing closed (it would match only itself while real names go undetected)."
+      exit 2
+    fi
     _priv_count=$((_priv_count + 1))
     # Regex-escape the name so metacharacters in a repo name (., -, etc.) match
     # literally rather than changing the pattern's meaning.
