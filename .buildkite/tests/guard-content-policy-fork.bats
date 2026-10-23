@@ -146,7 +146,7 @@ setup() {
   fi
 }
 
-# Review round 2 (#126): degenerate values + URL normalization, continued.
+# Review round 2: degenerate values + URL normalization, continued.
 # NOTE: set-but-empty / tab-only reach the vendored policy directly (the BK
 # wrapper diverts empty full-values to chunk assembly first), so these two
 # invoke content-policy.sh itself on an empty dir, GHA-path style.
@@ -173,9 +173,11 @@ setup() {
 }
 
 @test "malformed PR URL normalizing to empty refuses (fail closed)" {
+  # PR value "/" normalizes to empty, so the refusal exercises the
+  # empty-head branch (not the empty-pipeline branch).
   run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
-    "BUILDKITE_PULL_REQUEST_REPO=https://github.com/" \
-    "BUILDKITE_REPO=" \
+    "BUILDKITE_PULL_REQUEST_REPO=/" \
+    "BUILDKITE_REPO=$PIPELINE_REPO" \
     "$SCRIPT"
   [ "$status" -eq 2 ]
   [[ "$output" == *"refusing to run"* ]]
