@@ -16,6 +16,8 @@
 setup() {
   SCRIPT_DIR="$(cd "$(dirname "$BATS_TEST_FILENAME")" && pwd)"
   SCRIPT="$SCRIPT_DIR/../scripts/guard-content-policy.sh"
+  REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+  POLICY="$REPO_ROOT/scripts/public-repo-guard/content-policy.sh"
   PIPELINE_REPO="https://github.com/wave-av/wave-monitor"
   FORK_REPO="https://github.com/example-fork/wave-monitor"
   # Assembled from fragments so the full fixture token never occurs
@@ -140,6 +142,64 @@ setup() {
   if command -v rg >/dev/null 2>&1; then
     [[ "$output" == *"zero repo names"* ]]
   else
+    [[ "$output" == *"ripgrep (rg) is required"* ]]
+  fi
+}
+
+# Review round 2 (#126): degenerate values + URL normalization, continued.
+# NOTE: set-but-empty / tab-only reach the vendored policy directly (the BK
+# wrapper diverts empty full-values to chunk assembly first), so these two
+# invoke content-policy.sh itself on an empty dir, GHA-path style.
+@test "set-but-empty GUARD_PRIVATE_REPOS fails closed (unset still skips)" {
+  if ! command -v rg >/dev/null 2>&1; then
+    skip "rg not installed"
+  fi
+  TDIR="$(mktemp -d)"
+  run env "GUARD_PRIVATE_REPOS=" bash "$POLICY" "$TDIR"
+  rm -rf "$TDIR"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"zero repo names"* ]]
+}
+
+@test "tab-only GUARD_PRIVATE_REPOS fails closed (whitespace token, not a name)" {
+  if ! command -v rg >/dev/null 2>&1; then
+    skip "rg not installed"
+  fi
+  TDIR="$(mktemp -d)"
+  run env "$(printf 'GUARD_PRIVATE_REPOS=\t')" bash "$POLICY" "$TDIR"
+  rm -rf "$TDIR"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"zero repo names"* ]]
+}
+
+@test "malformed PR URL normalizing to empty refuses (fail closed)" {
+  run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
+    "BUILDKITE_PULL_REQUEST_REPO=https://github.com/" \
+    "BUILDKITE_REPO=" \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"refusing to run"* ]]
+}
+
+@test "cross-host same-path PR refuses (host is part of identity)" {
+  run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
+    "BUILDKITE_PULL_REQUEST_REPO=https://evil.example/wave-av/wave-monitor" \
+    "BUILDKITE_REPO=https://github.com/wave-av/wave-monitor" \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"refusing to run"* ]]
+}
+
+@test "same-repo PR with ssh:// pipeline URL proceeds (normalization)" {
+  run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
+    "BUILDKITE_PULL_REQUEST_REPO=$PIPELINE_REPO" \
+    "BUILDKITE_REPO=ssh://git@github.com/wave-av/wave-monitor.git" \
+    "$SCRIPT"
+  [[ "$output" != *"refusing to run"* ]]
+  if command -v rg >/dev/null 2>&1; then
+    [[ "$output" == *"public-repo-guard:"* ]]
+  else
+    [ "$status" -eq 2 ]
     [[ "$output" == *"ripgrep (rg) is required"* ]]
   fi
 }

@@ -97,12 +97,15 @@ check BLOCK abs-user-path    '/(Users|home)/(?!runner/)[a-z][a-z0-9._-]+/'      
 # Private WAVE repo/product names that must never appear in a public tree. The
 # names are NOT hardcoded here (this file is itself public) — they are supplied
 # at run time via GUARD_PRIVATE_REPOS (CI injects it from an org-level Actions
-# variable), comma- or space-separated. Unset locally → this check is skipped.
-if [[ -n "${GUARD_PRIVATE_REPOS:-}" ]]; then
-  IFS=', ' read -r -a _PRIV <<< "$GUARD_PRIVATE_REPOS"
+# variable), comma- or space-separated. UNSET locally → this check is skipped
+# (documented dev behavior). SET but empty/degenerate → fail closed: an
+# explicit empty value must never silently disable the rule (review finding).
+if [[ -n "${GUARD_PRIVATE_REPOS+x}" ]]; then
+  IFS=', ' read -r -a _PRIV <<< "${GUARD_PRIVATE_REPOS:-}"
   _priv_count=0
   for _name in "${_PRIV[@]}"; do
     [[ -z "$_name" ]] && continue
+    [[ "$_name" =~ ^[[:space:]]+$ ]] && continue
     _priv_count=$((_priv_count + 1))
     # Regex-escape the name so metacharacters in a repo name (., -, etc.) match
     # literally rather than changing the pattern's meaning.

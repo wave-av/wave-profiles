@@ -50,3 +50,12 @@ Early. These are the initial reference profiles; field names follow the module s
 - [wave.online](https://wave.online) · [Docs](https://docs.wave.online) · [Developer portal](https://dev.wave.online)
 
 Operated by WAVE Online, LLC.
+## Buildkite runbook
+
+`guard-content-policy` refuses fork PRs (`BUILDKITE_PULL_REQUEST_REPO !=
+BUILDKITE_REPO`) because secrets-queue steps consume host credentials.
+Trusted re-run procedure for a fork PR: (a) the host checks out the
+trusted base revision — not the PR head — for secrets-queue steps;
+(b) the host withholds secret injection for the fork build; (c) a
+manual approval gate is required before any trusted re-run. Never
+approve a re-run that executes PR-head code with host credentials.
