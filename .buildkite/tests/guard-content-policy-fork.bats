@@ -68,3 +68,42 @@ setup() {
     [[ "$output" == *"ripgrep (rg) is required"* ]]
   fi
 }
+
+# T1 (WAVE-27030): six-chunk host injection (512B MAX_SECRET per value).
+@test "chunks assemble when full var is unset (durable host path)" {
+  run env -u GUARD_PRIVATE_REPOS -u BUILDKITE_PULL_REQUEST_REPO -u BUILDKITE_REPO \
+    "GUARD_PRIVATE_REPOS_01=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_02=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_03=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_04=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_05=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_06=$FIXTURE_REPOS" \
+    "$SCRIPT"
+  [[ "$output" != *"refusing to run"* ]]
+  [[ "$output" != *"failing closed"* ]]
+  if command -v rg >/dev/null 2>&1; then
+    [[ "$output" == *"public-repo-guard:"* ]]
+  fi
+}
+
+@test "missing chunk fails closed with exit 2 (never narrows the rule)" {
+  run env -u GUARD_PRIVATE_REPOS -u BUILDKITE_PULL_REQUEST_REPO -u BUILDKITE_REPO \
+    "GUARD_PRIVATE_REPOS_01=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_02=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_03=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_04=$FIXTURE_REPOS" \
+    "GUARD_PRIVATE_REPOS_05=$FIXTURE_REPOS" \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"missing GUARD_PRIVATE_REPOS_06"* ]]
+  [[ "$output" != *"public-repo-guard:"* ]]
+}
+
+@test "no injection at all fails closed with exit 2" {
+  run env -u GUARD_PRIVATE_REPOS -u GUARD_PRIVATE_REPOS_01 -u GUARD_PRIVATE_REPOS_02 \
+    -u GUARD_PRIVATE_REPOS_03 -u GUARD_PRIVATE_REPOS_04 -u GUARD_PRIVATE_REPOS_05 \
+    -u GUARD_PRIVATE_REPOS_06 -u BUILDKITE_PULL_REQUEST_REPO -u BUILDKITE_REPO \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"missing GUARD_PRIVATE_REPOS_01"* ]]
+}
