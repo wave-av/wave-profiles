@@ -29,7 +29,7 @@ _norm_repo() {
   # would collapse distinct SCM hosts into one identity). Anything without a
   # host/owner/name shape normalizes to EMPTY (not an identity): equally
   # malformed PR/pipeline values must refuse, never compare equal and bypass.
-  printf '%s' "$1" | tr '[:upper:]' '[:lower:]' | sed -E -e 's#^(https?|ssh)://([^/@]+@)?([^/]+)/#\3/#' -e 's#^git@([^:]+):#\1/#' -e 's#/$##' -e 's#\.git$##' | awk -F/ 'NF >= 3 && $1 != "" && $2 != "" && $3 != "" { print }'
+  printf '%s' "$1" | tr '[:upper:]' '[:lower:]' | sed -E -e 's#^(https?|ssh|git)://([^/@]+@)?([^/]+)/#\3/#' -e 's#^git@([^:]+):#\1/#' -e 's#/$##' -e 's#\.git$##' | awk -F/ 'NF >= 3 && $1 != "" && $2 != "" && $3 != "" { print }'
 }
 
 if [ -n "${BUILDKITE_PULL_REQUEST_REPO:-}" ]; then

@@ -263,3 +263,24 @@ setup() {
   [[ "$output" != *"s3cret"* ]]
   [[ "$output" == *"github.com/fork/repo"* ]]
 }
+
+@test "multi-line value tokenizes every line (no silent drop)" {
+  if ! command -v rg >/dev/null 2>&1; then
+    skip "rg not installed"
+  fi
+  TDIR="$(mktemp -d)"
+  # "[]" on line 2 must still be seen (degenerate-token exit 2); a
+  # first-line-only read would miss it and exit 0 on the empty dir.
+  run env "$(printf 'GUARD_PRIVATE_REPOS=goodname\n[]')" bash "$POLICY" "$TDIR"
+  rm -rf "$TDIR"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"degenerate token"* ]]
+}
+
+@test "same-repo PR with git:// pipeline URL proceeds (normalization)" {
+  run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
+    "BUILDKITE_PULL_REQUEST_REPO=$PIPELINE_REPO" \
+    "BUILDKITE_REPO=git://github.com/wave-av/wave-monitor.git" \
+    "$SCRIPT"
+  [[ "$output" != *"refusing to run"* ]]
+}

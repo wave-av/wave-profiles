@@ -101,7 +101,11 @@ check BLOCK abs-user-path    '/(Users|home)/(?!runner/)[a-z][a-z0-9._-]+/'      
 # (documented dev behavior). SET but empty/degenerate → fail closed: an
 # explicit empty value must never silently disable the rule.
 if [[ -n "${GUARD_PRIVATE_REPOS+x}" ]]; then
-  IFS=', ' read -r -a _PRIV <<< "${GUARD_PRIVATE_REPOS:-}"
+  # Flatten newlines/CRs first: `read` stops at the first newline, so a
+  # multi-line value would silently drop every name after line one. Tabs
+  # also separate (repo names never contain them).
+  _flat="$(printf '%s' "${GUARD_PRIVATE_REPOS:-}" | tr '\n\r' '  ')"
+  IFS=$', \t' read -r -a _PRIV <<< "$_flat"
   _priv_count=0
   for _name in "${_PRIV[@]}"; do
     [[ -z "$_name" ]] && continue
