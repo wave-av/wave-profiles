@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # foundation-skill-validate — GHA parity with _checks.yml job `skill-validate`
 # (SKILL.md frontmatter gate). Validates *SKILL.md in THIS repo; no-op if the
-# repo has none. Python body mirrors wave-foundation/scripts/validate-skills.py;
+# repo has none. Python body mirrors wave-foundation/scripts/validate-skills.py;  # guard:allow shared checks repo mention (verified-safe reference)
 # keep the two in sync.
 #
 # Needs PyYAML. Prefer the image's copy; otherwise pip-install a PINNED pyyaml

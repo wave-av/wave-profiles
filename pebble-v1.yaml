@@ -3,12 +3,12 @@ description: WAVE Pebble V1 — Personal voice assistant for live production
 target_hardware:
   - raspberry-pi-zero-2w
 modules:
-  - name: wave-audio-in
+  - name: wave-audio-in  # guard:allow functional node name in deployment profile
     config:
       device: respeaker-2mic
       sample_rate: 16000
       channels: 1
-  - name: wave-audio-out
+  - name: wave-audio-out  # guard:allow functional node name in deployment profile
     config:
       device: respeaker-speaker
       volume: 80

@@ -16,9 +16,15 @@
 set -euo pipefail
 cd "$(dirname "$0")/../.."
 
-if [ -n "${BUILDKITE_PULL_REQUEST_REPO:-}" ] && [ -n "${BUILDKITE_REPO:-}" ] \
-   && [ "$BUILDKITE_PULL_REQUEST_REPO" != "$BUILDKITE_REPO" ]; then
-  echo "fork PR detected (head $BUILDKITE_PULL_REQUEST_REPO != pipeline $BUILDKITE_REPO) — refusing to run with host-injected credentials."
+_norm_repo() {
+  # owner/name lowercase, no protocol/host/user/suffix (review finding: a raw
+  # comparison false-refuses same-repo PRs when the pipeline URL is SSH-style).
+  printf '%s' "$1" | sed -E -e 's#^(https?://[^/]+/|git@[^:]+:)##' -e 's#/$##' -e 's#\.git$##' | tr '[:upper:]' '[:lower:]'
+}
+
+if [ -n "${BUILDKITE_PULL_REQUEST_REPO:-}" ] \
+   && [ "$(_norm_repo "$BUILDKITE_PULL_REQUEST_REPO")" != "$(_norm_repo "${BUILDKITE_REPO:-}")" ]; then
+  echo "fork PR detected (head $BUILDKITE_PULL_REQUEST_REPO != pipeline ${BUILDKITE_REPO:-}) — refusing to run with host-injected credentials."
   echo "Host must run the trusted base-revision script or approve a trusted run; see README.md (Buildkite runbook)."
   exit 2
 fi

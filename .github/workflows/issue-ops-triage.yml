@@ -11,12 +11,12 @@ concurrency:
 jobs:
   triage:
     if: vars.IO_ENABLED == 'true'
-    uses: wave-av/wave-foundation-public/.github/workflows/io-triage.yml@f63b91566ab311b09599db6195da8c353cab1f69
+    uses: wave-av/wave-foundation-public/.github/workflows/io-triage.yml@f63b91566ab311b09599db6195da8c353cab1f69  # guard:allow public wave-foundation-public repo; guard term matches at hyphen boundary
     permissions:
       contents: read
       issues: write
     with:
-      scripts_repo: wave-av/wave-foundation-public
+      scripts_repo: wave-av/wave-foundation-public  # guard:allow public wave-foundation-public repo; guard term matches at hyphen boundary
       scripts_ref: "f63b91566ab311b09599db6195da8c353cab1f69"
       owner: ${{ vars.IO_OWNER }}
     secrets:

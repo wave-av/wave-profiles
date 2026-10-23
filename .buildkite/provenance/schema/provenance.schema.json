@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://wave-av.github.io/claude-workstation/schemas/build-provenance/v1.json",
+  "$id": "https://wave-av.github.io/wave-profiles/schemas/build-provenance/v1.json",
   "title": "WAVE Buildkite run provenance (v1, unsigned-but-hashed)",
   "description": "SLSA-style provenance emitted per Buildkite run (WAVE-26503 O1). Secrets appear name-only; never values. The digest covers the canonical form of the whole document minus itself; signing the digest is WAVE-26504 Q4's call.",
   "type": "object",

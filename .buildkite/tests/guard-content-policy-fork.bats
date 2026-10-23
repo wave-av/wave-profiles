@@ -107,3 +107,39 @@ setup() {
   [ "$status" -eq 2 ]
   [[ "$output" == *"missing GUARD_PRIVATE_REPOS_01"* ]]
 }
+
+# Review findings (S3): URL normalization + degenerate values fail closed.
+@test "same-repo PR with SSH pipeline URL proceeds (URL normalization)" {
+  run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
+    "BUILDKITE_PULL_REQUEST_REPO=$PIPELINE_REPO" \
+    "BUILDKITE_REPO=git@github.com:wave-av/wave-monitor.git" \
+    "$SCRIPT"
+  [[ "$output" != *"refusing to run"* ]]
+  if command -v rg >/dev/null 2>&1; then
+    [[ "$output" == *"public-repo-guard:"* ]]
+  else
+    [ "$status" -eq 2 ]
+    [[ "$output" == *"ripgrep (rg) is required"* ]]
+  fi
+}
+
+@test "PR repo set but pipeline repo empty refuses (fail closed)" {
+  run env "GUARD_PRIVATE_REPOS=$FIXTURE_REPOS" \
+    "BUILDKITE_PULL_REQUEST_REPO=$FORK_REPO" \
+    "BUILDKITE_REPO=" \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  [[ "$output" == *"refusing to run"* ]]
+}
+
+@test "whitespace-only GUARD_PRIVATE_REPOS fails closed (never silently disables)" {
+  run env -u BUILDKITE_PULL_REQUEST_REPO -u BUILDKITE_REPO \
+    "GUARD_PRIVATE_REPOS= , ," \
+    "$SCRIPT"
+  [ "$status" -eq 2 ]
+  if command -v rg >/dev/null 2>&1; then
+    [[ "$output" == *"zero repo names"* ]]
+  else
+    [[ "$output" == *"ripgrep (rg) is required"* ]]
+  fi
+}

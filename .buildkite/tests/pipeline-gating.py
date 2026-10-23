@@ -6,7 +6,7 @@ Checks (all must PASS, exit 0):
   1. pipeline.yml parses as YAML with a `steps:` list.
   2. The first two COMMAND steps are guard-gitleaks then guard-content-policy,
      with the expected key/command/queue/timeout (the S2 byte-identical move).
-  3. Every secret-bearing step (agents.queue == fpc-isolated-secrets) has BOTH
+  3. Every secret-bearing step (agents.queue == fpc-isolated-secrets) has BOTH  # guard:allow BK pipeline schema attribute, not a repo reference
      guards in its must-pass set under Buildkite wait/depends_on semantics.
   4. Failure simulation: a failing guard-gitleaks blocks guard-content-policy
      and all later steps; a failing guard-content-policy blocks
@@ -90,8 +90,8 @@ def main():
         for field in ("label", "key", "command", "timeout_in_minutes"):
             check(f"2b {exp['key']}.{field} identical", cmd.get(field) == exp[field],
                   f"got {cmd.get(field)!r}")
-        check(f"2b {exp['key']}.queue identical", (cmd.get("agents") or {}).get("queue") == exp["queue"],
-              f"got {(cmd.get('agents') or {}).get('queue')!r}")
+        check(f"2b {exp['key']}.queue identical", (cmd.get("agents") or {}).get("queue") == exp["queue"],  # guard:allow BK agent concept, not a repo reference
+              f"got {(cmd.get('agents') or {}).get('queue')!r}")  # guard:allow BK agent concept, not a repo reference
         check(f"2c {exp['key']}.retry policy identical", cmd.get("retry") == EXPECTED_RETRY)
 
     # Key index for depends_on resolution.
@@ -126,7 +126,7 @@ def main():
         return must
 
     # 3 — every secret-bearing step gated on BOTH guards.
-    secret_steps = [c for c in commands if (c.get("agents") or {}).get("queue") == SECRETS_QUEUE]
+    secret_steps = [c for c in commands if (c.get("agents") or {}).get("queue") == SECRETS_QUEUE]  # guard:allow BK agent concept, not a repo reference
     check("3a secret-bearing steps found", len(secret_steps) >= 1, f"got {len(secret_steps)}")
     for s in secret_steps:
         mp = must_pass(s)
@@ -169,7 +169,7 @@ def main():
     for gkey in GUARD_KEYS:
         ran, blocked = simulate(gkey)
         leaked = [k for k in ran
-                  if (by_key[k].get("agents") or {}).get("queue") == SECRETS_QUEUE
+                  if (by_key[k].get("agents") or {}).get("queue") == SECRETS_QUEUE  # guard:allow BK agent concept, not a repo reference
                   and k != gkey]
         check(f"4 failing {gkey} blocks every secret-bearing step", not leaked,
               f"blocked={blocked}" if not leaked else f"LEAKED={leaked}")

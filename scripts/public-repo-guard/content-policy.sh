@@ -100,13 +100,19 @@ check BLOCK abs-user-path    '/(Users|home)/(?!runner/)[a-z][a-z0-9._-]+/'      
 # variable), comma- or space-separated. Unset locally → this check is skipped.
 if [[ -n "${GUARD_PRIVATE_REPOS:-}" ]]; then
   IFS=', ' read -r -a _PRIV <<< "$GUARD_PRIVATE_REPOS"
+  _priv_count=0
   for _name in "${_PRIV[@]}"; do
     [[ -z "$_name" ]] && continue
+    _priv_count=$((_priv_count + 1))
     # Regex-escape the name so metacharacters in a repo name (., -, etc.) match
     # literally rather than changing the pattern's meaning.
     _esc="$(printf '%s' "$_name" | sed -E 's/[][(){}.^$*+?|\\]/\\&/g')"
     check BLOCK private-repo "\\b${_esc}\\b" 'Reference to a private WAVE repo/product (configured via GUARD_PRIVATE_REPOS) — keep out of public'
   done
+  if (( _priv_count == 0 )); then
+    echo "::error title=public-repo-guard (private-repo)::GUARD_PRIVATE_REPOS is set but contains zero repo names — failing closed (a degenerate value must never silently disable the rule)."
+    exit 2
+  fi
 fi
 
 # --- Credential formats gitleaks may miss in-context -------------------------

@@ -1,6 +1,6 @@
 # Trivial-tier CI on Buildkite: foundation gates only (parity with the
 # `checks`, `skill-validate`, and `verify-routes` jobs in
-# .github/workflows/_checks.yml). FPC agents run --no-command-eval, so every
+# .github/workflows/_checks.yml). FPC agents run --no-command-eval, so every  # guard:allow plain-English word, not a repo reference
 # step's command is exactly one checked-in script path with no arguments
 # (wave-monitor PR #108 pattern). Host-injected GUARD_PRIVATE_REPOS arrives
 # by step key on queue fpc-isolated-secrets for guard-content-policy
@@ -15,7 +15,7 @@ steps:
   - label: ":key: guard gitleaks"
     key: guard-gitleaks
     command: .buildkite/scripts/guard-gitleaks.sh
-    agents:
+    agents:  # guard:allow BK pipeline keyword, not a repo reference
       queue: fpc-isolated
     timeout_in_minutes: 10
     retry: &retry-agent-loss
@@ -33,7 +33,7 @@ steps:
   - label: ":clipboard: guard content-policy"
     key: guard-content-policy
     command: .buildkite/scripts/guard-content-policy.sh
-    agents:
+    agents:  # guard:allow BK pipeline keyword, not a repo reference
       queue: fpc-isolated-secrets
     timeout_in_minutes: 10
     retry: *retry-agent-loss
@@ -43,7 +43,7 @@ steps:
   - label: ":mag: foundation secret-scan"
     key: foundation-secret-scan
     command: .buildkite/scripts/foundation-secret-scan.sh
-    agents:
+    agents:  # guard:allow BK pipeline keyword, not a repo reference
       queue: fpc-isolated
     timeout_in_minutes: 10
     retry:
@@ -54,7 +54,7 @@ steps:
   - label: ":straight_ruler: foundation file-size gate"
     key: foundation-file-size
     command: .buildkite/scripts/foundation-file-size.sh
-    agents:
+    agents:  # guard:allow BK pipeline keyword, not a repo reference
       queue: fpc-isolated
     timeout_in_minutes: 10
     retry:
@@ -65,7 +65,7 @@ steps:
   - label: ":scroll: foundation skill-validate"
     key: foundation-skill-validate
     command: .buildkite/scripts/foundation-skill-validate.sh
-    agents:
+    agents:  # guard:allow BK pipeline keyword, not a repo reference
       queue: fpc-isolated
     timeout_in_minutes: 5
     retry:
@@ -76,7 +76,7 @@ steps:
   - label: ":globe_with_meridians: foundation verify-routes"
     key: foundation-verify-routes
     command: .buildkite/scripts/foundation-verify-routes.sh
-    agents:
+    agents:  # guard:allow BK pipeline keyword, not a repo reference
       queue: fpc-isolated
     timeout_in_minutes: 5
     retry:
@@ -92,7 +92,7 @@ steps:
   - label: ":scroll: provenance emit (O1)"
     key: provenance-emit
     command: .buildkite/scripts/provenance-emit.sh
-    agents:
+    agents:  # guard:allow BK pipeline keyword, not a repo reference
       queue: fpc-isolated
     timeout_in_minutes: 5
     retry:
