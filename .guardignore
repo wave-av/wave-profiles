@@ -1,0 +1,5 @@
+# Per-file carve-outs: lines the private-repo rule flags that cannot take
+# inline `# guard:allow` markers (see reason per file). The gitleaks gate
+# still scans these files. Re-check if guard terms are ever scoped (WAVE-27328).
+# AGENTS.md: machine-surface fence must stay byte-exact (hyphen-boundary FP).
+AGENTS.md
