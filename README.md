@@ -50,3 +50,19 @@ Early. These are the initial reference profiles; field names follow the module s
 - [wave.online](https://wave.online) · [Docs](https://docs.wave.online) · [Developer portal](https://dev.wave.online)
 
 Operated by WAVE Online, LLC.
+## Buildkite runbook
+
+`guard-content-policy` refuses a build when the normalized repository
+identities differ: it compares host/owner/name (lowercased, scheme and
+`.git` suffix agnostic), so SSH-vs-HTTPS spellings of the same
+repository proceed while any other mismatch \u2014 including malformed or
+empty identities \u2014 refuses. Secrets-queue steps consume host
+credentials, so refusal is fail-closed (exit 2).
+Trusted re-run procedure for a fork PR: run the pipeline from the
+trusted base ref (a base-branch build) — never by re-running the fork
+build itself. A re-run of the fork build keeps fork metadata
+(`BUILDKITE_PULL_REQUEST_REPO` still points at the fork), so the guard
+still refuses it; only a build whose head is the trusted base proceeds.
+The host withholds secret injection from any fork build, and a manual
+approval gate is required before any trusted re-run. Never approve a
+re-run that executes PR-head code with host credentials.

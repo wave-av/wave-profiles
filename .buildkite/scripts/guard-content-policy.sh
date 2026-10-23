@@ -11,39 +11,58 @@
 # scripts/public-repo-guard/content-policy.sh directly, where the rule stays
 # optional — see README.md.)
 #
+# Chunking (T1/WAVE-27030): the host secrets channel caps each value at 512B
+# (golden image MAX_SECRET), so Doppler wave/bkjobs carries the list as
+# GUARD_PRIVATE_REPOS_01.._06 and the allowlist grants all six to this step
+# key. A full GUARD_PRIVATE_REPOS (GHA org var, per-build proof injection)
+# takes precedence when set; otherwise all six chunks must be present — a
+# missing chunk fails closed, never silently narrows the rule.
+#
 # GHA apt-installs ripgrep when missing; FPC guests must not assume sudo/apt,
 # so a missing rg fails closed with a clear message instead.
 set -euo pipefail
 cd "$(dirname "$0")/../.."
 
 _norm_repo() {
-  # owner/name lowercase, no protocol/host/user/suffix (review finding: a raw
-  # comparison false-refuses same-repo PRs when the pipeline URL is SSH-style).
-  printf '%s' "$1" | sed -E -e 's#^(https?://[^/]+/|git@[^:]+:)##' -e 's#/$##' -e 's#\.git$##' | tr '[:upper:]' '[:lower:]'
+  # host/owner/name lowercase, no scheme/user/suffix (review findings: a raw
+  # comparison false-refuses SSH-style pipeline URLs, but dropping the host
+  # would collapse distinct SCM hosts into one identity). Anything without a
+  # host/owner/name shape normalizes to EMPTY (not an identity): equally
+  # malformed PR/pipeline values must refuse, never compare equal and bypass.
+  printf '%s' "$1" | tr '[:upper:]' '[:lower:]' | sed -E -e 's#^(https?|ssh|git)://([^/@]+@)?([^/]+)/#\3/#' -e 's#^git@([^:]+):#\1/#' -e 's#/$##' -e 's#\.git$##' | awk -F/ 'NF >= 3 && $1 != "" && $2 != "" && $3 != "" { print }'
 }
 
-if [ -n "${BUILDKITE_PULL_REQUEST_REPO:-}" ] \
-   && [ "$(_norm_repo "$BUILDKITE_PULL_REQUEST_REPO")" != "$(_norm_repo "${BUILDKITE_REPO:-}")" ]; then
-  echo "fork PR detected (head $BUILDKITE_PULL_REQUEST_REPO != pipeline ${BUILDKITE_REPO:-}) — refusing to run with host-injected credentials."
-  echo "Host must run the trusted base-revision script or approve a trusted run; see README.md (Buildkite runbook)."
-  exit 2
+if [ -n "${BUILDKITE_PULL_REQUEST_REPO:-}" ]; then
+  _head="$(_norm_repo "$BUILDKITE_PULL_REQUEST_REPO")"
+  _pipe="$(_norm_repo "${BUILDKITE_REPO:-}")"
+  if [ -z "$_head" ] || [ -z "$_pipe" ] || [ "$_head" != "$_pipe" ]; then
+    # Log NORMALIZED forms: raw URLs can embed userinfo credentials.
+    echo "fork PR detected (head ${_head:-<unparseable>} != pipeline ${_pipe:-<unparseable>}) — refusing to run with host-injected credentials."
+    echo "Host must run the trusted base-revision script or approve a trusted run; see README.md (Buildkite runbook)."
+    exit 2
+  fi
 fi
 
 command -v rg >/dev/null 2>&1 || {
   echo "ripgrep (rg) is required but not installed in the agent image — failing closed."
   exit 2
 }
-# Chunking (T1/WAVE-27030): the host secrets channel caps each value at 512B
-# (golden image MAX_SECRET), so Doppler wave/bkjobs carries the list as
-# GUARD_PRIVATE_REPOS_01.._06 and the allowlist grants all six to this step
-# key. A full GUARD_PRIVATE_REPOS takes precedence when set; otherwise all
-# six chunks must be present - a missing chunk fails closed, never silently
-# narrows the rule.
-if [ -z "${GUARD_PRIVATE_REPOS:-}" ]; then
+if [ -n "${GUARD_PRIVATE_REPOS+x}" ]; then
+  # Set (even to empty): must be non-degenerate, takes precedence. An
+  # explicitly empty/whitespace full value fails closed here — it must
+  # never silently fall through to chunks (or disable the rule).
+  _full_stripped="$(printf '%s' "$GUARD_PRIVATE_REPOS" | tr -d '[:space:]')"
+  if [ -z "$_full_stripped" ]; then
+    echo "GUARD_PRIVATE_REPOS is explicitly empty/whitespace — failing closed (an explicit empty value must never silently select chunks or disable the rule)."
+    exit 2
+  fi
+else
   for _i in 01 02 03 04 05 06; do
     _v="GUARD_PRIVATE_REPOS_$_i"
-    if [ -z "${!_v:-}" ]; then
-      echo "host must inject GUARD_PRIVATE_REPOS (full) or all of GUARD_PRIVATE_REPOS_01.._06 for step key guard-content-policy (missing $_v) - failing closed."
+    # Whitespace-only counts as missing: the policy splits on whitespace,
+    # so a blank chunk would silently narrow the rule.
+    if [ -z "$(printf '%s' "${!_v:-}" | tr -d '[:space:]')" ]; then
+      echo "host must inject GUARD_PRIVATE_REPOS (full) or all of GUARD_PRIVATE_REPOS_01.._06 for step key guard-content-policy (missing $_v) — failing closed."
       exit 2
     fi
   done
