@@ -6,6 +6,14 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+### Security
+
+- Buildkite schedules the secrets-queue content-policy step only for a
+  scheduled build, or for the default branch when the build is not a
+  triggered job. A pull request or a tag does not schedule it. The
+  checked-in script `.buildkite/scripts/check-secret-queue-fence.sh` fails
+  the build if that condition is removed.
+
 ### Fixed
 
 - `pr-agent` lane: fork-triggered `/` commands are now refused, and the AI

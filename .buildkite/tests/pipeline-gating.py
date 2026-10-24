@@ -4,8 +4,10 @@ blocks every secret-bearing step in .buildkite/pipeline.yml.
 
 Checks (all must PASS, exit 0):
   1. pipeline.yml parses as YAML with a `steps:` list.
-  1g. Guards carry no soft_fail/allow_failure/if/branches/skip; waits carry
-      no continue_on_failure (WAVE-27331 gap 1).
+  1g. Guards carry no soft_fail/allow_failure/branches/skip. A guard `if`
+      is an escape hatch, except the exact secret-queue fence on a guard
+      whose queue is a secrets queue (the step must not run for a pull
+      request). Waits carry no continue_on_failure (WAVE-27331 gap 1).
   1h. No `group:` nesting — the walk is top-level only (gap 3).
   1i. No plural `commands:` lists — the walk keys on `command` and would
       skip them while BK runs every entry (review).
@@ -42,7 +44,19 @@ SECRETS_QUEUE = "fpc-isolated-secrets"
 GUARD_KEYS = ("guard-gitleaks", "guard-content-policy")
 # BK pipeline schema attributes that must never appear on a guard step — a
 # guard that can soft-fail, skip, or narrow itself is not a gate.  # guard:allow BK pipeline schema attributes, not repo references
-FORBIDDEN_GUARD_KEYS = ("soft_fail", "allow_failure", "if", "branches", "skip")
+# `if` is checked separately: the only allowed value is the secret-queue
+# fence, and only on a guard that already runs on a secrets queue.
+FORBIDDEN_GUARD_KEYS = ("soft_fail", "allow_failure", "branches", "skip")
+SECRET_QUEUE_FENCE = (
+    '(build.source == "schedule" || (build.branch == pipeline.default_branch '
+    '&& build.source != "trigger_job")) && build.pull_request.id == null '
+    '&& build.tag == null'
+)
+# master-pc-isolated is the other secrets queue the fence covers.
+SECRETS_QUEUES = (
+    SECRETS_QUEUE,
+    "master-pc-isolated",  # guard:allow Buildkite queue routing key, not a repo reference
+)
 PINNED_PROBES = ("probe-absence-env", "probe-absence-fs", "probe-absence-log")
 EXPECTED_PROBE_COMMANDS = {
     "probe-absence-env": ".buildkite/scripts/probe-absence-env.mjs",
@@ -73,6 +87,29 @@ EXPECTED_RETRY = {
     ],
     "manual": {"allowed": True, "permit_on_passed": False},
 }
+
+
+def _norm_if(value):
+    if not isinstance(value, str):
+        return ""
+    return " ".join(value.split())
+
+
+def _step_queue(step):
+    agents = step.get("agents")
+    if isinstance(agents, dict):
+        queue = agents.get("queue")
+        if isinstance(queue, str):
+            return queue.lower()
+    return ""
+
+
+def _secret_queue_fence_if(step):
+    """The only `if` a guard may carry: the exact secrets-queue fence, on a secrets queue."""
+    return (
+        _step_queue(step) in {q.lower() for q in SECRETS_QUEUES}
+        and _norm_if(step.get("if")) == _norm_if(SECRET_QUEUE_FENCE)
+    )
 
 
 def is_wait(step):
@@ -209,6 +246,8 @@ def evaluate(pipeline_path, root):
             check(f"1g {gkey} present", False, "missing guard step")
             continue
         bad = [k for k in FORBIDDEN_GUARD_KEYS if k in g]
+        if "if" in g and not _secret_queue_fence_if(g):
+            bad.append("if")
         check(f"1g {gkey} carries no escape hatch", not bad, f"has {bad}" if bad else "")
     for i, s in enumerate(steps):
         if isinstance(s, dict) and "wait" in s and s.get("continue_on_failure") is True:
@@ -389,6 +428,20 @@ def selftest():
     rows = _evaluate_yaml(VALID.replace("key: guard-content-policy\n",
                                         "key: guard-content-policy\n    branches: main\n"), FILES)
     t("gap1 guard branches caught", bool(_failed(rows, "1g")), "")
+    rows = _evaluate_yaml(VALID.replace("key: guard-content-policy\n",
+                                        "key: guard-content-policy\n    if: build.branch == \"main\"\n"), FILES)
+    t("gap1 guard if caught", bool(_failed(rows, "1g")), "")
+    rows = _evaluate_yaml(VALID.replace(
+        "key: guard-content-policy\n",
+        "key: guard-content-policy\n    if: '" + SECRET_QUEUE_FENCE + "'\n",
+    ), FILES)
+    t("secret-queue fence if on secrets guard allowed", not _failed(rows, "1g"),
+      str(_failed(rows, "1g")))
+    rows = _evaluate_yaml(VALID.replace(
+        "key: guard-gitleaks\n",
+        "key: guard-gitleaks\n    if: '" + SECRET_QUEUE_FENCE + "'\n",
+    ), FILES)
+    t("secret-queue fence if on non-secrets guard caught", bool(_failed(rows, "1g")), "")
     rows = _evaluate_yaml(VALID.replace("  - wait: ~\n",
                                         "  - wait: ~\n    continue_on_failure: true\n", 1), FILES)
     t("gap1 wait continue_on_failure caught", bool(_failed(rows, "1g")), "")

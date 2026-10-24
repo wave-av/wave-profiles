@@ -5,6 +5,10 @@
 # (wave-monitor PR #108 pattern). Host-injected GUARD_PRIVATE_REPOS arrives
 # by step key on queue fpc-isolated-secrets for guard-content-policy
 # (Buildkite runbook); no other secrets, no plugins, no interpolation.
+# That step's `if` schedules it only for a scheduled build, or for the
+# default branch when the source is not a triggered job, and never for a
+# pull request or a tag. check-secret-queue-fence.sh fails the build if
+# that condition is missing. The check step takes no secrets.
 # Retry matches PR #108: automatic retry on agent loss only, never on failure.
 # Ordering is load-bearing (WAVE-26506, vendored from wave-monitor 796755b):
 # the two leak guards are the first two command steps, each followed by a
@@ -33,12 +37,26 @@ steps:
   - label: ":clipboard: guard content-policy"
     key: guard-content-policy
     command: .buildkite/scripts/guard-content-policy.sh
+    # Schedule or default branch only. Pull requests, tags, and triggered
+    # jobs must not reach this queue.
+    if: '(build.source == "schedule" || (build.branch == pipeline.default_branch && build.source != "trigger_job")) && build.pull_request.id == null && build.tag == null'
     agents:  # guard:allow BK pipeline keyword, not a repo reference
       queue: fpc-isolated-secrets
     timeout_in_minutes: 10
     retry: *retry-agent-loss
 
   - wait
+
+  - label: ":lock: check secret-queue fence"
+    key: check-secret-queue-fence
+    command: .buildkite/scripts/check-secret-queue-fence.sh
+    agents:  # guard:allow BK pipeline keyword, not a repo reference
+      queue: fpc-isolated
+    timeout_in_minutes: 5
+    retry:
+      automatic:
+        - exit_status: -1
+          limit: 1
 
   - label: ":mag: foundation secret-scan"
     key: foundation-secret-scan
@@ -86,9 +104,10 @@ steps:
 
   - wait
 
-  # O1 (WAVE-26520): provenance-emit runs last behind its own barrier so the
-  # manifest's exit-0 claims hold (every prior step passed). Queue
-  # fpc-isolated: this step receives NO secrets, names only.
+  # O1 (WAVE-26520): provenance-emit runs last behind its own barrier so a
+  # failed earlier step cannot emit. Queue fpc-isolated: this step receives
+  # NO secrets, names only. When the secret-queue fence skips
+  # guard-content-policy, the manifest records that step as not run.
   - label: ":scroll: provenance emit (O1)"
     key: provenance-emit
     command: .buildkite/scripts/provenance-emit.sh
