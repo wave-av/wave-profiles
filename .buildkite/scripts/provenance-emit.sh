@@ -13,9 +13,13 @@
 # here (they stay covered by the O1 fixtures until a v2 API-driven emitter).
 #
 # HONESTY NOTES (v1, all reversible):
-# - The manifest claims exit 0 for every step: this step runs only when all
-#   of them passed (this pipeline has no conditional steps, so the list is
-#   static).
+# - The manifest claims exit 0 for every step that ran. This step sits
+#   behind the final wait, so a step that ran and failed cannot reach here.
+#   guard-content-policy is conditional. The pipeline if is exactly:
+#   build.branch == pipeline.default_branch && (build.source == "schedule" || build.source == "webhook" || build.source == "api" || build.source == "ui") && build.pull_request.id == null && build.tag == null
+#   A schedule on any other branch does not run. When the step is skipped,
+#   exit is -1 (never ran) and the secret name moves to withheld. The fence
+#   check always runs and is recorded exit 0.
 # - Self (provenance-emit) is listed exit 0: any DELIVERED artifact implies
 #   the emitter + upload both succeeded, so the step exited 0. Local-only
 #   files from failed runs never leave the ephemeral agent.
@@ -30,8 +34,6 @@ cd "$(dirname "$0")/../.."
 
 PROV=".buildkite/provenance"
 OUT="provenance.json"
-INJECTED="guard-content-policy:GUARD_PRIVATE_REPOS"
-
 command -v node >/dev/null 2>&1 || {
   echo "provenance-emit: node is required but missing — failing closed."
   exit 2
@@ -51,10 +53,36 @@ STEPS="$TMP/steps.json"
 GUARDS="$TMP/guards.json"
 trap 'rm -rf "$TMP"' EXIT
 
-cat >"$STEPS" <<'EOF'
+# Mirror of the pipeline if, exactly:
+# build.branch == pipeline.default_branch && (build.source == "schedule" || build.source == "webhook" || build.source == "api" || build.source == "ui") && build.pull_request.id == null && build.tag == null
+# Name only; this block never reads a secret value. Unset source or branch
+# does not match, so a local run records the step as not run.
+fence_skipped=1
+_src="${BUILDKITE_SOURCE:-}"
+_branch="${BUILDKITE_BRANCH:-}"
+_default="${BUILDKITE_PIPELINE_DEFAULT_BRANCH:-}"
+_pr="${BUILDKITE_PULL_REQUEST:-false}"
+_tag="${BUILDKITE_TAG:-}"
+if [ -n "$_default" ] && [ "$_branch" = "$_default" ] \
+  && { [ "$_src" = "schedule" ] || [ "$_src" = "webhook" ] || [ "$_src" = "api" ] || [ "$_src" = "ui" ]; } \
+  && [ "$_pr" = "false" ] && [ -z "$_tag" ]; then
+  fence_skipped=0
+fi
+if [ "$fence_skipped" -eq 0 ]; then
+  cp_exit=0
+  INJECTED="guard-content-policy:GUARD_PRIVATE_REPOS"
+  WITHHELD=""
+else
+  cp_exit=-1
+  INJECTED=""
+  WITHHELD="guard-content-policy:GUARD_PRIVATE_REPOS:queue fence skipped the step"
+fi
+
+cat >"$STEPS" <<EOF
 [
   {"key": "guard-gitleaks", "queue": "fpc-isolated", "command": ".buildkite/scripts/guard-gitleaks.sh", "exit": 0},
-  {"key": "guard-content-policy", "queue": "fpc-isolated-secrets", "command": ".buildkite/scripts/guard-content-policy.sh", "exit": 0},
+  {"key": "guard-content-policy", "queue": "fpc-isolated-secrets", "command": ".buildkite/scripts/guard-content-policy.sh", "exit": ${cp_exit}},
+  {"key": "check-secret-queue-fence", "queue": "fpc-isolated", "command": ".buildkite/scripts/check-secret-queue-fence.sh", "exit": 0},
   {"key": "foundation-secret-scan", "queue": "fpc-isolated", "command": ".buildkite/scripts/foundation-secret-scan.sh", "exit": 0},
   {"key": "foundation-file-size", "queue": "fpc-isolated", "command": ".buildkite/scripts/foundation-file-size.sh", "exit": 0},
   {"key": "foundation-skill-validate", "queue": "fpc-isolated", "command": ".buildkite/scripts/foundation-skill-validate.sh", "exit": 0},
@@ -62,22 +90,37 @@ cat >"$STEPS" <<'EOF'
   {"key": "provenance-emit", "queue": "fpc-isolated", "command": ".buildkite/scripts/provenance-emit.sh", "exit": 0}
 ]
 EOF
-cat >"$GUARDS" <<'EOF'
+if [ "$fence_skipped" -eq 0 ]; then
+  cat >"$GUARDS" <<'EOF'
 [
   {"key": "guard-gitleaks", "verdict": "pass", "detail": "exit 0 (build proceeded past wait barrier)"},
   {"key": "guard-content-policy", "verdict": "pass", "detail": "exit 0 (build proceeded past wait barrier)"}
 ]
 EOF
+else
+  cat >"$GUARDS" <<'EOF'
+[
+  {"key": "guard-gitleaks", "verdict": "pass", "detail": "exit 0 (build proceeded past wait barrier)"}
+]
+EOF
+fi
 
 : "${BUILDKITE_COMMIT:?provenance-emit: BUILDKITE_COMMIT is required}"
-node "$PROV/bin/emit-provenance.mjs" \
+set -- \
+  node "$PROV/bin/emit-provenance.mjs" \
   --repo-dir . \
   --steps "$STEPS" \
   --guards "$GUARDS" \
   --base-rev "$BUILDKITE_COMMIT" \
   --out "$OUT" \
-  --injected "$INJECTED" \
   --no-upload
+if [ -n "$INJECTED" ]; then
+  set -- "$@" --injected "$INJECTED"
+fi
+if [ -n "$WITHHELD" ]; then
+  set -- "$@" --withheld "$WITHHELD"
+fi
+"$@"
 
 if [ "${BUILDKITE:-}" = "true" ]; then
   command -v buildkite-agent >/dev/null 2>&1 || {

@@ -6,6 +6,14 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+### Security
+
+- Buildkite schedules the secrets-queue content-policy step only when
+  the condition is exactly `build.branch == pipeline.default_branch && (build.source == "schedule" || build.source == "webhook" || build.source == "api" || build.source == "ui") && build.pull_request.id == null && build.tag == null`.
+  A schedule on any other branch does not schedule it. The checked-in
+  script `.buildkite/scripts/check-secret-queue-fence.sh` fails the build
+  if that condition is removed or followed by more logic.
+
 ### Fixed
 
 - `pr-agent` lane: fork-triggered `/` commands are now refused, and the AI

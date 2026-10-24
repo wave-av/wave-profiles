@@ -8,3 +8,7 @@
 # Governance surfaces — never change without an owner's review.
 /.github/                @wave-av/streaming-team
 /.foundation-version     @wave-av/streaming-team
+
+# Pipeline definition, including the secrets-queue fence.
+# @wave-av/ci is not a team in this org, so this uses the repo owner.
+/.buildkite/             @wave-av/streaming-team
