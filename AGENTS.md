@@ -59,3 +59,47 @@ index:
   - family: context-contract
     path: CONTEXT.md
 ```
+
+## PUBLIC REPOSITORY RULES (earned 2026-10-23, WAVE-27334)
+
+Before writing anything public, apply these rules:
+
+1. **Write for strangers.** Every title, message, and doc must make sense to an outside
+   developer and contain only what an outside developer should know.
+
+2. **Opaque identifiers only.** Ticket/tracking codes (e.g. WAVE-xxx), gate names, and
+   plan ids may appear ONLY as bare opaque references — no titles, no status, no
+   rationale quoted from the private side — and ONLY where load-bearing: ordering
+   or provenance comments that cite the deciding record, and pipeline routing keys
+   (Buildkite queue names) that cannot function without them. Prefer describing the
+   user-facing change ("fix canary marker matching"); reach for an identifier only
+   when removing it loses meaning or breaks the build. Rationale: literal-zero was
+   proven impossible (queue names are load-bearing; 15+ opaque refs already ship on
+   public mains) and buys zero secrecy (codes are meaningless without Linear access).
+
+3. **No internal topology.** Never name a private repository, an internal hostname or
+   subdomain, a staging/dev/preview environment, or an internal document path. Even a
+   bare cross-reference to a private repo is still naming it — describe the dependency
+   in product terms or leave it out. Exception: load-bearing pipeline routing keys
+   (queue names), which cannot function renamed. The mechanical content-policy guard —
+   never naming a private repo — is the enforced contract; this section is judgment
+   guidance for everything the guard cannot see.
+
+4. **No approval status.** Never describe who approves what, what is decided versus
+   pending, a confidence score, or that a change is waiting on someone's sign-off.
+   Public PRs and issues stand on their own technical merits.
+
+
+## Machine surface
+
+```yaml agents-router
+version: "0.1"
+budget_lines: 200
+index:
+  - family: test-contract
+    path: TESTING.md
+  - family: permissions-contract
+    path: PERMISSIONS.md
+  - family: secrets-contract
+    path: SECRETS.md
+```
