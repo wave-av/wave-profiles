@@ -52,12 +52,12 @@ Early. These are the initial reference profiles; field names follow the module s
 Operated by WAVE Online, LLC.
 ## Buildkite runbook
 
-The content-policy step runs on the secrets queue. Buildkite
-schedules it for a scheduled build, and for the default branch when the
-build was not created by a triggered job. A pull request or a tag does
-not schedule it. `.buildkite/scripts/check-secret-queue-fence.sh` fails
-the build if that step, or any other step on a secrets queue or with a
-`secrets:` key, loses the condition.
+The content-policy step runs on the secrets queue. Its Buildkite
+condition is exactly `build.branch == pipeline.default_branch && (build.source == "schedule" || build.source == "webhook" || build.source == "api" || build.source == "ui") && build.pull_request.id == null && build.tag == null`.
+A schedule on any other branch does not schedule it, and neither does a
+pull request or a tag. `.buildkite/scripts/check-secret-queue-fence.sh`
+fails the build if that step, or any other step on a secrets queue or
+with a `secrets:` key, loses the condition or adds more logic after it.
 
 `guard-content-policy` refuses a build when the normalized repository
 identities differ: it compares host/owner/name (lowercased, scheme and

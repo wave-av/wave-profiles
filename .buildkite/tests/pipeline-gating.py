@@ -48,9 +48,10 @@ GUARD_KEYS = ("guard-gitleaks", "guard-content-policy")
 # fence, and only on a guard that already runs on a secrets queue.
 FORBIDDEN_GUARD_KEYS = ("soft_fail", "allow_failure", "branches", "skip")
 SECRET_QUEUE_FENCE = (
-    '(build.source == "schedule" || (build.branch == pipeline.default_branch '
-    '&& build.source != "trigger_job")) && build.pull_request.id == null '
-    '&& build.tag == null'
+    "build.branch == pipeline.default_branch "
+    "&& (build.source == \"schedule\" || build.source == \"webhook\" "
+    "|| build.source == \"api\" || build.source == \"ui\") "
+    "&& build.pull_request.id == null && build.tag == null"
 )
 # master-pc-isolated is the other secrets queue the fence covers.
 SECRETS_QUEUES = (

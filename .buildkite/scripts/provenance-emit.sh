@@ -15,10 +15,10 @@
 # HONESTY NOTES (v1, all reversible):
 # - The manifest claims exit 0 for every step that ran. This step sits
 #   behind the final wait, so a step that ran and failed cannot reach here.
-#   guard-content-policy is conditional (secret-queue fence). On the default
-#   branch and on a scheduled build it still runs, and exit 0 still holds.
-#   On a pull request, a tag, or a triggered job the step is skipped: exit
-#   is -1 (never ran) and the secret name moves to withheld. The fence
+#   guard-content-policy is conditional. The pipeline if is exactly:
+#   build.branch == pipeline.default_branch && (build.source == "schedule" || build.source == "webhook" || build.source == "api" || build.source == "ui") && build.pull_request.id == null && build.tag == null
+#   A schedule on any other branch does not run. When the step is skipped,
+#   exit is -1 (never ran) and the secret name moves to withheld. The fence
 #   check always runs and is recorded exit 0.
 # - Self (provenance-emit) is listed exit 0: any DELIVERED artifact implies
 #   the emitter + upload both succeeded, so the step exited 0. Local-only
@@ -53,18 +53,20 @@ STEPS="$TMP/steps.json"
 GUARDS="$TMP/guards.json"
 trap 'rm -rf "$TMP"' EXIT
 
-# Mirror the pipeline `if` on guard-content-policy. Unset Buildkite env
-# (a local run) keeps exit 0, the same claim this step made before the
-# fence. Name only; this block never reads a secret value.
-fence_skipped=0
-if [ "${BUILDKITE_PULL_REQUEST:-false}" != "false" ] || [ -n "${BUILDKITE_TAG:-}" ]; then
-  fence_skipped=1
-elif [ "${BUILDKITE_SOURCE:-}" = "trigger_job" ]; then
-  fence_skipped=1
-elif [ -n "${BUILDKITE_PIPELINE_DEFAULT_BRANCH:-}" ] \
-  && [ "${BUILDKITE_BRANCH:-}" != "${BUILDKITE_PIPELINE_DEFAULT_BRANCH}" ] \
-  && [ "${BUILDKITE_SOURCE:-}" != "schedule" ]; then
-  fence_skipped=1
+# Mirror of the pipeline if, exactly:
+# build.branch == pipeline.default_branch && (build.source == "schedule" || build.source == "webhook" || build.source == "api" || build.source == "ui") && build.pull_request.id == null && build.tag == null
+# Name only; this block never reads a secret value. Unset source or branch
+# does not match, so a local run records the step as not run.
+fence_skipped=1
+_src="${BUILDKITE_SOURCE:-}"
+_branch="${BUILDKITE_BRANCH:-}"
+_default="${BUILDKITE_PIPELINE_DEFAULT_BRANCH:-}"
+_pr="${BUILDKITE_PULL_REQUEST:-false}"
+_tag="${BUILDKITE_TAG:-}"
+if [ -n "$_default" ] && [ "$_branch" = "$_default" ] \
+  && { [ "$_src" = "schedule" ] || [ "$_src" = "webhook" ] || [ "$_src" = "api" ] || [ "$_src" = "ui" ]; } \
+  && [ "$_pr" = "false" ] && [ -z "$_tag" ]; then
+  fence_skipped=0
 fi
 if [ "$fence_skipped" -eq 0 ]; then
   cp_exit=0

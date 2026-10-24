@@ -8,11 +8,11 @@ All notable changes to this project are documented here. The format is based on
 
 ### Security
 
-- Buildkite schedules the secrets-queue content-policy step only for a
-  scheduled build, or for the default branch when the build is not a
-  triggered job. A pull request or a tag does not schedule it. The
-  checked-in script `.buildkite/scripts/check-secret-queue-fence.sh` fails
-  the build if that condition is removed.
+- Buildkite schedules the secrets-queue content-policy step only when
+  the condition is exactly `build.branch == pipeline.default_branch && (build.source == "schedule" || build.source == "webhook" || build.source == "api" || build.source == "ui") && build.pull_request.id == null && build.tag == null`.
+  A schedule on any other branch does not schedule it. The checked-in
+  script `.buildkite/scripts/check-secret-queue-fence.sh` fails the build
+  if that condition is removed or followed by more logic.
 
 ### Fixed
 

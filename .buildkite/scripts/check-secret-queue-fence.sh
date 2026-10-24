@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
 # Fail if a Buildkite step targets a secrets queue, or declares secrets:,
-# without the schedule-or-default-branch fence.
+# without this exact condition (a schedule on any other branch does not pass):
+#   build.branch == pipeline.default_branch && (build.source == "schedule" || build.source == "webhook" || build.source == "api" || build.source == "ui") && build.pull_request.id == null && build.tag == null
 #
-# Scans .buildkite/*.yml (and *.yaml). Queue match is case-insensitive and
-# includes agents.queue, an agents list, and the queue= string form. A group
-# condition covers the steps inside it. The fence may be ANDed with an
-# existing condition; an OR that can bypass it fails.
+# Scans .buildkite YAML, pipeline heredocs, and generators. Queue match is
+# case-insensitive and includes agents.queue, an agents list, and the queue=
+# string form. A group condition covers its steps only when that condition
+# is exactly the fence. Extra logic after the fence fails closed. A wildcard
+# or templated queue fails closed. A trigger: step fails closed.
 #
 # If a pipeline generator is present, run it with a simulated pull request
-# and again with a simulated tag. It must not emit a secrets-queue step or
-# a step that declares secrets:. Static `pipeline upload` of a yaml file is
-# not a generator.
+# and again with a simulated tag. It must not emit a secrets-queue step, a
+# step that declares secrets:, a trigger step, or a wildcard queue. Static
+# `pipeline upload` of a yaml file is not a generator.
 #
 # No secret values are read or printed. A parse we cannot prove is safe
 # fails closed.
@@ -34,15 +36,17 @@ SECRET_QUEUES = (
 )
 SECRET_QUEUE_SET = {q.lower() for q in SECRET_QUEUES}
 FENCE = (
-    '(build.source == "schedule" || (build.branch == pipeline.default_branch '
-    '&& build.source != "trigger_job")) && build.pull_request.id == null '
-    '&& build.tag == null'
+    'build.branch == pipeline.default_branch '
+    '&& (build.source == "schedule" || build.source == "webhook" '
+    '|| build.source == "api" || build.source == "ui") '
+    '&& build.pull_request.id == null && build.tag == null'
 )
 QUEUE_TOKEN = re.compile(
     r'(?i)(?<![A-Za-z0-9_-])(?:' + '|'.join(re.escape(q) for q in SECRET_QUEUES) + r')(?![A-Za-z0-9_-])'
 )
 KEY_RE = re.compile(r'^(<<|[A-Za-z0-9_][A-Za-z0-9_-]*)\s*:\s*(.*)$')
-QUEUE_EQ_RE = re.compile(r'(?i)(?:^|[\s,])queue=([A-Za-z0-9_.-]+)')
+QUEUE_EQ_RE = re.compile(r'(?i)(?:^|[\s,])queue=("(?:[^"\\]|\\.)*"|\'(?:[^\']|\'\')*\'|[^\s,]+)')
+TRIGGER_LINE_RE = re.compile(r'(?mi)^[ \t]*-?[ \t]*trigger\s*:')
 
 
 class ParseError(Exception):
@@ -463,141 +467,41 @@ def fold_lines(lines):
     return '\n'.join(out).strip('\n')
 
 
-def _scan_expr(expr):
-    """Yield (index, kind) for structural characters outside quotes.
+def condition_status(ifs):
+    """exact, more-logic, or missing.
 
-    kind is 'open', 'close', 'and', or 'or'. A quote error yields 'bad'.
+    The condition must be the fence and nothing else. `<FENCE> && true || x`
+    is more logic: the trailing OR can bypass the fence.
     """
-    i = 0
-    in_s = False
-    in_d = False
-    while i < len(expr):
-        c = expr[i]
-        if in_s:
-            if c == "'" and i + 1 < len(expr) and expr[i + 1] == "'":
-                i += 2
-                continue
-            if c == "'":
-                in_s = False
-            i += 1
-            continue
-        if in_d:
-            if c == '\\' and i + 1 < len(expr):
-                i += 2
-                continue
-            if c == '"':
-                in_d = False
-            i += 1
-            continue
-        if c == "'":
-            in_s = True
-            i += 1
-            continue
-        if c == '"':
-            in_d = True
-            i += 1
-            continue
-        if c == '(':
-            yield i, 'open'
-        elif c == ')':
-            yield i, 'close'
-        elif expr.startswith('&&', i):
-            yield i, 'and'
-            i += 2
-            continue
-        elif expr.startswith('||', i):
-            yield i, 'or'
-            i += 2
-            continue
-        i += 1
-    if in_s or in_d:
-        yield i, 'bad'
-
-
-def _balanced_wrap(expr):
-    """True when the whole expression is one parenthesized group."""
-    if not (expr.startswith('(') and expr.endswith(')')):
-        return False
-    depth = 0
-    for idx, kind in _scan_expr(expr):
-        if kind == 'bad':
-            return False
-        if kind == 'open':
-            depth += 1
-        elif kind == 'close':
-            depth -= 1
-            if depth < 0:
-                return False
-            if depth == 0 and idx != len(expr) - 1:
-                return False
-    return depth == 0
-
-
-def _split_top(expr, op):
-    """Split on a top-level && or ||. op is 'and' or 'or'."""
-    parts = []
-    start = 0
-    depth = 0
-    for idx, kind in _scan_expr(expr):
-        if kind == 'bad':
-            return None
-        if kind == 'open':
-            depth += 1
-        elif kind == 'close':
-            depth -= 1
-            if depth < 0:
-                return None
-        elif depth == 0 and kind == op:
-            parts.append(expr[start:idx])
-            start = idx + 2
-    if depth != 0:
-        return None
-    parts.append(expr[start:])
-    return parts
-
-
-def _requires_marked(expr):
-    """True when every way to satisfy expr requires the atom F.
-
-    && binds tighter than ||, matching Buildkite condition precedence.
-    """
-    expr = expr.strip()
-    if expr == '':
-        return False
-    while _balanced_wrap(expr):
-        expr = expr[1:-1].strip()
-    ors = _split_top(expr, 'or')
-    if ors is None:
-        return False
-    if len(ors) > 1:
-        return all(_requires_marked(part) for part in ors)
-    ands = _split_top(expr, 'and')
-    if ands is None:
-        return False
-    if len(ands) > 1:
-        return any(_requires_marked(part) for part in ands)
-    return expr.strip() == 'F'
-
-
-def expression_requires_fence(expr):
-    marked = normalize_ws(expr).replace(FENCE, 'F')
-    if 'F' not in marked:
-        return False
-    return _requires_marked(marked)
-
-
-def covered_by(ifs):
-    parts = []
+    present = []
     for expr in ifs:
-        if not isinstance(expr, str) or not expr.strip():
-            return False
-        parts.append('(' + normalize_ws(expr) + ')')
-    if not parts:
-        return False
-    try:
-        return expression_requires_fence(' && '.join(parts))
-    except ParseError:
-        return False
+        if isinstance(expr, str) and expr.strip():
+            present.append(normalize_ws(expr))
+        elif expr not in (None, ''):
+            return 'more-logic'
+    if len(present) == 1 and present[0] == normalize_ws(FENCE):
+        return 'exact'
+    blob = ' && '.join(present)
+    if normalize_ws(FENCE) in blob:
+        return 'more-logic'
+    return 'missing'
+
+
+def unquote_queue(value):
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in ('"', "'"):
+        return value[1:-1]
+    return value
+
+
+def queue_shape(name):
+    """wildcard, templated, or None for a literal queue name."""
+    if not isinstance(name, str) or name == '':
+        return 'templated'
+    if re.search(r'[*?\[]', name):
+        return 'wildcard'
+    if re.search(r'\{\{|\}\}|\$\{|\$[A-Za-z_]|<%|%>', name):
+        return 'templated'
+    return None
 
 
 def queue_names(agents):
@@ -607,7 +511,7 @@ def queue_names(agents):
         if not isinstance(text, str):
             return
         for match in QUEUE_EQ_RE.finditer(text):
-            found.append(match.group(1))
+            found.append(unquote_queue(match.group(1)))
 
     if isinstance(agents, dict):
         q = agents.get('queue')
@@ -659,20 +563,36 @@ def walk_steps(steps, ancestor_ifs, filename, failures, fenced):
         nested = step.get('steps')
         if isinstance(nested, list):
             walk_steps(nested, inherited, filename, failures, fenced)
-        queues = sensitive_queues(step)
+        queues = queue_names(step.get('agents'))
+        dynamic = []
+        for name in queues:
+            shape = queue_shape(name)
+            if shape:
+                dynamic.append((shape, name))
+        secret_qs = sensitive_queues(step)
         secrets = has_secrets_key(step)
-        if not queues and not secrets:
+        trigger = 'trigger' in step
+        if not dynamic and not trigger and not secret_qs and not secrets:
             continue
         line = getattr(step, 'line', '?')
-        label = step.get('label') or step.get('key') or step.get('name') or '(unlabeled)'
+        label = step.get('label') or step.get('key') or step.get('name') or step.get('trigger') or '(unlabeled)'
         where = '%s:%s' % (filename, line)
         detail = 'label=%s' % label
-        if queues:
-            detail += ' queue=%s' % ','.join(queues)
+        if secret_qs:
+            detail += ' queue=%s' % ','.join(secret_qs)
         if secrets:
             detail += ' secrets'
-        if covered_by(inherited):
+        for shape, name in dynamic:
+            failures.append('%s %s %s queue %s; failing closed' % (where, detail, shape, name))
+        if trigger:
+            failures.append('%s %s trigger step; failing closed' % (where, detail))
+        if not secret_qs and not secrets:
+            continue
+        status = condition_status(inherited)
+        if status == 'exact':
             fenced.append('%s %s' % (where, detail))
+        elif status == 'more-logic':
+            failures.append('%s %s fence is followed by more logic' % (where, detail))
         else:
             failures.append('%s %s lacks the secret-queue fence' % (where, detail))
 
@@ -697,7 +617,15 @@ def check_text(text, filename):
             return ['%s: secrets queue named outside a steps list; failing closed' % filename], []
         return failures, fenced
     walk_steps(doc.get('steps'), [], filename, failures, fenced)
-    mentions = QUEUE_TOKEN.findall(comment_stripped(text))
+    stripped = comment_stripped(text)
+    raw_triggers = TRIGGER_LINE_RE.findall(stripped)
+    parsed_triggers = sum(1 for row in failures if 'trigger step' in row)
+    if len(raw_triggers) != parsed_triggers:
+        failures.append(
+            '%s: %d trigger: line(s) but %d parsed trigger step(s); failing closed'
+            % (filename, len(raw_triggers), parsed_triggers)
+        )
+    mentions = QUEUE_TOKEN.findall(stripped)
     queue_steps = 0
     # Recount sensitive queue steps (not secrets-key-only) from the walk
     # messages we just recorded, plus failures. Each such step is one
@@ -721,12 +649,69 @@ def pipeline_files(root):
     base = root / '.buildkite'
     if not base.is_dir():
         return files
-    for name in sorted(os.listdir(base)):
-        if name.endswith('.yml') or name.endswith('.yaml'):
-            path = base / name
-            if path.is_file():
-                files.append(path)
+    for dirpath, _dirs, names in os.walk(base):
+        for name in sorted(names):
+            if name.endswith('.yml') or name.endswith('.yaml'):
+                path = Path(dirpath) / name
+                if path.is_file():
+                    files.append(path)
     return files
+
+
+def extract_heredocs(text):
+    bodies = []
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        match = re.search(r'<<-?([ \t]*)[\'"]?([A-Za-z_][A-Za-z0-9_]*)[\'"]?[ \t]*$', lines[i])
+        if not match:
+            i += 1
+            continue
+        marker = match.group(2)
+        i += 1
+        buf = []
+        while i < len(lines) and lines[i].strip() != marker:
+            buf.append(lines[i])
+            i += 1
+        bodies.append('\n'.join(buf))
+        i += 1
+    return bodies
+
+
+def heredoc_pipelines(root):
+    """YAML pipeline bodies embedded in shell heredocs under .buildkite."""
+    found = []
+    base = root / '.buildkite'
+    if not base.is_dir():
+        return found
+    for dirpath, _dirs, names in os.walk(base):
+        for name in sorted(names):
+            if name == 'check-secret-queue-fence.sh':
+                continue
+            if not name.endswith(('.sh', '.bash')):
+                continue
+            path = Path(dirpath) / name
+            try:
+                raw = path.read_text(encoding='utf-8', errors='replace')
+            except OSError:
+                found.append((str(path), None))
+                continue
+            try:
+                rel = str(path.relative_to(root))
+            except ValueError:
+                rel = str(path)
+            for idx, body in enumerate(extract_heredocs(raw)):
+                # YAML step shape only. A JSON manifest ("queue": "...") is
+                # not a schedulable step and must not be parsed as one.
+                looks = bool(
+                    re.search(r'(?m)^[ \t]*steps\s*:', body)
+                    or TRIGGER_LINE_RE.search(body)
+                    or re.search(r'(?mi)^[ \t-]*queue\s*:', body)
+                    or re.search(r'(?mi)^[ \t-]*secrets\s*:', body)
+                )
+                if looks:
+                    found.append(('%s heredoc %d' % (rel, idx), body))
+    return found
 
 
 def discover_generators(root):
@@ -851,6 +836,13 @@ def scan_root(root):
         file_failures, file_fenced = check_text(text, rel)
         failures.extend(file_failures)
         fenced.extend(file_fenced)
+    for label, body in heredoc_pipelines(root):
+        if body is None:
+            failures.append('%s: cannot read pipeline heredoc; failing closed' % label)
+            continue
+        file_failures, file_fenced = check_text(body, label)
+        failures.extend(file_failures)
+        fenced.extend(file_fenced)
     gen_failures, gen_notes = check_generators(root)
     failures.extend(gen_failures)
     notes.extend(gen_notes)
@@ -865,8 +857,16 @@ def selftest():
     def expect(name, text, ok):
         failures, _fenced = check_text(text, 'fixture')
         passed = not failures
+        print(('PASS' if passed == ok else 'FAIL') + ' self-test ' + name)
         if passed != ok:
             problems.append('self-test %s: expected %s, failures=%s' % (name, 'pass' if ok else 'fail', failures))
+
+    def expect_msg(name, text, needle):
+        failures, _fenced = check_text(text, 'fixture')
+        hit = any(needle in item for item in failures)
+        print(('PASS' if hit else 'FAIL') + ' self-test ' + name)
+        if not hit:
+            problems.append('self-test %s: missing %r in %s' % (name, needle, failures))
 
     fenced_step = (
         'steps:\n'
@@ -883,10 +883,29 @@ def selftest():
         "if: '%s'" % FENCE,
         'if: \'build.branch == "main" || %s\'' % FENCE,
     ), False)
-    expect('anded with existing', fenced_step.replace(
+    expect_msg('fence followed by more logic', fenced_step.replace(
         "if: '%s'" % FENCE,
-        'if: \'build.env("ONLY") == "1" && %s\'' % FENCE,
-    ), True)
+        "if: '%s && true || x'" % FENCE,
+    ), 'more logic')
+    expect_msg('wildcard queue', (
+        'steps:\n'
+        '  - label: wild\n'
+        '    command: .buildkite/scripts/job.sh\n'
+        '    agents:\n'
+        '      queue: "fpc-isolated-*"\n'
+    ), 'wildcard queue')
+    expect_msg('templated queue', (
+        'steps:\n'
+        '  - label: tmpl\n'
+        '    command: .buildkite/scripts/job.sh\n'
+        '    agents:\n'
+        '      queue: "{{QUEUE}}"\n'
+    ), 'templated queue')
+    expect_msg('trigger step', (
+        'steps:\n'
+        '  - trigger: some-pipeline\n'
+        '    label: trig\n'
+    ), 'trigger step')
     expect('agents list', (
         'steps:\n'
         '  - label: listed\n'
@@ -974,6 +993,9 @@ def selftest():
         failures, _fenced, _notes = scan_root(root)
         if failures:
             problems.append('self-test generator skips: %s' % failures)
+            print('FAIL self-test generator skips secrets step')
+        else:
+            print('PASS self-test generator skips secrets step')
         bad = good
         bad.write_text(
             '#!/bin/sh\n'
@@ -982,8 +1004,44 @@ def selftest():
         failures, _fenced, _notes = scan_root(root)
         if not any('emitted' in item for item in failures):
             problems.append('self-test generator emit not caught: %s' % failures)
+            print('FAIL self-test generator emits secrets step')
+        else:
+            print('PASS self-test generator emits secrets step')
     finally:
         shutil.rmtree(root, ignore_errors=True)
+
+    here = Path(tempfile.mkdtemp(prefix='fence-heredoc-'))
+    try:
+        hdir = here / '.buildkite'
+        hdir.mkdir()
+        (hdir / 'pipeline.yml').write_text('steps: []\n')
+        bare = (
+            'steps:\n'
+            '  - label: hidden\n'
+            '    command: job\n'
+            '    agents:\n'
+            '      queue: %s\n' % q
+        )
+        (hdir / 'embed.sh').write_text("#!/bin/sh\ncat <<'PIPE'\n%sPIPE\n" % bare)
+        failures, _fenced, _notes = scan_root(here)
+        if not any('lacks the secret-queue fence' in item for item in failures):
+            problems.append('self-test heredoc unfenced: %s' % failures)
+            print('FAIL self-test heredoc unfenced step')
+        else:
+            print('PASS self-test heredoc unfenced step')
+        fenced_body = bare.replace(
+            '    command: job\n',
+            "    command: job\n    if: '%s'\n" % FENCE,
+        )
+        (hdir / 'embed.sh').write_text("#!/bin/sh\ncat <<'PIPE'\n%sPIPE\n" % fenced_body)
+        failures, _fenced, _notes = scan_root(here)
+        if failures:
+            problems.append('self-test heredoc fenced: %s' % failures)
+            print('FAIL self-test heredoc exact fence')
+        else:
+            print('PASS self-test heredoc exact fence')
+    finally:
+        shutil.rmtree(here, ignore_errors=True)
     return problems
 
 
