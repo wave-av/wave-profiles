@@ -23,8 +23,8 @@
 
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+import { copyFileSync, existsSync, mkdirSync, readFileSync, realpathSync, writeFileSync } from 'node:fs';
+import { join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   SECRET_NAME_RE,
@@ -90,7 +90,12 @@ function main() {
   for (const flag of ['repoDir', 'steps', 'guards', 'baseRev', 'out']) {
     if (!args[flag]) fail(`missing required --${flag.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`)}`);
   }
-  const repoDir = resolve(args.repoDir);
+  let repoDir;
+  try {
+    repoDir = realpathSync(resolve(args.repoDir));
+  } catch {
+    fail(`--repo-dir does not exist or is unreadable: ${args.repoDir}`);
+  }
   if (!SHA1_RE.test(args.baseRev)) fail(`--base-rev must be a full 40-hex SHA, got: ${args.baseRev}`);
 
   const env = process.env;
@@ -116,8 +121,17 @@ function main() {
     if (!key || !queue || !command) fail(`steps[${i}] needs key, queue, command`);
     if (!Number.isInteger(exit)) fail(`steps[${i}] needs an integer exit status`);
     if (/\s/.test(command)) fail(`steps[${i}].command must be exactly one script path (no args), got: ${command}`);
-    const scriptPath = join(repoDir, command);
+    const scriptPath = resolve(repoDir, command);
+    if (scriptPath !== repoDir && !scriptPath.startsWith(repoDir + sep)) {
+      fail(`steps[${i}].command escapes the checkout (must stay under --repo-dir), got: ${command}`);
+    }
     if (!existsSync(scriptPath)) fail(`steps[${i}].command not found in checkout: ${command}`);
+    // Lexical containment is not enough: an in-checkout symlink could pass
+    // it while readFileSync follows it outside. Compare real paths.
+    const realTarget = realpathSync(scriptPath);
+    if (realTarget !== repoDir && !realTarget.startsWith(repoDir + sep)) {
+      fail(`steps[${i}].command escapes the checkout via symlink (must stay under --repo-dir), got: ${command}`);
+    }
     return { index: i, key, queue, command, script_sha256: sha256File(scriptPath), exit };
   });
   const seenKeys = new Set();
