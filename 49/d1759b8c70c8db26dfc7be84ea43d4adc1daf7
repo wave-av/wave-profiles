@@ -1,0 +1,20 @@
+.buildkite/scripts/guard-content-policy.sh
+  h_af5ac1a9798224 32
+.buildkite/tests/guard-content-policy-fork.bats
+  h_af5ac1a9798224 266-286
+README.md
+  h_af5ac1a9798224 55-60
+scripts/public-repo-guard/content-policy.sh
+  h_af5ac1a9798224 104-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "49d1759b8c70c8db26dfc7be84ea43d4adc1daf7",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

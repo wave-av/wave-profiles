@@ -1,0 +1,20 @@
+.buildkite/provenance/bin/emit-provenance.mjs
+  h_af5ac1a9798224 26-27,93-98,124-127,129-134
+.buildkite/scripts/guard-gitleaks.sh
+  h_af5ac1a9798224 9-19,24-124,126-128
+.buildkite/tests/pipeline-gating.py
+  h_af5ac1a9798224 7-11,14-16,19-25,27-30,33,39,43-51,84-94,102-186,189-201,204-246,248,252-253,259,262,267,269-273,275-276,279-284,286-291,294-482,484-522,526
+AGENTS.md
+  h_af5ac1a9798224 62-105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "e6c8fe98cb3d9e9bc0b36096dc5f3619e4765600",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}
