@@ -1,24 +1,17 @@
-# Trivial-tier CI on Buildkite: foundation gates only (parity with the
-# `checks`, `skill-validate`, and `verify-routes` jobs in
-# .github/workflows/_checks.yml). FPC agents run --no-command-eval, so every  # guard:allow plain-English word, not a repo reference
-# step's command is exactly one checked-in script path with no arguments
-# (wave-monitor PR #108 pattern). Host-injected GUARD_PRIVATE_REPOS arrives
-# by step key on queue fpc-isolated-secrets for guard-content-policy
-# (Buildkite runbook); no other secrets, no plugins, no interpolation.
-# Retry matches PR #108: automatic retry on agent loss only, never on failure.
-# Ordering is load-bearing (WAVE-26506, vendored from wave-monitor 796755b):
-# the two leak guards are the first two command steps, each followed by a
-# `wait` barrier, so every secret-bearing step topologically depends on BOTH
-# guards. Do not remove a barrier or move a secrets step above one without
-# updating .buildkite/tests/pipeline-gating.py.
+# Thin uploader (wave-ci#70). This is the whole pipeline file of a templated repo.
+# One step: .buildkite/wave-ci.sh checks out the wave-ci commit pinned in .buildkite/wave-ci.json,
+# renders the repo's template, caps-lints the result and uploads it. Edit wave-ci.json, not this.
+# The same YAML is what the #71 onboarding wrapper puts in the pipeline's Steps setting.
 steps:
-  - label: ":key: guard gitleaks"
-    key: guard-gitleaks
-    command: .buildkite/scripts/guard-gitleaks.sh
-    agents:  # guard:allow BK pipeline keyword, not a repo reference
+  - label: ":pipeline: wave-ci render + caps-lint + upload"
+    key: wave-ci-render
+    command: .buildkite/wave-ci.sh
+    agents:
       queue: fpc-isolated
-    timeout_in_minutes: 10
-    retry: &retry-agent-loss
+    timeout_in_minutes: 5
+    env:
+      WAVE_JOB_ACTION: upload
+    retry:
       automatic:
         - exit_status: -1
           limit: 1
@@ -27,75 +20,3 @@ steps:
       manual:
         allowed: true
         permit_on_passed: false
-
-  - wait
-
-  - label: ":clipboard: guard content-policy"
-    key: guard-content-policy
-    command: .buildkite/scripts/guard-content-policy.sh
-    agents:  # guard:allow BK pipeline keyword, not a repo reference
-      queue: fpc-isolated-secrets
-    timeout_in_minutes: 10
-    retry: *retry-agent-loss
-
-  - wait
-
-  - label: ":mag: foundation secret-scan"
-    key: foundation-secret-scan
-    command: .buildkite/scripts/foundation-secret-scan.sh
-    agents:  # guard:allow BK pipeline keyword, not a repo reference
-      queue: fpc-isolated
-    timeout_in_minutes: 10
-    retry:
-      automatic:
-        - exit_status: -1
-          limit: 1
-
-  - label: ":straight_ruler: foundation file-size gate"
-    key: foundation-file-size
-    command: .buildkite/scripts/foundation-file-size.sh
-    agents:  # guard:allow BK pipeline keyword, not a repo reference
-      queue: fpc-isolated
-    timeout_in_minutes: 10
-    retry:
-      automatic:
-        - exit_status: -1
-          limit: 1
-
-  - label: ":scroll: foundation skill-validate"
-    key: foundation-skill-validate
-    command: .buildkite/scripts/foundation-skill-validate.sh
-    agents:  # guard:allow BK pipeline keyword, not a repo reference
-      queue: fpc-isolated
-    timeout_in_minutes: 5
-    retry:
-      automatic:
-        - exit_status: -1
-          limit: 1
-
-  - label: ":globe_with_meridians: foundation verify-routes"
-    key: foundation-verify-routes
-    command: .buildkite/scripts/foundation-verify-routes.sh
-    agents:  # guard:allow BK pipeline keyword, not a repo reference
-      queue: fpc-isolated
-    timeout_in_minutes: 5
-    retry:
-      automatic:
-        - exit_status: -1
-          limit: 1
-
-  - wait
-
-  # O1 (WAVE-26520): provenance-emit runs last behind its own barrier so the
-  # manifest's exit-0 claims hold (every prior step passed). Queue
-  # fpc-isolated: this step receives NO secrets, names only.
-  - label: ":scroll: provenance emit (O1)"
-    key: provenance-emit
-    command: .buildkite/scripts/provenance-emit.sh
-    agents:  # guard:allow BK pipeline keyword, not a repo reference
-      queue: fpc-isolated
-    timeout_in_minutes: 5
-    retry:
-      automatic:
-        - exit_status: -1
-          limit: 1

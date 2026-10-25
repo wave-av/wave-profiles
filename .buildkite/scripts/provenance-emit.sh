@@ -53,8 +53,6 @@ trap 'rm -rf "$TMP"' EXIT
 
 cat >"$STEPS" <<'EOF'
 [
-  {"key": "guard-gitleaks", "queue": "fpc-isolated", "command": ".buildkite/scripts/guard-gitleaks.sh", "exit": 0},
-  {"key": "guard-content-policy", "queue": "fpc-isolated-secrets", "command": ".buildkite/scripts/guard-content-policy.sh", "exit": 0},
   {"key": "foundation-secret-scan", "queue": "fpc-isolated", "command": ".buildkite/scripts/foundation-secret-scan.sh", "exit": 0},
   {"key": "foundation-file-size", "queue": "fpc-isolated", "command": ".buildkite/scripts/foundation-file-size.sh", "exit": 0},
   {"key": "foundation-skill-validate", "queue": "fpc-isolated", "command": ".buildkite/scripts/foundation-skill-validate.sh", "exit": 0},

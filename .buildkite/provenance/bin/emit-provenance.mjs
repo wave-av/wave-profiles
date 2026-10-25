@@ -150,7 +150,10 @@ function main() {
     return entry;
   });
 
-  const stepKeys = new Set(steps.map((s) => s.key));
+  // Secret records may scope to guard keys too: template-injected guards are attested in
+  // the guards manifest, not the steps manifest (their commands live in the wave-ci checkout,
+  // not under --repo-dir, so they cannot be steps entries).
+  const stepKeys = new Set([...steps.map((s) => s.key), ...guards.map((g) => g.key)]);
   const injected = parsePairs(args.injected || env.PROVENANCE_INJECTED, 'injected', false);
   const withheld = parsePairs(args.withheld || env.PROVENANCE_WITHHELD, 'withheld', true);
   for (const rec of [...injected, ...withheld]) {

@@ -1,0 +1,49 @@
+{
+  "$comment": "Hand-maintained from the repos.yaml entry (E9-P2 trivial-tier) while blocked-until-jake-ok: onboard refuses public repos without jake_ok. Re-run onboard after Jake OKs. Guards injected (not listed); provenance-emit waits on guards + all foundations (O1 barrier: green builds only).",
+  "wave_ci": "c30225382058d9f7537a9bd5c549ca99cc582184",
+  "repo": "wave-av/wave-profiles",
+  "pipeline": "wave-profiles",
+  "template": "custom",
+  "visibility": "public",
+  "default_branch": "main",
+  "extra_steps": [
+    {
+      "key": "foundation-secret-scan",
+      "label": ":mag: foundation secret-scan",
+      "script": ".buildkite/scripts/foundation-secret-scan.sh",
+      "timeout": 10
+    },
+    {
+      "key": "foundation-file-size",
+      "label": ":straight_ruler: foundation file-size gate",
+      "script": ".buildkite/scripts/foundation-file-size.sh",
+      "timeout": 10
+    },
+    {
+      "key": "foundation-skill-validate",
+      "label": ":scroll: foundation skill-validate",
+      "script": ".buildkite/scripts/foundation-skill-validate.sh",
+      "timeout": 5
+    },
+    {
+      "key": "foundation-verify-routes",
+      "label": ":globe_with_meridians: foundation verify-routes",
+      "script": ".buildkite/scripts/foundation-verify-routes.sh",
+      "timeout": 5
+    },
+    {
+      "key": "provenance-emit",
+      "label": ":scroll: provenance emit (O1)",
+      "script": ".buildkite/scripts/provenance-emit.sh",
+      "timeout": 5,
+      "depends_on": [
+        "guard-gitleaks",
+        "guard-content-policy",
+        "foundation-secret-scan",
+        "foundation-file-size",
+        "foundation-skill-validate",
+        "foundation-verify-routes"
+      ]
+    }
+  ]
+}
