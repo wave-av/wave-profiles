@@ -1,6 +1,6 @@
 {
   "$comment": "Hand-maintained from the repos.yaml entry (E9-P2 trivial-tier) while blocked-until-jake-ok: onboard refuses public repos without jake_ok. Re-run onboard after Jake OKs. Guards injected (not listed); provenance-emit waits on guards + all foundations (O1 barrier: green builds only).",
-  "wave_ci": "c79a4d00b37ced9a3dbda1d25306652b955a530a",
+  "wave_ci": "9c24932f69db4caf88e3d4341d58e7b03069bda6",
   "repo": "wave-av/wave-profiles",
   "pipeline": "wave-profiles",
   "template": "custom",
