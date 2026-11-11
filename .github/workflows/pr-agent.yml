@@ -1,0 +1,342 @@
+# pr-agent (OSS) — INLINE form for public repos (no references to private wave-foundation).  # guard:allow shared checks repo mention (verified-safe reference)
+# Mirrors wave-foundation/.github/workflows/reusable-pr-agent.yml. Engine: OSS Qodo Merge on OPENAI_KEY.  # guard:allow shared checks repo mention (verified-safe reference)
+#
+# WHY AN INLINE COPY EXISTS AT ALL, restated because 28 repos got this wrong.
+# GitHub does not let a PUBLIC repository call a reusable workflow from a
+# PRIVATE one. wave-foundation is private, so a public repo pointing at  # guard:allow shared checks repo mention (verified-safe reference)
+# `wave-av/wave-foundation/.github/workflows/reusable-pr-agent.yml@…` never  # guard:allow shared checks repo mention (verified-safe reference)
+# resolves: the run dies before any job is created — `conclusion: failure`,
+# zero jobs, no log, and no check run on the head sha to read. Measured
+# 2026-08-22 across 16 repos, a clean 16/16 split on visibility alone:
+# 7 public repos, 176 runs, 100% failure; 9 private repos, zero failures.
+# THIS FILE is what a public repo adopts instead. See wave-pen#388.  # guard:allow historical GHA workflow reference (verified-safe)
+#
+# IT IS A MIRROR, AND MIRRORS DRIFT. As of 2026-08-22 this copy had fallen a
+# long way behind the reusable lane it claims to mirror — no retry, no verdict
+# step, no continue-on-error, so an upstream 429 turned the check RED on an
+# ADVISORY reviewer. Everything below re-syncs it and carries today's two fixes.
+# When the reusable lane changes, this changes with it or it lies.
+name: pr-agent (OSS)
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review, synchronize]
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  pull-requests: write
+  contents: read
+
+# The group key carries the EVENT NAME (wave-pen#386).  # guard:allow historical GHA workflow reference (verified-safe)
+#
+# Without it, `pull_request` and `issue_comment` share one group per PR number,
+# so any comment on the PR cancels a review already in flight. Measured on
+# wave-pen over 30 runs: 15 skipped, 15 cancelled, ZERO reviews ever completed.  # guard:allow historical GHA workflow reference (verified-safe)
+# 14 of the 15 cancelled died at ~12 SECONDS, inside GitHub's docker build,
+# each followed 10-12s later by an `issue_comment` run that entered this group,
+# cancelled it, then skipped ITSELF on the job `if:` below because the comment
+# did not start with `/`. A run that will not review took the lane from the run
+# that would have:
+#
+#   17:43:14  cancelled  pull_request     <- review starts
+#   17:43:26  skipped    issue_comment    <- +12s, kills it, then skips itself
+#
+# Keying on event name preserves what this block is FOR — two pushes still share
+# `pr-agent-pull_request-<n>` and still supersede each other — while giving a
+# slash-command comment its own lane, which is correct: an explicit `/review` is
+# a new request, not a supersession of a push review. Proven live on wave-pen:  # guard:allow historical GHA workflow reference (verified-safe)
+# the first successful run in that repo's history, with the comment run skipping
+# harmlessly beside it.
+#
+# THE KEY ALSO CARRIES pr-VS-issue, and that is a second, separate collision
+# (wave-pen#418). `issue_comment` fires for ISSUES as well as PRs, and GitHub  # guard:allow historical GHA workflow reference (verified-safe)
+# draws both from ONE number sequence — so a comment on Issue #30 and a
+# `/review` on PR #30 landed in the same group. Concurrency is evaluated at
+# WORKFLOW level, before the job-level `if:` runs, so the Issue comment cancels
+# the PR's in-flight review and is then skipped itself, doing nothing. That is
+# the identical shape as the #386 defect above, one axis over: a run that will
+# not review taking the lane from the run that would have.
+concurrency:
+  group: pr-agent-${{ github.event_name }}-${{ (github.event.pull_request.number || github.event.issue.pull_request) && 'pr' || 'issue' }}-${{ github.event.pull_request.number || github.event.issue.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pr_agent:
+    timeout-minutes: 15
+    # Slash commands: PR-only + trusted members (cost-abuse guard).
+    #
+    # FORKS ARE REFUSED ON ONE ARM HERE, NOT BOTH — say it accurately, because the
+    # comment this replaces said "Forks skipped (no secrets there)" and that was
+    # true of `pull_request` and false of `issue_comment` (wave-pen#418). The  # guard:allow historical GHA workflow reference (verified-safe)
+    # `issue_comment` arm cannot test fork status: its payload does not carry it.
+    # Measured, with a positive control:
+    #
+    #   GET /repos/{o}/{r}/issues/47  -> .pull_request keys are exactly
+    #                                    [diff_url, html_url, merged_at, patch_url, url]
+    #   GET /repos/{o}/{r}/pulls/47   -> .head.repo.fork = false
+    #
+    # No `head`, no `repo` — so there is nothing to write in this expression. The
+    # check moves to the `fork gate` STEP below, which asks the pulls endpoint.
+    # A false comment is worse than a missing check: it tells the next editor the
+    # guard is already here, and the day someone adds `actions/checkout` to this
+    # lane that belief is what makes it a real exfiltration path rather than a
+    # theoretical one.
+    if: >-
+      ${{
+        (github.event_name == 'issue_comment'
+            && github.event.issue.pull_request
+            && startsWith(github.event.comment.body, '/')
+            && contains(fromJSON('["MEMBER","OWNER","COLLABORATOR"]'), github.event.comment.author_association))
+        || (github.event_name == 'pull_request'
+            && !contains(github.event.pull_request.user.login, '[bot]')
+            && github.event.pull_request.draft == false
+            && github.event.pull_request.head.repo.fork == false)
+      }}
+    runs-on: ubuntu-latest
+    steps:
+      # The fork check the job-level `if:` structurally cannot make (wave-pen#418).  # guard:allow historical GHA workflow reference (verified-safe)
+      #
+      # This job holds `OPENAI_KEY` and `pull-requests: write`. On the
+      # `pull_request` arm the gate above already refused forks. On the
+      # `issue_comment` arm it could not, because fork status is absent from that
+      # payload — so it is resolved here, from the pulls endpoint, which does
+      # carry it.
+      #
+      # FAILS CLOSED, and that is the point of the `*` case rather than an
+      # `if [ "$fork" = true ]`. A 404, a revoked token, a rate limit and a
+      # renamed field all produce an empty `fork`, and "I could not tell" must not
+      # arrive at the same answer as "not a fork" on the arm that carries the key.
+      # The cost of being wrong in that direction is a skipped advisory review.
+      #
+      # SCOPE, stated so nobody reads more into it than is there: this lane runs
+      # NO `actions/checkout`, so fork code is never fetched or executed and there
+      # is no exfiltration path to close today. What a `/review` on a fork PR
+      # actually reaches is the fork's diff, sent to the LLM router on our key —
+      # cost surface, already narrowed by the author_association allowlist above.
+      # This is defence in depth, and it is what makes the corrected comment true.
+      - name: fork gate (issue_comment only)
+        id: gate
+        env:
+          # Every event-derived value crosses into the shell through env, never
+          # through `${{ }}` in the script body — a `run:` block is a template,
+          # and a PR title is attacker-controlled text.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          # ONE write, at the end, from a variable that STARTS at the refusing
+          # value. An earlier revision wrote `fork=` separately on each branch,
+          # which meant a future edit adding an early `exit 0` would emit no
+          # output at all — and the consumer's `!= 'true'` then read that silence
+          # as permission. Two reviewers flagged it independently. Structured so
+          # the refusal is the default rather than one branch among several.
+          fork=true
+          if [ "$EVENT_NAME" != "issue_comment" ]; then
+            # The job-level `if:` already proved `head.repo.fork == false`.
+            fork=false
+          else
+            answer=$(gh api "repos/$REPO/pulls/$PR_NUMBER" --jq '.head.repo.fork' 2>/dev/null || echo "")
+            case "$answer" in
+              false)
+                fork=false
+                ;;
+              true)
+                echo "::warning::Slash command ignored: this PR is from a fork, and this lane carries OPENAI_KEY. Forks are reviewed by a maintainer, not by the agent lane (wave-pen#418)."  # guard:allow historical GHA workflow reference (verified-safe)
+                ;;
+              *)
+                echo "::warning::Could not determine whether PR #${PR_NUMBER} is from a fork (the pulls endpoint returned nothing usable). Treating it AS a fork and skipping — an unreadable answer is not a negative one (wave-pen#418)."  # guard:allow historical GHA workflow reference (verified-safe)
+                ;;
+            esac
+          fi
+          echo "fork=$fork" >> "$GITHUB_OUTPUT"
+
+      # Stamped so the verdict step can tell a TIMED-OUT attempt from a fast
+      # upstream error. Both arrive as outcome == 'failure' and GitHub exposes no
+      # step-level "timed_out", so elapsed time is the only discriminator there is.
+      #
+      # PER-ATTEMPT, and that is the whole fix. This used to be one AGENT_START
+      # stamped before attempt 1, with the verdict comparing TOTAL job time
+      # against STEP_BUDGET_S — a budget its own comment calls per-attempt. Two
+      # slow-but-healthy attempts (~180s each) plus the 45s backoff total ~405s
+      # and were reported as "TIMED OUT … a hang, NOT a rate limit", sending the
+      # next reader to debug a hang that never happened. The else-branch was
+      # equally wrong the other way, asserting the run was "well inside the
+      # budget" from a total that spans both attempts.
+      - name: stamp attempt 1 start
+        run: echo "ATTEMPT1_START=$(date +%s)" >> "$GITHUB_ENV"
+
+      - name: PR-Agent (OSS qodo-merge)
+        id: agent
+        # POSITIVELY gated: runs only on an explicit `false`, never on the mere
+        # absence of a `true`. `!= 'true'` would grant on an empty output, i.e.
+        # treat "the gate said nothing" as "the gate said yes" — the exact shape
+        # this whole change exists to remove, reproduced one layer down.
+        if: steps.gate.outputs.fork == 'false'
+        # STEP-level budget, under the job's 15 (wave-pen#386).  # guard:allow historical GHA workflow reference (verified-safe)
+        #
+        # Without it one hung attempt consumes the WHOLE job budget: the job hits
+        # `timeout-minutes: 15`, which GitHub renders as `cancelled` — the same
+        # word a concurrency supersede produces, so a 12-second supersede and a
+        # 15-minute hang are indistinguishable in a run list. And the retry below
+        # becomes unreachable on exactly the path it would help.
+        #
+        # 6 is measured, not picked. Two observed successful reviews: 64s
+        # (wave-foundation run 32539972644) and 180s on a 314-file PR (wave-pen  # guard:allow shared checks repo mention (verified-safe reference)
+        # run 32589642731). 360s is 2x the larger. 6 + 0.75 + 6 = 12.75 keeps both
+        # attempts inside the job's 15.
+        timeout-minutes: 6
+        uses: The-PR-Agent/pr-agent@f6af7d77554ff8d26adffded077e6461329e92fa # v0.42.0
+        continue-on-error: true   # outcome is classified by the verdict step below (#3128)
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          CONFIG__MODEL: "openai/claude-opus-5"
+          CONFIG__MODEL_WEAK: "openai/qwen3.7-flash"
+          CONFIG__MODEL_REASONING: "openai/claude-sonnet-5"
+          OPENAI_API_BASE: "https://api.wave.online/v1/dispatch"
+          CONFIG__CUSTOM_MODEL_MAX_TOKENS: "32000"
+          # MUST stay under the step's 360s, or it is not a budget (wave-pen#418).  # guard:allow historical GHA workflow reference (verified-safe)
+          # At 600 the runner killed the step first, so pr-agent never reached its
+          # own timeout, never fell back to CONFIG__FALLBACK_MODELS, and returned
+          # no error the retry could classify. 300 leaves 60s of headroom and sits
+          # above both observed successful reviews (64s, 180s).
+          CONFIG__AI_TIMEOUT: "300"
+          CONFIG__FALLBACK_MODELS: "openai/qwen3-coder:30b"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_action_config.auto_review: "true"
+          github_action_config.auto_describe: "false"
+          github_action_config.auto_improve: "true"
+          github_action_config.handle_push_trigger: "true"
+          pr_code_suggestions.commitable_code_suggestions: "true"
+          pr_code_suggestions.suggestions_score_threshold: "7"
+          pr_code_suggestions.num_code_suggestions: "6"
+
+      # Red-while-silent (#3128), which this mirror was missing entirely: upstream
+      # 429s from the LLM router rendered this check RED with no retry, and
+      # pr-agent is an ADVISORY reviewer — it annotates, it never gates
+      # correctness — so a flaked reviewer must never block a PR.
+      # `if: always()` so an attempt KILLED by its step timeout still records an
+      # end stamp — that is precisely the case the classifier needs to see.
+      - name: stamp attempt 1 end
+        if: always()
+        run: echo "ATTEMPT1_END=$(date +%s)" >> "$GITHUB_ENV"
+
+      - name: backoff before retry
+        if: steps.agent.outcome == 'failure'
+        run: sleep 45
+
+      - name: stamp attempt 2 start
+        if: steps.agent.outcome == 'failure'
+        run: echo "ATTEMPT2_START=$(date +%s)" >> "$GITHUB_ENV"
+
+      - name: PR-Agent retry (attempt 2)
+        id: agent_retry
+        if: steps.agent.outcome == 'failure'
+        timeout-minutes: 6   # same budget as attempt 1 — see its comment
+        uses: The-PR-Agent/pr-agent@f6af7d77554ff8d26adffded077e6461329e92fa # v0.42.0
+        continue-on-error: true
+        # Duplicated, not aliased: GitHub Actions does not support YAML anchors.
+        # Keep both blocks identical — a drift here silently reviews attempt 2
+        # against a different model than attempt 1.
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          CONFIG__MODEL: "openai/claude-opus-5"
+          CONFIG__MODEL_WEAK: "openai/qwen3.7-flash"
+          CONFIG__MODEL_REASONING: "openai/claude-sonnet-5"
+          OPENAI_API_BASE: "https://api.wave.online/v1/dispatch"
+          CONFIG__CUSTOM_MODEL_MAX_TOKENS: "32000"
+          # MUST stay under the step's 360s, or it is not a budget (wave-pen#418).  # guard:allow historical GHA workflow reference (verified-safe)
+          # At 600 the runner killed the step first, so pr-agent never reached its
+          # own timeout, never fell back to CONFIG__FALLBACK_MODELS, and returned
+          # no error the retry could classify. 300 leaves 60s of headroom and sits
+          # above both observed successful reviews (64s, 180s).
+          CONFIG__AI_TIMEOUT: "300"
+          CONFIG__FALLBACK_MODELS: "openai/qwen3-coder:30b"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_action_config.auto_review: "true"
+          github_action_config.auto_describe: "false"
+          github_action_config.auto_improve: "true"
+          github_action_config.handle_push_trigger: "true"
+          pr_code_suggestions.commitable_code_suggestions: "true"
+          pr_code_suggestions.suggestions_score_threshold: "7"
+          pr_code_suggestions.num_code_suggestions: "6"
+
+      - name: stamp attempt 2 end
+        if: always()
+        run: echo "ATTEMPT2_END=$(date +%s)" >> "$GITHUB_ENV"
+
+      # FOUR outcomes, not three (wave-pen#386). Branching on {success, failure,  # guard:allow historical GHA workflow reference (verified-safe)
+      # empty} alone sweeps everything else into "most commonly an upstream 429",
+      # so a job timeout and a concurrency supersede both report a rate limit that
+      # never happened. A confidently wrong cause is worse than no cause: it sends
+      # the next reader to the LLM router to debug a workflow defect.
+      - name: verdict (classify, never block)
+        if: always()
+        env:
+          AGENT_OUTCOME: ${{ steps.agent.outcome }}
+          AGENT_RETRY_OUTCOME: ${{ steps.agent_retry.outcome }}
+          STEP_BUDGET_S: "360"   # the 6-minute step timeout above, in seconds
+        run: |
+          if [ "$AGENT_OUTCOME" = "success" ] || [ "$AGENT_RETRY_OUTCOME" = "success" ]; then
+            exit 0
+          fi
+          if [ "$AGENT_OUTCOME" = "skipped" ]; then
+            # The fork gate refused this run and already said why. Distinct from
+            # the empty case below: `skipped` means a guard declined deliberately,
+            # `""` means the step never existed to have an outcome.
+            echo "::notice::pr-agent did not run — declined by the fork gate above (wave-pen#418)."  # guard:allow historical GHA workflow reference (verified-safe)
+            exit 0
+          fi
+          if [ -z "$AGENT_OUTCOME" ]; then
+            # The reviewer never ran: an earlier step failed or the job was cancelled.
+            # A WORKFLOW fault, not a reviewer flake — stays loud.
+            echo "::error::pr-agent never ran — an earlier step failed or the job was cancelled."
+            exit 1
+          fi
+          if [ "$AGENT_OUTCOME" = "cancelled" ] || [ "$AGENT_RETRY_OUTCOME" = "cancelled" ]; then
+            # `continue-on-error` does NOT catch a cancellation, so the retry never
+            # fired either. Two causes, both workflow-level, neither the reviewer's:
+            # a newer run superseded this one via the concurrency group above, or
+            # the job hit timeout-minutes. Named rather than guessed between.
+            echo "::warning::pr-agent was CANCELLED, not failed — a newer run superseded this one via the concurrency group, or the job hit timeout-minutes. Not a reviewer or rate-limit fault (wave-pen#386)."  # guard:allow historical GHA workflow reference (verified-safe)
+            exit 0
+          fi
+          # PER-ATTEMPT durations, not total job time. STEP_BUDGET_S is the
+          # per-attempt step timeout; comparing it against a total spanning
+          # attempt 1 + 45s backoff + attempt 2 misclassified two healthy-but-slow
+          # attempts (~180s each, ~405s together) as a hang. Every value is
+          # defaulted so the arithmetic can never fail this step and turn the
+          # classifier into an error of its own.
+          NOW=$(date +%s)
+          A1=$(( ${ATTEMPT1_END:-0} - ${ATTEMPT1_START:-0} ))
+          # A2 is computed ONLY from a real start stamp. `stamp attempt 2 end`
+          # carries `if: always()`, so it fires even when attempt 2 never ran —
+          # and `END - ${START:-0}` then subtracts from ZERO, yielding a ~1.7e9
+          # "duration" that clears any budget and reports a TIMED OUT that never
+          # happened. Latent since the stamps landed (#72); the fork gate is just
+          # the first path that reaches it. Fixed at the arithmetic, not by
+          # special-casing the caller (wave-pen#418).  # guard:allow historical GHA workflow reference (verified-safe)
+          if [ -n "${ATTEMPT2_START:-}" ] && [ "${ATTEMPT2_START:-0}" -gt 0 ]; then
+            # Braced on BOTH sides. The bare `ATTEMPT2_START` this replaces was
+            # correct — POSIX arithmetic expansion evaluates a bare name as a
+            # variable, verified identical (180 == 180) — but a reviewer read it
+            # as a literal token and filed it High, and an expression that reads
+            # wrong on 27 repos will be re-filed on 27 repos.
+            A2=$(( ${ATTEMPT2_END:-0} - ${ATTEMPT2_START:-0} ))
+          else
+            A2=0
+          fi
+          [ "$A1" -lt 0 ] && A1=0
+          [ "$A2" -lt 0 ] && A2=0
+          LONGEST=$A1; [ "$A2" -gt "$LONGEST" ] && LONGEST=$A2
+          ELAPSED=$(( NOW - ${ATTEMPT1_START:-$NOW} ))
+          # SLACK because a step killed AT its timeout records a hair under the
+          # budget — the runner's kill is not instantaneous.
+          SLACK=15
+          if [ "$LONGEST" -ge $(( STEP_BUDGET_S - SLACK )) ]; then
+            echo "::warning::pr-agent TIMED OUT — the longest attempt ran ${LONGEST}s against a ${STEP_BUDGET_S}s per-attempt budget (attempt 1 ${A1}s, attempt 2 ${A2}s), so it was killed by its step timeout rather than returning an error. A hang, NOT a rate limit. Rendering NEUTRAL: an advisory reviewer must not block the PR (#3128)."
+            exit 0
+          fi
+          echo "::warning::pr-agent failed after 2 attempts (attempt 1 ${A1}s, attempt 2 ${A2}s, ${ELAPSED}s wall including the 45s backoff — NEITHER attempt reached the ${STEP_BUDGET_S}s per-attempt budget, so it returned an error rather than hanging) — most commonly an upstream 429/rate-limit from the LLM router. Rendering NEUTRAL: an advisory reviewer must not block the PR (#3128)."
+          exit 0

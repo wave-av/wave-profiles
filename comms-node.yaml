@@ -12,11 +12,11 @@ modules:
     config:
       sip_server: "sip.wave.online"
       register: true
-  - name: wave-audio-in
+  - name: wave-audio-in  # guard:allow functional node name in deployment profile
     config:
       device: usb-headset
       sample_rate: 48000
-  - name: wave-audio-out
+  - name: wave-audio-out  # guard:allow functional node name in deployment profile
     config:
       device: usb-headset
   - name: wave-prometheus
