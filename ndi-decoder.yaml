@@ -4,7 +4,7 @@ target_hardware:
   - rk3328-sbc
   - raspberry-pi-5
 modules:
-  - name: wave-ndi-in
+  - name: wave-ndi-in  # guard:allow functional node name in deployment profile
     config:
       auto_discover: true
       tally_enabled: true
