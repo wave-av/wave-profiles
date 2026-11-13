@@ -7,6 +7,8 @@ Run from the repo root, no repo dependencies:
   script reaches the rg-missing fail-closed branch instead of the scan)
 - S2 guard order + gating proof: `python3 .buildkite/tests/pipeline-gating.py`
   (needs python3 + pyyaml)
+- Secret-scan redaction: `bash .buildkite/tests/foundation-secret-scan-redaction.sh`
+  (bash, grep and sed only; runs the real scanner on throwaway trees)
 
 Both exit non-zero on failure. They are not wired into `ci.sh`: the FPC
 agent image is not known to carry bats/pyyaml, and breaking `node-gates`
