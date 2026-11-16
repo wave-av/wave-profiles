@@ -1,10 +1,75 @@
 # Thin uploader (wave-ci#70). This is the whole pipeline file of a templated repo.
-# One step: .buildkite/wave-ci.sh checks out the wave-ci commit pinned in .buildkite/wave-ci.json,
+# .buildkite/wave-ci.sh checks out the wave-ci commit pinned in .buildkite/wave-ci.json,
 # renders the repo's template, caps-lints the result and uploads it. Edit wave-ci.json, not this.
 # The same YAML is what the #71 onboarding wrapper puts in the pipeline's Steps setting.
+# Three copies of the one uploader step, and exactly one runs on any build: priority 90 for a
+# default-branch build (no pull request, merge queue or tag; a non-empty branch equal to the
+# default branch and not a sweep/, renovate/, dependabot/, cursor/ or gh-readonly-queue/ name;
+# source webhook, ui, api or trigger_job), 90 for a merge group, 20 for every other build. An
+# empty value counts as absent. The conditions read only values Buildkite sets, never a file of
+# the commit. The rendered steps carry the same tiers, so a merge-group build is not queued
+# behind pull request builds (WAVE-37296).
 steps:
+  - label: ":pipeline: wave-ci render + caps-lint + upload (default branch)"
+    key: wave-ci-render-main
+    if: >-
+      (build.pull_request.id == null || build.pull_request.id == "")
+      && (build.merge_queue.base_branch == null || build.merge_queue.base_branch == "")
+      && (build.merge_queue.base_commit == null || build.merge_queue.base_commit == "")
+      && (build.tag == null || build.tag == "")
+      && build.branch != null && build.branch != ""
+      && build.branch == pipeline.default_branch
+      && build.branch !~ /^(sweep|renovate|dependabot|cursor)\/./
+      && build.branch !~ /^gh-readonly-queue\//
+      && (build.source == "webhook" || build.source == "ui" || build.source == "api" || build.source == "trigger_job")
+    priority: 90
+    command: .buildkite/wave-ci.sh
+    agents:
+      queue: fpc-isolated
+    timeout_in_minutes: 5
+    env:
+      WAVE_JOB_ACTION: upload
+    retry:
+      automatic:
+        - exit_status: -1
+          limit: 1
+        - signal_reason: agent_stop
+          limit: 1
+      manual:
+        allowed: true
+        permit_on_passed: false
+  - label: ":pipeline: wave-ci render + caps-lint + upload (merge group)"
+    key: wave-ci-render-merge-group
+    if: >-
+      (build.pull_request.id == null || build.pull_request.id == "")
+      && ((build.merge_queue.base_branch != null && build.merge_queue.base_branch != "")
+      || (build.merge_queue.base_commit != null && build.merge_queue.base_commit != ""))
+    priority: 90
+    command: .buildkite/wave-ci.sh
+    agents:
+      queue: fpc-isolated
+    timeout_in_minutes: 5
+    env:
+      WAVE_JOB_ACTION: upload
+    retry:
+      automatic:
+        - exit_status: -1
+          limit: 1
+        - signal_reason: agent_stop
+          limit: 1
+      manual:
+        allowed: true
+        permit_on_passed: false
   - label: ":pipeline: wave-ci render + caps-lint + upload"
     key: wave-ci-render
+    if: >-
+      (build.pull_request.id != null && build.pull_request.id != "")
+      || ((build.merge_queue.base_branch == null || build.merge_queue.base_branch == "")
+      && (build.merge_queue.base_commit == null || build.merge_queue.base_commit == "")
+      && ((build.tag != null && build.tag != "") || build.branch == null || build.branch == "" || build.branch != pipeline.default_branch
+      || build.branch =~ /^(sweep|renovate|dependabot|cursor)\/./ || build.branch =~ /^gh-readonly-queue\//
+      || (build.source != "webhook" && build.source != "ui" && build.source != "api" && build.source != "trigger_job")))
+    priority: 20
     command: .buildkite/wave-ci.sh
     agents:
       queue: fpc-isolated

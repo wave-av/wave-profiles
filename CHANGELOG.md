@@ -6,6 +6,15 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+### Changed
+
+- Buildkite: the pinned pipeline renderer moves to a commit that treats
+  merge-queue builds as pull requests in the content-policy guard and gives
+  default-branch and merge-queue jobs a higher agent priority than pull
+  request jobs. The uploader in `.buildkite/pipeline.yml` now carries the same
+  three priority tiers. Merge-queue entries were timing out while their builds
+  waited for an agent (WAVE-37296).
+
 ### Fixed
 
 - `pr-agent` lane: fork-triggered `/` commands are now refused, and the AI
