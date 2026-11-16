@@ -30,9 +30,7 @@ cd "$(dirname "$0")/../.."
 
 PROV=".buildkite/provenance"
 OUT="provenance.json"
-# governance-enforce cannot pass without its registry read credential (the action fails closed),
-# so whenever this step runs that name was injected into that step.
-INJECTED="guard-content-policy:GUARD_PRIVATE_REPOS,governance-enforce:WAVE_REGISTRY_READ_TOKEN"
+INJECTED="guard-content-policy:GUARD_PRIVATE_REPOS"
 
 command -v node >/dev/null 2>&1 || {
   echo "provenance-emit: node is required but missing — failing closed."
@@ -65,8 +63,7 @@ EOF
 cat >"$GUARDS" <<'EOF'
 [
   {"key": "guard-gitleaks", "verdict": "pass", "detail": "exit 0 (build proceeded past wait barrier)"},
-  {"key": "guard-content-policy", "verdict": "pass", "detail": "exit 0 (build proceeded past wait barrier)"},
-  {"key": "governance-enforce", "verdict": "pass", "detail": "exit 0 (built-in diff gate; provenance-emit depends_on it)"}
+  {"key": "guard-content-policy", "verdict": "pass", "detail": "exit 0 (build proceeded past wait barrier)"}
 ]
 EOF
 

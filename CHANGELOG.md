@@ -6,15 +6,6 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
-### Added
-
-- Buildkite: the `governance-enforce` step runs the governance enforcer
-  (secrets, Doppler-only credentials, hard-coded paths) over each change's
-  diff on pull requests, pushes to `main` and merge-queue builds. It is the
-  Buildkite replacement for `.github/workflows/governance-enforce.yml`, which
-  stays in place until this step is green on `main`. The provenance step now
-  waits on it and records it (WAVE-37296).
-
 ### Changed
 
 - Buildkite: the pinned pipeline renderer moves to a commit that treats
