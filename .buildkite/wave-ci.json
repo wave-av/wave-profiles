@@ -1,11 +1,12 @@
 {
-  "$comment": "Hand-maintained from the repos.yaml entry (E9-P2 trivial-tier) while blocked-until-jake-ok: onboard refuses public repos without jake_ok. Re-run onboard after Jake OKs. Guards injected (not listed); provenance-emit waits on guards + all foundations (O1 barrier: green builds only).",
+  "$comment": "Hand-maintained from the repos.yaml entry (E9-P2 trivial-tier) while blocked-until-jake-ok: onboard refuses public repos without jake_ok. Re-run onboard after Jake OKs. Guards and governance-enforce are built-in (not listed; governance_enforce turns on the diff gate); provenance-emit waits on guards + governance-enforce + all foundations (O1 barrier: green builds only).",
   "wave_ci": "3c8e73fb85cce634590a82d47cc2614bb7965000",
   "repo": "wave-av/wave-profiles",
   "pipeline": "wave-profiles",
   "template": "custom",
   "visibility": "public",
   "default_branch": "main",
+  "governance_enforce": { "enabled": true },
   "extra_steps": [
     {
       "key": "foundation-secret-scan",
@@ -39,6 +40,7 @@
       "depends_on": [
         "guard-gitleaks",
         "guard-content-policy",
+        "governance-enforce",
         "foundation-secret-scan",
         "foundation-file-size",
         "foundation-skill-validate",
